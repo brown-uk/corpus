@@ -1,16 +1,19 @@
+# -*- coding: utf-8 -*-
+
 import os, collections
 
 if __name__ == '__main__':
 
     CATS = "ABCDEFGHI"
     FRACTIONS = {"A": 25, "B": 3, "C": 7, "D": 7, "E": 3, "F": 5, "G": 10, "H": 15, "I": 25}
-    PATH = "../data/good/"
+    PATH_IN = "../data/good/"
+    PATH_OUT = "../aux/"
 
     categories = collections.defaultdict(int)
 
-    for name in os.listdir(PATH):
+    for name in os.listdir(PATH_IN):
         if name.endswith(".txt") and name[0] in CATS and name[1] == "_":
-            with open(PATH + name, "r") as f:
+            with open(PATH_IN + name, "r") as f:
                 text = f.read()
                 cat = text[text.find("<id>") + 4]
                 if cat in CATS:
@@ -19,7 +22,7 @@ if __name__ == '__main__':
                 else:
                     print "Invalid category in " + name + ": " + cat
 
-    with open("../aux/statistics.txt", "w") as out:
+    with open(PATH_OUT + "statistics.txt", "w") as out:
         out.write("Category\tFraction\t# of collected words\t# of words to collect\n")
         all_cats = 0
         for cat in CATS:
