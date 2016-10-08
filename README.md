@@ -31,6 +31,10 @@
 - Ірина Возна
 - Ян Бутельський
 
+## Ліцензія
+
+Дані копусу доступні для використання згідно умов ліцензії "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License" (http://creativecommons.org/licenses/by-nc-sa/4.0/)
+
 ## Інші проекти
 
 - [ВЕСУМ](https://github.com/brown-uk/dict_uk) - Великий електронний словник української мови
