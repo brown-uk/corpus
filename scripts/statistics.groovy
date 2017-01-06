@@ -2,6 +2,7 @@
 
 def FRACTIONS = ["A": 25, "B": 3, "C": 7, "D": 7, "E": 3, "F": 5, "G": 10, "H": 15, "I": 25]
 def stats = [:].withDefault{ 0 }
+def fileCount = 0
 
 new File("../data/good").eachFile{ f ->
     def text = f.text
@@ -35,14 +36,15 @@ new File("../data/good").eachFile{ f ->
     else {
         def words = text.replaceFirst(/(?s).*<body>/, '') =~ /[0-9а-яіїєґА-ЯІЇЄҐ'ʼ’-]+/
 
-        if( words.count != (count as int) ) {
- //           println "WARNING: Word count $count does not match real word count ${words.count} in " + f
+        if( '-c' in args && words.count != (count as int) ) {
+            println "WARNING: Length $count does not match real word count ${words.count} in " + f
             //new File("x1").text = words.collect{it}.join('\n')
             //new File("x2").text = text.replaceFirst(/(?s).*<body>/, '')
         }
     }
 
     stats[cat] += Integer.valueOf(count)
+    fileCount += 1
 }
 
 stats = stats.toSorted { e1, e2 -> e1.key <=> e2.key }
@@ -56,3 +58,4 @@ println stats.collect{  k,v ->
 }.join('\n')
 
 println "\nВсього слів: " + stats.values().sum()
+println "Файлів: " + fileCount
