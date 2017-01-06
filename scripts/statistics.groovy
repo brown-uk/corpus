@@ -114,7 +114,7 @@ def countInFolder(folderName, stats) {
         println "WARNING: Latin/Cyrillic mix in " + f
     }
     else {
-        def words = text.replaceFirst(/(?s).*<body>/, '') =~ /[0-9а-яіїєґА-ЯІЇЄҐ'ʼ’-]+/
+        def words = text.replaceFirst(/(?s).*<body>|<\/body>.*$|<[^>]+>.*?<\/[^>]+>/, '') =~ /[0-9а-яіїєґА-ЯІЇЄҐa-zA-Z'ʼ’-]+/
 
         if( '-c' in args && words.count != count ) {
             println "WARNING: Length $count does not match real word count ${words.count} in " + f
