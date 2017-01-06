@@ -29,12 +29,25 @@ new File("../data/good").eachFile{ f ->
         count = 0
     }
 
+    if( text =~ /[а-яіїєґА-ЯІЇЄҐ'][a-zA-Z]|[a-zA-Z]['а-яіїєґА-ЯІЇЄҐ]/ ) {
+        println "WARNING: Latin/Cyrillic mix in " + f
+    }
+    else {
+        def words = text.replaceFirst(/(?s).*<body>/, '') =~ /[0-9а-яіїєґА-ЯІЇЄҐ'ʼ’-]+/
+
+        if( words.count != (count as int) ) {
+ //           println "WARNING: Word count $count does not match real word count ${words.count} in " + f
+            //new File("x1").text = words.collect{it}.join('\n')
+            //new File("x2").text = text.replaceFirst(/(?s).*<body>/, '')
+        }
+    }
+
     stats[cat] += Integer.valueOf(count)
 }
 
 stats = stats.toSorted { e1, e2 -> e1.key <=> e2.key }
 
-println "Кат Слів    Лишилося  Готово"
+println "\nКат Слів    Лишилося  Готово"
 println stats.collect{  k,v -> 
     def need = FRACTIONS[k]*10000
     def left = need - v
