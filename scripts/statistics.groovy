@@ -68,6 +68,9 @@ def printStats(stats) {
 def countInFolder(folderName, stats) {
 
   new File(folderName).eachFile{ f ->
+    if( f.name.startsWith('.') )
+        return
+  
     def text = f.text
 
     def matcher = text =~ /<id>(.*)<\/id>/
@@ -114,11 +117,14 @@ def countInFolder(folderName, stats) {
         println "WARNING: Latin/Cyrillic mix in " + f
     }
     else {
-        def words = text.replaceFirst(/(?s).*<body>|<\/body>.*$|<[^>]+>.*?<\/[^>]+>/, '') =~ /[0-9а-яіїєґА-ЯІЇЄҐa-zA-Z'ʼ’-]+/
+        def pureText = text.replaceFirst(/(?s).*<body>/, '').replaceFirst(/(?s)<\/body>.*$/, '')
+        pureText = pureText.replaceAll(/<\/?[^>]+>/, '')
+        def words = pureText =~ /[0-9]+:[0-9]+|[0-9а-яіїєґА-ЯІЇЄҐa-zA-Z'ʼ’()-]+/
 
         if( '-c' in args && words.count != count ) {
             println "WARNING: Length $count does not match real word count ${words.count} in " + f
-            //new File("x1").text = words.collect{it}.join('\n')
+            //if( f.name.startsWith('D_Oholos') )
+            //   new File("x1").text = words.collect{it}.join('\n')
             //new File("x2").text = text.replaceFirst(/(?s).*<body>/, '')
         }
     }
