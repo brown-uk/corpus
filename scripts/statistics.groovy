@@ -37,7 +37,7 @@ println "Статистика для good"
 printStats(stats)
 
 
-println "Рахуємо для so-so..."
+println "\nРахуємо для so-so..."
 
 countInFolder("../data/so-so", stats)
 
@@ -113,7 +113,9 @@ def countInFolder(folderName, stats) {
     if( count > stats.maxWords )
         stats.maxWords = count
 
-    if( text =~ /[а-яіїєґА-ЯІЇЄҐ'][a-zA-Z]|[a-zA-Z]['а-яіїєґА-ЯІЇЄҐ]/ ) {
+    def text0 = text.replaceAll('СхідSide|ГолосUA|Фirtka', '')
+    def latCyrMix = text0 =~ /[а-яіїєґА-ЯІЇЄҐ]['ʼ’]?[a-zA-Z]|[a-zA-Z]['ʼ’]?[а-яіїєґА-ЯІЇЄҐ]/
+    if( latCyrMix ) {
         println "WARNING: Latin/Cyrillic mix in " + f
     }
     else {
