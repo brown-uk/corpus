@@ -1,6 +1,7 @@
 #!/bin/env groovy
 
 import groovy.transform.*
+import java.util.regex.*
 
 
 @Field
@@ -119,15 +120,22 @@ def countInFolder(folderName, stats) {
         println "WARNING: Latin/Cyrillic mix in " + f
     }
     else {
-        def pureText = text.replaceFirst(/(?s).*<body>/, '').replaceFirst(/(?s)<\/body>.*$/, '')
-        pureText = pureText.replaceAll(/<\/?[^>]+>/, '')
-        def words = pureText =~ /[0-9]+:[0-9]+|[0-9а-яіїєґА-ЯІЇЄҐa-zA-Z'ʼ’()-]+/
+        if( '-c' in args && folderName =~ 'good' ) {
+            def pureText = text.replaceFirst(/(?s).*<body>/, '').replaceFirst(/(?s)<\/body>.*$/, '')
+            pureText = pureText.replaceAll(/<\/?[^>]+>/, '')
+            pureText = pureText.replaceAll("[\n\r]", " ");
+            pureText = pureText.replaceAll(/ [(«]|[)»] /, ' ').trim()
+            pureText = pureText.replaceAll(/([0-9]),([0-9])/, '$1$2').trim()
 
-        if( '-c' in args && words.count != count ) {
-            println "WARNING: Length $count does not match real word count ${words.count} in " + f
-            //if( f.name.startsWith('D_Oholos') )
-            //   new File("x1").text = words.collect{it}.join('\n')
-            //new File("x2").text = text.replaceFirst(/(?s).*<body>/, '')
+            def words = pureText.split(/[ \t,]+/).findAll { it =~ /(?ui)[а-яіїєґa-z0-9]/ }
+
+            if( words.size() != count ) {
+                println "WARNING: Length $count does not match real word count ${words.size()} in " + f
+                  if( new File("cnt").isDirectory() ) {
+                   new File("cnt/${f.name}_cnt.txt").text = words.join('\n')
+                   new File("cnt/${f.name}_xx.txt").text = pureText
+                }
+            }
         }
     }
 
