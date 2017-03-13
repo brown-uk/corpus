@@ -37,7 +37,7 @@ println "\n==================="
 println "Статистика для good"
 printStats(stats)
 
-
+/*
 println "\nРахуємо для so-so..."
 
 countInFolder("../data/so-so", stats)
@@ -45,7 +45,7 @@ countInFolder("../data/so-so", stats)
 println "\n==================="
 println "Статистика всього"
 printStats(stats)
-
+*/
 
 def printStats(stats) {
 
@@ -68,11 +68,24 @@ def printStats(stats) {
 
 def countInFolder(folderName, stats) {
 
+  def files = []
+
   new File(folderName).eachFile{ f ->
     if( f.name.startsWith('.') )
         return
+        
+    files << f
+  }
   
-    def text = f.text
+  files = files.toSorted()
+  
+  files.each { f ->
+    def text = f.getText('utf-8')
+    
+    if( text[0] == '\ufeff' ) {
+        text = text[1..-1]
+//        println "WARNING: deprecated BOM marker (U+FEFF) in $f"
+    }
 
     def matcher = text =~ /<id>(.*)<\/id>/
     assert matcher, "No id found for " + f
@@ -121,21 +134,26 @@ def countInFolder(folderName, stats) {
     }
     else {
         if( '-c' in args && folderName =~ 'good' ) {
-            def pureText = text.replaceFirst(/(?s).*<body>/, '').replaceFirst(/(?s)<\/body>.*$/, '')
+            def pureText = text.replaceFirst(/(?s).*?<body>/, '').replaceFirst(/(?s)<\/body>.*$/, '')
             pureText = pureText.replaceAll(/<\/?[^>]+>/, '')
-            pureText = pureText.replaceAll("[\n\r]", " ");
-            pureText = pureText.replaceAll(/ [(«]|[)»] /, ' ').trim()
-            pureText = pureText.replaceAll(/([0-9]),([0-9])/, '$1$2').trim()
+//            pureText = pureText.replaceAll("[\n\r]", " ");
+//            pureText = pureText.replaceAll(/ [(«]|[)»] /, ' ').trim()
+            pureText = pureText.replaceAll(/([0-9])[:,.-]([0-9])/, '$1$2').trim()
+            if( ! ('-l' in args) ) {
+                pureText = pureText.replace(' - ', ' a ')
+            }
+//             def words = pureText.split(/[ \t,]+/).findAll { it =~ /(?ui)[а-яіїєґa-z0-9]/ }
+            def words = pureText =~ /(?ui)[а-яіїєґa-z][а-яіїєґa-z0-9\u0301'’ʼ\/-]*|[0-9]+/
 
-            def words = pureText.split(/[ \t,]+/).findAll { it =~ /(?ui)[а-яіїєґa-z0-9]/ }
-
-            if( words.size() != count ) {
-                println "WARNING: Length $count does not match real word count ${words.size()} in " + f
+/*
+            if( Math.abs(words.size() - count) > 5 ) {
+                println "WARNING: Length $count does not match real word count ${words.size()} (delta: ${words.size()-count}) in " + f
                   if( new File("cnt").isDirectory() ) {
-                   new File("cnt/${f.name}_cnt.txt").text = words.join('\n')
+                   new File("cnt/${f.name}_cnt.txt").text = (words as List).join('\n')
                    new File("cnt/${f.name}_xx.txt").text = pureText
                 }
             }
+*/
         }
     }
 
