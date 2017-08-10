@@ -19,6 +19,8 @@ def CAT_DESC = [
     'I': 'Художні тексти'
 ]
 
+@Field target = "-5" in args ? 5000 : 10000
+
 class Stats {
     def statMap = [:].withDefault{ 0 }
     int fileCount = 0
@@ -34,7 +36,7 @@ println "Рахуємо для good..."
 countInFolder("../data/good", stats)
 
 println "\n==================="
-println "Статистика для good"
+println "Статистика для good (мета: ${target/10} тис.)"
 printStats(stats)
 
 /*
@@ -47,13 +49,14 @@ println "Статистика всього"
 printStats(stats)
 */
 
+
 def printStats(stats) {
 
     stats.statMap = stats.statMap.toSorted { e1, e2 -> e1.key <=> e2.key }
 
     println "\nКат Слів    Лишилося  Зроблено   Опис"
     println stats.statMap.collect{  cat, v ->
-        def need = CATEGORIES[cat]*10000
+        def need = CATEGORIES[cat] * target
         def left = need - v
         def str = "$cat   $v".padRight(12) + left + " "
         str = str.padRight(22) + Math.round(v*100/need) + "%"
