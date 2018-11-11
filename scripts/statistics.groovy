@@ -39,7 +39,7 @@ println "\n==================="
 println "Статистика для good (мета: ${target/10} тис.)"
 printStats(stats)
 
-/*
+
 println "\nРахуємо для so-so..."
 
 countInFolder("../data/so-so", stats)
@@ -47,7 +47,7 @@ countInFolder("../data/so-so", stats)
 println "\n==================="
 println "Статистика всього"
 printStats(stats)
-*/
+
 
 
 def printStats(stats) {
