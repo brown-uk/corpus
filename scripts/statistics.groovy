@@ -4,6 +4,14 @@ import groovy.transform.*
 import java.util.regex.*
 
 
+String osName = System.getProperty("os.name").toLowerCase();
+if ( osName.contains("windows")) {
+    if( ! "UTF-8".equals(System.getProperty("file.encoding")) ) {
+        System.setOut(new PrintStream(System.out,true,"UTF-8"))
+    }
+}
+
+
 @Field
 def CATEGORIES = ["A": 25, "B": 3, "C": 7, "D": 7, "E": 3, "F": 5, "G": 10, "H": 15, "I": 25]
 @Field
