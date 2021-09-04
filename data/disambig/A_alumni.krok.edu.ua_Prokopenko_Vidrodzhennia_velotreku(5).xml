@@ -51,7 +51,7 @@
   <token value="," lemma="," tags="punct" />
   <token value="58-А" lemma="58-А" tags="number" />
   <token value="," lemma="," tags="punct" />
-  <token value="що" lemma="що" tags="noun:inanim:n:v_naz:&amp;pron:int:rel" />
+  <token value="що" lemma="що" tags="conj:subord" />
   <token value="збудований" lemma="збудований" tags="adj:m:v_naz:&amp;adjp:pasv:perf" />
   <token value="у" lemma="у" tags="prep" />
   <token value="1913" lemma="1913" tags="number" />
@@ -64,7 +64,7 @@
   <token value="," lemma="," tags="punct" />
   <token value="відновлюється" lemma="відновлюватися" tags="verb:rev:imperf:pres:s:3" />
   <token value="так" lemma="так" tags="adv:&amp;pron:dem" />
-  <token value="само" lemma="сам" tags="adj:n:v_naz:&amp;pron:def" />
+  <token value="само" lemma="сам" tags="adv" />
   <token value="—" lemma="—" tags="punct" />
   <token value="силами" lemma="сила" tags="noun:inanim:p:v_oru" />
   <token value="громади" lemma="громада" tags="noun:inanim:f:v_rod" />
@@ -88,7 +88,7 @@
 </sentence>
 <sentence>
   <token value="«" lemma="«" tags="punct" />
-  <token value="Ще" lemma="ще" tags="part" />
+  <token value="Ще" lemma="ще" tags="adv" />
   <token value="недавно" lemma="недавно" tags="adv" />
   <token value="велотрек" lemma="велотрек" tags="noun:inanim:m:v_naz" />
   <token value="існував" lemma="існувати" tags="verb:imperf:past:m" />
@@ -177,7 +177,7 @@
   <token value="галасуванням" lemma="галасування" tags="noun:inanim:n:v_oru" />
   <token value="," lemma="," tags="punct" />
   <token value="наближає" lemma="наближати" tags="verb:imperf:pres:s:3" />
-  <token value="його" lemma="він" tags="noun:unanim:m:v_zna:&amp;pron:pers:3" />
+  <token value="його" lemma="він" tags="noun:unanim:m:v_rod:&amp;pron:pers:3" />
   <token value="втілення" lemma="втілення" tags="noun:inanim:n:v_zna" />
   <token value="»" lemma="»" tags="punct" />
   <token value="." lemma="." tags="punct" />
@@ -314,8 +314,8 @@
   <token value="та" lemma="та" tags="conj:coord" />
   <token value="підприємством" lemma="підприємство" tags="noun:inanim:n:v_oru" />
   <token value="«" lemma="«" tags="punct" />
-  <token value="Велотрек" lemma="велотрек" tags="noun:inanim:m:v_zna" />
-  <token value="Авангард" lemma="авангард" tags="noun:inanim:m:v_zna" />
+  <token value="Велотрек" lemma="велотрек" tags="noun:inanim:m:v_naz" />
+  <token value="Авангард" lemma="авангард" tags="noun:inanim:m:v_naz" />
   <token value="»" lemma="»" tags="punct" />
   <token value="," lemma="," tags="punct" />
   <token value="на" lemma="на" tags="prep" />
