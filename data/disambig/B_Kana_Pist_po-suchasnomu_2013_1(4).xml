@@ -106,13 +106,17 @@
   <token value="переосмислення" lemma="переосмислення" tags="noun:inanim:n:v_rod" />
   <token value="." lemma="." tags="punct" />
 </sentence>
+<paragraph/>
 <sentence>
+<format tag="emphasis"/>
   <token value="Християнський" lemma="християнський" tags="adj:m:v_naz" />
   <token value="піст" lemma="піст" tags="noun:inanim:m:v_naz" />
   <token value="-" lemma="-" tags="punct" />
   <token value="відсталість" lemma="відсталість" tags="noun:inanim:f:v_naz" />
   <token value="?" lemma="?" tags="punct" />
+<format tag="/emphasis"/>
 </sentence>
+<paragraph/>
 <sentence>
   <token value="Загальновизнано" lemma="загальновизнано" tags="adv" />
   <token value="," lemma="," tags="punct" />
@@ -187,6 +191,7 @@
   <token value="посту" lemma="піст" tags="noun:inanim:m:v_rod" />
   <token value="." lemma="." tags="punct" />
 </sentence>
+<paragraph/>
 <sentence>
   <token value="Піст" lemma="піст" tags="noun:inanim:m:v_naz" />
   <token value="," lemma="," tags="punct" />
@@ -290,6 +295,7 @@
   <token value="відсталим" lemma="відсталий" tags="adj:m:v_oru:compb:&amp;&amp;adjp:actv:perf" />
   <token value="." lemma="." tags="punct" />
 </sentence>
+<paragraph/>
 <sentence>
   <token value="На" lemma="на" tags="prep" />
   <token value="це" lemma="це" tags="noun:inanim:n:v_zna:&amp;pron:dem" />
@@ -323,8 +329,11 @@
   <token value="й" lemma="й" tags="conj:coord" />
   <token value="екзотики" lemma="екзотика" tags="noun:inanim:f:v_rod" />
   <token value="," lemma="," tags="punct" />
-  <token value="як" lemma="як" tags="conj:subord" />
-  <token value="різні" lemma="різний" tags="adj:p:v_naz:compb" />
+  <token value="як" lemma="як" tags="conj:subord" >
+    <alts>
+      <token value="як" lemma="як" tags="part" />
+    </alts>
+  </token>  <token value="різні" lemma="різний" tags="adj:p:v_naz:compb" />
   <token value="східні" lemma="східний" tags="adj:p:v_naz:compb" />
   <token value="вчення" lemma="вчення" tags="noun:inanim:p:v_naz" />
   <token value="," lemma="," tags="punct" />
@@ -385,10 +394,16 @@
   <token value="посту" lemma="піст" tags="noun:inanim:m:v_rod" />
   <token value="." lemma="." tags="punct" />
 </sentence>
+<paragraph/>
 <sentence>
+<format tag="emphasis"/>
   <token value="Форма" lemma="форма" tags="noun:inanim:f:v_naz" />
   <token value="та" lemma="та" tags="conj:coord" />
   <token value="суть" lemma="суть" tags="noun:inanim:f:v_naz" />
+<format tag="/emphasis"/>
+</sentence>
+<paragraph/>
+<sentence>
   <token value="Тому" lemma="тому" tags="adv" />
   <token value="видається" lemma="видаватися" tags="verb:rev:imperf:pres:s:3" />
   <token value="корисним" lemma="корисний" tags="adj:n:v_oru:compb" />
@@ -512,6 +527,7 @@
   <token value="календарі" lemma="календар" tags="noun:inanim:m:v_mis" />
   <token value="?" lemma="?" tags="punct" />
 </sentence>
+<paragraph/>
 <sentence>
   <token value="У" lemma="у" tags="prep" />
   <token value="церковній" lemma="церковний" tags="adj:f:v_mis" />
@@ -607,9 +623,9 @@
   <token value="гостро" lemma="гостро" tags="adv:compb" />
   <token value="відчувати" lemma="відчувати" tags="verb:imperf:inf" />
   <token value="свою" lemma="свій" tags="adj:f:v_zna:&amp;pron:pos" />
-  <token value="і" lemma="і" tags="part" />
+<format tag="i"/>
   <token value="несамодостатність" lemma="несамодостатність" tags="noun:inanim:f:v_zna" />
-  <token value="і" lemma="і" tags="part" />
+<format tag="/i"/>
   <token value="," lemma="," tags="punct" />
   <token value="потребу" lemma="потреба" tags="noun:inanim:f:v_zna" />
   <token value="у" lemma="у" tags="prep" />
@@ -691,10 +707,16 @@
   <token value="життя" lemma="життя" tags="noun:inanim:n:v_rod" />
   <token value="." lemma="." tags="punct" />
 </sentence>
+<paragraph/>
 <sentence>
+<format tag="emphasis"/>
   <token value="Біблійні" lemma="біблійний" tags="adj:p:v_naz" />
   <token value="зразки" lemma="зразок" tags="noun:inanim:p:v_naz" />
   <token value="посту" lemma="піст" tags="noun:inanim:m:v_rod" />
+<format tag="/emphasis"/>
+</sentence>
+<paragraph/>
+<sentence>
   <token value="Стародавній" lemma="стародавній" tags="adj:m:v_naz:compb" />
   <token value="біблійний" lemma="біблійний" tags="adj:m:v_naz" />
   <token value="піст" lemma="піст" tags="noun:inanim:m:v_naz" />
@@ -833,6 +855,7 @@
   <token value=")" lemma=")" tags="punct" />
   <token value="." lemma="." tags="punct" />
 </sentence>
+<paragraph/>
 <sentence>
   <token value="Ці" lemma="цей" tags="adj:p:v_naz:&amp;pron:dem" />
   <token value="приклади" lemma="приклад" tags="noun:inanim:p:v_naz:xp2" />
@@ -879,6 +902,7 @@
   <token value="планку" lemma="планка" tags="noun:inanim:f:v_zna" />
   <token value="." lemma="." tags="punct" />
 </sentence>
+<paragraph/>
 <sentence>
   <token value="Традиційна" lemma="традиційний" tags="adj:f:v_naz:compb" />
   <token value="монаша" lemma="монаший" tags="adj:f:v_naz" />

@@ -14,7 +14,7 @@
   <pages>60-61</pages>
   <length>466</length>
   <alt_orth>0</alt_orth>
-  <errors>комп’ютерній обробці - комп’ютерному обробленні</errors>
+  <errors>комп&apos;ютерній обробці - комп&apos;ютерному обробленні</errors>
   <comments></comments>
 </meta>
 <body>
@@ -106,8 +106,11 @@
   <token value="," lemma="," tags="punct" />
   <token value="місця" lemma="місце" tags="noun:inanim:p:v_zna" />
   <token value="пошкодження" lemma="пошкодження" tags="noun:inanim:n:v_rod" />
-  <token value="чи" lemma="чи" tags="conj:coord:subord" />
-  <token value="відсутності" lemma="відсутність" tags="noun:inanim:f:v_rod" />
+  <token value="чи" lemma="чи" tags="conj:coord:subord" >
+    <alts>
+      <token value="чи" lemma="чи" tags="part" />
+    </alts>
+  </token>  <token value="відсутності" lemma="відсутність" tags="noun:inanim:f:v_rod" />
   <token value="теплоізоляційного" lemma="теплоізоляційний" tags="adj:m:v_rod" />
   <token value="шару" lemma="шар" tags="noun:inanim:m:v_rod" />
   <token value="," lemma="," tags="punct" />
@@ -143,6 +146,7 @@
   <token value="усунення" lemma="усунення" tags="noun:inanim:n:v_rod" />
   <token value="." lemma="." tags="punct" />
 </sentence>
+<paragraph/>
 <sentence>
   <token value="Загалом" lemma="загалом" tags="adv" />
   <token value="результати" lemma="результат" tags="noun:inanim:p:v_naz" />
@@ -162,6 +166,7 @@
   <token value="вимогам" lemma="вимога" tags="noun:inanim:p:v_dav" />
   <token value="." lemma="." tags="punct" />
 </sentence>
+<paragraph/>
 <sentence>
   <token value="Треба" lemma="треба" tags="noninfl:&amp;predic" />
   <token value="пам'ятати" lemma="пам'ятати" tags="verb:imperf:inf" />
@@ -201,6 +206,9 @@
   <token value="визначеного" lemma="визначений" tags="adj:m:v_rod:&amp;adjp:pasv:perf:compb" />
   <token value="алгоритму" lemma="алгоритм" tags="noun:inanim:m:v_rod" />
   <token value="." lemma="." tags="punct" />
+</sentence>
+<paragraph/>
+<sentence>
 <format tag="b"/>
   <token value="Аналіз" lemma="аналіз" tags="noun:inanim:m:v_naz" />
   <token value="останніх" lemma="останній" tags="adj:p:v_rod:compb" />
@@ -209,6 +217,8 @@
   <token value="публікацій" lemma="публікація" tags="noun:inanim:p:v_rod" />
   <token value="." lemma="." tags="punct" />
 <format tag="/b"/>
+</sentence>
+<sentence>
   <token value="Загальні" lemma="загальний" tags="adj:p:v_zna:rinanim:compb" />
   <token value="питання" lemma="питання" tags="noun:inanim:p:v_zna" />
   <token value="підвищення" lemma="підвищення" tags="noun:inanim:n:v_rod" />
@@ -394,6 +404,9 @@
   <token value="ремонтних" lemma="ремонтний" tags="adj:p:v_rod" />
   <token value="робіт" lemma="робота" tags="noun:inanim:p:v_rod" />
   <token value="." lemma="." tags="punct" />
+</sentence>
+<paragraph/>
+<sentence>
 <format tag="b"/>
   <token value="Мета" lemma="мета" tags="noun:inanim:f:v_naz" />
   <token value="та" lemma="та" tags="conj:coord" />
@@ -401,6 +414,8 @@
   <token value="дослідження" lemma="дослідження" tags="noun:inanim:n:v_rod" />
   <token value="." lemma="." tags="punct" />
 <format tag="/b"/>
+</sentence>
+<sentence>
   <token value="Огляд" lemma="огляд" tags="noun:inanim:m:v_naz" />
   <token value="літератури" lemma="література" tags="noun:inanim:f:v_rod" />
   <token value="підтверджує" lemma="підтверджувати" tags="verb:imperf:pres:s:3" />
@@ -463,6 +478,7 @@
   <token value="немає" lemma="немає" tags="noninfl:&amp;predic" />
   <token value="." lemma="." tags="punct" />
 </sentence>
+<paragraph/>
 <sentence>
   <token value="Відповідно" lemma="відповідно" tags="prep" />
   <token value="до" lemma="до" tags="prep" />
@@ -528,12 +544,17 @@
   <token value="тепловізійного" lemma="тепловізійний" tags="adj:n:v_rod" />
   <token value="дослідження" lemma="дослідження" tags="noun:inanim:n:v_rod" />
   <token value="." lemma="." tags="punct" />
+</sentence>
+<paragraph/>
+<sentence>
 <format tag="b"/>
   <token value="Виклад" lemma="виклад" tags="noun:inanim:m:v_naz" />
   <token value="основного" lemma="основний" tags="adj:m:v_rod:compb" />
   <token value="матеріалу" lemma="матеріал" tags="noun:inanim:m:v_rod" />
   <token value="." lemma="." tags="punct" />
 <format tag="/b"/>
+</sentence>
+<sentence>
   <token value="Положення" lemma="положення" tags="noun:inanim:p:v_naz" />
   <token value="будівельних" lemma="будівельний" tags="adj:p:v_rod" />
   <token value="нормативних" lemma="нормативний" tags="adj:p:v_rod" />

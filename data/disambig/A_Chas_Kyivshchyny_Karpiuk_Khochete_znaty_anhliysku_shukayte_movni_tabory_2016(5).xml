@@ -165,8 +165,11 @@
   <token value="зі" lemma="зі" tags="prep" />
   <token value="світом" lemma="світ" tags="noun:inanim:m:v_oru" />
   <token value="," lemma="," tags="punct" />
-  <token value="адже" lemma="адже" tags="conj:subord" />
-  <token value="ми" lemma="ми" tags="noun:anim:p:v_naz:&amp;pron:pers:1" />
+  <token value="адже" lemma="адже" tags="conj:subord" >
+    <alts>
+      <token value="адже" lemma="адже" tags="part" />
+    </alts>
+  </token>  <token value="ми" lemma="ми" tags="noun:anim:p:v_naz:&amp;pron:pers:1" />
   <token value="неодноразово" lemma="неодноразово" tags="adv" />
   <token value="бачили" lemma="бачити" tags="verb:imperf:past:p" />
   <token value="це" lemma="це" tags="noun:inanim:n:v_naz:&amp;pron:dem" />
@@ -460,7 +463,7 @@
   <token value="роботу" lemma="робота" tags="noun:inanim:f:v_zna" />
   <token value="на" lemma="на" tags="prep" />
   <token value="Київщині" lemma="Київщина" tags="noun:inanim:f:v_mis:prop:geo" />
-  <token value="ще" lemma="ще" tags="part" />
+  <token value="ще" lemma="ще" tags="adv" />
   <token value="до" lemma="до" tags="prep" />
   <token value="початку" lemma="початок" tags="noun:inanim:m:v_rod:xp2" />
   <token value="нового" lemma="новий" tags="adj:m:v_rod:compb" />

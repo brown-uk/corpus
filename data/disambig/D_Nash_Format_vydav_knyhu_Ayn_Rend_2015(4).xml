@@ -23,7 +23,7 @@
   <token value="українських" lemma="український" tags="adj:p:v_mis:compb" />
   <token value="книгарнях" lemma="книгарня" tags="noun:inanim:p:v_mis" />
   <token value="з'явилася" lemma="з'явитися" tags="verb:rev:perf:past:f" />
-  <token value="перша" lemma="перша" tags="noun:inanim:f:v_naz" />
+  <token value="перша" lemma="перший" tags="adj:f:v_naz:compb:&amp;numr" />
   <token value="частина" lemma="частина" tags="noun:inanim:f:v_naz" />
   <token value="українського" lemma="український" tags="adj:n:v_rod:compb" />
   <token value="видання" lemma="видання" tags="noun:inanim:n:v_rod" />
@@ -58,7 +58,9 @@
   <token value="Або-або" lemma="або-або" tags="conj:coord" />
   <token value="," lemma="," tags="punct" />
   <token value="«" lemma="«" tags="punct" />
+  <token value="А" lemma="А" tags="noninfl" />
   <token value="є" lemma="бути" tags="verb:imperf:pres:s:3" />
+  <token value="А" lemma="А" tags="noninfl" />
   <token value="»" lemma="»" tags="punct" />
   <token value="." lemma="." tags="punct" />
 </sentence>
@@ -99,11 +101,15 @@
   <token value="(" lemma="(" tags="punct" />
   <token value="зал" lemma="зал" tags="noun:inanim:m:v_naz" />
   <token value="«" lemma="«" tags="punct" />
-  <token value="Папір" lemma="папір" tags="noun:inanim:m:v_naz:xp1" />
-  <token value="»" lemma="»" tags="punct" />
+  <token value="Папір" lemma="папір" tags="noun:inanim:m:v_naz:xp1" >
+    <alts>
+      <token value="Папір" lemma="папір" tags="noun:inanim:m:v_naz:xp2" />
+    </alts>
+  </token>  <token value="»" lemma="»" tags="punct" />
   <token value=")" lemma=")" tags="punct" />
   <token value="." lemma="." tags="punct" />
 </sentence>
+<paragraph/>
 <sentence>
   <token value="«" lemma="«" tags="punct" />
   <token value="Атлант" lemma="атлант" tags="noun:anim:m:v_naz" />
@@ -112,8 +118,8 @@
   <token value="»" lemma="»" tags="punct" />
   <token value="–" lemma="–" tags="punct" />
 <format tag="foreign"/>
-  <token value="magnus" lemma="magnus" tags="noninfl:foreign" />
-  <token value="opus" lemma="opus" tags="noninfl:foreign" />
+  <token value="magnus" lemma="magnus" tags="unclass" />
+  <token value="opus" lemma="opus" tags="unclass" />
 <format tag="/foreign"/>
   <token value="Айн" lemma="Айн" tags="noun:anim:f:v_rod:nv:prop:fname" />
   <token value="Ренд" lemma="Ренд" tags="noun:anim:f:v_rod:nv:prop:lname" />
@@ -238,7 +244,7 @@
   <token value="бізнес-школи" lemma="бізнес-школа" tags="noun:inanim:f:v_rod" />
   <token value="[" lemma="[" tags="null" />
 <format tag="foreign"/>
-  <token value="kmbs" lemma="kmbs" tags="noninfl:foreign" />
+  <token value="kmbs" lemma="kmbs" tags="unclass" />
 <format tag="/foreign"/>
   <token value="]" lemma="]" tags="null" />
   <token value="." lemma="." tags="punct" />
@@ -316,6 +322,7 @@
   <token value="»" lemma="»" tags="punct" />
   <token value="." lemma="." tags="punct" />
 </sentence>
+<paragraph/>
 <sentence>
   <token value="«" lemma="«" tags="punct" />
   <token value="Атлант" lemma="атлант" tags="noun:anim:m:v_naz" />
@@ -333,8 +340,11 @@
   <token value="часом" lemma="час" tags="noun:inanim:m:v_oru" />
   <token value="," lemma="," tags="punct" />
   <token value="як" lemma="як" tags="conj:subord" />
-  <token value="і" lemma="і" tags="conj:coord" />
-  <token value="події" lemma="подія" tags="noun:inanim:p:v_naz" />
+  <token value="і" lemma="і" tags="conj:coord" >
+    <alts>
+      <token value="і" lemma="і" tags="part" />
+    </alts>
+  </token>  <token value="події" lemma="подія" tags="noun:inanim:p:v_naz" />
   <token value="," lemma="," tags="punct" />
   <token value="які" lemma="який" tags="adj:p:v_naz:&amp;pron:int:rel:def" />
   <token value="розгортаються" lemma="розгортатися" tags="verb:rev:imperf:pres:p:3" />
@@ -404,6 +414,7 @@
   <token value="світу" lemma="світ" tags="noun:inanim:m:v_mis" />
   <token value="…" lemma="…" tags="punct" />
 </sentence>
+<paragraph/>
 <sentence>
   <token value="Айн" lemma="Айн" tags="noun:anim:f:v_naz:nv:prop:fname" />
   <token value="Ренд" lemma="Ренд" tags="noun:anim:f:v_naz:nv:prop:lname" />
@@ -411,8 +422,8 @@
   <token value="(" lemma="(" tags="punct" />
   <token value="англ." lemma="англ." tags="adj:f:v_oru:nv:abbr" />
 <format tag="foreign"/>
-  <token value="Ayn" lemma="Ayn" tags="noninfl:foreign" />
-  <token value="Rend" lemma="Rend" tags="noninfl:foreign" />
+  <token value="Ayn" lemma="Ayn" tags="unclass" />
+  <token value="Rend" lemma="Rend" tags="unclass" />
 <format tag="/foreign"/>
   <token value=";" lemma=";" tags="punct" />
   <token value="Аліса" lemma="Аліса" tags="noun:anim:f:v_naz:prop:fname" />

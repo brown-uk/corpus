@@ -24,6 +24,7 @@
   <token value="Христі" lemma="Христос" tags="noun:anim:m:v_mis:prop:fname" />
   <token value="!" lemma="!" tags="punct" />
 </sentence>
+<paragraph/>
 <sentence>
   <token value="Великий" lemma="великий" tags="adj:m:v_naz:compb" />
   <token value="піст" lemma="піст" tags="noun:inanim:m:v_naz" />
@@ -57,6 +58,7 @@
   <token value="чеснотах" lemma="чеснота" tags="noun:inanim:p:v_mis" />
   <token value="." lemma="." tags="punct" />
 </sentence>
+<paragraph/>
 <sentence>
   <token value="Великий" lemma="великий" tags="adj:m:v_naz:compb" />
   <token value="піст" lemma="піст" tags="noun:inanim:m:v_naz" />
@@ -209,6 +211,7 @@
   <token value="людства" lemma="людство" tags="noun:inanim:n:v_rod" />
   <token value="." lemma="." tags="punct" />
 </sentence>
+<paragraph/>
 <sentence>
   <token value="Особливо" lemma="особливо" tags="adv:compb" />
   <token value="критичною" lemma="критичний" tags="adj:f:v_oru:compb" />
@@ -275,13 +278,18 @@
   <token value="світу" lemma="світ" tags="noun:inanim:m:v_rod" />
   <token value="." lemma="." tags="punct" />
 </sentence>
+<paragraph/>
 <sentence>
   <token value="Цією" lemma="цей" tags="adj:f:v_oru:&amp;pron:dem" />
   <token value="ініціативою" lemma="ініціатива" tags="noun:inanim:f:v_oru" />
   <token value="хочемо" lemma="хотіти" tags="verb:imperf:pres:p:1" />
   <token value="не" lemma="не" tags="part" />
-  <token value="тільки" lemma="тільки" tags="adv" />
-  <token value="привернути" lemma="привернути" tags="verb:perf:inf" />
+  <token value="тільки" lemma="тільки" tags="adv" >
+    <alts>
+      <token value="тільки" lemma="тільки" tags="conj:subord" />
+      <token value="тільки" lemma="тільки" tags="part" />
+    </alts>
+  </token>  <token value="привернути" lemma="привернути" tags="verb:perf:inf" />
   <token value="увагу" lemma="увага" tags="noun:inanim:f:v_zna" />
   <token value="до" lemma="до" tags="prep" />
   <token value="насущних" lemma="насущний" tags="adj:p:v_rod:compb" />
@@ -315,6 +323,7 @@
   <token value="моральності" lemma="моральність" tags="noun:inanim:f:v_rod" />
   <token value="." lemma="." tags="punct" />
 </sentence>
+<paragraph/>
 <sentence>
   <token value="В" lemma="в" tags="prep" />
   <token value="контексті" lemma="контекст" tags="noun:inanim:m:v_mis" />
@@ -402,6 +411,7 @@
   <token value="»" lemma="»" tags="punct" />
   <token value="." lemma="." tags="punct" />
 </sentence>
+<paragraph/>
 <sentence>
   <token value="В" lemma="в" tags="prep" />
   <token value="контексті" lemma="контекст" tags="noun:inanim:m:v_mis" />
@@ -496,6 +506,7 @@
   <token value="тощо" lemma="тощо" tags="part" />
   <token value="." lemma="." tags="punct" />
 </sentence>
+<paragraph/>
 <sentence>
   <token value="Щиро" lemma="щиро" tags="adv:compb" />
   <token value="запрошуємо" lemma="запрошувати" tags="verb:imperf:pres:p:1" />
@@ -567,6 +578,7 @@
   <token value="напрямку" lemma="напрямок" tags="noun:inanim:m:v_mis" />
   <token value="." lemma="." tags="punct" />
 </sentence>
+<paragraph/>
 <sentence>
   <token value="В" lemma="в" tags="prep" />
   <token value="особливий" lemma="особливий" tags="adj:m:v_naz:compb" />

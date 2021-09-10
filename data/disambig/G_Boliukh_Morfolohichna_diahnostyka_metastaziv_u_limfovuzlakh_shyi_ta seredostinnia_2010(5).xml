@@ -28,7 +28,6 @@
   <token value="Резюме" lemma="резюме" tags="noun:inanim:n:v_naz:nv" />
   <token value="." lemma="." tags="punct" />
 <format tag="/b"/>
-<format tag="/i"/>
 </sentence>
 <sentence>
   <token value="Проаналізовані" lemma="проаналізований" tags="adj:p:v_naz:&amp;adjp:pasv:perf" />
@@ -236,6 +235,9 @@
   <token value="лікування" lemma="лікування" tags="noun:inanim:n:v_zna" />
   <token value="." lemma="." tags="punct" />
 <format tag="/i"/>
+</sentence>
+<paragraph/>
+<sentence>
   <token value="Метастазування" lemma="метастазування" tags="noun:inanim:n:v_rod" />
   <token value="рака" lemma="рак" tags="noun:anim:m:v_rod:xp1" />
   <token value="легені" lemma="легеня" tags="noun:inanim:f:v_rod" />
@@ -264,8 +266,11 @@
   <token value="лікування" lemma="лікування" tags="noun:inanim:n:v_rod" />
   <token value="важливо" lemma="важливо" tags="adv:compb:&amp;predic" />
   <token value="визначити" lemma="визначити" tags="verb:perf:inf" />
-  <token value="як" lemma="як" tags="conj:subord" />
-  <token value="розповсюдженість" lemma="розповсюдженість" tags="noun:inanim:f:v_naz" />
+  <token value="як" lemma="як" tags="conj:subord" >
+    <alts>
+      <token value="як" lemma="як" tags="part" />
+    </alts>
+  </token>  <token value="розповсюдженість" lemma="розповсюдженість" tags="noun:inanim:f:v_naz" />
   <token value="," lemma="," tags="punct" />
   <token value="так" lemma="так" tags="conj:coord:subord" />
   <token value="і" lemma="і" tags="part" />
@@ -369,12 +374,18 @@
   <token value="лікарської" lemma="лікарський" tags="adj:f:v_rod" />
   <token value="тактики" lemma="тактика" tags="noun:inanim:f:v_rod" />
   <token value="." lemma="." tags="punct" />
+</sentence>
+<paragraph/>
+<sentence>
 <format tag="b"/>
   <token value="Об'єкт" lemma="об'єкт" tags="noun:inanim:m:v_naz" />
   <token value="і" lemma="і" tags="conj:coord" />
   <token value="методи" lemma="метод" tags="noun:inanim:p:v_naz" />
   <token value="дослідження" lemma="дослідження" tags="noun:inanim:n:v_rod" />
 <format tag="/b"/>
+</sentence>
+<paragraph/>
+<sentence>
   <token value="Проаналізовано" lemma="проаналізувати" tags="verb:perf:impers" />
   <token value="результати" lemma="результат" tags="noun:inanim:p:v_zna" />
   <token value="гістологічного" lemma="гістологічний" tags="adj:n:v_rod" />
@@ -463,6 +474,7 @@
   <token value=")" lemma=")" tags="punct" />
   <token value="." lemma="." tags="punct" />
 </sentence>
+<paragraph/>
 <sentence>
   <token value="Основну" lemma="основний" tags="adj:f:v_zna:compb" />
   <token value="кількість" lemma="кількість" tags="noun:inanim:f:v_naz" />
@@ -573,6 +585,7 @@
   <token value="дослідження" lemma="дослідження" tags="noun:inanim:n:v_rod" />
   <token value="." lemma="." tags="punct" />
 </sentence>
+<paragraph/>
 <sentence>
   <token value="Показанням" lemma="показання" tags="noun:inanim:n:v_oru" />
   <token value="до" lemma="до" tags="prep" />
@@ -674,12 +687,18 @@
   <token value="8" lemma="8" tags="number" />
   <token value="випадках" lemma="випадок" tags="noun:inanim:p:v_mis" />
   <token value="." lemma="." tags="punct" />
+</sentence>
+<paragraph/>
+<sentence>
 <format tag="b"/>
   <token value="Результати" lemma="результат" tags="noun:inanim:p:v_naz" />
   <token value="та" lemma="та" tags="conj:coord" />
   <token value="їх" lemma="вони" tags="noun:unanim:p:v_rod:&amp;pron:pers:3" />
   <token value="обговорення" lemma="обговорення" tags="noun:inanim:n:v_rod" />
 <format tag="/b"/>
+</sentence>
+<paragraph/>
+<sentence>
   <token value="Гістологічним" lemma="гістологічний" tags="adj:n:v_oru" />
   <token value="дослідженням" lemma="дослідження" tags="noun:inanim:n:v_oru" />
   <token value="біопсійного" lemma="біопсійний" tags="adj:n:v_rod" />
@@ -902,6 +921,7 @@
   <token value="лікування" lemma="лікування" tags="noun:inanim:n:v_naz" />
   <token value="." lemma="." tags="punct" />
 </sentence>
+<paragraph/>
 <sentence>
   <token value="У" lemma="у" tags="prep" />
   <token value="більшості" lemma="більшість" tags="noun:inanim:f:v_mis" />
@@ -988,6 +1008,7 @@
   <token value="хворих" lemma="хворий" tags="noun:anim:p:v_rod" />
   <token value="." lemma="." tags="punct" />
 </sentence>
+<paragraph/>
 <sentence>
   <token value="Гістологічні" lemma="гістологічний" tags="adj:p:v_naz" />
   <token value="дослідження" lemma="дослідження" tags="noun:inanim:n:v_rod" />
@@ -1266,10 +1287,14 @@
   <token value="процесу" lemma="процес" tags="noun:inanim:m:v_rod" />
   <token value="." lemma="." tags="punct" />
 </sentence>
+<paragraph/>
 <sentence>
 <format tag="b"/>
   <token value="Висновки" lemma="висновок" tags="noun:inanim:p:v_naz" />
 <format tag="/b"/>
+</sentence>
+<paragraph/>
+<sentence>
   <token value="1" lemma="1" tags="number" />
   <token value="." lemma="." tags="punct" />
 </sentence>
@@ -1322,6 +1347,7 @@
   <token value="лікування" lemma="лікування" tags="noun:inanim:n:v_rod" />
   <token value="." lemma="." tags="punct" />
 </sentence>
+<paragraph/>
 <sentence>
   <token value="2" lemma="2" tags="number" />
   <token value="." lemma="." tags="punct" />

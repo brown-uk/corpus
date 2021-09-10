@@ -72,6 +72,7 @@
   <token value="СНД" lemma="СНД" tags="noun:inanim:m:v_rod:nv:prop:geo:abbr" />
   <token value="." lemma="." tags="punct" />
 </sentence>
+<paragraph/>
 <sentence>
   <token value="За" lemma="за" tags="prep" />
   <token value="цією" lemma="цей" tags="adj:f:v_oru:&amp;pron:dem" />
@@ -185,6 +186,7 @@
   <token value="СНД" lemma="СНД" tags="noun:inanim:m:v_mis:nv:prop:geo:abbr" />
   <token value="." lemma="." tags="punct" />
 </sentence>
+<paragraph/>
 <sentence>
   <token value="На" lemma="на" tags="prep" />
   <token value="відміну" lemma="відміна" tags="noun:inanim:f:v_zna" />
@@ -384,6 +386,7 @@
   <token value="асамблеї" lemma="асамблея" tags="noun:inanim:f:v_rod" />
   <token value="." lemma="." tags="punct" />
 </sentence>
+<paragraph/>
 <sentence>
   <token value="Специфічною" lemma="специфічний" tags="adj:f:v_oru:compb" />
   <token value="рисою" lemma="риса" tags="noun:inanim:f:v_oru" />
@@ -525,7 +528,7 @@
   <token value="риси" lemma="риса" tags="noun:inanim:p:v_zna" />
   <token value="нового" lemma="нове" tags="noun:inanim:n:v_rod" />
   <token value="," lemma="," tags="punct" />
-  <token value="ще" lemma="ще" tags="part" />
+  <token value="ще" lemma="ще" tags="adv" />
   <token value="не" lemma="не" tags="part" />
   <token value="відомого" lemma="відомий" tags="adj:m:v_rod:compb" />
   <token value="ні" lemma="ні" tags="part" />
@@ -543,6 +546,7 @@
   <token value="характеру" lemma="характер" tags="noun:inanim:m:v_rod" />
   <token value="." lemma="." tags="punct" />
 </sentence>
+<paragraph/>
 <sentence>
   <token value="Другою" lemma="другий" tags="adj:f:v_oru:&amp;numr" />
   <token value="специфічною" lemma="специфічний" tags="adj:f:v_oru:compb" />
@@ -624,6 +628,7 @@
   <token value="права" lemma="право" tags="noun:inanim:n:v_rod" />
   <token value="." lemma="." tags="punct" />
 </sentence>
+<paragraph/>
 <sentence>
   <token value="Розвиток" lemma="розвиток" tags="noun:inanim:m:v_naz" />
   <token value="взаємних" lemma="взаємний" tags="adj:p:v_rod" />
@@ -752,6 +757,7 @@
   <token value="СНД" lemma="СНД" tags="noun:inanim:m:v_rod:nv:prop:geo:abbr" />
   <token value="." lemma="." tags="punct" />
 </sentence>
+<paragraph/>
 <sentence>
   <token value="До" lemma="до" tags="prep" />
   <token value="вищевказаних" lemma="вищевказаний" tags="adj:p:v_rod" />
@@ -823,8 +829,11 @@
 </sentence>
 <sentence>
   <token value="Це" lemma="це" tags="noun:inanim:n:v_naz:&amp;pron:dem" />
-  <token value="також" lemma="також" tags="adv:&amp;insert" />
-  <token value="підтверджує" lemma="підтверджувати" tags="verb:imperf:pres:s:3" />
+  <token value="також" lemma="також" tags="adv:&amp;insert" >
+    <alts>
+      <token value="також" lemma="також" tags="conj:coord" />
+    </alts>
+  </token>  <token value="підтверджує" lemma="підтверджувати" tags="verb:imperf:pres:s:3" />
   <token value="думку" lemma="думка" tags="noun:inanim:f:v_zna" />
   <token value="," lemma="," tags="punct" />
   <token value="зазначену" lemma="зазначений" tags="adj:f:v_zna:&amp;adjp:pasv:perf" />

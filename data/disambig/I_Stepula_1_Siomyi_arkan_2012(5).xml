@@ -70,6 +70,7 @@
   <token value="свіжості" lemma="свіжість" tags="noun:inanim:f:v_rod" />
   <token value="." lemma="." tags="punct" />
 </sentence>
+<paragraph/>
 <sentence>
   <token value="Йому" lemma="він" tags="noun:unanim:m:v_dav:&amp;pron:pers:3" />
   <token value="вже" lemma="вже" tags="adv" />
@@ -167,6 +168,7 @@
   <token value="літо" lemma="літо" tags="noun:inanim:n:v_naz" />
   <token value="." lemma="." tags="punct" />
 </sentence>
+<paragraph/>
 <sentence>
   <token value="Осінь" lemma="осінь" tags="noun:inanim:f:v_naz" />
   <token value="була" lemma="бути" tags="verb:imperf:past:f" />
@@ -292,6 +294,7 @@
   <token value="світла" lemma="світло" tags="noun:inanim:n:v_rod" />
   <token value="." lemma="." tags="punct" />
 </sentence>
+<paragraph/>
 <sentence>
   <token value="Морок" lemma="морок" tags="noun:inanim:m:v_naz" />
   <token value="похмурих" lemma="похмурий" tags="adj:p:v_rod:compb" />
@@ -331,8 +334,11 @@
   <token value="." lemma="." tags="punct" />
 </sentence>
 <sentence>
-  <token value="І" lemma="і" tags="conj:coord" />
-  <token value="віддзвонити" lemma="віддзвонити" tags="verb:perf:inf" />
+  <token value="І" lemma="і" tags="conj:coord" >
+    <alts>
+      <token value="І" lemma="і" tags="part" />
+    </alts>
+  </token>  <token value="віддзвонити" lemma="віддзвонити" tags="verb:perf:inf" />
   <token value="Мішель" lemma="Мішель" tags="noun:anim:m:v_naz:prop:fname" />
   <token value="не" lemma="не" tags="part" />
   <token value="міг" lemma="могти" tags="verb:imperf:past:m" />
@@ -374,6 +380,7 @@
   <token value="»" lemma="»" tags="punct" />
   <token value="." lemma="." tags="punct" />
 </sentence>
+<paragraph/>
 <sentence>
   <token value="Мішель" lemma="Мішель" tags="noun:anim:m:v_naz:prop:fname" />
   <token value="потім" lemma="потім" tags="adv:&amp;pron:dem" />
@@ -410,6 +417,7 @@
   <token value="поспішав" lemma="поспішати" tags="verb:imperf:past:m" />
   <token value="." lemma="." tags="punct" />
 </sentence>
+<paragraph/>
 <sentence>
   <token value="Він" lemma="він" tags="noun:unanim:m:v_naz:&amp;pron:pers:3" />
   <token value="дуже" lemma="дуже" tags="adv:compb" />
@@ -418,7 +426,7 @@
   <token value="щоб" lemma="щоб" tags="conj:subord" />
   <token value="то" lemma="то" tags="conj:subord" />
   <token value="дзвонила" lemma="дзвонити" tags="verb:imperf:past:f" />
-  <token value="Нейті" lemma="Нейті" tags="noun:anim:f:v_naz:prop:fname" />
+  <token value="Нейті" lemma="Нейті" tags="noun:anim:f:v_naz:nv:prop:fname" />
   <token value="," lemma="," tags="punct" />
   <token value="від" lemma="від" tags="prep" />
   <token value="неї" lemma="вона" tags="noun:unanim:f:v_rod:&amp;pron:pers:3" />
@@ -494,6 +502,7 @@
   <token value="зрозуміла" lemma="зрозумілий" tags="adj:f:v_naz:compb" />
   <token value="." lemma="." tags="punct" />
 </sentence>
+<paragraph/>
 <sentence>
   <token value="Хоч" lemma="хоч" tags="part" />
   <token value="він" lemma="він" tags="noun:unanim:m:v_naz:&amp;pron:pers:3" />
@@ -503,7 +512,7 @@
   <token value="те" lemma="те" tags="noun:inanim:n:v_zna:&amp;pron:dem" />
   <token value="," lemma="," tags="punct" />
   <token value="що" lemma="що" tags="conj:subord" />
-  <token value="Нейті" lemma="Нейті" tags="noun:anim:f:v_naz:prop:fname" />
+  <token value="Нейті" lemma="Нейті" tags="noun:anim:f:v_naz:nv:prop:fname" />
   <token value="не" lemma="не" tags="part" />
   <token value="назавжди" lemma="назавжди" tags="adv" />
   <token value="згубилася" lemma="згубитися" tags="verb:rev:perf:past:f" />
@@ -576,6 +585,7 @@
   <token value="розпачу" lemma="розпач" tags="noun:inanim:m:v_rod" />
   <token value="." lemma="." tags="punct" />
 </sentence>
+<paragraph/>
 <sentence>
   <token value="Та" lemma="та" tags="conj:coord" />
   <token value="світився" lemma="світитися" tags="verb:rev:imperf:past:m" />
@@ -608,6 +618,7 @@
   <token value="пружина" lemma="пружина" tags="noun:inanim:f:v_naz" />
   <token value="." lemma="." tags="punct" />
 </sentence>
+<paragraph/>
 <sentence>
   <token value="Поки" lemma="поки" tags="conj:subord" />
   <token value="не" lemma="не" tags="part" />

@@ -322,7 +322,7 @@
   <token value=";" lemma=";" tags="punct" />
 <format tag="i"/>
 <format tag="foreign"/>
-  <token value="x" lemma="x" tags="noninfl:foreign" />
+  <token value="x" lemma="x" tags="unclass" />
 <format tag="/foreign"/>
 <format tag="/i"/>
   <token value="4" lemma="4" tags="number" />
@@ -385,10 +385,11 @@
 <format tag="b"/>
   <token value="Опис" lemma="опис" tags="noun:inanim:m:v_naz" />
   <token value="дослідження" lemma="дослідження" tags="noun:inanim:n:v_rod" />
+<format tag="/b"/>
   <token value="." lemma="." tags="punct" />
 </sentence>
+<paragraph/>
 <sentence>
-<format tag="/b"/>
   <token value="Регресійний" lemma="регресійний" tags="adj:m:v_naz" />
   <token value="аналіз" lemma="аналіз" tags="noun:inanim:m:v_naz" />
   <token value="дає" lemma="давати" tags="verb:imperf:pres:s:3" />
@@ -423,6 +424,7 @@
   <token value="залежностей" lemma="залежність" tags="noun:inanim:p:v_rod" />
   <token value="." lemma="." tags="punct" />
 </sentence>
+<paragraph/>
 <sentence>
   <token value="Показник" lemma="показник" tags="noun:inanim:m:v_naz" />
 <format tag="i"/>
@@ -508,6 +510,7 @@
   <token value="]" lemma="]" tags="null" />
   <token value="." lemma="." tags="punct" />
 </sentence>
+<paragraph/>
 <sentence>
   <token value="Якщо" lemma="якщо" tags="conj:subord" />
   <token value="значення" lemma="значення" tags="noun:inanim:n:v_naz" />

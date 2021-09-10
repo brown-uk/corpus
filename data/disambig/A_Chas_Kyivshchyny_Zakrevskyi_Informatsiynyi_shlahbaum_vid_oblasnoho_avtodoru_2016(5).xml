@@ -14,7 +14,7 @@
   <pages></pages>
   <length>508</length>
   <alt_orth>0</alt_orth>
-  <errors>спеціаліст із взаємодії із засобами - спеціаліст зі взаємодії з засобами; зв’язкам з - зв’язків із; продовження» - продовження».</errors>
+  <errors>спеціаліст із взаємодії із засобами - спеціаліст зі взаємодії з засобами; зв&apos;язкам з - зв&apos;язків із; продовження» - продовження».</errors>
   <comments></comments>
 </meta>
 <body>
@@ -302,8 +302,11 @@
   <token value="15" lemma="15" tags="number" />
   <token value="лютого" lemma="лютий" tags="noun:inanim:m:v_rod" />
   <token value="," lemma="," tags="punct" />
-  <token value="і" lemma="і" tags="conj:coord" />
-  <token value="щотижня" lemma="щотижня" tags="adv" />
+  <token value="і" lemma="і" tags="conj:coord" >
+    <alts>
+      <token value="і" lemma="і" tags="part" />
+    </alts>
+  </token>  <token value="щотижня" lemma="щотижня" tags="adv" />
   <token value="зверталися" lemma="звертатися" tags="verb:rev:imperf:past:p" />
   <token value="за" lemma="за" tags="prep" />
   <token value="телефоном" lemma="телефон" tags="noun:inanim:m:v_oru:xp2" />

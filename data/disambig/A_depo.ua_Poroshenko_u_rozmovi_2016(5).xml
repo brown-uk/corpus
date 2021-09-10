@@ -2,6 +2,10 @@
 <text>
 <meta>
   <id>A</id>
+  <author_surname></author_surname>
+  <author_name></author_name>
+  <title>Порошенко у розмові з Туском закликав поширити місію ОБСЄ на Крим</title>
+  <publ_in>depo.ua</publ_in>
   <url>http://www.depo.ua/ukr/politics/poroshenko-u-rozmovi-z-tuskom-zaklikav-poshiriti-misiyu-obse-17082016161500</url>
   <publ_part></publ_part>
   <publ_place></publ_place>
@@ -11,22 +15,9 @@
   <length>224</length>
   <alt_orth>0</alt_orth>
   <errors>маршрут наступний - маршрут такий</errors>
-<comments>агресивних[агресивний/adj:p:v_rod:compb]</comments></meta>
+  <comments></comments>
+</meta>
 <body>
-<sentence>
-  <token value="Порошенко" lemma="Порошенко" tags="noun:anim:m:v_naz:prop:lname" />
-  <token value="у" lemma="у" tags="prep" />
-  <token value="розмові" lemma="розмова" tags="noun:inanim:f:v_mis" />
-  <token value="з" lemma="з" tags="prep" />
-  <token value="Туском" lemma="Туск" tags="noun:anim:m:v_oru:prop:lname" />
-  <token value="закликав" lemma="закликати" tags="verb:imperf:past:m:xp1" />
-  <token value="поширити" lemma="поширити" tags="verb:perf:inf" />
-  <token value="місію" lemma="місія" tags="noun:inanim:f:v_zna" />
-  <token value="ОБСЄ" lemma="ОБСЄ" tags="noun:inanim:f:v_rod:nv:prop:abbr" />
-  <token value="на" lemma="на" tags="prep" />
-  <token value="Крим" lemma="Крим" tags="noun:inanim:m:v_naz:prop:geo" />
-  <token value="." lemma="." tags="punct" />
-</sentence>
 <sentence>
   <token value="Президент" lemma="президент" tags="noun:anim:m:v_naz" />
   <token value="України" lemma="Україна" tags="noun:inanim:f:v_rod:prop:geo" />
@@ -44,6 +35,9 @@
   <token value="на" lemma="на" tags="prep" />
   <token value="території" lemma="територія" tags="noun:inanim:f:v_mis" />
   <token value="Криму" lemma="Крим" tags="noun:inanim:m:v_mis:prop:geo" />
+</sentence>
+<paragraph/>
+<sentence>
   <token value="Про" lemma="про" tags="prep" />
   <token value="це" lemma="це" tags="noun:inanim:n:v_zna:&amp;pron:dem" />
   <token value="глава" lemma="глава" tags="noun:anim:m:v_naz:xp1" />
@@ -63,6 +57,7 @@
   <token value="depo.ua" lemma="depo.ua" tags="noninfl:foreign:prop" />
   <token value="." lemma="." tags="punct" />
 </sentence>
+<paragraph/>
 <sentence>
   <token value="Порошенко" lemma="Порошенко" tags="noun:anim:m:v_naz:prop:lname" />
   <token value="поінформував" lemma="поінформувати" tags="verb:perf:past:m" />
@@ -92,6 +87,7 @@
   <token value="домовленостей" lemma="домовленість" tags="noun:inanim:p:v_rod" />
   <token value="." lemma="." tags="punct" />
 </sentence>
+<paragraph/>
 <sentence>
   <token value="Також" lemma="також" tags="adv:&amp;insert" />
   <token value="президент" lemma="президент" tags="noun:anim:m:v_naz" />
@@ -108,6 +104,7 @@
   <token value="напруженості" lemma="напруженість" tags="noun:inanim:f:v_rod" />
   <token value="." lemma="." tags="punct" />
 </sentence>
+<paragraph/>
 <sentence>
   <token value="«" lemma="«" tags="punct" />
   <token value="Після" lemma="після" tags="prep" />
@@ -143,6 +140,7 @@
   <token value="Порошенко" lemma="Порошенко" tags="noun:anim:m:v_naz:prop:lname" />
   <token value="." lemma="." tags="punct" />
 </sentence>
+<paragraph/>
 <sentence>
   <token value="У" lemma="у" tags="prep" />
   <token value="свою" lemma="свій" tags="adj:f:v_zna:&amp;pron:pos" />
@@ -171,6 +169,7 @@
   <token value="Криму" lemma="Крим" tags="noun:inanim:m:v_mis:prop:geo" />
   <token value="." lemma="." tags="punct" />
 </sentence>
+<paragraph/>
 <sentence>
   <token value="Голова" lemma="голова" tags="noun:anim:m:v_naz:xp1" />
   <token value="Європейської" lemma="європейський" tags="adj:f:v_rod" />
@@ -194,6 +193,7 @@
   <token value="Євросоюзу" lemma="Євросоюз" tags="noun:inanim:m:v_rod:prop:geo" />
   <token value="." lemma="." tags="punct" />
 </sentence>
+<paragraph/>
 <sentence>
   <token value="«" lemma="«" tags="punct" />
   <token value="Ми" lemma="ми" tags="noun:anim:p:v_naz:&amp;pron:pers:1" />
@@ -214,6 +214,7 @@
   <token value="Туск" lemma="Туск" tags="noun:anim:m:v_naz:prop:lname" />
   <token value="." lemma="." tags="punct" />
 </sentence>
+<paragraph/>
 <sentence>
   <token value="Він" lemma="він" tags="noun:unanim:m:v_naz:&amp;pron:pers:3" />
   <token value="наголосив" lemma="наголосити" tags="verb:perf:past:m" />
@@ -251,6 +252,7 @@
   <token value="вересні" lemma="вересень" tags="noun:inanim:m:v_mis" />
   <token value="." lemma="." tags="punct" />
 </sentence>
+<paragraph/>
 <sentence>
   <token value="Також" lemma="також" tags="adv:&amp;insert" />
   <token value="співрозмовники" lemma="співрозмовник" tags="noun:anim:p:v_naz" />
@@ -278,6 +280,7 @@
   <token value="напрямку" lemma="напрямок" tags="noun:inanim:m:v_dav" />
   <token value="." lemma="." tags="punct" />
 </sentence>
+<paragraph/>
 <sentence>
   <token value="Серед" lemma="серед" tags="prep" />
   <token value="іншого" lemma="інший" tags="noun:anim:m:v_zna:&amp;pron:def" />

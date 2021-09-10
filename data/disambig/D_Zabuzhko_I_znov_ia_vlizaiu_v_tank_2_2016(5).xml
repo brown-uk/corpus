@@ -146,7 +146,7 @@
   <token value="свідомості" lemma="свідомість" tags="noun:inanim:f:v_mis" />
   <token value="Київ" lemma="Київ" tags="noun:inanim:m:v_naz:prop:geo" />
   <token value="так" lemma="так" tags="adv:&amp;pron:dem" />
-  <token value="само" lemma="сам" tags="adj:n:v_naz:&amp;pron:def" />
+  <token value="само" lemma="само" tags="adv" />
   <token value="погано" lemma="погано" tags="adv:compb:&amp;predic" />
   <token value="локалізується" lemma="локалізуватися" tags="verb:rev:imperf:pres:s:3" />
   <token value="(" lemma="(" tags="punct" />
@@ -184,6 +184,7 @@
   <token value="разі" lemma="раз" tags="noun:inanim:m:v_mis" />
   <token value="." lemma="." tags="punct" />
 </sentence>
+<paragraph/>
 <sentence>
   <token value="Брак" lemma="брак" tags="noun:inanim:m:v_naz" />
   <token value="культурної" lemma="культурний" tags="adj:f:v_rod:compb" />
@@ -297,6 +298,7 @@
   <token value="»" lemma="»" tags="punct" />
   <token value="." lemma="." tags="punct" />
 </sentence>
+<paragraph/>
 <sentence>
   <token value="Парадокс" lemma="парадокс" tags="noun:inanim:m:v_naz" />
   <token value="у" lemma="у" tags="prep" />
@@ -882,6 +884,7 @@
   <token value="вистачить" lemma="вистачити" tags="verb:perf:futr:s:3" />
   <token value="." lemma="." tags="punct" />
 </sentence>
+<paragraph/>
 <sentence>
   <token value="Що" lemma="що" tags="conj:subord" />
   <token value="ж" lemma="ж" tags="part" />
@@ -926,8 +929,11 @@
   <token value="»" lemma="»" tags="punct" />
   <token value="," lemma="," tags="punct" />
   <token value="і" lemma="і" tags="conj:coord" />
-  <token value="щоб" lemma="щоб" tags="conj:subord" />
-  <token value="уміти" lemma="уміти" tags="verb:imperf:inf" />
+  <token value="щоб" lemma="щоб" tags="conj:subord" >
+    <alts>
+      <token value="щоб" lemma="щоб" tags="part" />
+    </alts>
+  </token>  <token value="уміти" lemma="уміти" tags="verb:imperf:inf" />
   <token value="його" lemma="він" tags="noun:unanim:m:v_zna:&amp;pron:pers:3" />
   <token value="«" lemma="«" tags="punct" />
   <token value="відчитати" lemma="відчитати" tags="verb:perf:inf" />

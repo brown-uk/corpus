@@ -70,6 +70,7 @@
   <token value="отруєння" lemma="отруєння" tags="noun:inanim:n:v_zna" />
   <token value="." lemma="." tags="punct" />
 </sentence>
+<paragraph/>
 <sentence>
   <token value="У" lemma="у" tags="prep" />
   <token value="Високих" lemma="високий" tags="adj:p:v_mis:compb" />
@@ -115,8 +116,11 @@
 <format tag="/i"/>
 <format tag="/foreign"/>
   <token value="," lemma="," tags="punct" />
-  <token value="але" lemma="але" tags="conj:coord" />
-  <token value="і" lemma="і" tags="part" />
+  <token value="але" lemma="але" tags="conj:coord" >
+    <alts>
+      <token value="але" lemma="але" tags="part:rare" />
+    </alts>
+  </token>  <token value="і" lemma="і" tags="part" />
   <token value="види" lemma="вид" tags="noun:inanim:p:v_naz" />
   <token value="родів" lemma="рід" tags="noun:inanim:p:v_rod" />
 <format tag="foreign"/>
@@ -142,6 +146,7 @@
   <token value="водорості" lemma="водорість" tags="noun:inanim:p:v_naz" />
   <token value="." lemma="." tags="punct" />
 </sentence>
+<paragraph/>
 <sentence>
   <token value="Іноді" lemma="іноді" tags="adv:&amp;pron:ind" />
   <token value="нас" lemma="ми" tags="noun:anim:p:v_rod:&amp;pron:pers:1" />
@@ -204,6 +209,7 @@
   <token value="тощо" lemma="тощо" tags="part" />
   <token value="." lemma="." tags="punct" />
 </sentence>
+<paragraph/>
 <sentence>
   <token value="Найбільшу" lemma="найбільший" tags="adj:f:v_zna:comps" />
   <token value="зацікавленість" lemma="зацікавленість" tags="noun:inanim:f:v_zna" />
@@ -252,6 +258,7 @@
   <token value="сніг" lemma="сніг" tags="noun:inanim:m:v_zna" />
   <token value="." lemma="." tags="punct" />
 </sentence>
+<paragraph/>
 <sentence>
   <token value="Кавуновий" lemma="кавуновий" tags="adj:m:v_zna:rinanim" />
   <token value="сніг" lemma="сніг" tags="noun:inanim:m:v_zna" />
@@ -327,6 +334,7 @@
   <token value="справа" lemma="справа" tags="noun:inanim:f:v_naz" />
   <token value="?" lemma="?" tags="punct" />
 </sentence>
+<paragraph/>
 <sentence>
   <token value="Після" lemma="після" tags="prep" />
   <token value="найхолоднішого" lemma="найхолодніший" tags="adj:m:v_rod:comps" />
@@ -376,6 +384,7 @@
   <token value="червоний" lemma="червоний" tags="adj:m:v_zna:rinanim:compb" />
   <token value="." lemma="." tags="punct" />
 </sentence>
+<paragraph/>
 <sentence>
   <token value="Товщина" lemma="товщина" tags="noun:inanim:f:v_naz" />
   <token value="пофарбованого" lemma="пофарбований" tags="adj:m:v_rod:&amp;adjp:pasv:perf" />
@@ -396,6 +405,7 @@
   <token value="кілометрів" lemma="кілометр" tags="noun:inanim:p:v_rod" />
   <token value="." lemma="." tags="punct" />
 </sentence>
+<paragraph/>
 <sentence>
   <token value="Та" lemma="та" tags="conj:coord" />
   <token value="хламідомонада" lemma="хламідомонада" tags="noun:inanim:f:v_naz" />
@@ -470,6 +480,7 @@
   <token value="»" lemma="»" tags="punct" />
   <token value="." lemma="." tags="punct" />
 </sentence>
+<paragraph/>
 <sentence>
   <token value="Кольоровий" lemma="кольоровий" tags="adj:m:v_naz:compb" />
   <token value="сніг" lemma="сніг" tags="noun:inanim:m:v_naz" />

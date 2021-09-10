@@ -24,6 +24,7 @@
   <token value="всіх" lemma="всі" tags="noun:anim:p:v_zna:&amp;pron:gen" />
 <format tag="/b"/>
 </sentence>
+<paragraph/>
 <sentence>
   <token value="Наприкінці" lemma="наприкінці" tags="prep" />
   <token value="XIX" lemma="XIX" tags="number:latin" />
@@ -100,6 +101,7 @@
   <token value="реальним" lemma="реальний" tags="adj:n:v_oru:compb" />
   <token value="." lemma="." tags="punct" />
 </sentence>
+<paragraph/>
 <sentence>
   <token value="Статистична" lemma="статистичний" tags="adj:f:v_naz" />
   <token value="комісія" lemma="комісія" tags="noun:inanim:f:v_naz" />
@@ -182,6 +184,7 @@
   <token value="." lemma="." tags="punct" />
 <format tag="/emphasis"/>
 </sentence>
+<paragraph/>
 <sentence>
 <format tag="b"/>
   <token value="Перший" lemma="перший" tags="adj:m:v_naz:compb:&amp;numr" />
@@ -189,6 +192,9 @@
   <token value="незалежній" lemma="незалежний" tags="adj:f:v_mis:compb" />
   <token value="Україні" lemma="Україна" tags="noun:inanim:f:v_mis:prop:geo" />
 <format tag="/b"/>
+</sentence>
+<paragraph/>
+<sentence>
   <token value="Уперше" lemma="уперше" tags="adv" />
   <token value="жителів" lemma="житель" tags="noun:anim:p:v_zna" />
   <token value="України" lemma="Україна" tags="noun:inanim:f:v_rod:prop:geo" />
@@ -267,7 +273,7 @@
   <token value="." lemma="." tags="punct" />
 </sentence>
 <sentence>
-  <token value="Ще" lemma="ще" tags="part" />
+  <token value="Ще" lemma="ще" tags="adv" />
   <token value="півроку" lemma="півроку" tags="noun:inanim:m:v_naz:nv:ua_1992" />
   <token value="пішло" lemma="піти" tags="verb:perf:past:n" />
   <token value="на" lemma="на" tags="prep" />
@@ -318,6 +324,7 @@
 <format tag="/emphasis"/>
   <token value="." lemma="." tags="punct" />
 </sentence>
+<paragraph/>
 <sentence>
 <format tag="b"/>
   <token value="Нас" lemma="ми" tags="noun:anim:p:v_zna:&amp;pron:pers:1" />
@@ -325,6 +332,7 @@
   <token value="переписують" lemma="переписувати" tags="verb:imperf:pres:p:3" />
 <format tag="/b"/>
 </sentence>
+<paragraph/>
 <sentence>
   <token value="Резолюцією" lemma="резолюція" tags="noun:inanim:f:v_oru" />
   <token value="ООН" lemma="ООН" tags="noun:inanim:f:v_rod:nv:prop:abbr" />
@@ -415,6 +423,7 @@
   <token value="відсутність" lemma="відсутність" tags="noun:inanim:f:v_naz" />
   <token value="." lemma="." tags="punct" />
 </sentence>
+<paragraph/>
 <format tag="emphasis"/>
 <sentence>
   <token value="На" lemma="на" tags="prep" />
@@ -451,6 +460,7 @@
   <token value="року" lemma="рік" tags="noun:inanim:m:v_rod" />
   <token value="." lemma="." tags="punct" />
 </sentence>
+<paragraph/>
 <sentence>
 <format tag="b"/>
   <token value="Як" lemma="як" tags="adv:&amp;pron:int:rel" />
@@ -459,6 +469,7 @@
   <token value="?" lemma="?" tags="punct" />
 <format tag="/b"/>
 </sentence>
+<paragraph/>
 <sentence>
   <token value="З'ясуємо" lemma="з'ясувати" tags="verb:perf:futr:p:1" />
   <token value="тепер" lemma="тепер" tags="adv:&amp;pron:dem" />
@@ -471,6 +482,7 @@
   <token value="населення" lemma="населення" tags="noun:inanim:n:v_rod" />
   <token value="." lemma="." tags="punct" />
 </sentence>
+<paragraph/>
 <sentence>
   <token value="Під" lemma="під" tags="prep" />
   <token value="час" lemma="час" tags="noun:inanim:m:v_zna" />
@@ -486,6 +498,9 @@
   <token value="та" lemma="та" tags="conj:coord" />
   <token value="юридичне" lemma="юридичний" tags="adj:n:v_zna:compb" />
   <token value="." lemma="." tags="punct" />
+</sentence>
+<paragraph/>
+<sentence>
 <format tag="i"/>
   <token value="Наявне" lemma="наявний" tags="adj:n:v_naz" />
   <token value="населення" lemma="населення" tags="noun:inanim:n:v_naz" />
@@ -533,6 +548,7 @@
   <token value="." lemma="." tags="punct" />
 </sentence>
 <format tag="/i"/>
+<paragraph/>
 <sentence>
 <format tag="emphasis"/>
   <token value="Засади" lemma="засада" tags="noun:inanim:p:v_naz" />
@@ -540,30 +556,39 @@
   <token value="перепису" lemma="перепис" tags="noun:inanim:m:v_rod" />
   <token value=":" lemma=":" tags="punct" />
 <format tag="/emphasis"/>
+<format tag="br"/>
   <token value="загальність" lemma="загальність" tags="noun:inanim:f:v_naz" />
   <token value=";" lemma=";" tags="punct" />
+<format tag="br"/>
   <token value="одномоментність" lemma="одномоментність" tags="noun:inanim:f:v_naz" />
   <token value=";" lemma=";" tags="punct" />
+<format tag="br"/>
   <token value="єдина" lemma="єдиний" tags="adj:f:v_naz" />
   <token value="програма" lemma="програма" tags="noun:inanim:f:v_naz" />
   <token value="перепису" lemma="перепис" tags="noun:inanim:m:v_rod" />
   <token value=";" lemma=";" tags="punct" />
+<format tag="br"/>
   <token value="поіменність" lemma="поіменність" tags="noun:inanim:f:v_naz" />
   <token value=";" lemma=";" tags="punct" />
+<format tag="br"/>
   <token value="самовизначення" lemma="самовизначення" tags="noun:inanim:n:v_naz" />
   <token value=";" lemma=";" tags="punct" />
+<format tag="br"/>
   <token value="конфіденційність" lemma="конфіденційність" tags="noun:inanim:f:v_naz" />
   <token value=";" lemma=";" tags="punct" />
+<format tag="br"/>
   <token value="сувора" lemma="суворий" tags="adj:f:v_naz:compb" />
   <token value="централізація" lemma="централізація" tags="noun:inanim:f:v_naz" />
   <token value="управління" lemma="управління" tags="noun:inanim:n:v_rod" />
   <token value="переписом" lemma="перепис" tags="noun:inanim:m:v_oru" />
   <token value=";" lemma=";" tags="punct" />
+<format tag="br"/>
   <token value="регулярність" lemma="регулярність" tags="noun:inanim:f:v_naz" />
   <token value="проведення" lemma="проведення" tags="noun:inanim:n:v_rod" />
   <token value="переписів" lemma="перепис" tags="noun:inanim:p:v_rod" />
   <token value="." lemma="." tags="punct" />
 </sentence>
+<paragraph/>
 <sentence>
 <format tag="emphasis"/>
   <token value="Методи" lemma="метод" tags="noun:inanim:p:v_naz" />
@@ -572,6 +597,7 @@
   <token value=":" lemma=":" tags="punct" />
 <format tag="/emphasis"/>
 </sentence>
+<paragraph/>
 <sentence>
 <format tag="emphasis"/>
   <token value="Опитування" lemma="опитування" tags="noun:inanim:n:v_naz" />
@@ -610,6 +636,7 @@
   <token value="Україні" lemma="Україна" tags="noun:inanim:f:v_mis:prop:geo" />
   <token value="." lemma="." tags="punct" />
 </sentence>
+<paragraph/>
 <sentence>
 <format tag="emphasis"/>
   <token value="Самообчислення" lemma="самообчислення" tags="noun:inanim:n:v_naz" />
@@ -644,6 +671,9 @@
   <token value="європейських" lemma="європейський" tags="adj:p:v_mis" />
   <token value="країнах" lemma="країна" tags="noun:inanim:p:v_mis" />
   <token value="." lemma="." tags="punct" />
+</sentence>
+<paragraph/>
+<sentence>
 <format tag="emphasis"/>
   <token value="Змішаний" lemma="змішаний" tags="adj:m:v_naz:&amp;adjp:pasv:perf" />
   <token value="(" lemma="(" tags="punct" />
@@ -652,6 +682,8 @@
   <token value="метод" lemma="метод" tags="noun:inanim:m:v_naz" />
   <token value="." lemma="." tags="punct" />
 <format tag="/emphasis"/>
+</sentence>
+<sentence>
   <token value="Його" lemma="він" tags="noun:unanim:m:v_zna:&amp;pron:pers:3" />
   <token value="активно" lemma="активно" tags="adv:compb" />
   <token value="застосовують" lemma="застосовувати" tags="verb:imperf:pres:p:3" />
@@ -679,15 +711,18 @@
   <token value="перепису" lemma="перепис" tags="noun:inanim:m:v_rod" />
   <token value="." lemma="." tags="punct" />
 </sentence>
+<paragraph/>
 <sentence>
 <format tag="emphasis"/>
   <token value="Дані" lemma="дані" tags="noun:inanim:p:v_naz:ns" />
   <token value="переписуваного" lemma="переписуваний" tags="adj:m:v_rod:&amp;adjp:pasv:imperf" />
 <format tag="/emphasis"/>
+<format tag="br"/>
   <token value="ім'я" lemma="ім'я" tags="noun:inanim:n:v_rod" />
   <token value="та" lemma="та" tags="conj:coord" />
   <token value="адреса" lemma="адреса" tags="noun:inanim:f:v_naz" />
   <token value=";" lemma=";" tags="punct" />
+<format tag="br"/>
   <token value="особисті" lemma="особистий" tags="adj:p:v_naz:compb" />
   <token value="демографічні" lemma="демографічний" tags="adj:p:v_naz" />
   <token value="(" lemma="(" tags="punct" />
@@ -699,6 +734,7 @@
   <token value="стан" lemma="стан" tags="noun:inanim:m:v_naz:xp2" />
   <token value=")" lemma=")" tags="punct" />
   <token value=";" lemma=";" tags="punct" />
+<format tag="br"/>
   <token value="соціально-економічні" lemma="соціально-економічний" tags="adj:p:v_naz" />
   <token value="(" lemma="(" tags="punct" />
   <token value="рівень" lemma="рівень" tags="noun:inanim:m:v_naz" />
@@ -712,6 +748,7 @@
   <token value="становище" lemma="становище" tags="noun:inanim:n:v_naz" />
   <token value=")" lemma=")" tags="punct" />
   <token value=";" lemma=";" tags="punct" />
+<format tag="br"/>
   <token value="етнічні" lemma="етнічний" tags="adj:p:v_naz:compb" />
   <token value="(" lemma="(" tags="punct" />
   <token value="національність" lemma="національність" tags="noun:inanim:f:v_naz" />
@@ -726,6 +763,7 @@
   <token value="віросповідання" lemma="віросповідання" tags="noun:inanim:n:v_naz" />
   <token value=")" lemma=")" tags="punct" />
   <token value=";" lemma=";" tags="punct" />
+<format tag="br"/>
   <token value="міграційні" lemma="міграційний" tags="adj:p:v_naz" />
   <token value="(" lemma="(" tags="punct" />
   <token value="постійність" lemma="постійність" tags="noun:inanim:f:v_naz" />
@@ -740,6 +778,8 @@
   <token value="проживання" lemma="проживання" tags="noun:inanim:n:v_rod" />
   <token value=")" lemma=")" tags="punct" />
   <token value=";" lemma=";" tags="punct" />
+</sentence>
+<sentence>
   <token value="Отже" lemma="отже" tags="conj:subord" />
   <token value="," lemma="," tags="punct" />
   <token value="коли" lemma="коли" tags="conj:subord" />
@@ -770,7 +810,7 @@
   <token value="життєдіяльності" lemma="життєдіяльність" tags="noun:inanim:f:v_rod" />
   <token value="і" lemma="і" tags="conj:coord" />
   <token value="твоїх" lemma="твій" tags="adj:p:v_rod:&amp;pron:pos" />
-  <token value="батьків" lemma="батько" tags="noun:anim:p:v_rod" />
+  <token value="батьків" lemma="батьки" tags="noun:anim:p:v_rod" />
   <token value="," lemma="," tags="punct" />
   <token value="і" lemma="і" tags="conj:coord" />
   <token value="тебе" lemma="ти" tags="noun:anim:s:v_rod:&amp;pron:pers:2" />

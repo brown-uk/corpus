@@ -36,12 +36,21 @@
   <token value="стрибає" lemma="стрибати" tags="verb:imperf:pres:s:3" />
   <token value="на" lemma="на" tags="prep" />
   <token value="того" lemma="той" tags="adj:m:v_rod:&amp;pron:dem" />
-  <token value="ж" lemma="ж" tags="conj:coord" />
-  <token value="коня" lemma="кінь" tags="noun:anim:m:v_zna:xp1" />
+  <token value="ж" lemma="ж" tags="conj:coord" >
+    <alts>
+      <token value="ж" lemma="ж" tags="part" />
+    </alts>
+  </token>  <token value="коня" lemma="кінь" tags="noun:anim:m:v_zna:xp1" />
   <token value="," lemma="," tags="punct" />
-  <token value="аж" lemma="аж" tags="conj:subord" />
-  <token value="поки" lemma="поки" tags="adv:&amp;pron:int:rel" />
-  <token value="почав" lemma="почати" tags="verb:perf:past:m" />
+  <token value="аж" lemma="аж" tags="conj:subord" >
+    <alts>
+      <token value="аж" lemma="аж" tags="part" />
+    </alts>
+  </token>  <token value="поки" lemma="поки" tags="adv:&amp;pron:int:rel" >
+    <alts>
+      <token value="поки" lemma="поки" tags="conj:subord" />
+    </alts>
+  </token>  <token value="почав" lemma="почати" tags="verb:perf:past:m" />
   <token value="через" lemma="через" tags="prep" />
   <token value="нього" lemma="він" tags="noun:unanim:m:v_zna:&amp;pron:pers:3" />
   <token value="перелітати" lemma="перелітати" tags="verb:imperf:inf:xp1" />
@@ -145,6 +154,7 @@
   <token value="Макарія" lemma="Макарій" tags="noun:anim:m:v_rod:prop:fname" />
   <token value="." lemma="." tags="punct" />
 </sentence>
+<paragraph/>
 <sentence>
   <token value="Відтак" lemma="відтак" tags="adv" />
   <token value="надійшов" lemma="надійти" tags="verb:perf:past:m" />
@@ -371,6 +381,7 @@
   <token value="Українка" lemma="Українка" tags="noun:anim:f:v_naz:prop:lname" />
   <token value="." lemma="." tags="punct" />
 </sentence>
+<paragraph/>
 <sentence>
   <token value="Канцеляристу" lemma="канцелярист" tags="noun:anim:m:v_dav" />
   <token value="Теодора" lemma="Теодор" tags="noun:anim:m:v_rod:prop:fname" />
@@ -419,6 +430,7 @@
   <token value="управляв" lemma="управляти" tags="verb:imperf:past:m" />
   <token value="." lemma="." tags="punct" />
 </sentence>
+<paragraph/>
 <sentence>
   <token value="І" lemma="і" tags="conj:coord" />
   <token value="ось" lemma="ось" tags="part" />
@@ -606,7 +618,7 @@
   <token value="якусь" lemma="якийсь" tags="adj:f:v_zna:&amp;pron:ind" />
   <token value="відстань" lemma="відстань" tags="noun:inanim:f:v_zna" />
   <token value="і" lemma="і" tags="conj:coord" />
-  <token value="ще" lemma="ще" tags="part" />
+  <token value="ще" lemma="ще" tags="adv" />
   <token value="й" lemma="й" tags="part" />
   <token value="досі" lemma="досі" tags="adv:&amp;pron:dem" />
   <token value="не" lemma="не" tags="part" />
@@ -615,7 +627,7 @@
   <token value="зливу" lemma="злива" tags="noun:inanim:f:v_zna" />
   <token value="," lemma="," tags="punct" />
   <token value="завернув" lemma="завернути" tags="verb:perf:past:m" />
-  <token value="ще" lemma="ще" tags="part" />
+  <token value="ще" lemma="ще" tags="adv" />
   <token value="раз" lemma="раз" tags="adv" />
   <token value="." lemma="." tags="punct" />
 </sentence>
@@ -733,7 +745,7 @@
   <token value="." lemma="." tags="punct" />
 </sentence>
 <sentence>
-  <token value="Ще" lemma="ще" tags="part" />
+  <token value="Ще" lemma="ще" tags="adv" />
   <token value="посидів" lemma="посидіти" tags="verb:perf:past:m" />
   <token value="під" lemma="під" tags="prep" />
   <token value="тим" lemma="те" tags="noun:inanim:n:v_oru:&amp;pron:dem" />
@@ -814,6 +826,7 @@
   <token value="киреї" lemma="кирея" tags="noun:inanim:f:v_mis:rare" />
   <token value="." lemma="." tags="punct" />
 </sentence>
+<paragraph/>
 <sentence>
   <token value="Тоскно" lemma="тоскно" tags="adv:compb:&amp;predic" />
   <token value="дивився" lemma="дивитися" tags="verb:rev:imperf:past:m" />
@@ -1017,7 +1030,7 @@
   <token value="він" lemma="він" tags="noun:unanim:m:v_naz:&amp;pron:pers:3" />
   <token value="," lemma="," tags="punct" />
   <token value="напившись" lemma="напившись" tags="advp:rev:perf" />
-  <token value="малмазії" lemma="малмазії" tags="noun:inanim:f:v_rod" />
+  <token value="малмазії" lemma="малмазія" tags="noun:inanim:f:v_rod" />
   <token value="," lemma="," tags="punct" />
   <token value="шукав" lemma="шукати" tags="verb:imperf:past:m" />
   <token value="воріт" lemma="ворота" tags="noun:inanim:p:v_rod:ns" />
@@ -1088,6 +1101,7 @@
   <token value="віднайшов" lemma="віднайти" tags="verb:perf:past:m" />
   <token value="." lemma="." tags="punct" />
 </sentence>
+<paragraph/>
 <sentence>
   <token value="І" lemma="і" tags="part" />
   <token value="він" lemma="він" tags="noun:unanim:m:v_naz:&amp;pron:pers:3" />
@@ -1207,7 +1221,7 @@
   <token value="," lemma="," tags="punct" />
   <token value="що" lemma="що" tags="conj:subord" />
   <token value="й" lemma="й" tags="conj:coord" />
-  <token value="мерехке" lemma="мерехке" tags="adj" />
+  <token value="мерехке" lemma="мерехкий" tags="adj:n:v_naz:coll" />
   <token value="вогненя" lemma="вогненя" tags="noun:inanim:n:v_naz" />
   <token value="," lemma="," tags="punct" />
   <token value="що" lemma="що" tags="conj:subord" />
@@ -1290,6 +1304,7 @@
   <token value="скрипта" lemma="скрипт" tags="noun:inanim:m:v_zna:bad" />
   <token value="." lemma="." tags="punct" />
 </sentence>
+<paragraph/>
 <sentence>
   <token value="Хутір" lemma="хутір" tags="noun:inanim:m:v_naz" />
   <token value="був" lemma="бути" tags="verb:imperf:past:m" />
@@ -1458,6 +1473,7 @@
   <token value="чого" lemma="що" tags="noun:inanim:n:v_rod:&amp;pron:int:rel" />
   <token value="." lemma="." tags="punct" />
 </sentence>
+<paragraph/>
 <sentence>
   <token value="Покій" lemma="покій" tags="noun:inanim:m:v_naz" />
   <token value="був" lemma="бути" tags="verb:imperf:past:m" />
@@ -1580,6 +1596,7 @@
   <token value="злива" lemma="злива" tags="noun:inanim:f:v_naz" />
   <token value="?" lemma="?" tags="punct" />
 </sentence>
+<paragraph/>
 <sentence>
   <token value="Теодор" lemma="Теодор" tags="noun:anim:m:v_naz:prop:fname" />
   <token value="хотів" lemma="хотіти" tags="verb:imperf:past:m" />

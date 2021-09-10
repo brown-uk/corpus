@@ -62,6 +62,7 @@
   <token value="системи" lemma="система" tags="noun:inanim:f:v_rod" />
   <token value="." lemma="." tags="punct" />
 </sentence>
+<paragraph/>
 <sentence>
   <token value="Серце" lemma="серце" tags="noun:inanim:n:v_naz" />
   <token value="має" lemma="мати" tags="verb:imperf:pres:s:3" />
@@ -137,6 +138,7 @@
   <token value="двічі" lemma="двічі" tags="adv" />
   <token value="." lemma="." tags="punct" />
 </sentence>
+<paragraph/>
 <sentence>
   <token value="Кожна" lemma="кожний" tags="adj:f:v_naz:&amp;pron:gen" />
   <token value="частина" lemma="частина" tags="noun:inanim:f:v_naz" />
@@ -282,6 +284,7 @@
   <token value="серця" lemma="серце" tags="noun:inanim:n:v_rod" />
   <token value="." lemma="." tags="punct" />
 </sentence>
+<paragraph/>
 <sentence>
   <token value="Розмір" lemma="розмір" tags="noun:inanim:m:v_naz" />
   <token value="серця" lemma="серце" tags="noun:inanim:n:v_rod" />
@@ -319,6 +322,7 @@
   <token value="кулак" lemma="кулак" tags="noun:inanim:m:v_naz" />
   <token value="." lemma="." tags="punct" />
 </sentence>
+<paragraph/>
 <sentence>
   <token value="Серце" lemma="серце" tags="noun:inanim:n:v_naz" />
   <token value="дорослої" lemma="дорослий" tags="adj:f:v_rod:compb" />
@@ -329,6 +333,7 @@
   <token value="г" lemma="г" tags="noun:inanim:p:v_zna:nv:abbr" />
   <token value="." lemma="." tags="punct" />
 </sentence>
+<paragraph/>
 <sentence>
   <token value="Кров" lemma="кров" tags="noun:inanim:f:v_naz" />
   <token value="мандрує" lemma="мандрувати" tags="verb:imperf:pres:s:3" />
@@ -365,6 +370,7 @@
   <token value="км" lemma="км" tags="noun:inanim:p:v_dav:nv:abbr" />
   <token value="." lemma="." tags="punct" />
 </sentence>
+<paragraph/>
 <sentence>
   <token value="Впродовж" lemma="впродовж" tags="adv" />
   <token value="життя" lemma="життя" tags="noun:inanim:n:v_rod" />
@@ -390,6 +396,7 @@
   <token value="басейн" lemma="басейн" tags="noun:inanim:m:v_zna" />
   <token value="." lemma="." tags="punct" />
 </sentence>
+<paragraph/>
 <sentence>
   <token value="За" lemma="за" tags="prep" />
   <token value="відносно" lemma="відносно" tags="prep" />
@@ -404,6 +411,7 @@
   <token value="крові" lemma="кров" tags="noun:inanim:f:v_rod" />
   <token value="." lemma="." tags="punct" />
 </sentence>
+<paragraph/>
 <sentence>
   <token value="Люди" lemma="людина" tags="noun:anim:p:v_naz" />
   <token value="," lemma="," tags="punct" />
@@ -442,6 +450,7 @@
   <token value="повітрі" lemma="повітря" tags="noun:inanim:n:v_mis" />
   <token value="." lemma="." tags="punct" />
 </sentence>
+<paragraph/>
 <sentence>
   <token value="Прокачуючи" lemma="прокачуючи" tags="advp:imperf" />
   <token value="кров" lemma="кров" tags="noun:inanim:f:v_naz" />
@@ -467,10 +476,15 @@
   <token value="м" lemma="м" tags="noun:inanim:m:v_mis:nv:abbr" />
   <token value="." lemma="." tags="punct" />
 </sentence>
+<paragraph/>
 <sentence>
+<format tag="emphasis"/>
   <token value="Невтомний" lemma="невтомний" tags="adj:m:v_naz:compb" />
   <token value="трудівник" lemma="трудівник" tags="noun:anim:m:v_naz" />
-  <token value="&gt;" lemma="&gt;" tags="null" />
+<format tag="/emphasis"/>
+</sentence>
+<paragraph/>
+<sentence>
   <token value="Стінки" lemma="стінка" tags="noun:inanim:p:v_naz" />
   <token value="усіх" lemma="усі" tags="noun:anim:p:v_rod:&amp;pron:gen" />
   <token value="чотирьох" lemma="чотири" tags="numr:p:v_rod" />

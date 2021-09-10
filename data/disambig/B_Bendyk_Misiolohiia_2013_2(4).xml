@@ -213,8 +213,11 @@
   <token value="між" lemma="між" tags="prep" />
   <token value="католиками" lemma="католик" tags="noun:anim:p:v_oru" />
   <token value="," lemma="," tags="punct" />
-  <token value="і" lemma="і" tags="conj:coord" />
-  <token value="навпаки" lemma="навпаки" tags="adv:&amp;insert" />
+  <token value="і" lemma="і" tags="conj:coord" >
+    <alts>
+      <token value="і" lemma="і" tags="part" />
+    </alts>
+  </token>  <token value="навпаки" lemma="навпаки" tags="adv:&amp;insert" />
   <token value="." lemma="." tags="punct" />
 </sentence>
 <sentence>
@@ -318,6 +321,7 @@
   <token value="окупантів" lemma="окупант" tags="noun:anim:p:v_rod" />
   <token value="." lemma="." tags="punct" />
 </sentence>
+<paragraph/>
 <sentence>
   <token value="Великі" lemma="великий" tags="adj:p:v_naz:compb" />
   <token value="географічні" lemma="географічний" tags="adj:p:v_naz" />
@@ -377,8 +381,11 @@
   <token value="католицького" lemma="католицький" tags="adj:m:v_rod" />
   <token value="," lemma="," tags="punct" />
   <token value="протестантського" lemma="протестантський" tags="adj:m:v_rod" />
-  <token value="чи" lemma="чи" tags="conj:coord:subord" />
-  <token value="православного" lemma="православний" tags="adj:m:v_rod" />
+  <token value="чи" lemma="чи" tags="conj:coord:subord" >
+    <alts>
+      <token value="чи" lemma="чи" tags="part" />
+    </alts>
+  </token>  <token value="православного" lemma="православний" tags="adj:m:v_rod" />
   <token value="характеру" lemma="характер" tags="noun:inanim:m:v_rod" />
   <token value="." lemma="." tags="punct" />
 </sentence>
@@ -578,6 +585,7 @@
   <token value="співвітчизники" lemma="співвітчизник" tags="noun:anim:p:v_naz" />
   <token value="." lemma="." tags="punct" />
 </sentence>
+<paragraph/>
 <sentence>
   <token value="Попри" lemma="попри" tags="prep" />
   <token value="здебільшого" lemma="здебільшого" tags="adv" />
@@ -770,6 +778,7 @@
   <token value="підтримки" lemma="підтримка" tags="noun:inanim:f:v_rod" />
   <token value="." lemma="." tags="punct" />
 </sentence>
+<paragraph/>
 <sentence>
 <format tag="b"/>
   <token value="10" lemma="10" tags="number" />
@@ -784,7 +793,10 @@
   <token value="постмодерну" lemma="постмодерний" tags="adj:f:v_zna" />
   <token value=")" lemma=")" tags="punct" />
   <token value="добу" lemma="доба" tags="noun:inanim:f:v_zna" />
-<format tag="b"/>
+<format tag="/b"/>
+</sentence>
+<paragraph/>
+<sentence>
   <token value="У" lemma="у" tags="prep" />
   <token value="XX" lemma="XX" tags="number:latin" />
   <token value="ст." lemma="ст." tags="noun:inanim:n:v_mis:nv:abbr:xp2" />
@@ -896,6 +908,7 @@
   <token value="майбутньому" lemma="майбутнє" tags="noun:inanim:n:v_mis" />
   <token value="." lemma="." tags="punct" />
 </sentence>
+<paragraph/>
 <sentence>
   <token value="Порівняно" lemma="порівняно" tags="adv" />
   <token value="зі" lemma="зі" tags="prep" />
@@ -969,6 +982,7 @@
 <format tag="/i"/>
   <token value="." lemma="." tags="punct" />
 </sentence>
+<paragraph/>
 <sentence>
   <token value="З" lemma="з" tags="prep" />
   <token value="огляду" lemma="огляд" tags="noun:inanim:m:v_rod" />

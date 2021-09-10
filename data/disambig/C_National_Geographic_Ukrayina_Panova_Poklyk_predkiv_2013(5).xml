@@ -241,6 +241,7 @@
   <token value="надірватися" lemma="надірватися" tags="verb:rev:perf:inf" />
   <token value="." lemma="." tags="punct" />
 </sentence>
+<paragraph/>
 <sentence>
   <token value="На" lemma="на" tags="prep" />
   <token value="питання" lemma="питання" tags="noun:inanim:p:v_zna" />
@@ -275,8 +276,11 @@
   <token value="." lemma="." tags="punct" />
 </sentence>
 <sentence>
-  <token value="Поки" lemma="поки" tags="adv:&amp;pron:int:rel" />
-  <token value="люди" lemma="людина" tags="noun:anim:p:v_naz" />
+  <token value="Поки" lemma="поки" tags="adv:&amp;pron:int:rel" >
+    <alts>
+      <token value="Поки" lemma="поки" tags="conj:subord" />
+    </alts>
+  </token>  <token value="люди" lemma="людина" tags="noun:anim:p:v_naz" />
   <token value="не" lemma="не" tags="part" />
   <token value="замислюються" lemma="замислюватися" tags="verb:rev:imperf:pres:p:3" />
   <token value="," lemma="," tags="punct" />

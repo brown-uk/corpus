@@ -96,7 +96,7 @@
   <token value=")" lemma=")" tags="punct" />
   <token value="і" lemma="і" tags="conj:coord" />
   <token value="Рада" lemma="Рада" tags="noun:inanim:f:v_naz:prop" />
-  <token value="Ліги" lemma="ліга" tags="noun:inanim:p:v_rod:prop" />
+  <token value="Ліги" lemma="Ліга" tags="noun:inanim:f:v_rod:prop" />
   <token value="," lemma="," tags="punct" />
   <token value="а" lemma="а" tags="conj:coord" />
   <token value="штаб-квартирою" lemma="штаб-квартира" tags="noun:inanim:f:v_oru" />
@@ -107,7 +107,7 @@
 </sentence>
 <sentence>
   <token value="Рада" lemma="Рада" tags="noun:inanim:f:v_naz:prop" />
-  <token value="Ліги" lemma="ліга" tags="noun:inanim:f:v_rod:prop" />
+  <token value="Ліги" lemma="Ліга" tags="noun:inanim:f:v_rod:prop" />
   <token value="мала" lemma="мати" tags="verb:imperf:past:f" />
   <token value="складатися" lemma="складатися" tags="verb:rev:imperf:inf" />
   <token value="з" lemma="з" tags="prep" />
@@ -206,16 +206,19 @@
   <token value="організації" lemma="організація" tags="noun:inanim:f:v_rod" />
   <token value="." lemma="." tags="punct" />
 </sentence>
+<paragraph/>
 <sentence>
+<format tag="b"/>
   <token value="3" lemma="3" tags="number" />
   <token value="." lemma="." tags="punct" />
+<format tag="/b"/>
 </sentence>
 <sentence>
   <token value="Версальський" lemma="версальський" tags="adj:m:v_naz" />
   <token value="мирний" lemma="мирний" tags="adj:m:v_naz:compb" />
   <token value="договір" lemma="договір" tags="noun:inanim:m:v_naz" />
   <token value="." lemma="." tags="punct" />
-  <token value="b" lemma="b" tags="noninfl:foreign" />
+  <token value="b" lemma="b" tags="unclass" />
   <token value="У" lemma="у" tags="prep" />
   <token value="квітні" lemma="квітень" tags="noun:inanim:m:v_mis" />
 <format tag="b"/>
@@ -276,6 +279,7 @@
   <token value="договір" lemma="договір" tags="noun:inanim:m:v_zna" />
   <token value="." lemma="." tags="punct" />
 </sentence>
+<paragraph/>
 <sentence>
   <token value="Німеччину" lemma="Німеччина" tags="noun:inanim:f:v_zna:prop:geo" />
   <token value="було" lemma="бути" tags="verb:imperf:past:n:&amp;insert" />
@@ -373,6 +377,7 @@
   <token value="Силезії" lemma="Силезія" tags="noun:inanim:f:v_rod:prop:geo" />
   <token value="." lemma="." tags="punct" />
 </sentence>
+<paragraph/>
 <sentence>
   <token value="Німеччина" lemma="Німеччина" tags="noun:inanim:f:v_naz:prop:geo" />
   <token value="зобов'язувалася" lemma="зобов'язуватися" tags="verb:rev:imperf:past:f" />
@@ -469,8 +474,9 @@
   <token value="території" lemma="територія" tags="noun:inanim:f:v_rod" />
   <token value="." lemma="." tags="punct" />
 </sentence>
+<paragraph/>
 <sentence>
-  <token value="згідно" lemma="згідно" tags="adv:compb" />
+  <token value="Згідно" lemma="згідно" tags="adv:compb" />
   <token value="з" lemma="з" tags="prep" />
   <token value="договором" lemma="договір" tags="noun:inanim:m:v_oru" />
   <token value="," lemma="," tags="punct" />
@@ -502,6 +508,7 @@
   <token value="домініонами" lemma="домініон" tags="noun:inanim:p:v_oru" />
   <token value="." lemma="." tags="punct" />
 </sentence>
+<paragraph/>
 <sentence>
   <token value="Договір" lemma="договір" tags="noun:inanim:m:v_naz" />
   <token value="передбачав" lemma="передбачати" tags="verb:imperf:past:m" />
@@ -557,6 +564,7 @@
   <token value="тощо" lemma="тощо" tags="part" />
   <token value="." lemma="." tags="punct" />
 </sentence>
+<paragraph/>
 <sentence>
   <token value="Німеччина" lemma="Німеччина" tags="noun:inanim:f:v_naz:prop:geo" />
   <token value="зобов'язувалася" lemma="зобов'язуватися" tags="verb:rev:imperf:past:f" />

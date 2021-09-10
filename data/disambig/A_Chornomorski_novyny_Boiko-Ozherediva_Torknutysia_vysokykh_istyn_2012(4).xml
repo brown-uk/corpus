@@ -34,7 +34,7 @@
   <token value="радість" lemma="радість" tags="noun:inanim:f:v_zna" />
   <token value="." lemma="." tags="punct" />
 </sentence>
-<format tag="/b"/>
+<paragraph/>
 <sentence>
   <token value="Побувавши" lemma="побувавши" tags="advp:perf" />
   <token value="кілька" lemma="кілька" tags="numr:p:v_naz:&amp;pron:ind" />
@@ -64,7 +64,9 @@
   <token value="світлу" lemma="світлий" tags="adj:f:v_zna:compb" />
   <token value="радість" lemma="радість" tags="noun:inanim:f:v_zna" />
   <token value="." lemma="." tags="punct" />
+<format tag="/b"/>
 </sentence>
+<paragraph/>
 <sentence>
   <token value="Тільки-но" lemma="тільки-но" tags="part" />
   <token value="увійшовши" lemma="увійшовши" tags="advp:perf" />
@@ -117,6 +119,7 @@
   <token value="байдужими" lemma="байдужий" tags="adj:p:v_oru:compb" />
   <token value="." lemma="." tags="punct" />
 </sentence>
+<paragraph/>
 <sentence>
   <token value="Минуло" lemma="минути" tags="verb:perf:past:n" />
   <token value="133" lemma="133" tags="number" />
@@ -201,6 +204,7 @@
   <token value="взаєморозуміння" lemma="взаєморозуміння" tags="noun:inanim:n:v_rod" />
   <token value="." lemma="." tags="punct" />
 </sentence>
+<paragraph/>
 <sentence>
   <token value="Дворянського" lemma="дворянський" tags="adj:n:v_rod" />
   <token value="походження" lemma="походження" tags="noun:inanim:n:v_rod" />
@@ -213,8 +217,11 @@
   <token value="." lemma="." tags="punct" />
 </sentence>
 <sentence>
-  <token value="Проте" lemma="проте" tags="adv" />
-  <token value="не" lemma="не" tags="part" />
+  <token value="Проте" lemma="проте" tags="adv" >
+    <alts>
+      <token value="Проте" lemma="проте" tags="conj:coord" />
+    </alts>
+  </token>  <token value="не" lemma="не" tags="part" />
   <token value="цуралася" lemma="цуратися" tags="verb:rev:imperf:past:f" />
   <token value="тяжкої" lemma="тяжкий" tags="adj:f:v_rod:compb" />
   <token value="праці" lemma="праця" tags="noun:inanim:f:v_rod" />
@@ -259,6 +266,7 @@
   <token value="духовного" lemma="духовний" tags="adj:n:v_rod:compb" />
   <token value="." lemma="." tags="punct" />
 </sentence>
+<paragraph/>
 <sentence>
   <token value="Світла" lemma="світло" tags="noun:inanim:n:v_rod" />
   <token value="до" lemma="до" tags="prep" />
@@ -310,6 +318,7 @@
   <token value="подих" lemma="подих" tags="noun:inanim:m:v_zna" />
   <token value="." lemma="." tags="punct" />
 </sentence>
+<paragraph/>
 <sentence>
   <token value="Кількома" lemma="кілька" tags="numr:p:v_oru:&amp;pron:ind" />
   <token value="тижнями" lemma="тиждень" tags="noun:inanim:p:v_oru" />
@@ -364,6 +373,7 @@
   <token value="митців" lemma="митець" tags="noun:anim:p:v_rod" />
   <token value="." lemma="." tags="punct" />
 </sentence>
+<paragraph/>
 <sentence>
   <token value="У" lemma="у" tags="prep" />
   <token value="березні" lemma="березень" tags="noun:inanim:m:v_mis" />
@@ -403,6 +413,7 @@
   <token value=")" lemma=")" tags="punct" />
   <token value="." lemma="." tags="punct" />
 </sentence>
+<paragraph/>
 <sentence>
   <token value="Не" lemma="не" tags="part" />
   <token value="відкидати" lemma="відкидати" tags="verb:imperf:inf:xp1" />

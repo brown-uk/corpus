@@ -7,14 +7,14 @@
   <title>Грація українського лісу</title>
   <publ_in>Лісовий і мисливський журнал</publ_in>
   <url></url>
-  <publ_part>1</publ_part>
+  <publ_part>2</publ_part>
   <publ_place>Київ</publ_place>
   <publisher></publisher>
   <year>2012</year>
-  <pages>34</pages>
-  <length>530</length>
+  <pages>28-29</pages>
+  <length>332</length>
   <alt_orth>0</alt_orth>
-  <errors>їх стрілецької підготовки - їхнього стрілецького вишколу; їх голоси - їхні голоси</errors>
+  <errors>шротом - шротом,; ведучої - провідної</errors>
   <comments></comments>
 </meta>
 <body>
@@ -62,6 +62,7 @@
   <token value="статті" lemma="стаття" tags="noun:inanim:f:v_mis" />
   <token value="." lemma="." tags="punct" />
 </sentence>
+<paragraph/>
 <sentence>
 <format tag="emphasis"/>
   <token value="Зброя" lemma="зброя" tags="noun:inanim:f:v_naz" />
@@ -75,6 +76,9 @@
   <token value="на" lemma="на" tags="prep" />
   <token value="козулю" lemma="козуля" tags="noun:anim:f:v_zna" />
 <format tag="/emphasis"/>
+</sentence>
+<paragraph/>
+<sentence>
   <token value="До" lemma="до" tags="prep" />
   <token value="прийняття" lemma="прийняття" tags="noun:inanim:n:v_rod" />
   <token value="Закону" lemma="закон" tags="noun:inanim:m:v_rod" />
@@ -143,6 +147,7 @@
 <format tag="/emphasis"/>
   <token value="." lemma="." tags="punct" />
 </sentence>
+<paragraph/>
 <sentence>
   <token value="Тому" lemma="тому" tags="adv" />
   <token value="," lemma="," tags="punct" />
@@ -175,6 +180,7 @@
   <token value="зброї" lemma="зброя" tags="noun:inanim:f:v_rod" />
   <token value="." lemma="." tags="punct" />
 </sentence>
+<paragraph/>
 <sentence>
   <token value="У" lemma="у" tags="prep" />
   <token value="Росії" lemma="Росія" tags="noun:inanim:f:v_mis:prop:geo" />
@@ -286,6 +292,7 @@
   <token value="Дж" lemma="Дж" tags="noun:inanim:m:v_rod:nv:abbr" />
   <token value="." lemma="." tags="punct" />
 </sentence>
+<paragraph/>
 <sentence>
   <token value="У" lemma="у" tags="prep" />
   <token value="цьому" lemma="цей" tags="adj:m:v_mis:&amp;pron:dem" />
@@ -334,13 +341,13 @@
   <token value="від" lemma="від" tags="prep" />
   <token value="222" lemma="222" tags="number" />
 <format tag="foreign"/>
-  <token value="Rem" lemma="Rem" tags="noninfl:foreign" />
+  <token value="Rem" lemma="Rem" tags="unclass" />
 <format tag="/foreign"/>
   <token value="." lemma="." tags="punct" />
   <token value="до" lemma="до" tags="prep" />
   <token value="8х57" lemma="8х57" tags="null" />
 <format tag="foreign"/>
-  <token value="IS" lemma="IS" tags="noninfl:foreign" />
+  <token value="IS" lemma="IS" tags="unclass" />
 <format tag="/foreign"/>
   <token value="." lemma="." tags="punct" />
 </sentence>
@@ -369,7 +376,7 @@
   <token value="застосовувати" lemma="застосовувати" tags="verb:imperf:inf" />
   <token value="для" lemma="для" tags="prep" />
   <token value="добування" lemma="добування" tags="noun:inanim:n:v_rod" />
-  <token value="ще" lemma="ще" tags="part" />
+  <token value="ще" lemma="ще" tags="adv" />
   <token value="й" lemma="й" tags="part" />
   <token value="більших" lemma="більший" tags="adj:p:v_rod:compc" />
   <token value="тварин" lemma="тварина" tags="noun:anim:p:v_rod:xp1" />
@@ -388,27 +395,28 @@
   <token value="," lemma="," tags="punct" />
   <token value="308" lemma="308" tags="number" />
 <format tag="foreign"/>
-  <token value="Win" lemma="Win" tags="noninfl:foreign" />
+  <token value="Win" lemma="Win" tags="unclass" />
 <format tag="/foreign"/>
   <token value="." lemma="." tags="punct" />
   <token value="," lemma="," tags="punct" />
   <token value="270" lemma="270" tags="number" />
 <format tag="foreign"/>
-  <token value="Win" lemma="Win" tags="noninfl:foreign" />
+  <token value="Win" lemma="Win" tags="unclass" />
 <format tag="/foreign"/>
   <token value="." lemma="." tags="punct" />
   <token value="," lemma="," tags="punct" />
   <token value="7" lemma="7" tags="number" />
 <format tag="foreign"/>
-  <token value="mm" lemma="mm" tags="noninfl:foreign" />
-  <token value="Rem" lemma="Rem" tags="noninfl:foreign" />
+  <token value="mm" lemma="mm" tags="unclass" />
+  <token value="Rem" lemma="Rem" tags="unclass" />
   <token value="." lemma="." tags="punct" />
 </sentence>
 <sentence>
-  <token value="Mag" lemma="Mag" tags="noninfl:foreign" />
+  <token value="Mag" lemma="Mag" tags="unclass" />
 <format tag="/foreign"/>
   <token value="." lemma="." tags="punct" />
 </sentence>
+<paragraph/>
 <sentence>
   <token value="Нині" lemma="нині" tags="adv" />
   <token value="досить" lemma="досить" tags="adv:&amp;predic" />
@@ -417,7 +425,7 @@
   <token value="патрон" lemma="патрон" tags="noun:inanim:m:v_naz:xp2" />
   <token value="223" lemma="223" tags="number" />
 <format tag="foreign"/>
-  <token value="Rem" lemma="Rem" tags="noninfl:foreign" />
+  <token value="Rem" lemma="Rem" tags="unclass" />
 <format tag="/foreign"/>
   <token value="." lemma="." tags="punct" />
   <token value="," lemma="," tags="punct" />

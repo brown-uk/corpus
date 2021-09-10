@@ -31,6 +31,8 @@
   <token value="регіону" lemma="регіон" tags="noun:inanim:m:v_rod" />
   <token value="." lemma="." tags="punct" />
 <format tag="/b"/>
+</sentence>
+<sentence>
   <token value="Африка" lemma="Африка" tags="noun:inanim:f:v_naz:prop:geo" />
   <token value="–" lemma="–" tags="punct" />
   <token value="другий" lemma="другий" tags="adj:m:v_naz:&amp;numr" />
@@ -119,6 +121,7 @@
   <token value="умов" lemma="умова" tags="noun:inanim:p:v_rod" />
   <token value="." lemma="." tags="punct" />
 </sentence>
+<paragraph/>
 <sentence>
   <token value="Серед" lemma="серед" tags="prep" />
   <token value="країн" lemma="країна" tags="noun:inanim:p:v_rod" />
@@ -201,6 +204,7 @@
   <token value="їх" lemma="вони" tags="noun:unanim:p:v_rod:&amp;pron:pers:3" />
   <token value="." lemma="." tags="punct" />
 </sentence>
+<paragraph/>
 <sentence>
   <token value="На" lemma="на" tags="prep" />
   <token value="основі" lemma="основа" tags="noun:inanim:f:v_mis" />
@@ -233,12 +237,17 @@
   <token value="державних" lemma="державний" tags="adj:p:v_rod" />
   <token value="утворень" lemma="утворення" tags="noun:inanim:p:v_rod" />
   <token value="." lemma="." tags="punct" />
+</sentence>
+<paragraph/>
+<sentence>
 <format tag="emphasis"/>
   <token value="Сучасна" lemma="сучасний" tags="adj:f:v_naz:compb" />
   <token value="політична" lemma="політичний" tags="adj:f:v_naz" />
   <token value="карта" lemma="карта" tags="noun:inanim:f:v_naz" />
   <token value="." lemma="." tags="punct" />
 <format tag="/emphasis"/>
+</sentence>
+<sentence>
   <token value="Перші" lemma="перший" tags="adj:p:v_naz:compb:&amp;numr" />
   <token value="держави" lemma="держава" tags="noun:inanim:p:v_naz" />
   <token value="–" lemma="–" tags="punct" />
@@ -352,6 +361,9 @@
   <token value="Ліберія" lemma="Ліберія" tags="noun:inanim:f:v_naz:prop:geo" />
   <token value="." lemma="." tags="punct" />
 <format tag="/i"/>
+</sentence>
+<paragraph/>
+<sentence>
   <token value="Процес" lemma="процес" tags="noun:inanim:m:v_naz" />
   <token value="звільнення" lemma="звільнення" tags="noun:inanim:n:v_rod" />
   <token value="африканських" lemma="африканський" tags="adj:p:v_rod" />
@@ -388,6 +400,8 @@
   <token value="світової" lemma="світовий" tags="adj:f:v_rod" />
   <token value="війни" lemma="війна" tags="noun:inanim:f:v_rod" />
   <token value="." lemma="." tags="punct" />
+</sentence>
+<sentence>
   <token value="1960" lemma="1960" tags="number" />
   <token value="рік" lemma="рік" tags="noun:inanim:m:v_naz" />
   <token value="в" lemma="в" tags="prep" />
@@ -406,6 +420,7 @@
   <token value="країн" lemma="країна" tags="noun:inanim:p:v_rod" />
   <token value="." lemma="." tags="punct" />
 </sentence>
+<paragraph/>
 <sentence>
   <token value="Нині" lemma="нині" tags="adv" />
   <token value="практично" lemma="практично" tags="adv:compb" />
@@ -420,10 +435,12 @@
   <token value="здобули" lemma="здобути" tags="verb:perf:past:p" />
   <token value="незалежність" lemma="незалежність" tags="noun:inanim:f:v_zna" />
   <token value="у" lemma="у" tags="prep" />
-  <token value="другій" lemma="друга" tags="noun:inanim:f:v_mis" />
+  <token value="другій" lemma="другий" tags="adj:f:v_mis:&amp;numr" />
   <token value="половині" lemma="половина" tags="noun:inanim:f:v_mis" />
   <token value="XX" lemma="XX" tags="number:latin" />
   <token value="ст." lemma="ст." tags="noun:inanim:n:v_rod:nv:abbr:xp2" />
+</sentence>
+<sentence>
   <token value="На" lemma="на" tags="prep" />
   <token value="сучасній" lemma="сучасний" tags="adj:f:v_mis:compb" />
   <token value="політичній" lemma="політичний" tags="adj:f:v_mis" />
@@ -596,6 +613,7 @@
   <token value="територія" lemma="територія" tags="noun:inanim:f:v_naz" />
   <token value="." lemma="." tags="punct" />
 </sentence>
+<paragraph/>
 <sentence>
   <token value="На" lemma="на" tags="prep" />
   <token value="жаль" lemma="жаль" tags="noun:inanim:m:v_zna" />

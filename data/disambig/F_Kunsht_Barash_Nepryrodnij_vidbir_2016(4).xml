@@ -14,7 +14,7 @@
   <pages>26–31</pages>
   <length>1283</length>
   <alt_orth>0</alt_orth>
-  <errors>рішенням - розв’язком; пересадка - пересаджування; Незважаючи на - Попри</errors>
+  <errors>рішенням - розв&apos;язком; пересадка - пересаджування; Незважаючи на - Попри</errors>
   <comments></comments>
 </meta>
 <body>
@@ -50,6 +50,7 @@
   <token value="фактори" lemma="фактор" tags="noun:inanim:p:v_zna:xp2" />
   <token value="." lemma="." tags="punct" />
 </sentence>
+<paragraph/>
 <sentence>
   <token value="За" lemma="за" tags="prep" />
   <token value="епідеміологічними" lemma="епідеміологічний" tags="adj:p:v_oru" />
@@ -78,7 +79,7 @@
   <token value="в" lemma="в" tags="prep" />
   <token value="жінок" lemma="жінка" tags="noun:anim:p:v_rod" />
   <token value="," lemma="," tags="punct" />
-  <token value="ще" lemma="ще" tags="part" />
+  <token value="ще" lemma="ще" tags="adv" />
   <token value="у" lemma="у" tags="prep" />
   <token value="40%" lemma="40%" tags="number" />
   <token value="причиною" lemma="причина" tags="noun:inanim:f:v_oru" />
@@ -109,6 +110,7 @@
   <token value="можуть" lemma="могти" tags="verb:imperf:pres:p:3" />
   <token value="." lemma="." tags="punct" />
 </sentence>
+<paragraph/>
 <sentence>
   <token value="В" lemma="в" tags="prep" />
   <token value="Україні" lemma="Україна" tags="noun:inanim:f:v_mis:prop:geo" />
@@ -139,7 +141,7 @@
   <token value="неминучі" lemma="неминучий" tags="adj:p:v_zna:rinanim" />
   <token value="(" lemma="(" tags="punct" />
   <token value="та" lemma="та" tags="part" />
-  <token value="ще" lemma="ще" tags="part" />
+  <token value="ще" lemma="ще" tags="adv" />
   <token value="й" lemma="й" tags="part" />
   <token value="значні" lemma="значний" tags="adj:p:v_zna:rinanim:compb" />
   <token value=")" lemma=")" tags="punct" />
@@ -185,6 +187,7 @@
   <token value="циклів" lemma="цикл" tags="noun:inanim:p:v_rod" />
   <token value="." lemma="." tags="punct" />
 </sentence>
+<paragraph/>
 <sentence>
   <token value="Інтерес" lemma="інтерес" tags="noun:inanim:m:v_naz" />
   <token value="до" lemma="до" tags="prep" />
@@ -250,8 +253,8 @@
   <token value="допоміжного" lemma="допоміжний" tags="adj:m:v_rod" />
   <token value="запліднення" lemma="запліднення" tags="noun:inanim:n:v_rod" />
 <format tag="foreign"/>
-  <token value="in" lemma="in" tags="noninfl:foreign" />
-  <token value="vitro" lemma="vitro" tags="noninfl:foreign" />
+  <token value="in" lemma="in" tags="unclass" />
+  <token value="vitro" lemma="vitro" tags="unclass" />
 <format tag="/foreign"/>
   <token value="(" lemma="(" tags="punct" />
   <token value="з" lemma="з" tags="prep" />
@@ -308,12 +311,13 @@
   <token value="усиновлення" lemma="усиновлення" tags="noun:inanim:n:v_naz" />
   <token value="." lemma="." tags="punct" />
 </sentence>
+<paragraph/>
 <sentence>
   <token value="Процес" lemma="процес" tags="noun:inanim:m:v_naz" />
   <token value="запліднення" lemma="запліднення" tags="noun:inanim:n:v_rod" />
 <format tag="foreign"/>
-  <token value="in" lemma="in" tags="noninfl:foreign" />
-  <token value="vitro" lemma="vitro" tags="noninfl:foreign" />
+  <token value="in" lemma="in" tags="unclass" />
+  <token value="vitro" lemma="vitro" tags="unclass" />
 <format tag="/foreign"/>
   <token value="зазвичай" lemma="зазвичай" tags="adv" />
   <token value="складається" lemma="складатися" tags="verb:rev:imperf:pres:s:3" />
@@ -353,6 +357,7 @@
   <token value="матки" lemma="матка" tags="noun:inanim:f:v_rod:xp3" />
   <token value="." lemma="." tags="punct" />
 </sentence>
+<paragraph/>
 <sentence>
   <token value="Перший" lemma="перший" tags="adj:m:v_naz:compb:&amp;numr" />
   <token value="клітинний" lemma="клітинний" tags="adj:m:v_naz" />
@@ -472,6 +477,7 @@
   <token value="генотип" lemma="генотип" tags="noun:inanim:m:v_zna" />
   <token value="." lemma="." tags="punct" />
 </sentence>
+<paragraph/>
 <sentence>
   <token value="На" lemma="на" tags="prep" />
   <token value="сьогодні" lemma="сьогодні" tags="adv" />
@@ -528,6 +534,7 @@
   <token value="матки" lemma="матка" tags="noun:inanim:f:v_rod:xp3" />
   <token value="." lemma="." tags="punct" />
 </sentence>
+<paragraph/>
 <sentence>
   <token value="Одним" lemma="один" tags="adj:m:v_oru:&amp;pron:dem:ind" />
   <token value="із" lemma="із" tags="prep" />
@@ -539,8 +546,8 @@
   <token value="отримання" lemma="отримання" tags="noun:inanim:n:v_rod" />
   <token value="ембріонів" lemma="ембріон" tags="noun:inanim:p:v_rod" />
 <format tag="foreign"/>
-  <token value="in" lemma="in" tags="noninfl:foreign" />
-  <token value="vitro" lemma="vitro" tags="noninfl:foreign" />
+  <token value="in" lemma="in" tags="unclass" />
+  <token value="vitro" lemma="vitro" tags="unclass" />
 <format tag="/foreign"/>
   <token value="за" lemma="за" tags="prep" />
   <token value="наявності" lemma="наявність" tags="noun:inanim:f:v_rod" />
@@ -552,14 +559,14 @@
   <token value="став" lemma="стати" tags="verb:perf:past:m" />
   <token value="метод" lemma="метод" tags="noun:inanim:m:v_naz" />
 <format tag="foreign"/>
-  <token value="ICSI" lemma="ICSI" tags="noninfl:foreign" />
+  <token value="ICSI" lemma="ICSI" tags="unclass" />
 <format tag="/foreign"/>
   <token value="(" lemma="(" tags="punct" />
   <token value="англ." lemma="англ." tags="adj:f:v_oru:nv:abbr" />
 <format tag="foreign"/>
-  <token value="intracytoplasmic" lemma="intracytoplasmic" tags="noninfl:foreign" />
-  <token value="sperm" lemma="sperm" tags="noninfl:foreign" />
-  <token value="injection" lemma="injection" tags="noninfl:foreign" />
+  <token value="intracytoplasmic" lemma="intracytoplasmic" tags="unclass" />
+  <token value="sperm" lemma="sperm" tags="unclass" />
+  <token value="injection" lemma="injection" tags="unclass" />
 <format tag="/foreign"/>
   <token value=")" lemma=")" tags="punct" />
   <token value="—" lemma="—" tags="punct" />
@@ -606,7 +613,7 @@
   <token value="Завдяки" lemma="завдяки" tags="prep" />
   <token value="використанню" lemma="використання" tags="noun:inanim:n:v_dav" />
 <format tag="foreign"/>
-  <token value="ICSI" lemma="ICSI" tags="noninfl:foreign" />
+  <token value="ICSI" lemma="ICSI" tags="unclass" />
 <format tag="/foreign"/>
   <token value="з'явилася" lemma="з'явитися" tags="verb:rev:perf:past:f" />
   <token value="можливість" lemma="можливість" tags="noun:inanim:f:v_naz" />
@@ -624,10 +631,11 @@
   <token value="сперматогенезу" lemma="сперматогенез" tags="noun:inanim:m:v_rod" />
   <token value="." lemma="." tags="punct" />
 </sentence>
+<paragraph/>
 <sentence>
   <token value="Методика" lemma="методика" tags="noun:inanim:f:v_naz" />
 <format tag="foreign"/>
-  <token value="ICSI" lemma="ICSI" tags="noninfl:foreign" />
+  <token value="ICSI" lemma="ICSI" tags="unclass" />
 <format tag="/foreign"/>
   <token value="як" lemma="як" tags="adv:&amp;pron:int:rel" />
   <token value="спосіб" lemma="спосіб" tags="noun:inanim:m:v_naz" />
@@ -657,7 +665,7 @@
 <sentence>
   <token value="Основою" lemma="основа" tags="noun:inanim:f:v_oru" />
 <format tag="foreign"/>
-  <token value="ICSI" lemma="ICSI" tags="noninfl:foreign" />
+  <token value="ICSI" lemma="ICSI" tags="unclass" />
 <format tag="/foreign"/>
   <token value="є" lemma="бути" tags="verb:imperf:pres:s:3" />
   <token value="механічне" lemma="механічний" tags="adj:n:v_naz" />
@@ -709,7 +717,7 @@
   <token value="При" lemma="при" tags="prep" />
   <token value="застосуванні" lemma="застосування" tags="noun:inanim:n:v_mis" />
 <format tag="foreign"/>
-  <token value="ICSI" lemma="ICSI" tags="noninfl:foreign" />
+  <token value="ICSI" lemma="ICSI" tags="unclass" />
 <format tag="/foreign"/>
   <token value="усувається" lemma="усуватися" tags="verb:rev:imperf:pres:s:3" />
   <token value="декілька" lemma="декілька" tags="numr:p:v_zna:&amp;pron:ind" />
@@ -764,6 +772,7 @@
   <token value="нащадкам" lemma="нащадок" tags="noun:anim:p:v_dav:xp1" />
   <token value="." lemma="." tags="punct" />
 </sentence>
+<paragraph/>
 <sentence>
   <token value="Слід" lemma="слід" tags="noninfl:&amp;predic" />
   <token value="також" lemma="також" tags="adv:&amp;insert" />
@@ -771,7 +780,7 @@
   <token value="," lemma="," tags="punct" />
   <token value="що" lemma="що" tags="conj:subord" />
 <format tag="foreign"/>
-  <token value="ICSI" lemma="ICSI" tags="noninfl:foreign" />
+  <token value="ICSI" lemma="ICSI" tags="unclass" />
 <format tag="/foreign"/>
   <token value="—" lemma="—" tags="punct" />
   <token value="це" lemma="це" tags="noun:inanim:n:v_naz:&amp;pron:dem" />
@@ -823,6 +832,7 @@
   <token value="дослідник" lemma="дослідник" tags="noun:anim:m:v_naz" />
   <token value="." lemma="." tags="punct" />
 </sentence>
+<paragraph/>
 <sentence>
   <token value="Кількість" lemma="кількість" tags="noun:inanim:f:v_naz" />
   <token value="яйцеклітин" lemma="яйцеклітина" tags="noun:inanim:p:v_rod" />
@@ -924,6 +934,7 @@
   <token value="матки" lemma="матка" tags="noun:inanim:f:v_rod:xp3" />
   <token value="." lemma="." tags="punct" />
 </sentence>
+<paragraph/>
 <sentence>
   <token value="Протягом" lemma="протягом" tags="adv" />
   <token value="останніх" lemma="останній" tags="adj:p:v_rod:compb" />
@@ -1027,6 +1038,7 @@
   <token value="вагітністю" lemma="вагітність" tags="noun:inanim:f:v_oru" />
   <token value="." lemma="." tags="punct" />
 </sentence>
+<paragraph/>
 <sentence>
   <token value="Фундаментальною" lemma="фундаментальний" tags="adj:f:v_oru:compb" />
   <token value="парадигмою" lemma="парадигма" tags="noun:inanim:f:v_oru" />
@@ -1065,6 +1077,7 @@
   <token value="лабораторії" lemma="лабораторія" tags="noun:inanim:f:v_mis" />
   <token value="." lemma="." tags="punct" />
 </sentence>
+<paragraph/>
 <sentence>
   <token value="Дослідження" lemma="дослідження" tags="noun:inanim:p:v_naz" />
   <token value="," lemma="," tags="punct" />
@@ -1195,6 +1208,7 @@
   <token value="вагітності" lemma="вагітність" tags="noun:inanim:f:v_rod" />
   <token value="." lemma="." tags="punct" />
 </sentence>
+<paragraph/>
 <sentence>
   <token value="Причиною" lemma="причина" tags="noun:inanim:f:v_oru" />
   <token value="збільшення" lemma="збільшення" tags="noun:inanim:n:v_rod" />
@@ -1263,6 +1277,7 @@
   <token value="життя" lemma="життя" tags="noun:inanim:n:v_rod" />
   <token value="." lemma="." tags="punct" />
 </sentence>
+<paragraph/>
 <sentence>
   <token value="Теоретично" lemma="теоретично" tags="adv" />
   <token value="," lemma="," tags="punct" />
@@ -1351,8 +1366,8 @@
   <token value="аномалій" lemma="аномалія" tags="noun:inanim:p:v_rod" />
   <token value="утворюються" lemma="утворюватися" tags="verb:rev:imperf:pres:p:3" />
 <format tag="foreign"/>
-  <token value="de" lemma="de" tags="noninfl:foreign" />
-  <token value="novo" lemma="novo" tags="noninfl:foreign" />
+  <token value="de" lemma="de" tags="unclass" />
+  <token value="novo" lemma="novo" tags="unclass" />
 <format tag="/foreign"/>
   <token value="(" lemma="(" tags="punct" />
   <token value="після" lemma="після" tags="prep" />
@@ -1374,6 +1389,7 @@
   <token value="субкомпонентів" lemma="субкомпонент" tags="noun:inanim:p:v_rod" />
   <token value="." lemma="." tags="punct" />
 </sentence>
+<paragraph/>
 <sentence>
   <token value="Вдосконалення" lemma="вдосконалення" tags="noun:inanim:n:v_naz" />
   <token value="методів" lemma="метод" tags="noun:inanim:p:v_rod" />
@@ -1383,8 +1399,8 @@
   <token value="культивування" lemma="культивування" tags="noun:inanim:n:v_rod" />
   <token value="ембріонів" lemma="ембріон" tags="noun:inanim:p:v_rod" />
 <format tag="foreign"/>
-  <token value="in" lemma="in" tags="noninfl:foreign" />
-  <token value="vitro" lemma="vitro" tags="noninfl:foreign" />
+  <token value="in" lemma="in" tags="unclass" />
+  <token value="vitro" lemma="vitro" tags="unclass" />
 <format tag="/foreign"/>
   <token value="сприяло" lemma="сприяти" tags="verb:imperf:past:n" />
   <token value="формуванню" lemma="формування" tags="noun:inanim:n:v_dav" />
@@ -1489,6 +1505,7 @@
   <token value="технологій" lemma="технологія" tags="noun:inanim:p:v_rod" />
   <token value="." lemma="." tags="punct" />
 </sentence>
+<paragraph/>
 <sentence>
   <token value="Для" lemma="для" tags="prep" />
   <token value="встановлення" lemma="встановлення" tags="noun:inanim:n:v_rod" />
@@ -1536,6 +1553,7 @@
   <token value="результати" lemma="результат" tags="noun:inanim:p:v_zna" />
   <token value="." lemma="." tags="punct" />
 </sentence>
+<paragraph/>
 <sentence>
   <token value="Зниження" lemma="зниження" tags="noun:inanim:n:v_naz" />
   <token value="вартості" lemma="вартість" tags="noun:inanim:f:v_rod" />
@@ -1595,6 +1613,7 @@
   <token value="ембріонів" lemma="ембріон" tags="noun:inanim:p:v_rod" />
   <token value="." lemma="." tags="punct" />
 </sentence>
+<paragraph/>
 <sentence>
   <token value="Секвенувавши" lemma="секвенувавши" tags="advp:perf" />
   <token value="ДНК" lemma="ДНК" tags="noun:inanim:f:v_rod:nv:abbr" />
