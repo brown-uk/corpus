@@ -1203,6 +1203,7 @@
   <token value="1,95" lemma="1,95" tags="number" />
   <token value="." lemma="." tags="punct" />
 </sentence>
+<format tag="br"/>
 <sentence>
   <token value="2" lemma="2" tags="number" />
   <token value="." lemma="." tags="punct" />
@@ -1509,6 +1510,7 @@
   <token value="?" lemma="?" tags="punct" />
 </sentence>
 <paragraph/>
+<format tag="br"/>
 <sentence>
   <token value="•" lemma="•" tags="null" />
   <token value="Чи" lemma="чи" tags="conj:coord:subord" />
@@ -1524,6 +1526,7 @@
   <token value="?" lemma="?" tags="punct" />
 </sentence>
 <paragraph/>
+<format tag="br"/>
 <sentence>
   <token value="•" lemma="•" tags="null" />
   <token value="Чи" lemma="чи" tags="conj:coord:subord" />
@@ -1864,6 +1867,9 @@
   <token value="маси" lemma="маса" tags="noun:inanim:f:v_rod" />
   <token value="тіла" lemma="тіло" tags="noun:inanim:n:v_rod" />
 <format tag="/b"/>
+</sentence>
+<paragraph/>
+<sentence>
   <token value="З" lemma="з" tags="prep" />
   <token value="огляду" lemma="огляд" tags="noun:inanim:m:v_rod" />
   <token value="на" lemma="на" tags="prep" />
@@ -1995,7 +2001,6 @@
   <token value="активності" lemma="активність" tags="noun:inanim:f:v_rod" />
   <token value="." lemma="." tags="punct" />
 </sentence>
-<paragraph/>
 <sentence>
   <token value="З" lemma="з" tags="prep" />
   <token value="огляду" lemma="огляд" tags="noun:inanim:m:v_rod" />
@@ -2036,6 +2041,7 @@
   <token value="ви" lemma="ви" tags="noun:anim:p:v_naz:&amp;pron:pers:2" />
   <token value=":" lemma=":" tags="punct" />
 <format tag="/i"/>
+<format tag="br"/>
   <token value="•" lemma="•" tags="null" />
   <token value="переконаєтесь" lemma="переконатися" tags="verb:rev:perf:futr:p:2" />
   <token value="у" lemma="у" tags="prep" />
@@ -2045,6 +2051,7 @@
   <token value="своє" lemma="свій" tags="adj:n:v_zna:&amp;pron:pos" />
   <token value="здоров'я" lemma="здоров'я" tags="noun:inanim:n:v_zna" />
   <token value=";" lemma=";" tags="punct" />
+<format tag="br"/>
   <token value="•" lemma="•" tags="null" />
   <token value="за" lemma="за" tags="prep" />
   <token value="допомогою" lemma="допомога" tags="noun:inanim:f:v_oru" />
@@ -2134,6 +2141,7 @@
   <token value="?" lemma="?" tags="punct" />
 </sentence>
 <paragraph/>
+<format tag="br"/>
 <sentence>
   <token value="•" lemma="•" tags="null" />
   <token value="Чому" lemma="чому" tags="adv:&amp;pron:int:rel" />

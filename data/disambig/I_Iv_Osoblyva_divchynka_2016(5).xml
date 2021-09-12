@@ -211,6 +211,7 @@
   <token value="шафи" lemma="шафа" tags="noun:inanim:f:v_rod" />
   <token value="." lemma="." tags="punct" />
 </sentence>
+<format tag="br"/>
 <sentence>
   <token value="—" lemma="—" tags="punct" />
   <token value="Дитино" lemma="дитина" tags="noun:anim:f:v_kly" />
@@ -515,7 +516,7 @@
   <token value="Відтоді" lemma="відтоді" tags="adv:&amp;pron:dem" />
   <token value="," lemma="," tags="punct" />
   <token value="як" lemma="як" tags="conj:subord" />
-  <token value="батьки" lemma="батьки" tags="noun:anim:p:v_naz" />
+  <token value="батьки" lemma="батьки" tags="noun:anim:p:v_naz:ns" />
   <token value="загинули" lemma="загинути" tags="verb:perf:past:p" />
   <token value="в" lemma="в" tags="prep" />
   <token value="автокатастрофі" lemma="автокатастрофа" tags="noun:inanim:f:v_mis" />
@@ -602,7 +603,7 @@
   <token value="посміхалися" lemma="посміхатися" tags="verb:rev:imperf:past:p" />
   <token value="з" lemma="з" tags="prep" />
   <token value="фотографій" lemma="фотографія" tags="noun:inanim:p:v_rod" />
-  <token value="батьки" lemma="батьки" tags="noun:anim:p:v_naz" />
+  <token value="батьки" lemma="батьки" tags="noun:anim:p:v_naz:ns" />
   <token value="," lemma="," tags="punct" />
   <token value="а" lemma="а" tags="conj:coord" />
   <token value="ще" lemma="ще" tags="adv" />
@@ -1342,7 +1343,7 @@
     </alts>
   </token>  <token value="вона" lemma="вона" tags="noun:unanim:f:v_naz:&amp;pron:pers:3" />
   <token value="з" lemma="з" tags="prep" />
-  <token value="батьками" lemma="батьки" tags="noun:anim:p:v_oru" />
+  <token value="батьками" lemma="батьки" tags="noun:anim:p:v_oru:ns" />
   <token value="робила" lemma="робити" tags="verb:imperf:past:f" />
   <token value="так" lemma="так" tags="adv:&amp;pron:dem" />
   <token value="само" lemma="само" tags="adv" />
@@ -1995,7 +1996,7 @@
   <token value="коли" lemma="коли" tags="conj:subord" />
   <token value="загинули" lemma="загинути" tags="verb:perf:past:p" />
   <token value="її" lemma="її" tags="adj:p:v_naz:nv:&amp;pron:pos" />
-  <token value="батьки" lemma="батьки" tags="noun:anim:p:v_naz" />
+  <token value="батьки" lemma="батьки" tags="noun:anim:p:v_naz:ns" />
   <token value="." lemma="." tags="punct" />
 </sentence>
 <sentence>
@@ -2435,6 +2436,9 @@
   <token value="його" lemma="його" tags="adj:f:v_zna:nv:&amp;pron:pos" />
   <token value="улюбленицю" lemma="улюблениця" tags="noun:anim:f:v_zna" />
   <token value="Рей" lemma="Рей" tags="noun:anim:f:v_zna:nv:prop:fname" />
+  <token value="." lemma="." tags="punct" />
+</sentence>
+<sentence>
   <token value="Дівчинка" lemma="дівчинка" tags="noun:anim:f:v_naz" />
   <token value="стрибала" lemma="стрибати" tags="verb:imperf:past:f" />
   <token value="від" lemma="від" tags="prep" />
