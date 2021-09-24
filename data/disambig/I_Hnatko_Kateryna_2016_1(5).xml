@@ -229,7 +229,7 @@
 </sentence>
 <sentence>
   <token value="Немов" lemma="немов" tags="conj:subord" />
-  <token value="зачарований" lemma="зачарований" tags="adj:m:v_naz:&amp;&amp;adjp:pasv:perf" />
+  <token value="зачарований" lemma="зачарований" tags="adj:m:v_naz:&amp;adjp:pasv:perf" />
   <token value="," lemma="," tags="punct" />
   <token value="застиг" lemma="застигти" tags="verb:perf:past:m" />
   <token value="посеред" lemma="посеред" tags="prep" />
@@ -542,7 +542,7 @@
   <token value="часу" lemma="час" tags="noun:inanim:m:v_rod" />
   <token value="приділяла" lemma="приділяти" tags="verb:imperf:past:f" />
   <token value="маленькому" lemma="маленький" tags="adj:m:v_dav" />
-  <token value="Богданові" lemma="Богдан" tags="noun:anim:m:v_dav:prop:fname:xp1" />
+  <token value="Богданові" lemma="Богдан" tags="noun:anim:m:v_dav:prop:fname" />
   <token value="," lemma="," tags="punct" />
   <token value="а" lemma="а" tags="conj:coord" />
   <token value="Макар" lemma="Макар" tags="noun:anim:m:v_naz:prop:fname" />
@@ -730,8 +730,9 @@
 <sentence>
   <token value="Та" lemma="та" tags="conj:coord" />
   <token value="й" lemma="й" tags="conj:coord" />
-  <token value="чи" lemma="чи" tags="conj:coord:subord" >
+  <token value="чи" lemma="чи" tags="conj:coord" >
     <alts>
+      <token value="чи" lemma="чи" tags="conj:subord" />
       <token value="чи" lemma="чи" tags="part" />
     </alts>
   </token>  <token value="винен" lemma="винний" tags="adj:m:v_naz:short" />
@@ -741,7 +742,7 @@
   <token value="," lemma="," tags="punct" />
   <token value="що" lemma="що" tags="conj:subord" />
   <token value="таким" lemma="такий" tags="adj:m:v_oru:&amp;pron:dem" />
-  <token value="жаданим" lemma="жаданий" tags="adj:m:v_oru:compb:&amp;&amp;adjp:pasv:imperf" />
+  <token value="жаданим" lemma="жаданий" tags="adj:m:v_oru:&amp;adjp:pasv:imperf:compb" />
   <token value="для" lemma="для" tags="prep" />
   <token value="жінок" lemma="жінка" tags="noun:anim:p:v_rod" />
   <token value="уродився" lemma="уродитися" tags="verb:rev:perf:past:m" />
@@ -791,7 +792,7 @@
 <sentence>
   <token value="Магда" lemma="Магда" tags="noun:anim:f:v_naz:prop:fname" />
   <token value="з" lemma="з" tags="prep" />
-  <token value="Богданом" lemma="Богдан" tags="noun:anim:m:v_oru:prop:fname:xp1" />
+  <token value="Богданом" lemma="Богдан" tags="noun:anim:m:v_oru:prop:fname" />
   <token value="жили" lemma="жити" tags="verb:imperf:past:p" />
   <token value="в" lemma="в" tags="prep" />
   <token value="Києві" lemma="Київ" tags="noun:inanim:m:v_mis:prop:geo" />
@@ -1253,11 +1254,11 @@
   <token value="," lemma="," tags="punct" />
   <token value="був" lemma="бути" tags="verb:imperf:past:m" />
   <token value="син" lemma="син" tags="noun:anim:m:v_naz" />
-  <token value="Богдан" lemma="Богдан" tags="noun:anim:m:v_naz:prop:fname:xp1" />
+  <token value="Богдан" lemma="Богдан" tags="noun:anim:m:v_naz:prop:fname" />
   <token value="." lemma="." tags="punct" />
 </sentence>
 <sentence>
-  <token value="Богдан" lemma="Богдан" tags="noun:anim:m:v_naz:prop:fname:xp1" />
+  <token value="Богдан" lemma="Богдан" tags="noun:anim:m:v_naz:prop:fname" />
   <token value="Макарович" lemma="Макарович" tags="noun:anim:m:v_naz:prop:pname" />
   <token value="Яковенко" lemma="Яковенко" tags="noun:anim:m:v_naz:prop:lname" />
   <token value="." lemma="." tags="punct" />
@@ -1283,7 +1284,7 @@
   <token value="широкий" lemma="широкий" tags="adj:m:v_naz:compb" />
   <token value="у" lemma="у" tags="prep" />
   <token value="плечах" lemma="плече" tags="noun:inanim:p:v_mis" />
-  <token value="Богдан" lemma="Богдан" tags="noun:anim:m:v_naz:prop:fname:xp1" />
+  <token value="Богдан" lemma="Богдан" tags="noun:anim:m:v_naz:prop:fname" />
   <token value="успадкував" lemma="успадкувати" tags="verb:perf:past:m" />
   <token value="уроду" lemma="урода" tags="noun:inanim:f:v_zna" />
   <token value="обох" lemma="обоє" tags="numr:p:v_rod" />
@@ -1383,7 +1384,7 @@
   <token value="козацька" lemma="козацький" tags="adj:f:v_naz" />
   <token value="кров" lemma="кров" tags="noun:inanim:f:v_naz" />
   <token value="," lemma="," tags="punct" />
-  <token value="випещеного" lemma="випещений" tags="adj:m:v_rod:&amp;&amp;adjp:pasv:perf" />
+  <token value="випещеного" lemma="випещений" tags="adj:m:v_rod:&amp;adjp:pasv:perf" />
   <token value="панича" lemma="панич" tags="noun:anim:m:v_rod" />
   <token value="," lemma="," tags="punct" />
   <token value="подобу" lemma="подоба" tags="noun:inanim:f:v_zna" />
@@ -1391,7 +1392,7 @@
   <token value="Вайди" lemma="Вайда" tags="noun:anim:m:v_rod:prop:fname" />
   <token value="Войковського" lemma="Войковський" tags="noun:anim:m:v_rod:prop:lname" />
   <token value="," lemma="," tags="punct" />
-  <token value="начитаного" lemma="начитаний" tags="adj:m:v_rod:compb:&amp;&amp;adjp:pasv:perf" />
+  <token value="начитаного" lemma="начитаний" tags="adj:m:v_rod:&amp;adjp:pasv:perf:compb" />
   <token value="," lemma="," tags="punct" />
   <token value="навченого" lemma="навчений" tags="adj:m:v_rod:&amp;adjp:pasv:perf" />
   <token value="й" lemma="й" tags="conj:coord" />
@@ -1521,7 +1522,7 @@
 <sentence>
   <token value="Їх" lemma="вони" tags="noun:unanim:p:v_zna:&amp;pron:pers:3" />
   <token value="із" lemma="із" tags="prep" />
-  <token value="Богданом" lemma="Богдан" tags="noun:anim:m:v_oru:prop:fname:xp1" />
+  <token value="Богданом" lemma="Богдан" tags="noun:anim:m:v_oru:prop:fname" />
   <token value="єднала" lemma="єднати" tags="verb:imperf:past:f" />
   <token value="тепер" lemma="тепер" tags="adv:&amp;pron:dem" />
   <token value="і" lemma="і" tags="conj:coord" />
@@ -1552,7 +1553,7 @@
 </sentence>
 <paragraph/>
 <sentence>
-  <token value="Богданові" lemma="Богдан" tags="noun:anim:m:v_dav:prop:fname:xp1" />
+  <token value="Богданові" lemma="Богдан" tags="noun:anim:m:v_dav:prop:fname" />
   <token value="минуло" lemma="минути" tags="verb:perf:past:n" />
   <token value="тоді" lemma="тоді" tags="adv:&amp;pron:dem" />
   <token value="двадцять" lemma="двадцять" tags="numr:p:v_naz" />
@@ -1589,8 +1590,11 @@
   <token value="чутно" lemma="чутно" tags="adv:compb:&amp;predic" />
   <token value=":" lemma=":" tags="punct" />
   <token value="–" lemma="–" tags="punct" />
-  <token value="Чи" lemma="чи" tags="conj:coord:subord" />
-  <token value="щасливий" lemma="щасливий" tags="adj:m:v_naz:compb" />
+  <token value="Чи" lemma="чи" tags="conj:coord" >
+    <alts>
+      <token value="Чи" lemma="чи" tags="conj:subord" />
+    </alts>
+  </token>  <token value="щасливий" lemma="щасливий" tags="adj:m:v_naz:compb" />
   <token value="ти" lemma="ти" tags="noun:anim:s:v_naz:&amp;pron:pers:2" />
   <token value="," lemma="," tags="punct" />
   <token value="синку" lemma="синок" tags="noun:anim:m:v_kly" />
@@ -1598,7 +1602,7 @@
 </sentence>
 <paragraph/>
 <sentence>
-  <token value="Богдан" lemma="Богдан" tags="noun:anim:m:v_naz:prop:fname:xp1" />
+  <token value="Богдан" lemma="Богдан" tags="noun:anim:m:v_naz:prop:fname" />
   <token value="відповів" lemma="відповісти" tags="verb:perf:past:m" />
   <token value="широкою" lemma="широкий" tags="adj:f:v_oru:compb" />
   <token value="усмішкою" lemma="усмішка" tags="noun:inanim:f:v_oru" />

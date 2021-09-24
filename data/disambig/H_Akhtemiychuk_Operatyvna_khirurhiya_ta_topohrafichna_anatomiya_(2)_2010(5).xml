@@ -146,7 +146,7 @@
   <token value="Після" lemma="після" tags="prep" />
   <token value="оброблення" lemma="оброблення" tags="noun:inanim:n:v_rod" />
   <token value="ділянки" lemma="ділянка" tags="noun:inanim:f:v_rod" />
-  <token value="передбачуваного" lemma="передбачуваний" tags="adj:n:v_rod:compb:&amp;&amp;adjp:pasv:imperf" />
+  <token value="передбачуваного" lemma="передбачуваний" tags="adj:n:v_rod:&amp;adjp:pasv:imperf:compb" />
   <token value="проколювання" lemma="проколювання" tags="noun:inanim:n:v_rod" />
   <token value="шкіру" lemma="шкіра" tags="noun:inanim:f:v_zna" />
   <token value="та" lemma="та" tags="conj:coord" />
@@ -155,7 +155,7 @@
   <token value="клітковину" lemma="клітковина" tags="noun:inanim:f:v_zna" />
   <token value="інфільтрують" lemma="інфільтрувати" tags="verb:imperf:pres:p:3" />
   <token value="0,5" lemma="0,5" tags="number" />
-  <token value="%" lemma="%" tags="punct" />
+  <token value="%" lemma="%" tags="unclass" />
   <token value="розчином" lemma="розчин" tags="noun:inanim:m:v_oru" />
   <token value="новокаїну" lemma="новокаїн" tags="noun:inanim:m:v_rod" />
   <token value="у" lemma="у" tags="prep" />
@@ -651,7 +651,7 @@
 <sentence>
   <token value="При" lemma="при" tags="prep" />
   <token value="цьому" lemma="це" tags="noun:inanim:n:v_mis:&amp;pron:dem" />
-  <token value="також" lemma="також" tags="adv:&amp;insert" />
+  <token value="також" lemma="також" tags="adv" />
   <token value="відчувають" lemma="відчувати" tags="verb:imperf:pres:p:3" />
   <token value="пульсацію" lemma="пульсація" tags="noun:inanim:f:v_zna" />
   <token value="серця" lemma="серце" tags="noun:inanim:n:v_rod" />
@@ -841,7 +841,7 @@
   <token value="розтягнутої" lemma="розтягнутий" tags="adj:f:v_rod:&amp;adjp:pasv:perf:compb" />
   <token value="літери" lemma="літера" tags="noun:inanim:f:v_rod" />
   <token value="«" lemma="«" tags="punct" />
-  <token value="Н" lemma="Н" tags="null" />
+  <token value="Н" lemma="Н" tags="noninfl" />
   <token value="»" lemma="»" tags="punct" />
   <token value="." lemma="." tags="punct" />
 </sentence>
@@ -968,7 +968,7 @@
   <token value="пристінкової" lemma="пристінковий" tags="adj:f:v_rod" />
   <token value="плеври" lemma="плевра" tags="noun:inanim:f:v_rod" />
   <token value="(" lemma="(" tags="punct" />
-  <token value="відкритий" lemma="відкритий" tags="adj:m:v_naz:compb:&amp;&amp;adjp:pasv:perf" />
+  <token value="відкритий" lemma="відкритий" tags="adj:m:v_naz:&amp;adjp:pasv:perf:compb" />
   <token value="пневмоторакс" lemma="пневмоторакс" tags="noun:inanim:m:v_naz" />
   <token value=")" lemma=")" tags="punct" />
   <token value="." lemma="." tags="punct" />
@@ -1174,7 +1174,7 @@
   <token value="до" lemma="до" tags="prep" />
   <token value="гнійного" lemma="гнійний" tags="adj:n:v_rod" />
   <token value="запалення" lemma="запалення" tags="noun:inanim:n:v_rod" />
-  <token value="забруднену" lemma="забруднений" tags="adj:f:v_zna:compb:&amp;&amp;adjp:pasv:perf" />
+  <token value="забруднену" lemma="забруднений" tags="adj:f:v_zna:&amp;adjp:pasv:perf:compb" />
   <token value="підшкірну" lemma="підшкірний" tags="adj:f:v_zna" />
   <token value="жирову" lemma="жировий" tags="adj:f:v_zna" />
   <token value="клітковину" lemma="клітковина" tags="noun:inanim:f:v_zna" />
@@ -1306,7 +1306,7 @@
   <token value="рану" lemma="рана" tags="noun:inanim:f:v_zna" />
   <token value="промивають" lemma="промивати" tags="verb:imperf:pres:p:3" />
   <token value="багаторазово" lemma="багаторазово" tags="adv" />
-  <token value="струминно" lemma="струминно" tags="null" />
+  <token value="струминно" lemma="струминно" tags="unknown" />
   <token value="антисептичними" lemma="антисептичний" tags="adj:p:v_oru" />
   <token value="розчинами" lemma="розчин" tags="noun:inanim:p:v_oru" />
   <token value="з" lemma="з" tags="prep" />
@@ -1427,7 +1427,7 @@
   <token value="судини" lemma="судина" tags="noun:inanim:p:v_zna" />
   <token value="та" lemma="та" tags="conj:coord" />
   <token value="нерви" lemma="нерв" tags="noun:inanim:p:v_zna" />
-  <token value="також" lemma="також" tags="adv:&amp;insert" />
+  <token value="також" lemma="також" tags="adv" />
   <token value="вкривають" lemma="вкривати" tags="verb:imperf:pres:p:3" />
   <token value="м'язами" lemma="м'яз" tags="noun:inanim:p:v_oru" />
   <token value="." lemma="." tags="punct" />
@@ -1452,7 +1452,7 @@
   <token value="дренують" lemma="дренувати" tags="verb:imperf:pres:p:3" />
   <token value="за" lemma="за" tags="prep" />
   <token value="допомогою" lemma="допомога" tags="noun:inanim:f:v_oru" />
-  <token value="одно-" lemma="одно-" tags="null" />
+  <token value="одно-" lemma="одно-" tags="noninfl" />
   <token value="," lemma="," tags="punct" />
   <token value="двопросвітних" lemma="двопросвітний" tags="adj:p:v_rod" />
   <token value="поліхлорвінілових" lemma="поліхлорвініловий" tags="adj:p:v_rod" />
@@ -1512,9 +1512,9 @@
   <token value="патологічними" lemma="патологічний" tags="adj:p:v_oru:compb" />
   <token value="станами" lemma="стан" tags="noun:inanim:p:v_oru:xp2" />
   <token value="(" lemma="(" tags="punct" />
-  <token value="гемо-" lemma="гемо-" tags="null" />
+  <token value="гемо-" lemma="гемо-" tags="noninfl" />
   <token value="," lemma="," tags="punct" />
-  <token value="пневмо-" lemma="пневмо-" tags="null" />
+  <token value="пневмо-" lemma="пневмо-" tags="noninfl" />
   <token value="," lemma="," tags="punct" />
   <token value="хілоторакс" lemma="хілоторакс" tags="noun:inanim:m:v_zna" />
   <token value=")" lemma=")" tags="punct" />
@@ -1588,7 +1588,7 @@
   <token value="через" lemma="через" tags="prep" />
   <token value="дефект" lemma="дефект" tags="noun:inanim:m:v_zna" />
   <token value="трахеї" lemma="трахея" tags="noun:inanim:f:v_rod" />
-  <token value="чи" lemma="чи" tags="conj:coord:subord" />
+  <token value="чи" lemma="чи" tags="conj:coord" />
   <token value="великого" lemma="великий" tags="adj:m:v_rod:compb" />
   <token value="бронха" lemma="бронх" tags="noun:inanim:m:v_rod" />
   <token value="(" lemma="(" tags="punct" />
@@ -1604,9 +1604,9 @@
   <token value="види" lemma="вид" tags="noun:inanim:p:v_zna" />
   <token value="пневмотораксу" lemma="пневмоторакс" tags="noun:inanim:m:v_rod" />
   <token value=":" lemma=":" tags="punct" />
-  <token value="закритий" lemma="закритий" tags="adj:m:v_zna:rinanim:compb:&amp;&amp;adjp:pasv:perf" />
+  <token value="закритий" lemma="закритий" tags="adj:m:v_zna:rinanim:&amp;adjp:pasv:perf:compb" />
   <token value="," lemma="," tags="punct" />
-  <token value="відкритий" lemma="відкритий" tags="adj:m:v_zna:rinanim:compb:&amp;&amp;adjp:pasv:perf" />
+  <token value="відкритий" lemma="відкритий" tags="adj:m:v_zna:rinanim:&amp;adjp:pasv:perf:compb" />
   <token value="і" lemma="і" tags="conj:coord" />
   <token value="клапанний" lemma="клапанний" tags="adj:m:v_zna:rinanim" />
   <token value="." lemma="." tags="punct" />
@@ -1625,7 +1625,7 @@
   <token value="допомога" lemma="допомога" tags="noun:inanim:f:v_naz" />
   <token value="в" lemma="в" tags="prep" />
   <token value="разі" lemma="раз" tags="noun:inanim:m:v_mis" />
-  <token value="відкритого" lemma="відкритий" tags="adj:m:v_rod:compb:&amp;&amp;adjp:pasv:perf" />
+  <token value="відкритого" lemma="відкритий" tags="adj:m:v_rod:&amp;adjp:pasv:perf:compb" />
   <token value="пневмотораксу" lemma="пневмоторакс" tags="noun:inanim:m:v_rod" />
   <token value="." lemma="." tags="punct" />
 <format tag="/b"/>
@@ -1633,7 +1633,7 @@
 <sentence>
   <token value="У" lemma="у" tags="prep" />
   <token value="разі" lemma="раз" tags="noun:inanim:m:v_mis" />
-  <token value="відкритого" lemma="відкритий" tags="adj:m:v_rod:compb:&amp;&amp;adjp:pasv:perf" />
+  <token value="відкритого" lemma="відкритий" tags="adj:m:v_rod:&amp;adjp:pasv:perf:compb" />
   <token value="пневмотораксу" lemma="пневмоторакс" tags="noun:inanim:m:v_rod" />
   <token value="плевральна" lemma="плевральний" tags="adj:f:v_naz" />
   <token value="порожнина" lemma="порожнина" tags="noun:inanim:f:v_naz" />
@@ -1665,7 +1665,7 @@
 <paragraph/>
 <sentence>
   <token value="За" lemma="за" tags="prep" />
-  <token value="відкритого" lemma="відкритий" tags="adj:m:v_rod:compb:&amp;&amp;adjp:pasv:perf" />
+  <token value="відкритого" lemma="відкритий" tags="adj:m:v_rod:&amp;adjp:pasv:perf:compb" />
   <token value="пневмотораксу" lemma="пневмоторакс" tags="noun:inanim:m:v_rod" />
   <token value="," lemma="," tags="punct" />
   <token value="спричиненого" lemma="спричинений" tags="adj:m:v_rod:&amp;adjp:pasv:perf" />
@@ -1710,7 +1710,7 @@
   <token value="поранення" lemma="поранення" tags="noun:inanim:n:v_rod" />
   <token value="(" lemma="(" tags="punct" />
   <token value="з" lemma="з" tags="prep" />
-  <token value="відкритим" lemma="відкритий" tags="adj:m:v_oru:compb:&amp;&amp;adjp:pasv:perf" />
+  <token value="відкритим" lemma="відкритий" tags="adj:m:v_oru:&amp;adjp:pasv:perf:compb" />
   <token value="пневмотораксом" lemma="пневмоторакс" tags="noun:inanim:m:v_oru" />
   <token value=")" lemma=")" tags="punct" />
   <token value="проводять" lemma="проводити" tags="verb:imperf:pres:p:3" />

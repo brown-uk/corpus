@@ -42,8 +42,8 @@
   <token value="у" lemma="у" tags="prep" />
   <token value="Будинку-музеї" lemma="будинок-музей" tags="noun:inanim:m:v_mis" />
   <token value="ім." lemma="ім." tags="noun:inanim:n:v_rod:abbr" />
-  <token value="М." lemma="М." tags="noun:anim:m:v_rod:nv:prop:fname:abbr" />
-  <token value="К." lemma="К." tags="noun:anim:m:v_rod:nv:prop:pname:abbr" />
+  <token value="М." lemma="М." tags="noun:anim:m:v_rod:nv:abbr:prop:fname" />
+  <token value="К." lemma="К." tags="noun:anim:m:v_rod:nv:abbr:prop:pname" />
   <token value="Реріха" lemma="Реріх" tags="noun:anim:m:v_rod:prop:lname" />
   <token value="(" lemma="(" tags="punct" />
   <token value="вул." lemma="вул." tags="noun:inanim:f:v_naz:nv:abbr" />
@@ -127,7 +127,7 @@
   <token value="від" lemma="від" tags="prep" />
   <token value="дня" lemma="день" tags="noun:inanim:m:v_rod" />
   <token value="народження" lemma="народження" tags="noun:inanim:n:v_naz" />
-  <token value="Олени" lemma="Олена" tags="noun:anim:f:v_rod:prop:fname:xp1" />
+  <token value="Олени" lemma="Олена" tags="noun:anim:f:v_rod:prop:fname" />
   <token value="Іванівни" lemma="Іванівна" tags="noun:anim:f:v_rod:prop:pname" />
   <token value="Реріх" lemma="Реріх" tags="noun:anim:m:v_naz:prop:lname" />
   <token value="," lemma="," tags="punct" />
@@ -209,19 +209,16 @@
   <token value="Дворянського" lemma="дворянський" tags="adj:n:v_rod" />
   <token value="походження" lemma="походження" tags="noun:inanim:n:v_rod" />
   <token value="," lemma="," tags="punct" />
-  <token value="Олена" lemma="Олена" tags="noun:anim:f:v_naz:prop:fname:xp1" />
+  <token value="Олена" lemma="Олена" tags="noun:anim:f:v_naz:prop:fname" />
   <token value="Іванівна" lemma="Іванівна" tags="noun:anim:f:v_naz:prop:pname" />
   <token value="була" lemma="бути" tags="verb:imperf:past:f" />
   <token value="людиною" lemma="людина" tags="noun:anim:f:v_oru" />
-  <token value="витонченою" lemma="витончений" tags="adj:f:v_oru:compb:&amp;&amp;adjp:pasv:perf" />
+  <token value="витонченою" lemma="витончений" tags="adj:f:v_oru:&amp;adjp:pasv:perf:compb" />
   <token value="." lemma="." tags="punct" />
 </sentence>
 <sentence>
-  <token value="Проте" lemma="проте" tags="adv" >
-    <alts>
-      <token value="Проте" lemma="проте" tags="conj:coord" />
-    </alts>
-  </token>  <token value="не" lemma="не" tags="part" />
+  <token value="Проте" lemma="проте" tags="conj:coord" />
+  <token value="не" lemma="не" tags="part" />
   <token value="цуралася" lemma="цуратися" tags="verb:rev:imperf:past:f" />
   <token value="тяжкої" lemma="тяжкий" tags="adj:f:v_rod:compb" />
   <token value="праці" lemma="праця" tags="noun:inanim:f:v_rod" />
@@ -255,7 +252,7 @@
   <token value="," lemma="," tags="punct" />
   <token value="світлого" lemma="світлий" tags="adj:n:v_rod:compb" />
   <token value="," lemma="," tags="punct" />
-  <token value="тобто" lemma="тобто" tags="part" />
+  <token value="тобто" lemma="тобто" tags="conj:subord" />
   <token value="творчості" lemma="творчість" tags="noun:inanim:f:v_rod" />
   <token value="космічного" lemma="космічний" tags="adj:n:v_rod:compb" />
   <token value="масштабу" lemma="масштаб" tags="noun:inanim:m:v_rod" />
@@ -286,8 +283,8 @@
   <token value="музичної" lemma="музичний" tags="adj:f:v_rod:compb" />
   <token value="академії" lemma="академія" tags="noun:inanim:f:v_rod" />
   <token value="ім." lemma="ім." tags="noun:inanim:n:v_rod:abbr" />
-  <token value="А." lemma="А." tags="noun:anim:f:v_rod:nv:prop:fname:abbr" />
-  <token value="В." lemma="В." tags="noun:anim:f:v_rod:nv:prop:fname:abbr" />
+  <token value="А." lemma="А." tags="noun:anim:f:v_rod:nv:abbr:prop:fname" />
+  <token value="В." lemma="В." tags="noun:anim:f:v_rod:nv:abbr:prop:fname" />
   <token value="Нежданової" lemma="Нежданова" tags="noun:anim:f:v_rod:prop:lname" />
   <token value="." lemma="." tags="punct" />
 </sentence>

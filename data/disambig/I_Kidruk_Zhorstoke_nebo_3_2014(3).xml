@@ -131,7 +131,7 @@
   <token value="паперовими" lemma="паперовий" tags="adj:p:v_oru" />
   <token value="фотографіями" lemma="фотографія" tags="noun:inanim:p:v_oru" />
   <token value="розміром" lemma="розмір" tags="noun:inanim:m:v_oru" />
-  <token value="9х15" lemma="9х15" tags="null" />
+  <token value="9х15" lemma="9х15" tags="unclass" />
   <token value="см" lemma="см" tags="noun:inanim:p:v_rod:nv:abbr" />
   <token value="," lemma="," tags="punct" />
   <token value="—" lemma="—" tags="punct" />
@@ -238,7 +238,7 @@
   <token value="альбом" lemma="альбом" tags="noun:inanim:m:v_naz" />
   <token value="практично" lemma="практично" tags="adv:compb" />
   <token value="був" lemma="бути" tags="verb:imperf:past:m" />
-  <token value="заповненим" lemma="заповнений" tags="adj:m:v_oru:compb:&amp;&amp;adjp:pasv:perf" />
+  <token value="заповненим" lemma="заповнений" tags="adj:m:v_oru:&amp;adjp:pasv:perf:compb" />
   <token value=":" lemma=":" tags="punct" />
   <token value="шашлики" lemma="шашлик" tags="noun:inanim:p:v_naz" />
   <token value="на" lemma="на" tags="prep" />
@@ -288,7 +288,7 @@
 <paragraph/>
 <sentence>
   <token value="До" lemma="до" tags="prep" />
-  <token value="десятої" lemma="десята" tags="noun:inanim:f:v_rod" />
+  <token value="десятої" lemma="десятий" tags="adj:f:v_rod:&amp;numr" />
   <token value="вечора" lemma="вечір" tags="noun:inanim:m:v_rod" />
   <token value="Карий" lemma="Карий" tags="noun:anim:m:v_naz:prop:fname" />
   <token value="передивився" lemma="передивитися" tags="verb:rev:perf:past:m" />
@@ -301,7 +301,7 @@
   <token value="разів" lemma="раз" tags="noun:inanim:p:v_rod" />
   <token value="," lemma="," tags="punct" />
   <token value="після" lemma="після" tags="prep" />
-  <token value="десятої" lemma="десята" tags="noun:inanim:f:v_rod" />
+  <token value="десятої" lemma="десятий" tags="adj:f:v_rod:&amp;numr" />
   <token value="альбом" lemma="альбом" tags="noun:inanim:m:v_naz" />
   <token value="упав" lemma="упасти" tags="verb:perf:past:m:xp2" />
   <token value="з" lemma="з" tags="prep" />

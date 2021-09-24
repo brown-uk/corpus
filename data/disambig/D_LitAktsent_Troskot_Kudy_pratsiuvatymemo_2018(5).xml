@@ -206,7 +206,7 @@
   <token value="," lemma="," tags="punct" />
   <token value="певний" lemma="певний" tags="adj:m:v_zna:rinanim:compb" />
   <token value="британський" lemma="британський" tags="adj:m:v_zna:rinanim" />
-  <token value="чи" lemma="чи" tags="conj:coord:subord" />
+  <token value="чи" lemma="чи" tags="conj:coord" />
   <token value="французький" lemma="французький" tags="adj:m:v_zna:rinanim" />
   <token value="роман" lemma="роман" tags="noun:inanim:m:v_zna" />
   <token value="(" lemma="(" tags="punct" />
@@ -214,7 +214,7 @@
   <token value=":" lemma=":" tags="punct" />
   <token value="про" lemma="про" tags="prep" />
   <token value="данський" lemma="данський" tags="adj:m:v_zna:rinanim" />
-  <token value="чи" lemma="чи" tags="conj:coord:subord" />
+  <token value="чи" lemma="чи" tags="conj:coord" />
   <token value="сербський" lemma="сербський" tags="adj:m:v_zna:rinanim" />
   <token value=")" lemma=")" tags="punct" />
   <token value="," lemma="," tags="punct" />
@@ -352,7 +352,7 @@
   <token value="Власне" lemma="власне" tags="adv:&amp;insert" />
   <token value="," lemma="," tags="punct" />
   <token value="це" lemma="це" tags="noun:inanim:n:v_naz:&amp;pron:dem" />
-  <token value="також" lemma="також" tags="adv:&amp;insert" />
+  <token value="також" lemma="також" tags="adv" />
   <token value="дуже" lemma="дуже" tags="adv:compb" />
   <token value="потрібний" lemma="потрібний" tags="adj:m:v_naz:compb" />
   <token value="формат" lemma="формат" tags="noun:inanim:m:v_naz" />
@@ -565,7 +565,7 @@
 <sentence>
   <token value="І" lemma="і" tags="part" />
   <token value="рано" lemma="рано" tags="adv:compb:&amp;predic" />
-  <token value="чи" lemma="чи" tags="conj:coord:subord" />
+  <token value="чи" lemma="чи" tags="conj:coord" />
   <token value="пізно" lemma="пізно" tags="adv:compb:&amp;predic" />
   <token value="нам" lemma="ми" tags="noun:anim:p:v_dav:&amp;pron:pers:1" />
   <token value="треба" lemma="треба" tags="noninfl:&amp;predic" />
@@ -604,7 +604,7 @@
   <token value="дебютів" lemma="дебют" tags="noun:inanim:p:v_rod" />
   <token value="і" lemma="і" tags="conj:coord" />
   <token value="писаних" lemma="писаний" tags="adj:p:v_rod:&amp;adjp:pasv:imperf" />
-  <token value="знаними" lemma="знаний" tags="adj:p:v_oru:compb:&amp;&amp;adjp:pasv:imperf" />
+  <token value="знаними" lemma="знаний" tags="adj:p:v_oru:&amp;adjp:pasv:imperf:compb" />
   <token value="письменниками" lemma="письменник" tags="noun:anim:p:v_oru" />
   <token value="," lemma="," tags="punct" />
   <token value="вдалих" lemma="вдалий" tags="adj:p:v_rod:compb" />

@@ -181,15 +181,21 @@
   <token value="поглинає" lemma="поглинати" tags="verb:imperf:pres:s:3" />
   <token value="оселі" lemma="оселя" tags="noun:inanim:p:v_zna" />
   <token value="," lemma="," tags="punct" />
-  <token value="чи" lemma="чи" tags="conj:coord:subord" />
-  <token value="утоплення" lemma="утоплення" tags="noun:inanim:n:v_naz" />
+  <token value="чи" lemma="чи" tags="conj:coord" >
+    <alts>
+      <token value="чи" lemma="чи" tags="conj:subord" />
+    </alts>
+  </token>  <token value="утоплення" lemma="утоплення" tags="noun:inanim:n:v_naz" />
   <token value="під" lemma="під" tags="prep" />
   <token value="час" lemma="час" tags="noun:inanim:m:v_zna" />
   <token value="нічної" lemma="нічний" tags="adj:f:v_rod" />
   <token value="риболовлі" lemma="риболовля" tags="noun:inanim:f:v_rod" />
   <token value="," lemma="," tags="punct" />
-  <token value="чи" lemma="чи" tags="conj:coord:subord" />
-  <token value="просто" lemma="просто" tags="adv:compb:&amp;predic" />
+  <token value="чи" lemma="чи" tags="conj:coord" >
+    <alts>
+      <token value="чи" lemma="чи" tags="conj:subord" />
+    </alts>
+  </token>  <token value="просто" lemma="просто" tags="adv:compb:&amp;predic" />
   <token value="крижана" lemma="крижаний" tags="adj:f:v_naz" />
   <token value="зимова" lemma="зимовий" tags="adj:f:v_naz:compb" />
   <token value="вода" lemma="вода" tags="noun:inanim:f:v_naz" />
@@ -837,11 +843,8 @@
   <token value="моя" lemma="мій" tags="adj:f:v_naz:&amp;pron:pos" />
   <token value="прабаба" lemma="прабаба" tags="noun:anim:f:v_naz" />
   <token value="і" lemma="і" tags="conj:coord" />
-  <token value="де" lemma="де" tags="adv:&amp;pron:int:rel" >
-    <alts>
-      <token value="де" lemma="де" tags="part" />
-    </alts>
-  </token>  <token value="осиротів" lemma="осиротіти" tags="verb:perf:past:m" />
+  <token value="де" lemma="де" tags="adv:&amp;pron:int:rel" />
+  <token value="осиротів" lemma="осиротіти" tags="verb:perf:past:m" />
   <token value="мій" lemma="мій" tags="adj:m:v_naz:&amp;pron:pos" />
   <token value="дідусь" lemma="дідусь" tags="noun:anim:m:v_naz" />
   <token value="." lemma="." tags="punct" />

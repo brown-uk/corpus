@@ -33,7 +33,7 @@
   <token value="екологічних" lemma="екологічний" tags="adj:p:v_rod:compb" />
   <token value="умов" lemma="умова" tags="noun:inanim:p:v_rod" />
   <token value="агроландшафтів" lemma="агроландшафт" tags="noun:inanim:p:v_rod" />
-  <token value="обмежене" lemma="обмежений" tags="adj:n:v_naz:compb:&amp;&amp;adjp:pasv:perf" />
+  <token value="обмежене" lemma="обмежений" tags="adj:n:v_naz:&amp;adjp:pasv:perf:compb" />
   <token value="," lemma="," tags="punct" />
   <token value="тому" lemma="тому" tags="adv" />
   <token value="особливо" lemma="особливо" tags="adv:compb" />
@@ -73,7 +73,7 @@
   <token value="," lemma="," tags="punct" />
   <token value="що" lemma="що" tags="noun:inanim:n:v_naz:&amp;pron:int:rel" />
   <token value="становить" lemma="становити" tags="verb:imperf:pres:s:3" />
-  <token value="27.6%" lemma="27.6%" tags="null" />
+  <token value="27.6%" lemma="27.6%" tags="unclass" />
   <token value="від" lemma="від" tags="prep" />
   <token value="усіх" lemma="увесь" tags="adj:p:v_rod:&amp;pron:gen" />
   <token value="червонокнижних" lemma="червонокнижний" tags="adj:p:v_rod" />
@@ -411,7 +411,7 @@
   <token value="підорлик" lemma="підорлик" tags="noun:anim:m:v_naz" />
   <token value="малий" lemma="малий" tags="adj:m:v_naz:compb" />
   <token value="," lemma="," tags="punct" />
-  <token value="журавель" lemma="журавель" tags="noun:anim:m:v_naz" />
+  <token value="журавель" lemma="журавель" tags="noun:anim:m:v_naz:xp1" />
   <token value="сірий" lemma="сірий" tags="adj:m:v_naz:compb" />
   <token value="," lemma="," tags="punct" />
   <token value="тетерук" lemma="тетерук" tags="noun:anim:m:v_naz" />
@@ -436,7 +436,7 @@
   <token value="лелека" lemma="лелека" tags="noun:anim:f:v_naz" />
   <token value="чорний" lemma="чорний" tags="adj:m:v_naz:compb" />
   <token value="," lemma="," tags="punct" />
-  <token value="журавель" lemma="журавель" tags="noun:anim:m:v_naz" />
+  <token value="журавель" lemma="журавель" tags="noun:anim:m:v_naz:xp1" />
   <token value="сірий" lemma="сірий" tags="adj:m:v_naz:compb" />
   <token value="," lemma="," tags="punct" />
   <token value="лунь" lemma="лунь" tags="noun:anim:m:v_naz" />
@@ -467,7 +467,7 @@
   <token value="Зимують" lemma="зимувати" tags="verb:imperf:pres:p:3" />
   <token value="в" lemma="в" tags="prep" />
   <token value="агроландшафті" lemma="агроландшафт" tags="noun:inanim:m:v_mis" />
-  <token value="дослідженої" lemma="досліджений" tags="adj:f:v_rod:compb:&amp;&amp;adjp:pasv:perf" />
+  <token value="дослідженої" lemma="досліджений" tags="adj:f:v_rod:&amp;adjp:pasv:perf:compb" />
   <token value="території" lemma="територія" tags="noun:inanim:f:v_rod" />
   <token value="шість" lemma="шість" tags="numr:p:v_naz" />
   <token value="видів" lemma="вид" tags="noun:inanim:p:v_rod" />
@@ -553,7 +553,7 @@
   <token value="Важливе" lemma="важливий" tags="adj:n:v_zna:compb" />
   <token value="значення" lemma="значення" tags="noun:inanim:n:v_zna" />
   <token value="мають" lemma="мати" tags="verb:imperf:pres:p:3" />
-  <token value="також" lemma="також" tags="adv:&amp;insert" />
+  <token value="також" lemma="також" tags="adv" />
   <token value="посіви" lemma="посів" tags="noun:inanim:p:v_naz" />
   <token value="озимих" lemma="озимий" tags="adj:p:v_rod" />
   <token value="культур" lemma="культура" tags="noun:inanim:p:v_rod" />
@@ -725,7 +725,7 @@
   <token value="," lemma="," tags="punct" />
   <token value="орлан-білохвіст" lemma="орлан-білохвіст" tags="noun:anim:m:v_naz" />
   <token value="," lemma="," tags="punct" />
-  <token value="журавель" lemma="журавель" tags="noun:anim:m:v_naz" />
+  <token value="журавель" lemma="журавель" tags="noun:anim:m:v_naz:xp1" />
   <token value="сірий" lemma="сірий" tags="adj:m:v_naz:compb" />
   <token value="," lemma="," tags="punct" />
   <token value="тетерук" lemma="тетерук" tags="noun:anim:m:v_naz" />

@@ -29,8 +29,8 @@
   <token value="Переможні" lemma="переможний" tags="adj:p:v_naz:compb" />
   <token value="битви" lemma="битва" tags="noun:inanim:p:v_naz" />
   <token value="війська" lemma="військо" tags="noun:inanim:n:v_rod" />
-  <token value="Богдана" lemma="Богдан" tags="noun:anim:m:v_rod:prop:fname:xp1" />
-  <token value="Хмельницького" lemma="Хмельницький" tags="noun:anim:m:v_rod:prop:lname:xp1" />
+  <token value="Богдана" lemma="Богдан" tags="noun:anim:m:v_rod:prop:fname" />
+  <token value="Хмельницького" lemma="Хмельницький" tags="noun:anim:m:v_rod:prop:lname" />
   <token value="у" lemma="у" tags="prep" />
   <token value="національно-визвольній" lemma="національно-визвольний" tags="adj:f:v_mis" />
   <token value="боротьбі" lemma="боротьба" tags="noun:inanim:f:v_mis" />
@@ -53,8 +53,8 @@
   <token value="очолив" lemma="очолити" tags="verb:perf:past:m" />
   <token value="гетьман" lemma="гетьман" tags="noun:anim:m:v_naz" />
 <format tag="i"/>
-  <token value="Богдан" lemma="Богдан" tags="noun:anim:m:v_naz:prop:fname:xp1" />
-  <token value="Хмельницький" lemma="Хмельницький" tags="noun:anim:m:v_naz:prop:lname:xp1" />
+  <token value="Богдан" lemma="Богдан" tags="noun:anim:m:v_naz:prop:fname" />
+  <token value="Хмельницький" lemma="Хмельницький" tags="noun:anim:m:v_naz:prop:lname" />
 <format tag="/i"/>
   <token value="." lemma="." tags="punct" />
 </sentence>
@@ -64,8 +64,8 @@
   <token value="квітні" lemma="квітень" tags="noun:inanim:m:v_mis" />
   <token value="1648" lemma="1648" tags="number" />
   <token value="р." lemma="р." tags="noun:inanim:m:v_mis:nv:abbr:xp1" />
-  <token value="Б." lemma="Б." tags="noun:anim:m:v_naz:nv:prop:fname:abbr" />
-  <token value="Хмельницький" lemma="Хмельницький" tags="noun:anim:m:v_naz:prop:lname:xp1" />
+  <token value="Б." lemma="Б." tags="noun:anim:m:v_naz:nv:abbr:prop:fname" />
+  <token value="Хмельницький" lemma="Хмельницький" tags="noun:anim:m:v_naz:prop:lname" />
   <token value="вийшов" lemma="вийти" tags="verb:perf:past:m" />
   <token value="із" lemma="із" tags="prep" />
   <token value="Січі" lemma="січ" tags="noun:inanim:f:v_mis" />
@@ -113,7 +113,7 @@
   <token value="1648" lemma="1648" tags="number" />
   <token value="р." lemma="р." tags="noun:inanim:m:v_rod:nv:abbr:xp1" />
   <token value="у" lemma="у" tags="prep" />
-  <token value="заболоченому" lemma="заболочений" tags="adj:m:v_mis:&amp;&amp;adjp:pasv:perf" />
+  <token value="заболоченому" lemma="заболочений" tags="adj:m:v_mis:&amp;adjp:pasv:perf" />
   <token value="урочищі" lemma="урочище" tags="noun:inanim:n:v_mis" />
 <format tag="b"/>
   <token value="Горохова" lemma="гороховий" tags="adj:f:v_naz" />
@@ -138,11 +138,11 @@
   <token value="атакою" lemma="атака" tags="noun:inanim:f:v_oru" />
   <token value="головних" lemma="головний" tags="adj:p:v_rod:compb" />
   <token value="сил" lemma="сила" tags="noun:inanim:p:v_rod" />
-  <token value="Б." lemma="Б." tags="noun:anim:m:v_rod:nv:prop:fname:abbr" />
-  <token value="Хмельницького" lemma="Хмельницький" tags="noun:anim:m:v_rod:prop:lname:xp1" />
+  <token value="Б." lemma="Б." tags="noun:anim:m:v_rod:nv:abbr:prop:fname" />
+  <token value="Хмельницького" lemma="Хмельницький" tags="noun:anim:m:v_rod:prop:lname" />
   <token value="і" lemma="і" tags="conj:coord" />
   <token value="загону" lemma="загін" tags="noun:inanim:m:v_rod" />
-  <token value="М." lemma="М." tags="noun:anim:m:v_rod:nv:prop:fname:abbr" />
+  <token value="М." lemma="М." tags="noun:anim:m:v_rod:nv:abbr:prop:fname" />
   <token value="Кривоноса" lemma="Кривонос" tags="noun:anim:m:v_rod:prop:lname" />
   <token value="було" lemma="бути" tags="verb:imperf:past:n:&amp;insert" />
   <token value="розгромлене" lemma="розгромлений" tags="adj:n:v_naz:&amp;adjp:pasv:perf" />
@@ -150,10 +150,10 @@
   <token value="а" lemma="а" tags="conj:coord" />
   <token value="коронні" lemma="коронний" tags="adj:p:v_naz" />
   <token value="гетьмани" lemma="гетьман" tags="noun:anim:p:v_naz" />
-  <token value="М." lemma="М." tags="noun:anim:m:v_naz:nv:prop:fname:abbr" />
+  <token value="М." lemma="М." tags="noun:anim:m:v_naz:nv:abbr:prop:fname" />
   <token value="Потоцький" lemma="Потоцький" tags="noun:anim:m:v_naz:prop:lname" />
   <token value="та" lemma="та" tags="conj:coord" />
-  <token value="М." lemma="М." tags="noun:anim:m:v_naz:nv:prop:fname:abbr" />
+  <token value="М." lemma="М." tags="noun:anim:m:v_naz:nv:abbr:prop:fname" />
   <token value="Калиновський" lemma="Калиновський" tags="noun:anim:m:v_naz:prop:lname" />
   <token value="опинились" lemma="опинитися" tags="verb:rev:perf:past:p" />
   <token value="у" lemma="у" tags="prep" />
@@ -174,8 +174,8 @@
   <token value="на" lemma="на" tags="prep" />
   <token value="Поділлі" lemma="Поділля" tags="noun:inanim:n:v_mis:prop:geo" />
   <token value="військо" lemma="військо" tags="noun:inanim:n:v_naz" />
-  <token value="Б." lemma="Б." tags="noun:anim:m:v_rod:nv:prop:fname:abbr" />
-  <token value="Хмельницького" lemma="Хмельницький" tags="noun:anim:m:v_rod:prop:lname:xp1" />
+  <token value="Б." lemma="Б." tags="noun:anim:m:v_rod:nv:abbr:prop:fname" />
+  <token value="Хмельницького" lemma="Хмельницький" tags="noun:anim:m:v_rod:prop:lname" />
   <token value="знову" lemma="знову" tags="adv" />
   <token value="завдало" lemma="завдати" tags="verb:perf:past:n" />
   <token value="полякам" lemma="поляк" tags="noun:anim:p:v_dav" />
@@ -230,8 +230,8 @@
   <token value="успішний" lemma="успішний" tags="adj:m:v_naz:compb" />
   <token value="похід" lemma="похід" tags="noun:inanim:m:v_naz" />
   <token value="військ" lemma="військо" tags="noun:inanim:p:v_rod" />
-  <token value="Б." lemma="Б." tags="noun:anim:m:v_rod:nv:prop:fname:abbr" />
-  <token value="Хмельницького" lemma="Хмельницький" tags="noun:anim:m:v_rod:prop:lname:xp1" />
+  <token value="Б." lemma="Б." tags="noun:anim:m:v_rod:nv:abbr:prop:fname" />
+  <token value="Хмельницького" lemma="Хмельницький" tags="noun:anim:m:v_rod:prop:lname" />
   <token value="був" lemma="бути" tags="verb:imperf:past:m" />
   <token value="припинений" lemma="припинений" tags="adj:m:v_naz:&amp;adjp:pasv:perf" />
   <token value="." lemma="." tags="punct" />
@@ -341,7 +341,7 @@
 </sentence>
 <sentence>
   <token value="Війська" lemma="військо" tags="noun:inanim:p:v_naz" />
-  <token value="Хмельницького" lemma="Хмельницький" tags="noun:anim:m:v_rod:prop:lname:xp1" />
+  <token value="Хмельницького" lemma="Хмельницький" tags="noun:anim:m:v_rod:prop:lname" />
   <token value="і" lemma="і" tags="conj:coord" />
   <token value="кримських" lemma="кримський" tags="adj:p:v_rod" />
   <token value="татар" lemma="татарин" tags="noun:anim:p:v_rod" />
@@ -362,7 +362,7 @@
   <token value="." lemma="." tags="punct" />
 </sentence>
 <sentence>
-  <token value="Хмельницький" lemma="Хмельницький" tags="noun:anim:m:v_naz:prop:lname:xp1" />
+  <token value="Хмельницький" lemma="Хмельницький" tags="noun:anim:m:v_naz:prop:lname" />
   <token value="," lemma="," tags="punct" />
   <token value="розгадавши" lemma="розгадавши" tags="advp:perf" />
   <token value="наміри" lemma="намір" tags="noun:inanim:p:v_zna" />
@@ -399,8 +399,8 @@
   <token value="." lemma="." tags="punct" />
 </sentence>
 <sentence>
-  <token value="Б." lemma="Б." tags="noun:anim:m:v_naz:nv:prop:fname:abbr" />
-  <token value="Хмельницький" lemma="Хмельницький" tags="noun:anim:m:v_naz:prop:lname:xp1" />
+  <token value="Б." lemma="Б." tags="noun:anim:m:v_naz:nv:abbr:prop:fname" />
+  <token value="Хмельницький" lemma="Хмельницький" tags="noun:anim:m:v_naz:prop:lname" />
   <token value="міг" lemma="могти" tags="verb:imperf:past:m" />
   <token value="остаточно" lemma="остаточно" tags="adv" />
   <token value="добити" lemma="добити" tags="verb:perf:inf" />
@@ -422,7 +422,7 @@
   <token value="," lemma="," tags="punct" />
   <token value="що" lemma="що" tags="conj:subord" />
   <token value="примусило" lemma="примусити" tags="verb:perf:past:n" />
-  <token value="Хмельницького" lemma="Хмельницький" tags="noun:anim:m:v_rod:prop:lname:xp1" />
+  <token value="Хмельницького" lemma="Хмельницький" tags="noun:anim:m:v_rod:prop:lname" />
   <token value="укласти" lemma="укласти" tags="verb:perf:inf" />
   <token value="з" lemma="з" tags="prep" />
   <token value="Польщею" lemma="Польща" tags="noun:inanim:f:v_oru:prop:geo" />
@@ -446,7 +446,7 @@
   <token value="біля" lemma="біля" tags="prep" />
   <token value="гори" lemma="гора" tags="noun:inanim:f:v_rod" />
 <format tag="b"/>
-  <token value="Батіг" lemma="Батіг" tags="noun:anim:m:v_naz:prop:lname:xp1" />
+  <token value="Батіг" lemma="Батіг" tags="noun:anim:m:v_naz:prop:lname" />
 <format tag="/b"/>
   <token value="на" lemma="на" tags="prep" />
   <token value="Брацлавщині" lemma="Брацлавщина" tags="noun:inanim:f:v_mis:prop:geo" />
@@ -462,7 +462,7 @@
   <token value="козацького" lemma="козацький" tags="adj:m:v_rod" />
   <token value="війська" lemma="військо" tags="noun:inanim:n:v_rod" />
   <token value="під" lemma="під" tags="prep" />
-  <token value="Батогом" lemma="Батіг" tags="noun:anim:m:v_oru:prop:lname:xp1" />
+  <token value="Батогом" lemma="Батіг" tags="noun:anim:m:v_oru:prop:lname" />
   <token value="була" lemma="бути" tags="verb:imperf:past:f" />
   <token value="відплатою" lemma="відплата" tags="noun:inanim:f:v_oru" />
   <token value="за" lemma="за" tags="prep" />
@@ -491,7 +491,7 @@
   <token value="військо" lemma="військо" tags="noun:inanim:n:v_naz" />
   <token value="знову" lemma="знову" tags="adv" />
   <token value="було" lemma="бути" tags="verb:imperf:past:n:&amp;insert" />
-  <token value="розбите" lemma="розбитий" tags="adj:n:v_naz:compb:&amp;&amp;adjp:pasv:perf" />
+  <token value="розбите" lemma="розбитий" tags="adj:n:v_naz:&amp;adjp:pasv:perf:compb" />
   <token value="під" lemma="під" tags="prep" />
   <token value="містечком" lemma="містечко" tags="noun:inanim:n:v_oru" />
 <format tag="b"/>
@@ -511,8 +511,8 @@
   <token value="Навесні" lemma="навесні" tags="adv" />
   <token value="1655" lemma="1655" tags="number" />
   <token value="р." lemma="р." tags="noun:inanim:m:v_rod:nv:abbr:xp1" />
-  <token value="Б." lemma="Б." tags="noun:anim:m:v_naz:nv:prop:fname:abbr" />
-  <token value="Хмельницький" lemma="Хмельницький" tags="noun:anim:m:v_naz:prop:lname:xp1" />
+  <token value="Б." lemma="Б." tags="noun:anim:m:v_naz:nv:abbr:prop:fname" />
+  <token value="Хмельницький" lemma="Хмельницький" tags="noun:anim:m:v_naz:prop:lname" />
   <token value="вирушив" lemma="вирушити" tags="verb:perf:past:m" />
   <token value="із" lemma="із" tags="prep" />
   <token value="військом" lemma="військо" tags="noun:inanim:n:v_oru" />
@@ -690,7 +690,7 @@
   <token value="стрільців" lemma="стрілець" tags="noun:anim:p:v_rod" />
 <format tag="/b"/>
   <token value="(" lemma="(" tags="punct" />
-  <token value="УСС" lemma="УСС" tags="noun:inanim:p:v_naz:nv:ns:prop:abbr" />
+  <token value="УСС" lemma="УСС" tags="noun:inanim:p:v_naz:nv:ns:abbr:prop" />
   <token value=")" lemma=")" tags="punct" />
   <token value="," lemma="," tags="punct" />
   <token value="запис" lemma="запис" tags="noun:inanim:m:v_naz" />
@@ -765,7 +765,7 @@
   <token value="дозвіл" lemma="дозвіл" tags="noun:inanim:m:v_zna" />
   <token value="на" lemma="на" tags="prep" />
   <token value="легіон" lemma="легіон" tags="noun:inanim:m:v_zna" />
-  <token value="УСС" lemma="УСС" tags="noun:inanim:p:v_zna:nv:ns:prop:abbr" />
+  <token value="УСС" lemma="УСС" tags="noun:inanim:p:v_zna:nv:ns:abbr:prop" />
   <token value="було" lemma="бути" tags="verb:imperf:past:n:&amp;insert" />
   <token value="дано" lemma="дати" tags="verb:perf:impers" />
   <token value="у" lemma="у" tags="prep" />
@@ -784,7 +784,7 @@
   <token value="хотіло" lemma="хотіти" tags="verb:imperf:past:n" />
   <token value="бачити" lemma="бачити" tags="verb:imperf:inf" />
   <token value="українців" lemma="українець" tags="noun:anim:p:v_rod" />
-  <token value="мобілізованими" lemma="мобілізований" tags="adj:p:v_oru:compb:&amp;&amp;adjp:pasv:perf" />
+  <token value="мобілізованими" lemma="мобілізований" tags="adj:p:v_oru:&amp;adjp:pasv:perf:compb" />
   <token value="до" lemma="до" tags="prep" />
   <token value="імперської" lemma="імперський" tags="adj:f:v_rod" />
   <token value="армії" lemma="армія" tags="noun:inanim:f:v_rod" />

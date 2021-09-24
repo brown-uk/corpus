@@ -60,7 +60,7 @@
   <token value="»" lemma="»" tags="punct" />
   <token value="," lemma="," tags="punct" />
 <format tag="foreign"/>
-  <token value="natural" lemma="natural" tags="noninfl:foreign" />
+  <token value="natural" lemma="natural" tags="unclass" />
 <format tag="/foreign"/>
   <token value="…" lemma="…" tags="punct" />
   <token value="ці" lemma="цей" tags="adj:p:v_naz:&amp;pron:dem" />
@@ -98,11 +98,14 @@
   <token value="шкідливих" lemma="шкідливий" tags="adj:p:v_rod:compb" />
   <token value="компонентів" lemma="компонент" tags="noun:inanim:p:v_rod" />
   <token value="," lemma="," tags="punct" />
-  <token value="чи" lemma="чи" tags="conj:coord:subord" />
-  <token value="за" lemma="за" tags="prep" />
+  <token value="чи" lemma="чи" tags="conj:coord" >
+    <alts>
+      <token value="чи" lemma="чи" tags="conj:subord" />
+    </alts>
+  </token>  <token value="за" lemma="за" tags="prep" />
   <token value="знаком" lemma="знак" tags="noun:inanim:m:v_oru:xp1" />
 <format tag="foreign"/>
-  <token value="organic" lemma="organic" tags="noninfl:foreign" />
+  <token value="organic" lemma="organic" tags="unclass" />
 <format tag="/foreign"/>
   <token value="криється" lemma="критися" tags="verb:rev:imperf:pres:s:3" />
   <token value="значно" lemma="значно" tags="adv:compb" />
@@ -598,7 +601,7 @@
   <token value="і" lemma="і" tags="conj:coord" />
   <token value="кормах" lemma="корм" tags="noun:inanim:p:v_mis" />
   <token value="," lemma="," tags="punct" />
-  <token value="так" lemma="так" tags="conj:coord:subord" />
+  <token value="так" lemma="так" tags="conj:coord" />
   <token value="і" lemma="і" tags="conj:coord" />
   <token value="в" lemma="в" tags="prep" />
   <token value="лікуванні" lemma="лікування" tags="noun:inanim:n:v_mis" />
@@ -758,7 +761,7 @@
   <token value="такої" lemma="такий" tags="adj:f:v_rod:&amp;pron:dem" />
   <token value="як" lemma="як" tags="conj:subord" />
 <format tag="foreign"/>
-  <token value="ECOCERT" lemma="ECOCERT" tags="noninfl:foreign" />
+  <token value="ECOCERT" lemma="ECOCERT" tags="unclass" />
 <format tag="/foreign"/>
   <token value="," lemma="," tags="punct" />
   <token value="можуть" lemma="могти" tags="verb:imperf:pres:p:3" />
@@ -820,7 +823,7 @@
   <token value="препаратом" lemma="препарат" tags="noun:inanim:m:v_oru" />
   <token value="Віркон" lemma="Віркон" tags="noun:inanim:m:v_naz:prop" />
 <format tag="foreign"/>
-  <token value="C" lemma="C" tags="noninfl:foreign" />
+  <token value="C" lemma="C" tags="unclass" />
 <format tag="/foreign"/>
   <token value="у" lemma="у" tags="prep" />
   <token value="комплексі" lemma="комплекс" tags="noun:inanim:m:v_mis" />

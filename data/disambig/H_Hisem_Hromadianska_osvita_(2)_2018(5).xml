@@ -113,7 +113,7 @@
 </sentence>
 <sentence>
   <token value="Представників" lemma="представник" tags="noun:anim:p:v_zna" />
-  <token value="зацікавлених" lemma="зацікавлений" tags="adj:p:v_rod:compb:&amp;&amp;adjp:pasv:perf" />
+  <token value="зацікавлених" lemma="зацікавлений" tags="adj:p:v_rod:&amp;adjp:pasv:perf:compb" />
   <token value="груп" lemma="група" tags="noun:inanim:p:v_rod" />
   <token value="називають" lemma="називати" tags="verb:imperf:pres:p:3" />
   <token value="лобістами" lemma="лобіст" tags="noun:anim:p:v_oru" />
@@ -214,7 +214,7 @@
   <token value="інтереси" lemma="інтерес" tags="noun:inanim:p:v_zna" />
   <token value="окремих" lemma="окремий" tags="adj:p:v_rod" />
   <token value="осіб" lemma="особа" tags="noun:anim:p:v_rod:xp1" />
-  <token value="чи" lemma="чи" tags="conj:coord:subord" />
+  <token value="чи" lemma="чи" tags="conj:coord" />
   <token value="організацій" lemma="організація" tags="noun:inanim:p:v_rod" />
   <token value="," lemma="," tags="punct" />
   <token value="що" lemma="що" tags="conj:subord" />
@@ -664,7 +664,7 @@
   <token value="," lemma="," tags="punct" />
   <token value="нематеріальних" lemma="нематеріальний" tags="adj:p:v_rod" />
   <token value="цінностей" lemma="цінність" tags="noun:inanim:p:v_rod" />
-  <token value="наближеним" lemma="наближений" tags="adj:p:v_dav:compb:&amp;&amp;adjp:pasv:perf" />
+  <token value="наближеним" lemma="наближений" tags="adj:p:v_dav:&amp;adjp:pasv:perf:compb" />
   <token value="особам" lemma="особа" tags="noun:anim:p:v_dav:xp1" />
   <token value="," lemma="," tags="punct" />
   <token value="родичам" lemma="родич" tags="noun:anim:p:v_dav" />
@@ -802,7 +802,7 @@
   <token value=")" lemma=")" tags="punct" />
   <token value="," lemma="," tags="punct" />
   <token value="це" lemma="це" tags="noun:inanim:n:v_naz:&amp;pron:dem" />
-  <token value="також" lemma="також" tags="adv:&amp;insert" >
+  <token value="також" lemma="також" tags="adv" >
     <alts>
       <token value="також" lemma="також" tags="conj:coord" />
     </alts>
@@ -828,7 +828,7 @@
   <token value="в" lemma="в" tags="prep" />
   <token value="оману" lemma="оман" tags="noun:inanim:m:v_mis" />
   <token value="приватної" lemma="приватний" tags="adj:f:v_rod:compb" />
-  <token value="чи" lemma="чи" tags="conj:coord:subord" />
+  <token value="чи" lemma="чи" tags="conj:coord" />
   <token value="юридичної" lemma="юридичний" tags="adj:f:v_rod:compb" />
   <token value="особи" lemma="особа" tags="noun:anim:f:v_rod:xp1" />
   <token value="з" lemma="з" tags="prep" />

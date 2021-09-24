@@ -26,7 +26,7 @@
 <body>
 <sentence>
 <format tag="b"/>
-  <token value="§" lemma="§" tags="null" />
+  <token value="§" lemma="§" tags="symb" />
   <token value="5" lemma="5" tags="number" />
   <token value="." lemma="." tags="punct" />
 </sentence>
@@ -311,7 +311,7 @@
   <token value="структури" lemma="структура" tags="noun:inanim:f:v_rod" />
   <token value="," lemma="," tags="punct" />
   <token value="а" lemma="а" tags="conj:coord" />
-  <token value="також" lemma="також" tags="adv:&amp;insert" />
+  <token value="також" lemma="також" tags="adv" />
   <token value="генетичного" lemma="генетичний" tags="adj:m:v_rod" />
   <token value="матеріалу" lemma="матеріал" tags="noun:inanim:m:v_rod" />
   <token value="організмів" lemma="організм" tags="noun:inanim:p:v_rod" />
@@ -1085,7 +1085,7 @@
   <token value="бактерій" lemma="бактерія" tags="noun:unanim:p:v_rod" />
   <token value="клітинна" lemma="клітинний" tags="adj:f:v_naz" />
   <token value="стінка" lemma="стінка" tags="noun:inanim:f:v_naz" />
-  <token value="захищена" lemma="захищений" tags="adj:f:v_naz:compb:&amp;&amp;adjp:pasv:perf" />
+  <token value="захищена" lemma="захищений" tags="adj:f:v_naz:&amp;adjp:pasv:perf:compb" />
   <token value="від" lemma="від" tags="prep" />
   <token value="лізоциму" lemma="лізоцим" tags="noun:inanim:m:v_rod" />
   <token value="," lemma="," tags="punct" />

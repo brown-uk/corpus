@@ -39,7 +39,7 @@
   <token value="з" lemma="з" tags="prep" />
   <token value="мережі" lemma="мережа" tags="noun:inanim:f:v_rod" />
 <format tag="foreign"/>
-  <token value="Facebook" lemma="Facebook" tags="noninfl:foreign:prop" />
+  <token value="Facebook" lemma="Facebook" tags="unclass" />
 <format tag="/foreign"/>
   <token value="," lemma="," tags="punct" />
   <token value="заборонити" lemma="заборонити" tags="verb:perf:inf" />
@@ -122,11 +122,8 @@
 <paragraph/>
 <sentence>
   <token value="Потрібно" lemma="потрібно" tags="adv:compb:&amp;predic" />
-  <token value="також" lemma="також" tags="adv:&amp;insert" >
-    <alts>
-      <token value="також" lemma="також" tags="conj:coord" />
-    </alts>
-  </token>  <token value="сказати" lemma="сказати" tags="verb:perf:inf" />
+  <token value="також" lemma="також" tags="adv" />
+  <token value="сказати" lemma="сказати" tags="verb:perf:inf" />
   <token value="," lemma="," tags="punct" />
   <token value="що" lemma="що" tags="conj:subord" />
   <token value="у" lemma="у" tags="prep" />
@@ -275,7 +272,7 @@
 <sentence>
   <token value="Я" lemma="я" tags="noun:anim:s:v_naz:&amp;pron:pers:1" />
   <token value="цілком" lemma="цілком" tags="adv" />
-  <token value="впевнений" lemma="впевнений" tags="adj:m:v_naz:compb:&amp;&amp;adjp:pasv:perf" />
+  <token value="впевнений" lemma="впевнений" tags="adj:m:v_naz:&amp;adjp:pasv:perf:compb" />
   <token value="," lemma="," tags="punct" />
   <token value="що" lemma="що" tags="conj:subord" />
   <token value="суддя" lemma="суддя" tags="noun:anim:m:v_naz" />
@@ -609,7 +606,7 @@
   <token value="100" lemma="100" tags="number" />
   <token value="до" lemma="до" tags="prep" />
   <token value="300" lemma="300" tags="number" />
-  <token value="тисяч" lemma="тисяча" tags="noun:inanim:p:v_rod:&amp;&amp;numr" />
+  <token value="тисяч" lemma="тисяча" tags="noun:inanim:p:v_rod:&amp;numr" />
   <token value="євро" lemma="євро" tags="noun:inanim:p:v_rod:nv" />
   <token value="." lemma="." tags="punct" />
 </sentence>

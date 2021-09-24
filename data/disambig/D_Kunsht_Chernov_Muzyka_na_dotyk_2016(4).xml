@@ -457,7 +457,7 @@
   <token value="," lemma="," tags="punct" />
   <token value="яку" lemma="який" tags="adj:f:v_zna:&amp;pron:int:rel:def" />
   <token value="будував" lemma="будувати" tags="verb:imperf:past:m" />
-  <token value="улюблений" lemma="улюблений" tags="adj:m:v_naz:compb:&amp;&amp;adjp:pasv:perf" />
+  <token value="улюблений" lemma="улюблений" tags="adj:m:v_naz:&amp;adjp:pasv:perf:compb" />
   <token value="виконавець" lemma="виконавець" tags="noun:anim:m:v_naz" />
   <token value="." lemma="." tags="punct" />
 </sentence>
@@ -565,7 +565,7 @@
 <format tag="foreign"/>
   <token value="Spotify" lemma="Spotify" tags="unclass" />
 <format tag="/foreign"/>
-  <token value="чи" lemma="чи" tags="conj:coord:subord" />
+  <token value="чи" lemma="чи" tags="conj:coord" />
 <format tag="foreign"/>
   <token value="Google" lemma="Google" tags="unclass" />
   <token value="Music" lemma="Music" tags="unclass" />

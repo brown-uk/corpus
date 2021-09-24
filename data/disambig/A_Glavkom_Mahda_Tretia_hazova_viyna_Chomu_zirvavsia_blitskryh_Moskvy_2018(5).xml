@@ -26,7 +26,7 @@
   <token value="за" lemma="за" tags="prep" />
   <token value="винятком" lemma="виняток" tags="noun:inanim:m:v_oru" />
   <token value="прем'єра" lemma="прем'єр" tags="noun:anim:m:v_rod" />
-  <token value="Володимира" lemma="Володимир" tags="noun:anim:m:v_rod:prop:fname:xp1" />
+  <token value="Володимира" lemma="Володимир" tags="noun:anim:m:v_rod:prop:fname" />
   <token value="Гройсмана" lemma="Гройсман" tags="noun:anim:m:v_rod:prop:lname" />
   <token value="," lemma="," tags="punct" />
   <token value="виступила" lemma="виступити" tags="verb:perf:past:f" />
@@ -140,11 +140,11 @@
   <token value="ринок" lemma="ринок" tags="noun:inanim:m:v_zna" />
   <token value="компанію-посередника" lemma="компанія-посередник" tags="noun:inanim:f:v_zna" />
 <format tag="foreign"/>
-  <token value="RosUkrEnergo" lemma="RosUkrEnergo" tags="noninfl:foreign" />
+  <token value="RosUkrEnergo" lemma="RosUkrEnergo" tags="unclass" />
 <format tag="/foreign"/>
   <token value="з" lemma="з" tags="prep" />
   <token value="яскраво" lemma="яскраво" tags="adv:compb" />
-  <token value="вираженим" lemma="виражений" tags="adj:n:v_oru:compb:&amp;&amp;adjp:pasv:perf" />
+  <token value="вираженим" lemma="виражений" tags="adj:n:v_oru:&amp;adjp:pasv:perf:compb" />
   <token value="кремлівським" lemma="кремлівський" tags="adj:n:v_oru" />
   <token value="корінням" lemma="коріння" tags="noun:inanim:n:v_oru" />
   <token value="." lemma="." tags="punct" />
@@ -169,7 +169,7 @@
   <token value="," lemma="," tags="punct" />
   <token value="який" lemma="який" tags="adj:m:v_naz:&amp;pron:int:rel:def" />
   <token value="освятили" lemma="освятити" tags="verb:perf:past:p" />
-  <token value="Володимир" lemma="Володимир" tags="noun:anim:m:v_naz:prop:fname:xp1" />
+  <token value="Володимир" lemma="Володимир" tags="noun:anim:m:v_naz:prop:fname" />
   <token value="Путін" lemma="Путін" tags="noun:anim:m:v_naz:prop:lname" />
   <token value="та" lemma="та" tags="conj:coord" />
   <token value="Юлія" lemma="Юлія" tags="noun:anim:f:v_naz:prop:fname" />

@@ -87,7 +87,7 @@
   <token value="Америки" lemma="Америка" tags="noun:inanim:f:v_rod:prop:geo" />
   <token value="й" lemma="й" tags="conj:coord" />
   <token value="не" lemma="не" tags="part" />
-  <token value="пристосоване" lemma="пристосований" tags="adj:n:v_naz:compb:&amp;&amp;adjp:pasv:perf" />
+  <token value="пристосоване" lemma="пристосований" tags="adj:n:v_naz:&amp;adjp:pasv:perf:compb" />
   <token value="до" lemma="до" tags="prep" />
   <token value="посушливого" lemma="посушливий" tags="adj:m:v_rod:compb" />
   <token value="клімату" lemma="клімат" tags="noun:inanim:m:v_rod" />
@@ -137,18 +137,15 @@
 <sentence>
   <token value="Нині" lemma="нині" tags="adv" />
   <token value="," lemma="," tags="punct" />
-  <token value="коли" lemma="коли" tags="conj:subord" >
-    <alts>
-      <token value="коли" lemma="коли" tags="part" />
-    </alts>
-  </token>  <token value="є" lemma="бути" tags="verb:imperf:pres:s:3" />
+  <token value="коли" lemma="коли" tags="conj:subord" />
+  <token value="є" lemma="бути" tags="verb:imperf:pres:s:3" />
   <token value="приватна" lemma="приватний" tags="adj:f:v_naz:compb" />
   <token value="власність" lemma="власність" tags="noun:inanim:f:v_naz" />
   <token value="," lemma="," tags="punct" />
   <token value="будь-яка" lemma="будь-який" tags="adj:f:v_naz:&amp;pron:ind" />
   <token value="спроба" lemma="спроба" tags="noun:inanim:f:v_naz" />
   <token value="вилучити" lemma="вилучити" tags="verb:perf:inf" />
-  <token value="уражені" lemma="уражений" tags="adj:p:v_zna:rinanim:compb:&amp;&amp;adjp:pasv:perf" />
+  <token value="уражені" lemma="уражений" tags="adj:p:v_zna:rinanim:&amp;adjp:pasv:perf:compb" />
   <token value="ерозією" lemma="ерозія" tags="noun:inanim:f:v_oru" />
   <token value="поля" lemma="поле" tags="noun:inanim:p:v_zna" />
   <token value="приречена" lemma="приречений" tags="adj:f:v_naz:&amp;adjp:pasv:perf" />
@@ -308,7 +305,7 @@
   <token value="," lemma="," tags="punct" />
   <token value="-" lemma="-" tags="punct" />
   <token value="резюмує" lemma="резюмувати" tags="verb:imperf:pres:s:3" />
-  <token value="Володимир" lemma="Володимир" tags="noun:anim:m:v_naz:prop:fname:xp1" />
+  <token value="Володимир" lemma="Володимир" tags="noun:anim:m:v_naz:prop:fname" />
   <token value="Гетьман" lemma="Гетьман" tags="noun:anim:m:v_naz:prop:lname" />
   <token value="." lemma="." tags="punct" />
 </sentence>

@@ -130,11 +130,11 @@
   <token value="Ради" lemma="рада" tags="noun:inanim:f:v_rod" />
   <token value="Європи" lemma="Європа" tags="noun:inanim:f:v_rod:prop:geo" />
   <token value="," lemma="," tags="punct" />
-  <token value="НАТО" lemma="НАТО" tags="noun:inanim:n:v_naz:nv:prop:abbr" />
+  <token value="НАТО" lemma="НАТО" tags="noun:inanim:n:v_naz:nv:abbr:prop" />
   <token value="," lemma="," tags="punct" />
-  <token value="ОБСЄ" lemma="ОБСЄ" tags="noun:inanim:f:v_naz:nv:prop:abbr" />
+  <token value="ОБСЄ" lemma="ОБСЄ" tags="noun:inanim:f:v_naz:nv:abbr:prop" />
   <token value="," lemma="," tags="punct" />
-  <token value="ГУАМ" lemma="ГУАМ" tags="noun:inanim:f:v_naz:nv:prop:abbr" />
+  <token value="ГУАМ" lemma="ГУАМ" tags="noun:inanim:f:v_naz:nv:abbr:prop" />
   <token value="та" lemma="та" tags="conj:coord" />
   <token value="національних" lemma="національний" tags="adj:p:v_rod" />
   <token value="парламентів" lemma="парламент" tags="noun:inanim:p:v_rod" />
@@ -267,11 +267,8 @@
   <token value="на" lemma="на" tags="prep" />
   <token value="сесію" lemma="сесія" tags="noun:inanim:f:v_zna" />
   <token value="прийшли" lemma="прийти" tags="verb:perf:past:p" />
-  <token value="лише" lemma="лише" tags="conj:subord" >
-    <alts>
-      <token value="лише" lemma="лише" tags="part" />
-    </alts>
-  </token>  <token value="42" lemma="42" tags="number" />
+  <token value="лише" lemma="лише" tags="part" />
+  <token value="42" lemma="42" tags="number" />
   <token value="обранці" lemma="обранець" tags="noun:anim:p:v_naz" />
   <token value="із" lemma="із" tags="prep" />
   <token value="120" lemma="120" tags="number" />
@@ -403,7 +400,7 @@
   <token value="пропозицію" lemma="пропозиція" tags="noun:inanim:f:v_zna" />
   <token value="ГО" lemma="го" tags="noun:inanim:n:v_rod:nv" />
   <token value="«" lemma="«" tags="punct" />
-  <token value="Одесі—600" lemma="Одесі—600" tags="null" />
+  <token value="Одесі—600" lemma="Одесі—600" tags="noninfl" />
   <token value="»" lemma="»" tags="punct" />
   <token value="внести" lemma="внести" tags="verb:perf:inf" />
   <token value="це" lemma="це" tags="noun:inanim:n:v_zna:&amp;pron:dem" />

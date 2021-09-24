@@ -164,9 +164,9 @@
   <token value="+35" lemma="+35" tags="number" />
   <token value="…" lemma="…" tags="punct" />
   <token value="+40" lemma="+40" tags="number" />
-  <token value="°" lemma="°" tags="null" />
+  <token value="°" lemma="°" tags="symb" />
 <format tag="foreign"/>
-  <token value="C" lemma="C" tags="noninfl:foreign" />
+  <token value="C" lemma="C" tags="unclass" />
 <format tag="/foreign"/>
   <token value=")" lemma=")" tags="punct" />
   <token value="температура" lemma="температура" tags="noun:inanim:f:v_naz" />
@@ -175,9 +175,9 @@
   <token value="підвищується" lemma="підвищуватися" tags="verb:rev:imperf:pres:s:3" />
   <token value="на" lemma="на" tags="prep" />
   <token value="0,5–1" lemma="0,5–1" tags="number" />
-  <token value="°" lemma="°" tags="null" />
+  <token value="°" lemma="°" tags="symb" />
 <format tag="foreign"/>
-  <token value="C" lemma="C" tags="noninfl:foreign" />
+  <token value="C" lemma="C" tags="unclass" />
 <format tag="/foreign"/>
   <token value="," lemma="," tags="punct" />
   <token value="що" lemma="що" tags="noun:inanim:n:v_naz:&amp;pron:int:rel" />
@@ -205,9 +205,9 @@
   <token value="тіла" lemma="тіло" tags="noun:inanim:n:v_rod" />
   <token value="на" lemma="на" tags="prep" />
   <token value="1,5–2" lemma="1,5–2" tags="number" />
-  <token value="°" lemma="°" tags="null" />
+  <token value="°" lemma="°" tags="symb" />
 <format tag="foreign"/>
-  <token value="C" lemma="C" tags="noninfl:foreign" />
+  <token value="C" lemma="C" tags="unclass" />
 <format tag="/foreign"/>
   <token value="призводить" lemma="призводити" tags="verb:imperf:pres:s:3" />
   <token value="до" lemma="до" tags="prep" />
@@ -318,7 +318,7 @@
   <token value="корму" lemma="корм" tags="noun:inanim:m:v_rod" />
   <token value="," lemma="," tags="punct" />
   <token value="а" lemma="а" tags="conj:coord" />
-  <token value="отже" lemma="отже" tags="part:&amp;insert" />
+  <token value="отже" lemma="отже" tags="part" />
   <token value="," lemma="," tags="punct" />
   <token value="знижуються" lemma="знижуватися" tags="verb:rev:imperf:pres:p:3" />
   <token value="прирости" lemma="приріст" tags="noun:inanim:p:v_naz" />
@@ -363,7 +363,7 @@
   <token value="дві" lemma="два" tags="numr:p:v_zna" />
   <token value="групи" lemma="група" tags="noun:inanim:p:v_zna" />
   <token value=":" lemma=":" tags="punct" />
-  <token value="•" lemma="•" tags="null" />
+  <token value="•" lemma="•" tags="punct" />
   <token value="технологічні" lemma="технологічний" tags="adj:p:v_naz:compb" />
   <token value="," lemma="," tags="punct" />
   <token value="що" lemma="що" tags="noun:inanim:n:v_naz:&amp;pron:int:rel" />
@@ -382,7 +382,7 @@
   <token value="водопостачання" lemma="водопостачання" tags="noun:inanim:n:v_rod" />
   <token value=")" lemma=")" tags="punct" />
   <token value=";" lemma=";" tags="punct" />
-  <token value="•" lemma="•" tags="null" />
+  <token value="•" lemma="•" tags="punct" />
   <token value="кормові" lemma="кормовий" tags="adj:p:v_naz" />
   <token value="та" lemma="та" tags="conj:coord" />
   <token value="медикаментозні" lemma="медикаментозний" tags="adj:p:v_naz" />
@@ -443,7 +443,7 @@
   <token value="або" lemma="або" tags="conj:coord" />
   <token value="шляхом" lemma="шляхом" tags="prep" />
   <token value="розпилення" lemma="розпилення" tags="noun:inanim:n:v_rod" />
-  <token value="чи" lemma="чи" tags="conj:coord:subord" />
+  <token value="чи" lemma="чи" tags="conj:coord" />
   <token value="холодним" lemma="холодний" tags="adj:m:v_oru:compb" />
   <token value="туманом" lemma="туман" tags="noun:inanim:m:v_oru:xp2" />
   <token value="." lemma="." tags="punct" />
@@ -452,7 +452,7 @@
   <token value="Недоліком" lemma="недолік" tags="noun:inanim:m:v_oru" />
   <token value="методу" lemma="метод" tags="noun:inanim:m:v_rod" />
   <token value="розпилення" lemma="розпилення" tags="noun:inanim:n:v_rod" />
-  <token value="чи" lemma="чи" tags="conj:coord:subord" />
+  <token value="чи" lemma="чи" tags="conj:coord" />
   <token value="туманоутворення" lemma="туманоутворення" tags="noun:inanim:n:v_rod" />
   <token value="може" lemma="могти" tags="verb:imperf:pres:s:3:&amp;insert" />
   <token value="бути" lemma="бути" tags="verb:imperf:inf" />
@@ -528,7 +528,7 @@
   <token value="із" lemma="із" tags="prep" />
   <token value="водою" lemma="вода" tags="noun:inanim:f:v_oru" />
   <token value="," lemma="," tags="punct" />
-  <token value="так" lemma="так" tags="conj:coord:subord" />
+  <token value="так" lemma="так" tags="conj:coord" />
   <token value="і" lemma="і" tags="conj:coord" />
   <token value="через" lemma="через" tags="prep" />
   <token value="систему" lemma="система" tags="noun:inanim:f:v_zna" />

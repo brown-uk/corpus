@@ -90,7 +90,7 @@
   <token value="," lemma="," tags="punct" />
   <token value="аніж" lemma="аніж" tags="conj:subord" />
   <token value="на" lemma="на" tags="prep" />
-  <token value="відкритих" lemma="відкритий" tags="adj:p:v_mis:compb:&amp;&amp;adjp:pasv:perf" />
+  <token value="відкритих" lemma="відкритий" tags="adj:p:v_mis:&amp;adjp:pasv:perf:compb" />
   <token value="навколишніх" lemma="навколишній" tags="adj:p:v_mis" />
   <token value="височинах" lemma="височина" tags="noun:inanim:p:v_mis" />
   <token value="," lemma="," tags="punct" />
@@ -229,7 +229,7 @@
   <token value="," lemma="," tags="punct" />
   <token value="аніж" lemma="аніж" tags="conj:subord" />
   <token value="на" lemma="на" tags="prep" />
-  <token value="відкритих" lemma="відкритий" tags="adj:p:v_mis:compb:&amp;&amp;adjp:pasv:perf" />
+  <token value="відкритих" lemma="відкритий" tags="adj:p:v_mis:&amp;adjp:pasv:perf:compb" />
   <token value="зимним" lemma="зимний" tags="adj:p:v_dav:compb" />
   <token value="вітрам" lemma="вітер" tags="noun:inanim:p:v_dav" />
   <token value="широких" lemma="широкий" tags="adj:p:v_mis:compb" />
@@ -237,7 +237,7 @@
   <token value="Наукової" lemma="науковий" tags="adj:f:v_rod:compb" />
   <token value="," lemma="," tags="punct" />
   <token value="Кульпарківської" lemma="Кульпарківська" tags="noun:inanim:f:v_rod:prop:geo" />
-  <token value="чи" lemma="чи" tags="conj:coord:subord" />
+  <token value="чи" lemma="чи" tags="conj:coord" />
   <token value="Сихова" lemma="Сихів" tags="noun:inanim:m:v_rod:prop:geo" />
   <token value="." lemma="." tags="punct" />
 </sentence>
@@ -348,7 +348,7 @@
   <token value="привезене" lemma="привезений" tags="adj:n:v_zna:&amp;adjp:pasv:perf" />
   <token value="з" lemma="з" tags="prep" />
   <token value="Криту" lemma="Крит" tags="noun:inanim:m:v_rod:prop:geo" />
-  <token value="чи" lemma="чи" tags="conj:coord:subord" />
+  <token value="чи" lemma="чи" tags="conj:coord" />
   <token value="Іспанії" lemma="Іспанія" tags="noun:inanim:f:v_rod:prop:geo" />
   <token value="." lemma="." tags="punct" />
 </sentence>
@@ -422,8 +422,11 @@
   <token value="необачного" lemma="необачний" tags="adj:m:v_zna:ranim:compb" />
   <token value="перехожого" lemma="перехожий" tags="noun:anim:m:v_zna" />
   <token value="," lemma="," tags="punct" />
-  <token value="чи" lemma="чи" tags="conj:coord:subord" />
-  <token value="навіть" lemma="навіть" tags="part" />
+  <token value="чи" lemma="чи" tags="conj:coord" >
+    <alts>
+      <token value="чи" lemma="чи" tags="conj:subord" />
+    </alts>
+  </token>  <token value="навіть" lemma="навіть" tags="part" />
   <token value="вартового" lemma="вартовий" tags="noun:anim:m:v_zna" />
   <token value="самого" lemma="самий" tags="adj:m:v_rod:&amp;pron:def" />
   <token value="короля" lemma="король" tags="noun:anim:m:v_rod" />
@@ -589,8 +592,11 @@
   <token value="або" lemma="або" tags="conj:coord" />
   <token value="Могилу" lemma="могила" tags="noun:inanim:f:v_zna" />
   <token value="," lemma="," tags="punct" />
-  <token value="чи" lemma="чи" tags="conj:coord:subord" />
-  <token value="Пагорб" lemma="пагорб" tags="noun:inanim:m:v_zna" />
+  <token value="чи" lemma="чи" tags="conj:coord" >
+    <alts>
+      <token value="чи" lemma="чи" tags="conj:subord" />
+    </alts>
+  </token>  <token value="Пагорб" lemma="пагорб" tags="noun:inanim:m:v_zna" />
   <token value="Люблінської" lemma="люблінський" tags="adj:f:v_rod" />
   <token value="Унії" lemma="унія" tags="noun:inanim:f:v_rod" />
   <token value="—" lemma="—" tags="punct" />

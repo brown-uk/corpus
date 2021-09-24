@@ -23,14 +23,14 @@
   <token value="Нормування" lemma="нормування" tags="noun:inanim:n:v_naz" />
   <token value="вуглеводів" lemma="вуглевод" tags="noun:inanim:p:v_rod" />
   <token value="і" lemma="і" tags="conj:coord" />
-  <token value="жирів" lemma="жир" tags="noun:inanim:p:v_rod" />
+  <token value="жирів" lemma="жир" tags="noun:inanim:p:v_rod:xp1" />
 <format tag="/b"/>
 </sentence>
 <paragraph/>
 <sentence>
-  <token value="Вуглеводи" lemma="вуглевод" tags="noun:inanim:n:v_naz" />
+  <token value="Вуглеводи" lemma="вуглевод" tags="noun:inanim:p:v_naz" />
   <token value="становлять" lemma="становити" tags="verb:imperf:pres:p:3" />
-  <token value="основну" lemma="основний" tags="adj:f:v_zna" />
+  <token value="основну" lemma="основний" tags="adj:f:v_zna:compb" />
   <token value="частину" lemma="частина" tags="noun:inanim:f:v_zna" />
   <token value="корму" lemma="корм" tags="noun:inanim:m:v_rod" />
   <token value="для" lemma="для" tags="prep" />
@@ -233,9 +233,9 @@
   <token value="вітаміни" lemma="вітамін" tags="noun:inanim:p:v_naz" />
   <token value="(" lemma="(" tags="punct" />
 <format tag="foreign"/>
-  <token value="А" lemma="A" tags="null" />
-  <token value="," lemma="," tags="punct" />
-  <token value="Е" lemma="E" tags="null" />
+  <token value="А" lemma="А" tags="unclass" />
+  <token value="," lemma="," tags="unclass" />
+  <token value="Е" lemma="Е" tags="unclass" />
 <format tag="/foreign"/>
   <token value=")" lemma=")" tags="punct" />
   <token value="," lemma="," tags="punct" />
@@ -512,19 +512,19 @@
   <token value="серед" lemma="серед" tags="prep" />
   <token value="яких" lemma="який" tags="adj:p:v_rod:&amp;pron:int:rel:def" />
 <format tag="foreign"/>
-  <token value="А" lemma="A" tags="noninfl:foreign" comment="кирил." />
-  <token value="," lemma="," tags="punct" />
-  <token value="D" lemma="D" tags="noninfl:foreign" />
-  <token value="," lemma="," tags="punct" />
-  <token value="E" lemma="E" tags="noninfl:foreign" />
-  <token value="," lemma="," tags="punct" />
-  <token value="В1" lemma="В1" tags="noninfl:foreign:bad" comment="кирил." />
-  <token value="," lemma="," tags="punct" />
-  <token value="В2" lemma="В2" tags="noninfl:foreign:bad" comment="кирил." />
-  <token value="," lemma="," tags="punct" />
-  <token value="В12" lemma="В12" tags="noninfl:foreign:bad" comment="кирил." />
-  <token value="," lemma="," tags="punct" />
-  <token value="PP" lemma="PP" tags="noninfl:foreign:bad" comment="кирилічне Р" />
+  <token value="А" lemma="А" tags="unclass" />
+  <token value="," lemma="," tags="unclass" />
+  <token value="D" lemma="D" tags="unclass" />
+  <token value="," lemma="," tags="unclass" />
+  <token value="E" lemma="E" tags="unclass" />
+  <token value="," lemma="," tags="unclass" />
+  <token value="В1" lemma="В1" tags="unclass" />
+  <token value="," lemma="," tags="unclass" />
+  <token value="В2" lemma="В2" tags="unclass" />
+  <token value="," lemma="," tags="unclass" />
+  <token value="В12" lemma="В12" tags="unclass" />
+  <token value="," lemma="," tags="unclass" />
+  <token value="PP" lemma="PP" tags="unclass" />
 <format tag="/foreign"/>
   <token value="," lemma="," tags="punct" />
   <token value="пантотенова" lemma="пантотеновий" tags="adj:f:v_naz" />
@@ -534,7 +534,7 @@
   <token value="," lemma="," tags="punct" />
   <token value="вітамін" lemma="вітамін" tags="noun:inanim:m:v_naz" />
 <format tag="foreign"/>
-  <token value="К" lemma="К" tags="noninfl:foreign:bad" comment="кирилічне К" />
+  <token value="К" lemma="К" tags="unclass" />
 <format tag="/foreign"/>
   <token value="," lemma="," tags="punct" />
   <token value="аскорбінова" lemma="аскорбіновий" tags="adj:f:v_naz" />
@@ -630,7 +630,7 @@
   <token value="сітку" lemma="сітка" tags="noun:inanim:f:v_zna" />
   <token value="з" lemma="з" tags="prep" />
   <token value="перетином" lemma="перетин" tags="noun:inanim:m:v_oru" />
-  <token value="2×2" lemma="2×2" tags="null" />
+  <token value="2×2" lemma="2×2" tags="unclass" />
   <token value="мм" lemma="мм" tags="noun:inanim:p:v_rod:nv:abbr" />
   <token value="." lemma="." tags="punct" />
 </sentence>

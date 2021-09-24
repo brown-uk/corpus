@@ -21,7 +21,7 @@
 <sentence>
   <token value="Журналісти" lemma="журналіст" tags="noun:anim:p:v_naz" />
 <format tag="foreign"/>
-  <token value="Bellingcat" lemma="Bellingcat" tags="noninfl:foreign" />
+  <token value="Bellingcat" lemma="Bellingcat" tags="unclass" />
 <format tag="/foreign"/>
   <token value="оприлюднили" lemma="оприлюднити" tags="verb:perf:past:p" />
   <token value="доповідь" lemma="доповідь" tags="noun:inanim:f:v_zna" />
@@ -60,7 +60,7 @@
   <token value="і" lemma="і" tags="conj:coord" />
   <token value="відео" lemma="відео" tags="noun:inanim:p:v_rod:nv" />
   <token value="з" lemma="з" tags="prep" />
-  <token value="відкритих" lemma="відкритий" tags="adj:p:v_rod:compb:&amp;&amp;adjp:pasv:perf" />
+  <token value="відкритих" lemma="відкритий" tags="adj:p:v_rod:&amp;adjp:pasv:perf:compb" />
   <token value="джерел" lemma="джерело" tags="noun:inanim:p:v_rod" />
   <token value="," lemma="," tags="punct" />
   <token value="а" lemma="а" tags="conj:coord" />
@@ -158,7 +158,7 @@
   <token value="знімки" lemma="знімок" tags="noun:inanim:p:v_naz" />
   <token value="," lemma="," tags="punct" />
   <token value="що" lemma="що" tags="conj:subord" />
-  <token value="також" lemma="також" tags="adv:&amp;insert" />
+  <token value="також" lemma="також" tags="adv" />
   <token value="містять" lemma="містити" tags="verb:imperf:pres:p:3" />
   <token value="сліди" lemma="слід" tags="noun:inanim:p:v_zna" />
   <token value="військової" lemma="військовий" tags="adj:f:v_rod" />
@@ -184,7 +184,7 @@
 <paragraph/>
 <sentence>
   <token value="Розслідувачі" lemma="розслідувач" tags="noun:anim:p:v_naz" />
-  <token value="також" lemma="також" tags="adv:&amp;insert" />
+  <token value="також" lemma="також" tags="adv" />
   <token value="знайшли" lemma="знайти" tags="verb:perf:past:p" />
   <token value="докази" lemma="доказ" tags="noun:inanim:p:v_zna" />
   <token value="того" lemma="те" tags="noun:inanim:n:v_rod:&amp;pron:dem" />
@@ -309,7 +309,7 @@
   <token value="Маркине" lemma="Маркине" tags="noun:inanim:n:v_zna:prop:geo" />
   <token value="та" lemma="та" tags="conj:coord" />
   <token value="Рози" lemma="Роза" tags="noun:anim:f:v_rod:prop:fname" />
-  <token value="Люксембург" lemma="Люксембург" tags="noun:inanim:m:v_zna:prop:geo:xp2" />
+  <token value="Люксембург" lemma="Люксембург" tags="noun:inanim:m:v_zna:prop:geo" />
   <token value="," lemma="," tags="punct" />
   <token value="на" lemma="на" tags="prep" />
   <token value="північний" lemma="північний" tags="adj:m:v_zna:rinanim:compb" />
@@ -328,7 +328,7 @@
 <sentence>
   <token value="Докази" lemma="доказ" tags="noun:inanim:p:v_naz" />
   <token value="з" lemma="з" tags="prep" />
-  <token value="відкритих" lemma="відкритий" tags="adj:p:v_rod:compb:&amp;&amp;adjp:pasv:perf" />
+  <token value="відкритих" lemma="відкритий" tags="adj:p:v_rod:&amp;adjp:pasv:perf:compb" />
   <token value="джерел" lemma="джерело" tags="noun:inanim:p:v_rod" />
   <token value="показують" lemma="показувати" tags="verb:imperf:pres:p:3" />
   <token value="," lemma="," tags="punct" />
@@ -373,7 +373,7 @@
 <sentence>
   <token value="Журналісти" lemma="журналіст" tags="noun:anim:p:v_naz" />
 <format tag="foreign"/>
-  <token value="Bellingcat" lemma="Bellingcat" tags="noninfl:foreign" />
+  <token value="Bellingcat" lemma="Bellingcat" tags="unclass" />
 <format tag="/foreign"/>
   <token value="не" lemma="не" tags="part" />
   <token value="змогли" lemma="змогти" tags="verb:perf:past:p" />
@@ -390,7 +390,7 @@
 </sentence>
 <paragraph/>
 <sentence>
-  <token value="Також" lemma="також" tags="adv:&amp;insert" />
+  <token value="Також" lemma="також" tags="adv" />
   <token value="показано" lemma="показати" tags="verb:perf:impers" />
   <token value="," lemma="," tags="punct" />
   <token value="що" lemma="що" tags="conj:subord" />
@@ -494,7 +494,7 @@
   <token value="," lemma="," tags="punct" />
   <token value="портал" lemma="портал" tags="noun:inanim:m:v_naz" />
 <format tag="foreign"/>
-  <token value="Bellingcat" lemma="Bellingcat" tags="noninfl:foreign" />
+  <token value="Bellingcat" lemma="Bellingcat" tags="unclass" />
 <format tag="/foreign"/>
   <token value="запустив" lemma="запустити" tags="verb:perf:past:m" />
   <token value="британський" lemma="британський" tags="adj:m:v_naz" />
@@ -521,13 +521,12 @@
   <token value="поточних" lemma="поточний" tags="adj:p:v_rod" />
   <token value="подій" lemma="подія" tags="noun:inanim:p:v_rod" />
   <token value="за" lemma="за" tags="prep" />
-  <token value="відкритими" lemma="відкритий" tags="adj:p:v_oru:compb:&amp;&amp;adjp:pasv:perf" />
+  <token value="відкритими" lemma="відкритий" tags="adj:p:v_oru:&amp;adjp:pasv:perf:compb" />
   <token value="джерелами" lemma="джерело" tags="noun:inanim:p:v_oru" />
   <token value="," lemma="," tags="punct" />
   <token value="таким" lemma="такий" tags="adj:p:v_dav:&amp;pron:dem" />
-  <token value="як" lemma="як" tags="adv:&amp;pron:int:rel" >
+  <token value="як" lemma="як" tags="conj:subord" >
     <alts>
-      <token value="як" lemma="як" tags="conj:subord" />
       <token value="як" lemma="як" tags="part" />
     </alts>
   </token>  <token value="відео-" lemma="відео-" tags="noninfl" />
@@ -545,7 +544,7 @@
   <token value="інших" lemma="інший" tags="adj:p:v_rod:&amp;pron:def" />
   <token value="проектів" lemma="проект" tags="noun:inanim:p:v_rod:ua_1992" />
 <format tag="foreign"/>
-  <token value="Bellingcat" lemma="Bellingcat" tags="noninfl:foreign" />
+  <token value="Bellingcat" lemma="Bellingcat" tags="unclass" />
 <format tag="/foreign"/>
   <token value="розслідував" lemma="розслідувати" tags="verb:imperf:past:m" />
   <token value="катастрофу" lemma="катастрофа" tags="noun:inanim:f:v_zna" />
@@ -563,7 +562,7 @@
   <token value="розслідування" lemma="розслідування" tags="noun:inanim:n:v_rod" />
   <token value="активісти" lemma="активіст" tags="noun:anim:p:v_naz" />
 <format tag="foreign"/>
-  <token value="Bellingcat" lemma="Bellingcat" tags="noninfl:foreign" />
+  <token value="Bellingcat" lemma="Bellingcat" tags="unclass" />
 <format tag="/foreign"/>
   <token value="зробили" lemma="зробити" tags="verb:perf:past:p" />
   <token value="висновок" lemma="висновок" tags="noun:inanim:m:v_zna" />
@@ -587,7 +586,7 @@
   <token value="53-ої" lemma="53-й" tags="adj:f:v_rod:&amp;numr" />
   <token value="бригади" lemma="бригада" tags="noun:inanim:f:v_rod" />
   <token value="ППО" lemma="ППО" tags="noun:inanim:n:v_rod:nv:abbr" />
-  <token value="РФ" lemma="РФ" tags="noun:inanim:f:v_rod:nv:prop:abbr" />
+  <token value="РФ" lemma="РФ" tags="noun:inanim:f:v_rod:nv:abbr:prop" />
   <token value="," lemma="," tags="punct" />
   <token value="що" lemma="що" tags="conj:subord" />
   <token value="базується" lemma="базуватися" tags="verb:rev:imperf:pres:s:3" />

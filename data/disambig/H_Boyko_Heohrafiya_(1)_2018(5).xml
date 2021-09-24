@@ -71,10 +71,10 @@
 <format tag="i"/>
   <token value="Сінайського" lemma="сінайський" tags="adj:m:v_rod" />
   <token value="півострова" lemma="півострів" tags="noun:inanim:m:v_rod" />
-  <token value="&lt;/i&gt;," lemma="," tags="null" />
+  <token value="&lt;/i&gt;," lemma="," tags="unclass" />
   <token value="що" lemma="що" tags="noun:inanim:n:v_naz:&amp;pron:int:rel" />
   <token value="з'єднує" lemma="з'єднувати" tags="verb:imperf:pres:s:3" />
-  <token value="її" lemma="вона" tags="noun:unanim:f:v_zna:&amp;pron:pos" />
+  <token value="її" lemma="вона" tags="noun:unanim:f:v_zna:&amp;pron:pers:3" />
   <token value="з" lemma="з" tags="prep" />
 <format tag="/i"/>
   <token value="Аравійським" lemma="аравійський" tags="adj:m:v_oru" />
@@ -469,7 +469,7 @@
   <token value="є" lemma="бути" tags="verb:imperf:pres:p:3" />
   <token value="членами" lemma="член" tags="noun:anim:p:v_oru:xp1" />
 <format tag="i"/>
-  <token value="ООН" lemma="ООН" tags="noun:inanim:f:v_rod:nv:prop:abbr" />
+  <token value="ООН" lemma="ООН" tags="noun:inanim:f:v_rod:nv:abbr:prop" />
 <format tag="/i"/>
   <token value="і" lemma="і" tags="conj:coord" />
 <format tag="i"/>
@@ -518,7 +518,7 @@
   <token value="." lemma="." tags="punct" />
 </sentence>
 <sentence>
-  <token value="Також" lemma="також" tags="adv:&amp;insert" />
+  <token value="Також" lemma="також" tags="adv" />
   <token value="існує" lemma="існувати" tags="verb:imperf:pres:s:3" />
   <token value="кілька" lemma="кілька" tags="noun:anim:f:v_naz" />
   <token value="самопроголошених" lemma="самопроголошений" tags="adj:p:v_rod" />
@@ -740,7 +740,7 @@
   <token value="в" lemma="в" tags="prep" />
 <format tag="i"/>
   <token value="Судані" lemma="Судан" tags="noun:inanim:m:v_mis:prop:geo" />
-  <token value="&lt;/i&gt;," lemma="," tags="null" />
+  <token value="&lt;/i&gt;," lemma="," tags="unclass" />
   <token value="в" lemma="в" tags="prep" />
   <token value="основі" lemma="основа" tags="noun:inanim:f:v_mis" />
   <token value="яких" lemma="який" tags="adj:p:v_rod:&amp;pron:int:rel:def" />
@@ -842,7 +842,7 @@
   <token value="," lemma="," tags="punct" />
   <token value="залишаються" lemma="залишатися" tags="verb:rev:imperf:pres:p:3" />
   <token value="вкрай" lemma="вкрай" tags="adv" />
-  <token value="напруженими" lemma="напружений" tags="adj:p:v_oru:compb:&amp;&amp;adjp:pasv:perf" />
+  <token value="напруженими" lemma="напружений" tags="adj:p:v_oru:&amp;adjp:pasv:perf:compb" />
   <token value="," lemma="," tags="punct" />
   <token value="а" lemma="а" tags="conj:coord" />
   <token value="збройні" lemma="збройний" tags="adj:p:v_naz" />

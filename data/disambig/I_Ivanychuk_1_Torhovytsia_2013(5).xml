@@ -539,11 +539,11 @@
   <token value="установах" lemma="установа" tags="noun:inanim:p:v_mis" />
   <token value="написи" lemma="напис" tags="noun:inanim:p:v_naz" />
 <format tag="foreign"/>
-  <token value="«" lemma="«" tags="punct" />
+  <token value="«" lemma="«" tags="unclass" />
   <token value="Juden" lemma="Juden" tags="unclass" />
   <token value="verboten" lemma="verboten" tags="unclass" />
-  <token value="!" lemma="!" tags="punct" />
-  <token value="»" lemma="»" tags="punct" />
+  <token value="!" lemma="!" tags="unclass" />
+  <token value="»" lemma="»" tags="unclass" />
 <format tag="/foreign"/>
   <token value="," lemma="," tags="punct" />
   <token value="а" lemma="а" tags="conj:coord" />
@@ -739,7 +739,7 @@
   <token value=":" lemma=":" tags="punct" />
   <token value="усе" lemma="усе" tags="noun:inanim:n:v_naz:&amp;pron:gen" />
   <token value="життя" lemma="життя" tags="noun:inanim:n:v_naz" />
-  <token value="чи" lemma="чи" tags="conj:coord:subord" />
+  <token value="чи" lemma="чи" tags="conj:coord" />
   <token value="тільки" lemma="тільки" tags="part" />
   <token value="мить" lemma="мить" tags="noun:inanim:f:v_naz" />
   <token value="страху" lemma="страх" tags="noun:inanim:m:v_rod" />
@@ -1340,7 +1340,7 @@
   <token value="," lemma="," tags="punct" />
   <token value="обвитий" lemma="обвитий" tags="adj:m:v_naz:&amp;adjp:pasv:perf" />
   <token value="стрічкою" lemma="стрічка" tags="noun:inanim:f:v_oru" />
-  <token value="втоптаної" lemma="втоптаний" tags="adj:f:v_rod:&amp;&amp;adjp:pasv:perf" />
+  <token value="втоптаної" lemma="втоптаний" tags="adj:f:v_rod:&amp;adjp:pasv:perf" />
   <token value="стежки" lemma="стежка" tags="noun:inanim:f:v_rod" />
   <token value="," lemma="," tags="punct" />
   <token value="яка" lemma="який" tags="adj:f:v_naz:&amp;pron:int:rel:def" />
@@ -1547,7 +1547,7 @@
   <token value="родич" lemma="родич" tags="noun:anim:m:v_naz" />
   <token value="," lemma="," tags="punct" />
   <token value="член" lemma="член" tags="noun:anim:m:v_naz:xp1" />
-  <token value="ОУН" lemma="ОУН" tags="noun:inanim:f:v_rod:nv:prop:abbr" />
+  <token value="ОУН" lemma="ОУН" tags="noun:inanim:f:v_rod:nv:abbr:prop" />
   <token value="," lemma="," tags="punct" />
   <token value="день" lemma="день" tags="noun:inanim:m:v_naz" />
   <token value="відо" lemma="відо" tags="prep:arch" />

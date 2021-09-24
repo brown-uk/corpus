@@ -218,7 +218,7 @@
   <token value="справджується" lemma="справджуватися" tags="verb:rev:imperf:pres:s:3" />
   <token value="на" lemma="на" tags="prep" />
   <token value="дуже" lemma="дуже" tags="adv:compb" />
-  <token value="обмеженій" lemma="обмежений" tags="adj:f:v_mis:compb:&amp;&amp;adjp:pasv:perf" />
+  <token value="обмеженій" lemma="обмежений" tags="adj:f:v_mis:&amp;adjp:pasv:perf:compb" />
   <token value="кількості" lemma="кількість" tags="noun:inanim:f:v_mis" />
   <token value="країн" lemma="країна" tags="noun:inanim:p:v_rod" />
   <token value="." lemma="." tags="punct" />
@@ -279,7 +279,7 @@
   <token value="є" lemma="бути" tags="verb:imperf:pres:s:3" />
   <token value="лише" lemma="лише" tags="part" />
   <token value="кожна" lemma="кожний" tags="adj:f:v_naz:&amp;pron:gen" />
-  <token value="десята" lemma="десята" tags="noun:inanim:f:v_naz" />
+  <token value="десята" lemma="десятий" tags="adj:f:v_naz:&amp;numr" />
   <token value="країна" lemma="країна" tags="noun:inanim:f:v_naz" />
   <token value="." lemma="." tags="punct" />
 </sentence>
@@ -311,7 +311,7 @@
   <token value="багато" lemma="багато" tags="numr:p:v_naz:&amp;pron:ind" />
   <token value="з-поміж" lemma="з-поміж" tags="prep" />
   <token value="економічно" lemma="економічно" tags="adv" />
-  <token value="розвинутих" lemma="розвинутий" tags="adj:p:v_rod:compb:&amp;&amp;adjp:pasv:perf" />
+  <token value="розвинутих" lemma="розвинутий" tags="adj:p:v_rod:&amp;adjp:pasv:perf:compb" />
   <token value="країн" lemma="країна" tags="noun:inanim:p:v_rod" />
   <token value="мають" lemma="мати" tags="verb:imperf:pres:p:3" />
   <token value="високий" lemma="високий" tags="adj:m:v_zna:rinanim:compb" />
@@ -1007,7 +1007,7 @@
   <token value="." lemma="." tags="punct" />
 </sentence>
 <sentence>
-  <token value="Отже" lemma="отже" tags="part:&amp;insert" />
+  <token value="Отже" lemma="отже" tags="part" />
   <token value="," lemma="," tags="punct" />
   <token value="за" lemma="за" tags="prep" />
   <token value="логікою" lemma="логіка" tags="noun:inanim:f:v_oru" />
@@ -1095,7 +1095,7 @@
   <token value="в" lemma="в" tags="prep" />
   <token value="етнічному" lemma="етнічний" tags="adj:m:v_mis:compb" />
   <token value="складі" lemma="склад" tags="noun:inanim:m:v_mis" />
-  <token value="чи" lemma="чи" tags="conj:coord:subord" />
+  <token value="чи" lemma="чи" tags="conj:coord" />
   <token value="національній" lemma="національний" tags="adj:f:v_mis" />
   <token value="ідентичності" lemma="ідентичність" tags="noun:inanim:f:v_mis" />
   <token value="її" lemma="її" tags="adj:p:v_rod:nv:&amp;pron:pos" />

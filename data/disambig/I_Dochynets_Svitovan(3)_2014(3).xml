@@ -21,7 +21,7 @@
 <sentence>
   <token value="Гуртик" lemma="гуртик" tags="noun:inanim:m:v_naz" />
   <token value="здригнувся" lemma="здригнутися" tags="verb:rev:perf:past:m" />
-  <token value="стриманим" lemma="стриманий" tags="adj:m:v_oru:compb:&amp;&amp;adjp:pasv:perf" />
+  <token value="стриманим" lemma="стриманий" tags="adj:m:v_oru:&amp;adjp:pasv:perf:compb" />
   <token value="сміхом" lemma="сміх" tags="noun:inanim:m:v_oru" />
   <token value="." lemma="." tags="punct" />
 </sentence>
@@ -55,7 +55,7 @@
   <token value="дійство" lemma="дійство" tags="noun:inanim:n:v_zna" />
   <token value="цілительства" lemma="цілительство" tags="noun:inanim:n:v_rod" />
   <token value="–" lemma="–" tags="punct" />
-  <token value="відкритого" lemma="відкритий" tags="adj:n:v_rod:compb:&amp;&amp;adjp:pasv:perf" />
+  <token value="відкритого" lemma="відкритий" tags="adj:n:v_rod:&amp;adjp:pasv:perf:compb" />
   <token value="і" lemma="і" tags="conj:coord" />
   <token value="простого" lemma="простий" tags="adj:n:v_rod:compb" />
   <token value="аж" lemma="аж" tags="part" />
@@ -156,7 +156,7 @@
   <token value="із" lemma="із" tags="prep" />
   <token value="хатини" lemma="хатина" tags="noun:inanim:f:v_rod" />
   <token value="пакуночок" lemma="пакуночок" tags="noun:inanim:m:v_zna" />
-  <token value="чи" lemma="чи" tags="conj:coord:subord" />
+  <token value="чи" lemma="чи" tags="conj:coord" />
   <token value="баночку" lemma="баночка" tags="noun:inanim:f:v_zna" />
   <token value="," lemma="," tags="punct" />
   <token value="когось" lemma="хтось" tags="noun:anim:m:v_zna:&amp;pron:ind" />
@@ -200,8 +200,11 @@
   <token value="." lemma="." tags="punct" />
 </sentence>
 <sentence>
-  <token value="Чи" lemma="чи" tags="conj:coord:subord" />
-  <token value="просто" lemma="просто" tags="adv:compb:&amp;predic" />
+  <token value="Чи" lemma="чи" tags="conj:coord" >
+    <alts>
+      <token value="Чи" lemma="чи" tags="conj:subord" />
+    </alts>
+  </token>  <token value="просто" lemma="просто" tags="adv:compb:&amp;predic" />
   <token value="прикипав" lemma="прикипати" tags="verb:imperf:past:m" />
   <token value="поглядом" lemma="погляд" tags="noun:inanim:m:v_oru" />
   <token value="до" lemma="до" tags="prep" />

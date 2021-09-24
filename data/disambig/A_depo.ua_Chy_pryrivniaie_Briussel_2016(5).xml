@@ -82,7 +82,7 @@
   <token value="Реформу" lemma="реформа" tags="noun:inanim:f:v_zna" />
   <token value="цю" lemma="цей" tags="adj:f:v_zna:&amp;pron:dem" />
   <token value="в" lemma="в" tags="prep" />
-  <token value="ЄС" lemma="ЄС" tags="noun:inanim:m:v_mis:nv:prop:abbr" />
+  <token value="ЄС" lemma="ЄС" tags="noun:inanim:m:v_mis:nv:abbr:prop" />
   <token value="вважають" lemma="вважати" tags="verb:imperf:pres:p:3" />
   <token value="антидемократичною" lemma="антидемократичний" tags="adj:f:v_oru" />
   <token value="і" lemma="і" tags="conj:coord" />
@@ -101,8 +101,8 @@
   <token value="," lemma="," tags="punct" />
   <token value="повідомляє" lemma="повідомляти" tags="verb:imperf:pres:s:3" />
 <format tag="foreign"/>
-  <token value="Financial" lemma="Financial" tags="noninfl:foreign" />
-  <token value="Times" lemma="Times" tags="noninfl:foreign" />
+  <token value="Financial" lemma="Financial" tags="unclass" />
+  <token value="Times" lemma="Times" tags="unclass" />
 <format tag="/foreign"/>
   <token value="." lemma="." tags="punct" />
 </sentence>
@@ -186,8 +186,8 @@
   <token value="За" lemma="за" tags="prep" />
   <token value="відомостями" lemma="відомість" tags="noun:inanim:p:v_oru" />
 <format tag="foreign"/>
-  <token value="Financial" lemma="Financial" tags="noninfl:foreign" />
-  <token value="Times" lemma="Times" tags="noninfl:foreign" />
+  <token value="Financial" lemma="Financial" tags="unclass" />
+  <token value="Times" lemma="Times" tags="unclass" />
 <format tag="/foreign"/>
   <token value="," lemma="," tags="punct" />
   <token value="якщо" lemma="якщо" tags="conj:subord" />
@@ -195,7 +195,7 @@
   <token value="не" lemma="не" tags="part" />
   <token value="відступить" lemma="відступити" tags="verb:perf:futr:s:3" />
   <token value="від" lemma="від" tags="prep" />
-  <token value="зайнятих" lemma="зайнятий" tags="adj:p:v_rod:compb:&amp;&amp;adjp:pasv:perf" />
+  <token value="зайнятих" lemma="зайнятий" tags="adj:p:v_rod:&amp;adjp:pasv:perf:compb" />
   <token value="позицій" lemma="позиція" tags="noun:inanim:p:v_rod" />
   <token value="," lemma="," tags="punct" />
   <token value="то" lemma="то" tags="conj:subord" />
@@ -214,7 +214,7 @@
   <token value="виключення" lemma="виключення" tags="noun:inanim:n:v_zna" />
   <token value="Польщі" lemma="Польща" tags="noun:inanim:f:v_rod:prop:geo" />
   <token value="з" lemma="з" tags="prep" />
-  <token value="ЄС" lemma="ЄС" tags="noun:inanim:m:v_rod:nv:prop:abbr" />
+  <token value="ЄС" lemma="ЄС" tags="noun:inanim:m:v_rod:nv:abbr:prop" />
   <token value="мова" lemma="мова" tags="noun:inanim:f:v_naz" />
   <token value="не" lemma="не" tags="part" />
   <token value="йде" lemma="йти" tags="verb:imperf:pres:s:3" />
@@ -230,7 +230,7 @@
   <token value="права" lemma="право" tags="noun:inanim:n:v_rod" />
   <token value="голосу" lemma="голос" tags="noun:inanim:m:v_rod" />
   <token value="в" lemma="в" tags="prep" />
-  <token value="ЄС" lemma="ЄС" tags="noun:inanim:m:v_mis:nv:prop:abbr" />
+  <token value="ЄС" lemma="ЄС" tags="noun:inanim:m:v_mis:nv:abbr:prop" />
   <token value="є" lemma="бути" tags="verb:imperf:pres:s:3" />
   <token value="для" lemma="для" tags="prep" />
   <token value="Варшави" lemma="Варшава" tags="noun:inanim:f:v_rod:prop:geo" />
@@ -262,7 +262,7 @@
   <token value="відступати" lemma="відступати" tags="verb:imperf:inf" />
   <token value="перед" lemma="перед" tags="prep" />
   <token value="вимогами" lemma="вимога" tags="noun:inanim:p:v_oru" />
-  <token value="ЄС" lemma="ЄС" tags="noun:inanim:m:v_rod:nv:prop:abbr" />
+  <token value="ЄС" lemma="ЄС" tags="noun:inanim:m:v_rod:nv:abbr:prop" />
   <token value="," lemma="," tags="punct" />
   <token value="схоже" lemma="схоже" tags="adv:&amp;insert" />
   <token value="," lemma="," tags="punct" />
@@ -283,7 +283,7 @@
   <token value="сліпо" lemma="сліпо" tags="adv:compb" />
   <token value="слідувати" lemma="слідувати" tags="verb:imperf:inf" />
   <token value="порадам" lemma="порада" tags="noun:inanim:p:v_dav" />
-  <token value="ЄС" lemma="ЄС" tags="noun:inanim:m:v_rod:nv:prop:abbr" />
+  <token value="ЄС" lemma="ЄС" tags="noun:inanim:m:v_rod:nv:abbr:prop" />
   <token value="." lemma="." tags="punct" />
 </sentence>
 <sentence>
@@ -387,7 +387,7 @@
   <token value="парламенту" lemma="парламент" tags="noun:inanim:m:v_rod" />
   <token value="," lemma="," tags="punct" />
   <token value="буде" lemma="бути" tags="verb:imperf:futr:s:3" />
-  <token value="вимушена" lemma="вимушений" tags="adj:f:v_naz:&amp;&amp;adjp:pasv:perf" />
+  <token value="вимушена" lemma="вимушений" tags="adj:f:v_naz:&amp;adjp:pasv:perf" />
   <token value="відступити" lemma="відступити" tags="verb:perf:inf" />
   <token value="—" lemma="—" tags="punct" />
   <token value="то" lemma="то" tags="conj:subord" />
@@ -426,7 +426,7 @@
   <token value="дії" lemma="дія" tags="noun:inanim:p:v_zna" />
   <token value="поляків" lemma="поляк" tags="noun:anim:p:v_rod" />
   <token value="буде" lemma="бути" tags="verb:imperf:futr:s:3" />
-  <token value="вимушена" lemma="вимушений" tags="adj:f:v_naz:&amp;&amp;adjp:pasv:perf" />
+  <token value="вимушена" lemma="вимушений" tags="adj:f:v_naz:&amp;adjp:pasv:perf" />
   <token value="закрити" lemma="закрити" tags="verb:perf:inf" />
   <token value="очі" lemma="око" tags="noun:inanim:p:v_zna" />
   <token value="Єврокомісія" lemma="Єврокомісія" tags="noun:inanim:f:v_naz:prop" />
@@ -478,7 +478,7 @@
   <token value="необов'язковими" lemma="необов'язковий" tags="adj:p:v_oru" />
   <token value="для" lemma="для" tags="prep" />
   <token value="членів" lemma="член" tags="noun:anim:p:v_rod:xp1" />
-  <token value="ЄС" lemma="ЄС" tags="noun:inanim:m:v_rod:nv:prop:abbr" />
+  <token value="ЄС" lemma="ЄС" tags="noun:inanim:m:v_rod:nv:abbr:prop" />
   <token value="." lemma="." tags="punct" />
 </sentence>
 </body>

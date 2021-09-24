@@ -106,7 +106,7 @@
   <token value="можна" lemma="можна" tags="noninfl:&amp;predic" />
   <token value="змінити" lemma="змінити" tags="verb:perf:inf" />
   <token value="," lemma="," tags="punct" />
-  <token value="тобто" lemma="тобто" tags="part" />
+  <token value="тобто" lemma="тобто" tags="conj:subord" />
   <token value="як" lemma="як" tags="adv:&amp;pron:int:rel" />
   <token value="забрати" lemma="забрати" tags="verb:perf:inf" />
   <token value="у" lemma="у" tags="prep" />
@@ -322,7 +322,7 @@
   <token value="молекул" lemma="молекула" tags="noun:inanim:p:v_rod" />
   <token value="," lemma="," tags="punct" />
   <token value="а" lemma="а" tags="conj:coord" />
-  <token value="отже" lemma="отже" tags="part:&amp;insert" />
+  <token value="отже" lemma="отже" tags="part" />
   <token value="," lemma="," tags="punct" />
   <token value="і" lemma="і" tags="conj:coord" />
   <token value="зміну" lemma="зміна" tags="noun:inanim:f:v_zna" />
@@ -432,7 +432,7 @@
   <token value="." lemma="." tags="punct" />
 </sentence>
 <sentence>
-  <token value="Отже" lemma="отже" tags="conj:subord" />
+  <token value="Отже" lemma="отже" tags="conj:subord:&amp;insert" />
   <token value="," lemma="," tags="punct" />
   <token value="різниця" lemma="різниця" tags="noun:inanim:f:v_naz" />
   <token value="внутрішніх" lemma="внутрішній" tags="adj:p:v_rod" />
@@ -494,7 +494,7 @@
 </sentence>
 <paragraph/>
 <sentence>
-  <token value="Отже" lemma="отже" tags="conj:subord" />
+  <token value="Отже" lemma="отже" tags="conj:subord:&amp;insert" />
   <token value="," lemma="," tags="punct" />
   <token value="обмін" lemma="обмін" tags="noun:inanim:m:v_naz" />
   <token value="внутрішньою" lemma="внутрішній" tags="adj:f:v_oru" />
@@ -707,7 +707,7 @@
   <token value="кінець" lemma="кінець" tags="noun:inanim:m:v_naz" />
   <token value="якої" lemma="який" tags="adj:f:v_rod:&amp;pron:int:rel:def" />
   <token value="був" lemma="бути" tags="verb:imperf:past:m" />
-  <token value="відкритий" lemma="відкритий" tags="adj:m:v_naz:compb:&amp;&amp;adjp:pasv:perf" />
+  <token value="відкритий" lemma="відкритий" tags="adj:m:v_naz:&amp;adjp:pasv:perf:compb" />
   <token value="," lemma="," tags="punct" />
   <token value="а" lemma="а" tags="conj:coord" />
   <token value="другий" lemma="другий" tags="adj:m:v_naz:&amp;numr" />
@@ -869,7 +869,7 @@
   <token value="1" lemma="1" tags="number" />
   <token value="–" lemma="–" tags="punct" />
   <token value="0" lemma="0" tags="number" />
-  <token value="°" lemma="°" tags="null" />
+  <token value="°" lemma="°" tags="symb" />
   <token value="F" lemma="F" tags="unclass" />
   <token value=";" lemma=";" tags="punct" />
   <token value="(" lemma="(" tags="punct" />
@@ -893,7 +893,7 @@
   <token value="плавлення" lemma="плавлення" tags="noun:inanim:n:v_rod" />
   <token value="льоду" lemma="лід" tags="noun:inanim:m:v_rod" />
   <token value="32" lemma="32" tags="number" />
-  <token value="°" lemma="°" tags="null" />
+  <token value="°" lemma="°" tags="symb" />
   <token value="F" lemma="F" tags="unclass" />
   <token value=";" lemma=";" tags="punct" />
   <token value="3" lemma="3" tags="number" />
@@ -903,8 +903,8 @@
   <token value="тіла" lemma="тіло" tags="noun:inanim:n:v_rod" />
   <token value="людини" lemma="людина" tags="noun:anim:f:v_rod" />
   <token value="96" lemma="96" tags="number" />
-  <token value="°" lemma="°" tags="null" />
-  <token value="F" lemma="F" tags="nonclass" />
+  <token value="°" lemma="°" tags="symb" />
+  <token value="F" lemma="F" tags="unclass" />
   <token value="." lemma="." tags="punct" />
 </sentence>
 <sentence>
@@ -913,8 +913,8 @@
   <token value="води" lemma="вода" tags="noun:inanim:f:v_rod" />
   <token value="(" lemma="(" tags="punct" />
   <token value="212" lemma="212" tags="number" />
-  <token value="°" lemma="°" tags="null" />
-  <token value="F" lemma="F" tags="nonclass" />
+  <token value="°" lemma="°" tags="symb" />
+  <token value="F" lemma="F" tags="unclass" />
   <token value=")" lemma=")" tags="punct" />
   <token value="не" lemma="не" tags="part" />
   <token value="використовувалася" lemma="використовуватися" tags="verb:rev:imperf:past:f" />

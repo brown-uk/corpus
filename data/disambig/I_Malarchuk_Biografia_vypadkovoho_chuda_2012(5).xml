@@ -288,22 +288,16 @@
 <paragraph/>
 <sentence>
   <token value="Тепер" lemma="тепер" tags="adv:&amp;pron:dem" />
-  <token value="же" lemma="же" tags="conj:coord" >
-    <alts>
-      <token value="же" lemma="же" tags="part" />
-    </alts>
-  </token>  <token value="," lemma="," tags="punct" />
+  <token value="же" lemma="же" tags="part" />
+  <token value="," lemma="," tags="punct" />
   <token value="за" lemma="за" tags="prep" />
   <token value="нових" lemma="новий" tags="adj:p:v_rod:compb" />
   <token value="часів" lemma="час" tags="noun:inanim:p:v_rod" />
   <token value="," lemma="," tags="punct" />
   <token value="не" lemma="не" tags="part" />
   <token value="було" lemma="бути" tags="verb:imperf:past:n:&amp;insert" />
-  <token value="ані" lemma="ані" tags="conj:coord" >
-    <alts>
-      <token value="ані" lemma="ані" tags="part" />
-    </alts>
-  </token>  <token value="продуктів" lemma="продукт" tags="noun:inanim:p:v_rod" />
+  <token value="ані" lemma="ані" tags="conj:coord" />
+  <token value="продуктів" lemma="продукт" tags="noun:inanim:p:v_rod" />
   <token value="," lemma="," tags="punct" />
   <token value="ані" lemma="ані" tags="conj:coord" />
   <token value="трусів" lemma="труси" tags="noun:inanim:p:v_rod:ns" />
@@ -317,7 +311,7 @@
   <token value="ходили" lemma="ходити" tags="verb:imperf:past:p" />
   <token value="знищені" lemma="знищений" tags="adj:p:v_naz:&amp;adjp:pasv:perf" />
   <token value="й" lemma="й" tags="conj:coord" />
-  <token value="обдерті" lemma="обдертий" tags="adj:p:v_naz:compb:&amp;&amp;adjp:pasv:perf" />
+  <token value="обдерті" lemma="обдертий" tags="adj:p:v_naz:&amp;adjp:pasv:perf:compb" />
   <token value="," lemma="," tags="punct" />
   <token value="і" lemma="і" tags="conj:coord" />
   <token value="нові" lemma="новий" tags="adj:p:v_naz:compb" />
@@ -719,7 +713,7 @@
   <token value="," lemma="," tags="punct" />
   <token value="косять" lemma="косити" tags="verb:imperf:pres:p:3" />
   <token value="там" lemma="там" tags="adv:&amp;pron:dem" />
-  <token value="чи" lemma="чи" tags="conj:coord:subord" />
+  <token value="чи" lemma="чи" tags="conj:coord" />
   <token value="стоять" lemma="стояти" tags="verb:imperf:pres:p:3" />
   <token value="і" lemma="і" tags="conj:coord" />
   <token value="курять" lemma="курити" tags="verb:imperf:pres:p:3" />

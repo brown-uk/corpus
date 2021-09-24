@@ -85,7 +85,7 @@
   <token value="–" lemma="–" tags="punct" />
   <token value="центральному" lemma="центральний" tags="adj:n:v_mis:compb" />
   <token value="місті" lemma="місто" tags="noun:inanim:n:v_mis" />
-  <token value="Ізраїлю" lemma="Ізраїль" tags="noun:inanim:m:v_rod:prop:geo:xp2" />
+  <token value="Ізраїлю" lemma="Ізраїль" tags="noun:inanim:m:v_rod:prop:geo" />
   <token value="," lemma="," tags="punct" />
   <token value="де" lemma="де" tags="adv:&amp;pron:int:rel" />
   <token value="знаходилася" lemma="знаходитися" tags="verb:rev:imperf:past:f" />
@@ -105,7 +105,7 @@
   <token value="більше" lemma="більше" tags="adv:compc" />
   <token value="ніж" lemma="ніж" tags="conj:subord" />
   <token value="політичним" lemma="політичний" tags="adj:m:v_oru" />
-  <token value="чи" lemma="чи" tags="conj:coord:subord" />
+  <token value="чи" lemma="чи" tags="conj:coord" />
   <token value="адміністративним" lemma="адміністративний" tags="adj:m:v_oru" />
   <token value="осередком" lemma="осередок" tags="noun:inanim:m:v_oru" />
   <token value="." lemma="." tags="punct" />
@@ -237,18 +237,15 @@
   <token value="," lemma="," tags="punct" />
   <token value="записаних" lemma="записаний" tags="adj:p:v_mis:&amp;adjp:pasv:perf" />
   <token value="святим" lemma="святий" tags="adj:m:v_oru:compb" />
-  <token value="Лукою" lemma="Лука" tags="noun:anim:m:v_oru:prop:fname:xp1" />
+  <token value="Лукою" lemma="Лука" tags="noun:anim:m:v_oru:prop:fname" />
   <token value="(" lemma="(" tags="punct" />
   <token value="пор." lemma="пор." tags="verb:perf:impr:p:2:abbr" />
   <token value="19" lemma="19" tags="number" />
   <token value="," lemma="," tags="punct" />
   <token value="41-44" lemma="41-44" tags="number" />
   <token value=")" lemma=")" tags="punct" />
-  <token value="і" lemma="і" tags="conj:coord" >
-    <alts>
-      <token value="і" lemma="і" tags="part" />
-    </alts>
-  </token>  <token value="святим" lemma="святий" tags="adj:m:v_oru:compb" />
+  <token value="і" lemma="і" tags="conj:coord" />
+  <token value="святим" lemma="святий" tags="adj:m:v_oru:compb" />
   <token value="Матеєм" lemma="Матей" tags="noun:anim:m:v_oru:prop:fname" />
   <token value="(" lemma="(" tags="punct" />
   <token value="пор." lemma="пор." tags="verb:perf:impr:p:2:abbr" />
@@ -420,7 +417,7 @@
   <token value="Автор" lemma="автор" tags="noun:anim:m:v_naz" />
   <token value="цих" lemma="цей" tags="adj:p:v_rod:&amp;pron:dem" />
   <token value="рядків" lemma="рядок" tags="noun:inanim:p:v_rod" />
-  <token value="упевнений" lemma="упевнений" tags="adj:m:v_naz:compb:&amp;&amp;adjp:pasv:perf" />
+  <token value="упевнений" lemma="упевнений" tags="adj:m:v_naz:&amp;adjp:pasv:perf:compb" />
   <token value="," lemma="," tags="punct" />
   <token value="що" lemma="що" tags="conj:subord" />
   <token value="як" lemma="як" tags="adv:&amp;pron:int:rel" />

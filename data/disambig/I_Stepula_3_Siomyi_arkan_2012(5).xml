@@ -503,8 +503,11 @@
   <token value="почав" lemma="почати" tags="verb:perf:past:m" />
   <token value="непокоїтися" lemma="непокоїтися" tags="verb:rev:imperf:inf" />
   <token value=":" lemma=":" tags="punct" />
-  <token value="чи" lemma="чи" tags="conj:coord:subord" />
-  <token value="не" lemma="не" tags="part" />
+  <token value="чи" lemma="чи" tags="conj:coord" >
+    <alts>
+      <token value="чи" lemma="чи" tags="conj:subord" />
+    </alts>
+  </token>  <token value="не" lemma="не" tags="part" />
   <token value="надто" lemma="надто" tags="adv" />
   <token value="довго" lemma="довго" tags="adv:compb" />
   <token value="він" lemma="він" tags="noun:unanim:m:v_naz:&amp;pron:pers:3" />
@@ -551,7 +554,7 @@
   <token value="Випросивши" lemma="випросивши" tags="advp:perf" />
   <token value="спершу" lemma="спершу" tags="adv" />
   <token value="свою" lemma="свій" tags="adj:f:v_zna:&amp;pron:pos" />
-  <token value="улюблену" lemma="улюблений" tags="adj:f:v_zna:compb:&amp;&amp;adjp:pasv:perf" />
+  <token value="улюблену" lemma="улюблений" tags="adj:f:v_zna:&amp;adjp:pasv:perf:compb" />
   <token value="баночку" lemma="баночка" tags="noun:inanim:f:v_zna" />
   <token value="харчу" lemma="харч" tags="noun:inanim:m:v_rod" />
   <token value="з" lemma="з" tags="prep" />
@@ -691,7 +694,7 @@
   <token value="Це" lemma="це" tags="part" />
   <token value="були" lemma="бути" tags="verb:imperf:past:p" />
   <token value="молоді" lemma="молодий" tags="adj:p:v_naz:compb" />
-  <token value="Василина" lemma="Василина" tags="noun:anim:f:v_naz:prop:fname:xp1" />
+  <token value="Василина" lemma="Василина" tags="noun:anim:f:v_naz:prop:fname" />
   <token value="і" lemma="і" tags="conj:coord" />
   <token value="Василь" lemma="Василь" tags="noun:anim:m:v_naz:prop:fname" />
   <token value="," lemma="," tags="punct" />
@@ -834,7 +837,7 @@
 </sentence>
 <sentence>
   <token value="А" lemma="а" tags="conj:coord" />
-  <token value="Василина" lemma="Василина" tags="noun:anim:f:v_naz:prop:fname:xp1" />
+  <token value="Василина" lemma="Василина" tags="noun:anim:f:v_naz:prop:fname" />
   <token value="тоді" lemma="тоді" tags="adv:&amp;pron:dem" />
   <token value="схопила" lemma="схопити" tags="verb:perf:past:f" />
   <token value="на" lemma="на" tags="prep" />

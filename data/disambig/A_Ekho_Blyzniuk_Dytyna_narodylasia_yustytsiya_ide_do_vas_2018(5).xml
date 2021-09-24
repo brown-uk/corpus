@@ -80,12 +80,8 @@
   <token value="четвертий" lemma="четвертий" tags="adj:m:v_naz:&amp;numr" />
   <token value="малюк" lemma="малюк" tags="noun:anim:m:v_naz" />
   <token value="(" lemma="(" tags="punct" />
-  <token value="а" lemma="а" tags="conj:coord" >
-    <alts>
-      <token value="а" lemma="а" tags="intj" />
-      <token value="а" lemma="а" tags="part" />
-    </alts>
-  </token>  <token value="всього" lemma="все" tags="noun:inanim:n:v_rod:&amp;pron:gen" />
+  <token value="а" lemma="а" tags="conj:coord" />
+  <token value="всього" lemma="все" tags="noun:inanim:n:v_rod:&amp;pron:gen" />
   <token value="1717" lemma="1717" tags="number" />
   <token value=")" lemma=")" tags="punct" />
   <token value="виписувався" lemma="виписуватися" tags="verb:rev:imperf:past:m" />
@@ -149,7 +145,7 @@
   <token value="медичною" lemma="медичний" tags="adj:f:v_oru" />
   <token value="установою" lemma="установа" tags="noun:inanim:f:v_oru" />
   <token value="," lemma="," tags="punct" />
-  <token value="чи" lemma="чи" tags="conj:coord:subord" />
+  <token value="чи" lemma="чи" tags="conj:coord" />
   <token value="судового" lemma="судовий" tags="adj:m:v_rod" />
   <token value="рішення" lemma="рішення" tags="noun:inanim:n:v_rod" />
   <token value="," lemma="," tags="punct" />
@@ -374,7 +370,7 @@
   <token value="спільної" lemma="спільний" tags="adj:f:v_rod" />
   <token value="заяви" lemma="заява" tags="noun:inanim:f:v_rod" />
   <token value="батьків" lemma="батьки" tags="noun:anim:p:v_rod:ns" />
-  <token value="чи" lemma="чи" tags="conj:coord:subord" />
+  <token value="чи" lemma="чи" tags="conj:coord" />
   <token value="відповідного" lemma="відповідний" tags="adj:m:v_rod:compb" />
   <token value="рішення" lemma="рішення" tags="noun:inanim:n:v_rod" />
   <token value="суду" lemma="суд" tags="noun:inanim:m:v_rod" />

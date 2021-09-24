@@ -55,7 +55,7 @@
   <token value="За" lemma="за" tags="prep" />
   <token value="епідеміологічними" lemma="епідеміологічний" tags="adj:p:v_oru" />
   <token value="дослідженнями" lemma="дослідження" tags="noun:inanim:p:v_oru" />
-  <token value="ВООЗ" lemma="ВООЗ" tags="noun:inanim:f:v_rod:nv:prop:abbr" />
+  <token value="ВООЗ" lemma="ВООЗ" tags="noun:inanim:f:v_rod:nv:abbr:prop" />
   <token value="," lemma="," tags="punct" />
   <token value="10-15%" lemma="10-15%" tags="number" />
   <token value="подружніх" lemma="подружній" tags="adj:p:v_rod" />
@@ -325,7 +325,7 @@
   <token value="декількох" lemma="декілька" tags="numr:p:v_rod:&amp;pron:ind" />
   <token value="етапів" lemma="етап" tags="noun:inanim:p:v_rod" />
   <token value=":" lemma=":" tags="punct" />
-  <token value="контрольована" lemma="контрольований" tags="adj:f:v_naz:compb:&amp;&amp;adjp:pasv:imperf" />
+  <token value="контрольована" lemma="контрольований" tags="adj:f:v_naz:&amp;adjp:pasv:imperf:compb" />
   <token value="стимуляція" lemma="стимуляція" tags="noun:inanim:f:v_naz" />
   <token value="яєчників" lemma="яєчник" tags="noun:inanim:p:v_rod" />
   <token value="," lemma="," tags="punct" />
@@ -518,7 +518,7 @@
   <token value="матки" lemma="матка" tags="noun:inanim:f:v_rod:xp3" />
   <token value="," lemma="," tags="punct" />
   <token value="а" lemma="а" tags="conj:coord" />
-  <token value="також" lemma="також" tags="adv:&amp;insert" />
+  <token value="також" lemma="також" tags="adv" />
   <token value="васкуляризація" lemma="васкуляризація" tags="noun:inanim:f:v_naz" />
   <token value="(" lemma="(" tags="punct" />
   <token value="формування" lemma="формування" tags="noun:inanim:n:v_naz" />
@@ -645,7 +645,7 @@
   <token value="використовується" lemma="використовуватися" tags="verb:rev:imperf:pres:s:3" />
   <token value="сьогодні" lemma="сьогодні" tags="adv" />
   <token value="в" lemma="в" tags="prep" />
-  <token value="мільйонах" lemma="мільйон" tags="noun:inanim:p:v_mis:&amp;&amp;numr" />
+  <token value="мільйонах" lemma="мільйон" tags="noun:inanim:p:v_mis:&amp;numr" />
   <token value="циклів" lemma="цикл" tags="noun:inanim:p:v_rod" />
   <token value="екстракорпорального" lemma="екстракорпоральний" tags="adj:m:v_rod" />
   <token value="запліднення" lemma="запліднення" tags="noun:inanim:n:v_rod" />
@@ -775,7 +775,7 @@
 <paragraph/>
 <sentence>
   <token value="Слід" lemma="слід" tags="noninfl:&amp;predic" />
-  <token value="також" lemma="також" tags="adv:&amp;insert" />
+  <token value="також" lemma="також" tags="adv" />
   <token value="пам'ятати" lemma="пам'ятати" tags="verb:imperf:inf" />
   <token value="," lemma="," tags="punct" />
   <token value="що" lemma="що" tags="conj:subord" />
@@ -1350,7 +1350,7 @@
   <token value="якість" lemma="якість" tags="noun:inanim:f:v_naz" />
   <token value="утворених" lemma="утворений" tags="adj:p:v_rod:&amp;adjp:pasv:perf" />
   <token value="ембріонів" lemma="ембріон" tags="noun:inanim:p:v_rod" />
-  <token value="також" lemma="також" tags="adv:&amp;insert" />
+  <token value="також" lemma="також" tags="adv" />
   <token value="віддзеркалюють" lemma="віддзеркалювати" tags="verb:imperf:pres:p:3" />
   <token value="загальний" lemma="загальний" tags="adj:m:v_zna:rinanim:compb" />
   <token value="фізіологічний" lemma="фізіологічний" tags="adj:m:v_zna:rinanim:compb" />
@@ -1383,7 +1383,7 @@
   <token value="репарації" lemma="репарація" tags="noun:inanim:f:v_rod" />
   <token value="та" lemma="та" tags="part" />
   <token value="розпізнавання" lemma="розпізнавання" tags="noun:inanim:n:v_rod" />
-  <token value="пошкоджених" lemma="пошкоджений" tags="adj:p:v_rod:compb:&amp;&amp;adjp:pasv:perf" />
+  <token value="пошкоджених" lemma="пошкоджений" tags="adj:p:v_rod:&amp;adjp:pasv:perf:compb" />
   <token value="клітин" lemma="клітина" tags="noun:inanim:p:v_rod" />
   <token value="і" lemma="і" tags="part" />
   <token value="субкомпонентів" lemma="субкомпонент" tags="noun:inanim:p:v_rod" />
@@ -1618,7 +1618,7 @@
   <token value="Секвенувавши" lemma="секвенувавши" tags="advp:perf" />
   <token value="ДНК" lemma="ДНК" tags="noun:inanim:f:v_rod:nv:abbr" />
   <token value="," lemma="," tags="punct" />
-  <token value="тобто" lemma="тобто" tags="part" />
+  <token value="тобто" lemma="тобто" tags="conj:subord" />
   <token value="визначивши" lemma="визначивши" tags="advp:perf" />
   <token value="послідовність" lemma="послідовність" tags="noun:inanim:f:v_zna" />
   <token value="нуклеотидів" lemma="нуклеотид" tags="noun:inanim:p:v_rod" />

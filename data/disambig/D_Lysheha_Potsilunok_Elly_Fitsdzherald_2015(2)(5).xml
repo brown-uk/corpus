@@ -482,7 +482,7 @@
   <token value="виступ" lemma="виступ" tags="noun:inanim:m:v_naz" />
   <token value="аж" lemma="аж" tags="conj:subord" />
   <token value="о" lemma="о" tags="prep" />
-  <token value="десятій" lemma="десята" tags="noun:inanim:f:v_mis" />
+  <token value="десятій" lemma="десятий" tags="adj:f:v_mis:&amp;numr" />
   <token value="," lemma="," tags="punct" />
   <token value="буде" lemma="бути" tags="verb:imperf:futr:s:3" />
   <token value="вже" lemma="вже" tags="adv" />
@@ -596,7 +596,7 @@
   <token value="би" lemma="би" tags="part" />
   <token value="почитати" lemma="почитати" tags="verb:perf:inf:xp2" />
   <token value="уголос" lemma="уголос" tags="adv" />
-  <token value="Лорку" lemma="Лорка" tags="noun:anim:m:v_zna:prop:lname:xp1" />
+  <token value="Лорку" lemma="Лорка" tags="noun:anim:m:v_zna:prop:lname" />
   <token value="," lemma="," tags="punct" />
   <token value="довгий" lemma="довгий" tags="adj:m:v_zna:rinanim:compb" />
   <token value="вірш" lemma="вірш" tags="noun:inanim:m:v_zna" />
@@ -851,7 +851,7 @@
   <token value="під" lemma="під" tags="prep" />
   <token value="мостом" lemma="міст" tags="noun:inanim:m:v_oru" />
   <token value="в" lemma="в" tags="prep" />
-  <token value="Галичі" lemma="Галич" tags="noun:inanim:m:v_mis:prop:geo:xp2" />
+  <token value="Галичі" lemma="Галич" tags="noun:inanim:m:v_mis:prop:geo" />
   <token value="." lemma="." tags="punct" />
   <token value="." lemma="." tags="punct" />
 </sentence>
@@ -859,7 +859,7 @@
   <token value="Там" lemma="там" tags="adv:&amp;pron:dem" />
   <token value="," lemma="," tags="punct" />
   <token value="у" lemma="у" tags="prep" />
-  <token value="Станіславі" lemma="Станіслав" tags="noun:inanim:m:v_mis:prop:geo:xp2" />
+  <token value="Станіславі" lemma="Станіслав" tags="noun:inanim:m:v_mis:prop:geo" />
   <token value="," lemma="," tags="punct" />
   <token value="сніг" lemma="сніг" tags="noun:inanim:m:v_naz" />
   <token value="був" lemma="бути" tags="verb:imperf:past:m" />
@@ -920,7 +920,7 @@
   <token value="." lemma="." tags="punct" />
 </sentence>
 <sentence>
-  <token value="Галич" lemma="Галич" tags="noun:inanim:m:v_naz:prop:geo:xp2" />
+  <token value="Галич" lemma="Галич" tags="noun:inanim:m:v_naz:prop:geo" />
   <token value="," lemma="," tags="punct" />
   <token value="Бурштин" lemma="Бурштин" tags="noun:inanim:m:v_naz:prop:geo" />
   <token value="," lemma="," tags="punct" />
@@ -1034,7 +1034,7 @@
   <token value="тут" lemma="тут" tags="adv:&amp;pron:dem" />
   <token value="колись" lemma="колись" tags="adv:&amp;pron:ind" />
   <token value="народилася" lemma="народитися" tags="verb:rev:perf:past:f" />
-  <token value="Марійка" lemma="Марійка" tags="noun:anim:f:v_naz:prop:fname:xp1" />
+  <token value="Марійка" lemma="Марійка" tags="noun:anim:f:v_naz:prop:fname" />
   <token value="Габлевич" lemma="Габлевич" tags="noun:anim:f:v_rod:nv:prop:lname" />
   <token value="," lemma="," tags="punct" />
   <token value="у" lemma="у" tags="prep" />
@@ -1505,11 +1505,11 @@
   <token value="," lemma="," tags="punct" />
   <token value="куди" lemma="куди" tags="adv:&amp;pron:int:rel" />
   <token value="князь" lemma="князь" tags="noun:anim:m:v_naz" />
-  <token value="Володимирко" lemma="Володимирко" tags="noun:anim:m:v_naz_prop:fname" />
+  <token value="Володимирко" lemma="Володимирко" tags="noun:anim:m:v_naz:prop:fname" />
   <token value="вибрався" lemma="вибратися" tags="verb:rev:perf:past:m" />
   <token value="був" lemma="бути" tags="verb:imperf:past:m" />
   <token value="у" lemma="у" tags="prep" />
-  <token value="тисяча" lemma="тисяча" tags="noun:inanim:f:v_naz:&amp;&amp;numr" />
+  <token value="тисяча" lemma="тисяча" tags="noun:inanim:f:v_naz:&amp;numr" />
   <token value="якомусь" lemma="якийсь" tags="adj:n:v_mis:&amp;pron:ind" />
   <token value="там" lemma="там" tags="part" />
   <token value="літі" lemma="літо" tags="noun:inanim:n:v_mis" />
@@ -1578,7 +1578,7 @@
   <token value="наш" lemma="наш" tags="adj:m:v_zna:rinanim:&amp;pron:pos" />
   <token value="час" lemma="час" tags="noun:inanim:m:v_zna" />
   <token value="," lemma="," tags="punct" />
-  <token value="Зеленою" lemma="Зелена" tags="noun:anim:f:v_oru:prop:geo" />
+  <token value="Зеленою" lemma="Зелена" tags="noun:inanim:f:v_oru:prop:geo" />
   <token value="," lemma="," tags="punct" />
   <token value="горбами" lemma="горб" tags="noun:inanim:p:v_oru" />
   <token value="," lemma="," tags="punct" />
@@ -2050,13 +2050,12 @@
   <token value="аніж" lemma="аніж" tags="conj:subord" />
   <token value="найменший" lemma="найменший" tags="adj:m:v_zna:rinanim:comps" />
   <token value="закуток" lemma="закуток" tags="noun:inanim:m:v_zna" />
-  <token value="чи" lemma="чи" tags="conj:coord:subord" />
+  <token value="чи" lemma="чи" tags="conj:coord" />
   <token value="камінець" lemma="камінець" tags="noun:inanim:m:v_zna" />
   <token value="на" lemma="на" tags="prep" />
   <token value="Ринку" lemma="ринок" tags="noun:inanim:m:v_mis" />
   <token value="у" lemma="у" tags="prep" />
   <token value="Львові" lemma="Львів" tags="noun:inanim:m:v_mis:prop:geo" />
-  <token value="." lemma="." tags="punct" />
   <token value="." lemma="." tags="punct" />
 </sentence>
 <paragraph/>
@@ -2204,7 +2203,7 @@
   <token value="," lemma="," tags="punct" />
   <token value="Бурштин" lemma="Бурштин" tags="noun:inanim:m:v_naz:prop:geo" />
   <token value="," lemma="," tags="punct" />
-  <token value="Галич" lemma="Галич" tags="noun:inanim:m:v_naz:prop:geo:xp2" />
+  <token value="Галич" lemma="Галич" tags="noun:inanim:m:v_naz:prop:geo" />
   <token value="," lemma="," tags="punct" />
   <token value="далі" lemma="далі" tags="adv:compc:&amp;predic" />
   <token value="Дністер" lemma="Дністер" tags="noun:inanim:m:v_zna:prop:geo" />
@@ -2318,7 +2317,7 @@
   <token value="туди" lemma="туди" tags="adv:&amp;pron:dem" />
   <token value="веде" lemma="вести" tags="verb:imperf:pres:s:3" />
   <token value="вулиця" lemma="вулиця" tags="noun:inanim:f:v_naz" />
-  <token value="Франка" lemma="Франко" tags="noun:anim:m:v_rod:prop:lname:xp2" />
+  <token value="Франка" lemma="Франко" tags="noun:anim:m:v_rod:prop:lname" />
   <token value="?." lemma="?." tags="punct" />
 </sentence>
 <sentence>

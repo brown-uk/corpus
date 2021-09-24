@@ -48,10 +48,10 @@
   <token value="," lemma="," tags="punct" />
   <token value="але" lemma="але" tags="conj:coord" />
   <token value="дуже" lemma="дуже" tags="adv:compb" />
-  <token value="забезпечений" lemma="забезпечений" tags="adj:m:v_naz:compb:&amp;&amp;adjp:pasv:perf" />
+  <token value="забезпечений" lemma="забезпечений" tags="adj:m:v_naz:&amp;adjp:pasv:perf:compb" />
   <token value="і" lemma="і" tags="conj:coord" />
   <token value="по-справжньому" lemma="по-справжньому" tags="adv" />
-  <token value="закоханий" lemma="закоханий" tags="adj:m:v_naz:compb:&amp;&amp;adjp:pasv:perf" />
+  <token value="закоханий" lemma="закоханий" tags="adj:m:v_naz:&amp;adjp:pasv:perf:compb" />
   <token value="у" lemma="у" tags="prep" />
   <token value="свій" lemma="свій" tags="adj:m:v_zna:rinanim:&amp;pron:pos" />
   <token value="бізнес" lemma="бізнес" tags="noun:inanim:m:v_zna" />
@@ -60,7 +60,7 @@
 <sentence>
   <token value="А" lemma="а" tags="conj:coord" />
   <token value="хто" lemma="хто" tags="noun:anim:m:v_naz:&amp;pron:int:rel" />
-  <token value="закоханий" lemma="закоханий" tags="adj:m:v_naz:compb:&amp;&amp;adjp:pasv:perf" />
+  <token value="закоханий" lemma="закоханий" tags="adj:m:v_naz:&amp;adjp:pasv:perf:compb" />
   <token value="хоча" lemma="хоча" tags="part" />
   <token value="б" lemma="б" tags="part" />
   <token value="у" lemma="у" tags="prep" />
@@ -507,7 +507,7 @@
   <token value="їй" lemma="вона" tags="noun:unanim:f:v_dav:&amp;pron:pers:3" />
   <token value="," lemma="," tags="punct" />
   <token value="що" lemma="що" tags="conj:subord" />
-  <token value="Юра" lemma="Юра" tags="noun:anim:f:v_naz:prop:lname:xp2" />
+  <token value="Юра" lemma="Юра" tags="noun:anim:f:v_naz:prop:lname" />
   <token value="може" lemma="могти" tags="verb:imperf:pres:s:3:&amp;insert" />
   <token value="зраджувати" lemma="зраджувати" tags="verb:imperf:inf" />
   <token value="," lemma="," tags="punct" />
@@ -827,7 +827,7 @@
   <token value="." lemma="." tags="punct" />
 </sentence>
 <sentence>
-  <token value="Юра" lemma="Юра" tags="noun:anim:f:v_naz:prop:lname:xp2" />
+  <token value="Юра" lemma="Юра" tags="noun:anim:f:v_naz:prop:lname" />
   <token value="був" lemma="бути" tags="verb:imperf:past:m" />
   <token value="азартний" lemma="азартний" tags="adj:m:v_naz:compb" />
   <token value="і" lemma="і" tags="conj:coord" />

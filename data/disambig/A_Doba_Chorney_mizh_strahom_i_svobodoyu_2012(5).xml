@@ -207,11 +207,11 @@
   <token value="Діні" lemma="Діна" tags="noun:anim:f:v_dav:prop:fname" />
   <token value="Анепській" lemma="Анепська" tags="noun:anim:f:v_dav:prop:lname" />
   <token value="та" lemma="та" tags="conj:coord" />
-  <token value="Богдану" lemma="Богдан" tags="noun:anim:m:v_dav:prop:fname:xp1" />
+  <token value="Богдану" lemma="Богдан" tags="noun:anim:m:v_dav:prop:fname" />
   <token value="Братку" lemma="Братко" tags="noun:anim:m:v_dav:prop:lname" />
   <token value="," lemma="," tags="punct" />
   <token value="В'ячеславу" lemma="В'ячеслав" tags="noun:anim:m:v_dav:prop:fname" />
-  <token value="Стаханову" lemma="Стаханов" tags="noun:anim:m:v_dav:prop:lname:xp1" />
+  <token value="Стаханову" lemma="Стаханов" tags="noun:anim:m:v_dav:prop:lname" />
   <token value="і" lemma="і" tags="conj:coord" />
   <token value="Наталії" lemma="Наталія" tags="noun:anim:f:v_dav:prop:fname" />
   <token value="Гунді" lemma="Гунда" tags="noun:anim:f:v_naz:prop:lname" />
@@ -407,8 +407,11 @@
   <token value="?" lemma="?" tags="punct" />
 </sentence>
 <sentence>
-  <token value="Чи" lemma="чи" tags="conj:coord:subord" />
-  <token value="вартує" lemma="вартувати" tags="verb:imperf:pres:s:3" />
+  <token value="Чи" lemma="чи" tags="conj:coord" >
+    <alts>
+      <token value="Чи" lemma="чи" tags="conj:subord" />
+    </alts>
+  </token>  <token value="вартує" lemma="вартувати" tags="verb:imperf:pres:s:3" />
   <token value="щастя" lemma="щастя" tags="noun:inanim:n:v_naz:&amp;predic" />
   <token value="для" lemma="для" tags="prep" />
   <token value="всіх" lemma="всі" tags="noun:anim:p:v_rod:&amp;pron:gen" />
@@ -428,8 +431,11 @@
 </sentence>
 <sentence>
   <token value="Та" lemma="та" tags="conj:coord" />
-  <token value="чи" lemma="чи" tags="conj:coord:subord" />
-  <token value="такі" lemma="такий" tags="adj:p:v_naz:&amp;pron:dem" />
+  <token value="чи" lemma="чи" tags="conj:coord" >
+    <alts>
+      <token value="чи" lemma="чи" tags="conj:subord" />
+    </alts>
+  </token>  <token value="такі" lemma="такий" tags="adj:p:v_naz:&amp;pron:dem" />
   <token value="вже" lemma="вже" tags="adv" />
   <token value="всі" lemma="всі" tags="noun:anim:p:v_naz:&amp;pron:gen" />
   <token value="щасливі" lemma="щасливий" tags="adj:p:v_naz:compb" />
@@ -741,8 +747,11 @@
   <token value="..." lemma="..." tags="punct" />
   <token value="»" lemma="»" tags="punct" />
   <token value="," lemma="," tags="punct" />
-  <token value="чи" lemma="чи" tags="conj:coord:subord" />
-  <token value="хтось" lemma="хтось" tags="noun:anim:m:v_naz:&amp;pron:ind" />
+  <token value="чи" lemma="чи" tags="conj:coord" >
+    <alts>
+      <token value="чи" lemma="чи" tags="conj:subord" />
+    </alts>
+  </token>  <token value="хтось" lemma="хтось" tags="noun:anim:m:v_naz:&amp;pron:ind" />
   <token value="інший" lemma="інший" tags="noun:anim:m:v_naz:&amp;pron:def" />
   <token value="." lemma="." tags="punct" />
 </sentence>

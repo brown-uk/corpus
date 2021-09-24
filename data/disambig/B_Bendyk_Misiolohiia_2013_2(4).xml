@@ -141,7 +141,7 @@
 <format tag="i"/>
   <token value="(" lemma="(" tags="punct" />
   <token value="церковно-обрядову" lemma="церковно-обрядовий" tags="adj:f:v_zna" />
-  <token value="чи" lemma="чи" tags="conj:coord:subord" />
+  <token value="чи" lemma="чи" tags="conj:coord" />
   <token value="культурну" lemma="культурний" tags="adj:f:v_zna:compb" />
   <token value=")" lemma=")" tags="punct" />
 <format tag="/i"/>
@@ -149,7 +149,7 @@
   <token value="як" lemma="як" tags="adv:&amp;pron:int:rel" />
   <token value="ознаку" lemma="ознака" tags="noun:inanim:f:v_zna" />
   <token value="єресі" lemma="єресь" tags="noun:inanim:f:v_rod" />
-  <token value="чи" lemma="чи" tags="conj:coord:subord" />
+  <token value="чи" lemma="чи" tags="conj:coord" />
   <token value="схизми" lemma="схизма" tags="noun:inanim:f:v_rod" />
   <token value="." lemma="." tags="punct" />
 </sentence>
@@ -271,7 +271,7 @@
   <token value="," lemma="," tags="punct" />
   <token value="в" lemma="в" tags="prep" />
   <token value="Італії" lemma="Італія" tags="noun:inanim:f:v_dav:prop:geo" />
-  <token value="чи" lemma="чи" tags="conj:coord:subord" />
+  <token value="чи" lemma="чи" tags="conj:coord" />
   <token value="Угорщині" lemma="Угорщина" tags="noun:inanim:f:v_dav:prop:geo" />
   <token value=")" lemma=")" tags="punct" />
 <format tag="/i"/>
@@ -338,7 +338,7 @@
   <token value="й" lemma="й" tags="conj:coord" />
   <token value="Африки" lemma="Африка" tags="noun:inanim:f:v_rod:prop:geo" />
   <token value="," lemma="," tags="punct" />
-  <token value="заселені" lemma="заселений" tags="adj:p:v_naz:compb:&amp;&amp;adjp:pasv:perf" />
+  <token value="заселені" lemma="заселений" tags="adj:p:v_naz:&amp;adjp:pasv:perf:compb" />
   <token value="нехристиянськими" lemma="нехристиянський" tags="adj:p:v_oru" />
   <token value="народами" lemma="народ" tags="noun:inanim:p:v_oru" />
   <token value="." lemma="." tags="punct" />
@@ -381,11 +381,8 @@
   <token value="католицького" lemma="католицький" tags="adj:m:v_rod" />
   <token value="," lemma="," tags="punct" />
   <token value="протестантського" lemma="протестантський" tags="adj:m:v_rod" />
-  <token value="чи" lemma="чи" tags="conj:coord:subord" >
-    <alts>
-      <token value="чи" lemma="чи" tags="part" />
-    </alts>
-  </token>  <token value="православного" lemma="православний" tags="adj:m:v_rod" />
+  <token value="чи" lemma="чи" tags="conj:coord" />
+  <token value="православного" lemma="православний" tags="adj:m:v_rod" />
   <token value="характеру" lemma="характер" tags="noun:inanim:m:v_rod" />
   <token value="." lemma="." tags="punct" />
 </sentence>
@@ -532,7 +529,7 @@
 </sentence>
 <sentence>
   <token value="Парадокси" lemma="парадокс" tags="noun:inanim:p:v_naz" />
-  <token value="політизованих" lemma="політизований" tags="adj:p:v_rod:compb:&amp;&amp;adjp:pasv:imperf" />
+  <token value="політизованих" lemma="політизований" tags="adj:p:v_rod:&amp;adjp:pasv:imperf:compb" />
   <token value="місій" lemma="місія" tags="noun:inanim:p:v_rod" />
   <token value="полягали" lemma="полягати" tags="verb:perf:past:p:xp2" />
   <token value="в" lemma="в" tags="prep" />
@@ -614,8 +611,7 @@
 <sentence>
   <token value="Так" lemma="так" tags="adv:&amp;pron:dem" />
   <token value="діяли" lemma="діяти" tags="verb:imperf:past:p" />
-  <token value="оо" lemma="оо" tags="null" />
-  <token value="." lemma="." tags="punct" />
+  <token value="оо." lemma="оо." tags="noun:anim:p:v_naz" comment="отці" />
 </sentence>
 <sentence>
   <token value="Матео" lemma="Матео" tags="noun:anim:m:v_naz:nv:prop:fname" />
@@ -648,7 +644,7 @@
   <token value="Китаї" lemma="Китай" tags="noun:inanim:m:v_mis:prop:geo" />
   <token value="й" lemma="й" tags="conj:coord" />
   <token value="Індії" lemma="Індія" tags="noun:inanim:f:v_mis:prop:geo" />
-  <token value="чи" lemma="чи" tags="conj:coord:subord" />
+  <token value="чи" lemma="чи" tags="conj:coord" />
   <token value="про" lemma="про" tags="prep" />
   <token value="Православну" lemma="православний" tags="adj:f:v_zna" />
   <token value="Церкву" lemma="Церква" tags="noun:inanim:f:v_zna:prop:geo" />
@@ -837,8 +833,11 @@
   <token value="новий" lemma="новий" tags="adj:m:v_naz:compb" />
   <token value="виклик" lemma="виклик" tags="noun:inanim:m:v_naz" />
   <token value=":" lemma=":" tags="punct" />
-  <token value="чи" lemma="чи" tags="conj:coord:subord" />
-  <token value="вона" lemma="вона" tags="noun:unanim:f:v_naz:&amp;pron:pers:3" />
+  <token value="чи" lemma="чи" tags="conj:coord" >
+    <alts>
+      <token value="чи" lemma="чи" tags="conj:subord" />
+    </alts>
+  </token>  <token value="вона" lemma="вона" tags="noun:unanim:f:v_naz:&amp;pron:pers:3" />
   <token value="культурно" lemma="культурно" tags="adv:compb" />
   <token value="залишається" lemma="залишатися" tags="verb:rev:imperf:pres:s:3" />
   <token value="Церквою" lemma="Церква" tags="noun:inanim:f:v_oru:prop:geo" />
@@ -847,8 +846,11 @@
   <token value="які" lemma="який" tags="adj:p:v_naz:&amp;pron:int:rel:def" />
   <token value="відходять" lemma="відходити" tags="verb:imperf:pres:p:3:xp1" />
   <token value="," lemma="," tags="punct" />
-  <token value="чи" lemma="чи" tags="conj:coord:subord" />
-  <token value="стає" lemma="ставати" tags="verb:imperf:pres:s:3" />
+  <token value="чи" lemma="чи" tags="conj:coord" >
+    <alts>
+      <token value="чи" lemma="чи" tags="conj:subord" />
+    </alts>
+  </token>  <token value="стає" lemma="ставати" tags="verb:imperf:pres:s:3" />
   <token value="місцевою" lemma="місцевий" tags="adj:f:v_oru" />
   <token value="Церквою" lemma="Церква" tags="noun:inanim:f:v_oru:prop:geo" />
   <token value="." lemma="." tags="punct" />
@@ -1146,7 +1148,7 @@
   <token value="розбудови" lemma="розбудова" tags="noun:inanim:f:v_rod" />
   <token value="вже" lemma="вже" tags="adv" />
   <token value="заснованих" lemma="заснований" tags="adj:p:v_rod:&amp;adjp:pasv:perf" />
-  <token value="європеїзованих" lemma="європеїзований" tags="adj:p:v_rod:compb:&amp;&amp;adjp:pasv:perf" />
+  <token value="європеїзованих" lemma="європеїзований" tags="adj:p:v_rod:&amp;adjp:pasv:perf:compb" />
   <token value="Церков" lemma="церква" tags="noun:inanim:p:v_rod" />
   <token value="." lemma="." tags="punct" />
 </sentence>

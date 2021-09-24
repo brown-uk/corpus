@@ -223,7 +223,7 @@
   <token value="таємниче" lemma="таємничий" tags="adj:n:v_zna:compb" />
   <token value="," lemma="," tags="punct" />
   <token value="а" lemma="а" tags="conj:coord" />
-  <token value="також" lemma="також" tags="adv:&amp;insert" />
+  <token value="також" lemma="також" tags="adv" />
   <token value="творче" lemma="творчий" tags="adj:n:v_zna" />
   <token value="начало" lemma="начало" tags="noun:inanim:n:v_zna:rare" />
   <token value="." lemma="." tags="punct" />
@@ -276,7 +276,7 @@
   <token value="чорним" lemma="чорний" tags="adj:m:v_oru:compb" />
   <token value="," lemma="," tags="punct" />
   <token value="а" lemma="а" tags="conj:coord" />
-  <token value="також" lemma="також" tags="adv:&amp;insert" />
+  <token value="також" lemma="також" tags="adv" />
   <token value="із" lemma="із" tags="prep" />
   <token value="пастельними" lemma="пастельний" tags="adj:p:v_oru:compb" />
   <token value="кольорами" lemma="колір" tags="noun:inanim:p:v_oru" />
@@ -316,7 +316,7 @@
 </sentence>
 <sentence>
   <token value="Вважається" lemma="вважатися" tags="verb:rev:imperf:pres:s:3" />
-  <token value="також" lemma="також" tags="adv:&amp;insert" />
+  <token value="також" lemma="також" tags="adv" />
   <token value="лідерським" lemma="лідерський" tags="adj:m:v_oru" />
   <token value="кольором" lemma="колір" tags="noun:inanim:m:v_oru" />
   <token value="," lemma="," tags="punct" />
@@ -404,7 +404,7 @@
   <token value="." lemma="." tags="punct" />
 </sentence>
 <sentence>
-  <token value="Також" lemma="також" tags="adv:&amp;insert" />
+  <token value="Також" lemma="також" tags="adv" />
   <token value="може" lemma="могти" tags="verb:imperf:pres:s:3:&amp;insert" />
   <token value="посилювати" lemma="посилювати" tags="verb:imperf:inf" />
   <token value="інтуїцію" lemma="інтуїція" tags="noun:inanim:f:v_zna" />
@@ -725,7 +725,7 @@
   <token value="швидкісних" lemma="швидкісний" tags="adj:p:v_rod:compb" />
   <token value="поїздів" lemma="поїзд" tags="noun:inanim:p:v_rod" />
 <format tag="foreign"/>
-  <token value="TGV" lemma="TGV" tags="noninfl:foreign" />
+  <token value="TGV" lemma="TGV" tags="unclass" />
 <format tag="/foreign"/>
   <token value="." lemma="." tags="punct" />
 </sentence>
