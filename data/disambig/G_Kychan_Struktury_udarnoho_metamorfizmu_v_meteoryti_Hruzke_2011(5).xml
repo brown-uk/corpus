@@ -29,7 +29,7 @@
   <token value="," lemma="," tags="punct" />
   <token value="що" lemma="що" tags="conj:subord" />
   <token value="він" lemma="він" tags="noun:unanim:m:v_naz:&amp;pron:pers:3" />
-  <token value="належить" lemma="належати" tags="verb:imperf:pres:s:3:xp1" />
+  <token value="належить" lemma="належати" tags="verb:imperf:pres:s:3" />
   <token value="до" lemma="до" tags="prep" />
   <token value="звичайних" lemma="звичайний" tags="adj:p:v_rod:compb" />
   <token value="хондритів" lemma="хондрит" tags="noun:inanim:p:v_rod:xp1" />
@@ -40,7 +40,7 @@
 <format tag="/foreign"/>
   <token value="і" lemma="і" tags="conj:coord" />
   <token value="петрологічного" lemma="петрологічний" tags="adj:m:v_rod" />
-  <token value="типу" lemma="тип" tags="noun:inanim:m:v_rod:xp2" />
+  <token value="типу" lemma="тип" tags="noun:inanim:m:v_rod" />
   <token value="4" lemma="4" tags="number" />
   <token value="." lemma="." tags="punct" />
 </sentence>
@@ -113,7 +113,7 @@
 <sentence>
   <token value="До" lemma="до" tags="prep" />
   <token value="них" lemma="вони" tags="noun:unanim:p:v_rod:&amp;pron:pers:3" />
-  <token value="належать" lemma="належати" tags="verb:imperf:pres:p:3:xp1" />
+  <token value="належать" lemma="належати" tags="verb:imperf:pres:p:3" />
   <token value="структури" lemma="структура" tags="noun:inanim:p:v_naz" />
   <token value="крихких" lemma="крихкий" tags="adj:p:v_rod:compb" />
   <token value="(" lemma="(" tags="punct" />
@@ -423,7 +423,7 @@
   <token value="камаситі" lemma="камасит" tags="noun:inanim:m:v_mis" />
   <token value="становить" lemma="становити" tags="verb:imperf:pres:s:3" />
   <token value="6,68—8,32" lemma="6,68—8,32" tags="number" />
-  <token value="%" lemma="%" tags="unclass" />
+  <token value="%" lemma="%" tags="symb" />
   <token value="," lemma="," tags="punct" />
 <format tag="foreign"/>
   <token value="Со" lemma="Со" tags="unclass" />
@@ -443,7 +443,7 @@
   <token value="Со" lemma="Со" tags="unclass" />
 <format tag="/foreign"/>
   <token value="0,0—0,13" lemma="0,0—0,13" tags="number" />
-  <token value="%" lemma="%" tags="unclass" />
+  <token value="%" lemma="%" tags="symb" />
   <token value="." lemma="." tags="punct" />
 </sentence>
 <paragraph/>
@@ -694,7 +694,7 @@
 <sentence>
   <token value="Плесит" lemma="плесит" tags="noun:inanim:m:v_naz" />
   <token value="другого" lemma="другий" tags="adj:n:v_rod:&amp;numr" />
-  <token value="типу" lemma="тип" tags="noun:inanim:m:v_rod:xp2" />
+  <token value="типу" lemma="тип" tags="noun:inanim:m:v_rod" />
   <token value="представлений" lemma="представлений" tags="adj:m:v_naz:&amp;adjp:pasv:perf" />
   <token value="мартенситом" lemma="мартенсит" tags="noun:inanim:m:v_oru" />
   <token value="(" lemma="(" tags="punct" />
@@ -795,7 +795,7 @@
   <token value="спостерігається" lemma="спостерігатися" tags="verb:rev:imperf:pres:s:3" />
   <token value="зона" lemma="зона" tags="noun:inanim:f:v_naz" />
   <token value="плеситу" lemma="плесит" tags="noun:inanim:m:v_rod" />
-  <token value="типу" lemma="тип" tags="noun:inanim:m:v_rod:xp2" />
+  <token value="типу" lemma="тип" tags="noun:inanim:m:v_rod" />
   <token value="IV" lemma="IV" tags="number:latin" />
   <token value="." lemma="." tags="punct" />
 </sentence>
@@ -1011,7 +1011,7 @@
   <token value="масовою" lemma="масовий" tags="adj:f:v_oru:compb" />
   <token value="часткою" lemma="частка" tags="noun:inanim:f:v_oru" />
   <token value="(" lemma="(" tags="punct" />
-  <token value="%" lemma="%" tags="unclass" />
+  <token value="%" lemma="%" tags="symb" />
   <token value=")" lemma=")" tags="punct" />
 <format tag="foreign"/>
   <token value="MgO" lemma="MgO" tags="unclass" />
