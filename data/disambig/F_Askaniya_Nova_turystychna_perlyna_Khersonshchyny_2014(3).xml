@@ -277,7 +277,7 @@
   <token value="зіркоплідник" lemma="зіркоплідник" tags="noun:inanim:m:v_naz" />
   <token value="частуховидний" lemma="частуховидний" tags="adj:m:v_naz:bad" comment="=частухоподібний" />
   <token value="," lemma="," tags="punct" />
-  <token value="ковили" lemma="ковила" tags="noun:inanim:p:v_naz:bad" comment="=ковила" />
+  <token value="ковила" lemma="ковила" tags="noun:inanim:f:v_naz" />
   <token value="українська" lemma="українська" tags="noun:inanim:f:v_naz" />
   <token value="," lemma="," tags="punct" />
   <token value="Лессінга" lemma="Лессінг" tags="noun:anim:m:v_rod:prop:lname" />
@@ -573,15 +573,12 @@
   <token value="сюди" lemma="сюди" tags="adv:&amp;pron:dem" />
   <token value="випускають" lemma="випускати" tags="verb:imperf:pres:p:3" />
   <token value="худобу" lemma="худоба" tags="noun:inanim:f:v_zna" />
-  <token value="ватусі" lemma="ватусі" tags="unknown" />
+  <token value="ватусі" lemma="ватусі" tags="noun:anim:p:v_naz:nv" />
   <token value="," lemma="," tags="punct" />
   <token value="стадо" lemma="стадо" tags="noun:inanim:n:v_zna" />
   <token value="антилоп" lemma="антилопа" tags="noun:anim:p:v_rod" />
-  <token value="канна" lemma="канна" tags="noun:anim:f:v_naz" >
-    <alts>
-      <token value="канна" lemma="канна" tags="noun:inanim:f:v_naz:xp2" />
-    </alts>
-  </token>  <token value="," lemma="," tags="punct" />
+  <token value="канна" lemma="канна" tags="noun:anim:f:v_naz" />
+  <token value="," lemma="," tags="punct" />
   <token value="гну" lemma="гну" tags="noun:anim:p:v_zna:nv" />
   <token value="та" lemma="та" tags="conj:coord" />
   <token value="нільгау" lemma="нільгау" tags="noun:anim:p:v_zna:nv" />
