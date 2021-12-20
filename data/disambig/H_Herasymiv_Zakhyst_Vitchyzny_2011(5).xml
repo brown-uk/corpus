@@ -94,11 +94,11 @@
   <token value="Води" lemma="вода" tags="noun:inanim:p:v_naz" />
 <format tag="/b"/>
   <token value="8" lemma="8" tags="number" />
-  <token value="тис." lemma="тис." tags="numr:p:v_naz:nv:abbr" />
+  <token value="тис." lemma="тис." tags="numr:p:v_rod:nv:abbr" />
   <token value="козаків" lemma="козак" tags="noun:anim:p:v_rod" />
   <token value="і" lemma="і" tags="conj:coord" />
   <token value="20" lemma="20" tags="number" />
-  <token value="тис." lemma="тис." tags="numr:p:v_naz:nv:abbr" />
+  <token value="тис." lemma="тис." tags="numr:p:v_rod:nv:abbr" />
   <token value="татар" lemma="татарин" tags="noun:anim:p:v_rod" />
   <token value="і" lemma="і" tags="conj:coord" />
   <token value="ногайців" lemma="ногаєць" tags="noun:anim:p:v_rod" />
@@ -580,7 +580,7 @@
   <token value="українського" lemma="український" tags="adj:m:v_rod:compb" />
   <token value="народу" lemma="народ" tags="noun:inanim:m:v_rod" />
   <token value="під" lemma="під" tags="prep" />
-  <token value="час" lemma="час" tags="noun:inanim:m:v_naz:&amp;predic" />
+  <token value="час" lemma="час" tags="noun:inanim:m:v_zna" />
   <token value="Першої" lemma="перший" tags="adj:f:v_rod:compb:&amp;numr" />
   <token value="світової" lemma="світовий" tags="adj:f:v_rod" />
   <token value="війни" lemma="війна" tags="noun:inanim:f:v_rod" />
@@ -664,7 +664,7 @@
   <token value="австрійської" lemma="австрійський" tags="adj:f:v_rod" />
   <token value="(" lemma="(" tags="punct" />
   <token value="250" lemma="250" tags="number" />
-  <token value="тис." lemma="тис." tags="numr:p:v_naz:nv:abbr" />
+  <token value="тис." lemma="тис." tags="numr:p:v_rod:nv:abbr" />
   <token value=")" lemma=")" tags="punct" />
   <token value="армій" lemma="армія" tags="noun:inanim:p:v_rod" />
   <token value="за" lemma="за" tags="prep" />
@@ -756,7 +756,7 @@
   <token value="прибуло" lemma="прибути" tags="verb:perf:past:n" />
   <token value="понад" lemma="понад" tags="prep" />
   <token value="10" lemma="10" tags="number" />
-  <token value="тис." lemma="тис." tags="numr:p:v_naz:nv:abbr" />
+  <token value="тис." lemma="тис." tags="numr:p:v_rod:nv:abbr" />
   <token value="добровольців" lemma="доброволець" tags="noun:anim:p:v_rod" />
   <token value="." lemma="." tags="punct" />
 </sentence>
@@ -774,8 +774,9 @@
     <alts>
       <token value="лише" lemma="лише" tags="part" />
     </alts>
-  </token>  <token value="2,5" lemma="2,5" tags="number" />
-  <token value="тис." lemma="тис." tags="numr:p:v_naz:nv:abbr" />
+  </token>
+  <token value="2,5" lemma="2,5" tags="number" />
+  <token value="тис." lemma="тис." tags="numr:p:v_rod:nv:abbr" />
   <token value="осіб" lemma="особа" tags="noun:anim:p:v_rod" />
   <token value="," lemma="," tags="punct" />
   <token value="адже" lemma="адже" tags="conj:subord" />

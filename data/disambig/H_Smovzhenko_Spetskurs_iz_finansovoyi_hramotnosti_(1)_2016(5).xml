@@ -858,7 +858,7 @@
 <format tag="/b"/>
   <token value="(" lemma="(" tags="punct" />
   <token value="від" lemma="від" tags="prep" />
-  <token value="лат." lemma="лат." tags="adj:m:v_naz:nv:abbr" />
+  <token value="лат." lemma="лат." tags="adj:n:v_rod:nv:abbr" />
 <format tag="foreign"/>
 <format tag="i"/>
   <token value="pro" lemma="pro" tags="unclass" />
@@ -1345,7 +1345,8 @@
     <alts>
       <token value="як" lemma="як" tags="part" />
     </alts>
-  </token>  <token value="споживачам" lemma="споживач" tags="noun:anim:p:v_dav" />
+  </token>
+  <token value="споживачам" lemma="споживач" tags="noun:anim:p:v_dav" />
   <token value="," lemma="," tags="punct" />
   <token value="так" lemma="так" tags="conj:coord" />
   <token value="і" lemma="і" tags="conj:coord" />

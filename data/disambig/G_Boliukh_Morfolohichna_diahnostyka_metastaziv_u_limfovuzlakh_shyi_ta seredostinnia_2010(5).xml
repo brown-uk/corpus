@@ -47,7 +47,7 @@
   <token value=")" lemma=")" tags="punct" />
   <token value="та" lemma="та" tags="conj:coord" />
   <token value="інші" lemma="інший" tags="adj:p:v_zna:rinanim:&amp;pron:def" />
-  <token value="захворювання" lemma="захворювання" tags="noun:inanim:p:v_naz" />
+  <token value="захворювання" lemma="захворювання" tags="noun:inanim:p:v_zna" />
   <token value="після" lemma="після" tags="prep" />
   <token value="прескаленної" lemma="прескаленний" tags="adj:f:v_rod" />
   <token value="біопсії" lemma="біопсія" tags="noun:inanim:f:v_rod" />
@@ -138,7 +138,7 @@
   <token value=")" lemma=")" tags="punct" />
   <token value="хворих" lemma="хворий" tags="noun:anim:p:v_rod" />
   <token value="у" lemma="у" tags="prep" />
-  <token value="ЛВ" lemma="ЛВ" tags="noun:inanim:p:v_naz:nv:abbr" />
+  <token value="ЛВ" lemma="ЛВ" tags="noun:inanim:p:v_zna:nv:abbr" />
   <token value="або" lemma="або" tags="conj:coord" />
   <token value="фрагментах" lemma="фрагмент" tags="noun:inanim:p:v_mis" />
   <token value="пухлинної" lemma="пухлинний" tags="adj:f:v_rod" />
@@ -202,7 +202,7 @@
   <token value=")" lemma=")" tags="punct" />
   <token value="пацієнтів" lemma="пацієнт" tags="noun:anim:p:v_rod" />
   <token value="з" lemma="з" tags="prep" />
-  <token value="РЛ" lemma="РЛ" tags="noun:inanim:m:v_naz:nv:abbr" />
+  <token value="РЛ" lemma="РЛ" tags="noun:inanim:m:v_oru:nv:abbr" />
   <token value="у" lemma="у" tags="prep" />
   <token value="ЛВ" lemma="ЛВ" tags="noun:inanim:p:v_mis:nv:abbr" />
   <token value="метастазів" lemma="метастаз" tags="noun:inanim:p:v_rod" />
@@ -221,7 +221,7 @@
   <token value="Решта" lemma="решта" tags="noun:inanim:f:v_naz" />
   <token value="хворих" lemma="хворий" tags="noun:anim:p:v_rod" />
   <token value="на" lemma="на" tags="prep" />
-  <token value="РЛ" lemma="РЛ" tags="noun:inanim:m:v_naz:nv:abbr" />
+  <token value="РЛ" lemma="РЛ" tags="noun:inanim:m:v_zna:nv:abbr" />
   <token value="за" lemma="за" tags="prep" />
   <token value="наявністю" lemma="наявність" tags="noun:inanim:f:v_oru" />
   <token value="метастазів" lemma="метастаз" tags="noun:inanim:p:v_rod" />
@@ -270,7 +270,8 @@
     <alts>
       <token value="як" lemma="як" tags="part" />
     </alts>
-  </token>  <token value="розповсюдженість" lemma="розповсюдженість" tags="noun:inanim:f:v_naz" />
+  </token>
+  <token value="розповсюдженість" lemma="розповсюдженість" tags="noun:inanim:f:v_naz" />
   <token value="," lemma="," tags="punct" />
   <token value="так" lemma="так" tags="conj:coord" />
   <token value="і" lemma="і" tags="part" />
@@ -477,7 +478,7 @@
 <paragraph/>
 <sentence>
   <token value="Основну" lemma="основний" tags="adj:f:v_zna:compb" />
-  <token value="кількість" lemma="кількість" tags="noun:inanim:f:v_naz" />
+  <token value="кількість" lemma="кількість" tags="noun:inanim:f:v_zna" />
   <token value="таких" lemma="такий" tags="adj:p:v_rod:&amp;pron:dem" />
   <token value="оперативних" lemma="оперативний" tags="adj:p:v_rod:compb" />
   <token value="втручань" lemma="втручання" tags="noun:inanim:p:v_rod" />
@@ -1132,7 +1133,7 @@
   <token value="операції" lemma="операція" tags="noun:inanim:f:v_rod" />
   <token value="," lemma="," tags="punct" />
   <token value="крім" lemma="крім" tags="prep" />
-  <token value="РЛ" lemma="РЛ" tags="noun:inanim:m:v_naz:nv:abbr" />
+  <token value="РЛ" lemma="РЛ" tags="noun:inanim:m:v_rod:nv:abbr" />
   <token value="," lemma="," tags="punct" />
   <token value="у" lemma="у" tags="prep" />
   <token value="хворого" lemma="хворий" tags="noun:anim:m:v_rod" />
@@ -1202,7 +1203,7 @@
   <token value="діагностувати" lemma="діагностувати" tags="verb:imperf:inf" />
   <token value="і" lemma="і" tags="conj:coord" />
   <token value="верифікувати" lemma="верифікувати" tags="verb:imperf:inf" />
-  <token value="такі" lemma="такий" tags="adj:p:v_naz:&amp;pron:dem" />
+  <token value="такі" lemma="такий" tags="adj:p:v_zna:rinanim:&amp;pron:dem" />
   <token value="захворювання" lemma="захворювання" tags="noun:inanim:p:v_zna" />
   <token value=":" lemma=":" tags="punct" />
   <token value="РЛ" lemma="РЛ" tags="noun:inanim:m:v_naz:nv:abbr" />

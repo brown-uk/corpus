@@ -34,7 +34,7 @@
   <token value="якесь" lemma="якийсь" tags="adj:n:v_naz:&amp;pron:ind" />
   <token value="уявлення" lemma="уявлення" tags="noun:inanim:n:v_naz" />
   <token value="про" lemma="про" tags="prep" />
-  <token value="те" lemma="те" tags="noun:inanim:n:v_naz:&amp;pron:dem" />
+  <token value="те" lemma="те" tags="noun:inanim:n:v_zna:&amp;pron:dem" />
   <token value="," lemma="," tags="punct" />
   <token value="як" lemma="як" tags="conj:subord" />
   <token value="його" lemma="він" tags="noun:unanim:m:v_rod:&amp;pron:pers:3" />
@@ -176,7 +176,7 @@
 <sentence>
   <token value="Компанія" lemma="компанія" tags="noun:inanim:f:v_naz" />
   <token value="в" lemma="в" tags="prep" />
-  <token value="цей" lemma="цей" tags="adj:m:v_naz:&amp;pron:dem" />
+  <token value="цей" lemma="цей" tags="adj:m:v_zna:rinanim:&amp;pron:dem" />
   <token value="час" lemma="час" tags="noun:inanim:m:v_naz:&amp;predic" />
   <token value="працює" lemma="працювати" tags="verb:imperf:pres:s:3" />
   <token value="за" lemma="за" tags="prep" />
@@ -312,7 +312,7 @@
   <token value="процесу" lemma="процес" tags="noun:inanim:m:v_rod" />
   <token value="," lemma="," tags="punct" />
   <token value="за" lemma="за" tags="prep" />
-  <token value="який" lemma="який" tags="adj:m:v_naz:&amp;pron:int:rel:def" />
+  <token value="який" lemma="який" tags="adj:m:v_zna:rinanim:&amp;pron:int:rel:def" />
   <token value="вони" lemma="вони" tags="noun:unanim:p:v_naz:&amp;pron:pers:3" />
   <token value="відповідають" lemma="відповідати" tags="verb:imperf:pres:p:3" />
   <token value="." lemma="." tags="punct" />
@@ -451,7 +451,8 @@
     <alts>
       <token value="просто" lemma="просто" tags="part" />
     </alts>
-  </token>  <token value="ввести" lemma="ввести" tags="verb:perf:inf" />
+  </token>
+  <token value="ввести" lemma="ввести" tags="verb:perf:inf" />
   <token value="правила" lemma="правило" tags="noun:inanim:p:v_naz" />
   <token value="–" lemma="–" tags="punct" />
   <token value="треба" lemma="треба" tags="noninfl:&amp;predic" />
@@ -597,7 +598,8 @@
     <alts>
       <token value="чи" lemma="чи" tags="conj:subord" />
     </alts>
-  </token>  <token value="принесе" lemma="принести" tags="verb:perf:futr:s:3" />
+  </token>
+  <token value="принесе" lemma="принести" tags="verb:perf:futr:s:3" />
   <token value="це" lemma="це" tags="noun:inanim:n:v_naz:&amp;pron:dem" />
   <token value="користь" lemma="користь" tags="noun:inanim:f:v_naz" />
   <token value="?" lemma="?" tags="punct" />
@@ -802,7 +804,7 @@
 <sentence>
   <token value="Це" lemma="це" tags="part" />
   <token value="про" lemma="про" tags="prep" />
-  <token value="те" lemma="те" tags="noun:inanim:n:v_naz:&amp;pron:dem" />
+  <token value="те" lemma="те" tags="noun:inanim:n:v_zna:&amp;pron:dem" />
   <token value="," lemma="," tags="punct" />
   <token value="як" lemma="як" tags="conj:subord" />
   <token value="розподілити" lemma="розподілити" tags="verb:perf:inf" />

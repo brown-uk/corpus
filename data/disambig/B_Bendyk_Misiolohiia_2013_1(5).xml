@@ -122,7 +122,7 @@
   <token value="історії" lemma="історія" tags="noun:inanim:f:v_mis" />
   <token value="людство" lemma="людство" tags="noun:inanim:n:v_naz" />
   <token value="все" lemma="все" tags="part" />
-  <token value="більше" lemma="більший" tags="adj:n:v_zna:compc" />
+  <token value="більше" lemma="більший" tags="adv:compc" />
   <token value="входить" lemma="входити" tags="verb:imperf:pres:s:3" />
   <token value="у" lemma="у" tags="prep" />
   <token value="Божу" lemma="божий" tags="adj:f:v_zna" />
@@ -420,7 +420,7 @@
   <token value="Церкви" lemma="Церква" tags="noun:inanim:f:v_rod:prop:geo" />
   <token value="," lemma="," tags="punct" />
   <token value="відтак" lemma="відтак" tags="adv" />
-  <token value="ті" lemma="той" tags="adj:p:v_zna:rinanim:&amp;pron:dem" />
+  <token value="ті" lemma="той" tags="adj:p:v_naz:&amp;pron:dem" />
   <token value="люди" lemma="людина" tags="noun:anim:p:v_naz" />
   <token value="," lemma="," tags="punct" />
   <token value="що" lemma="що" tags="conj:subord" />
@@ -1375,7 +1375,8 @@
     <alts>
       <token value="чи" lemma="чи" tags="conj:subord" />
     </alts>
-  </token>  <token value="проповідь" lemma="проповідь" tags="noun:inanim:f:v_naz" />
+  </token>
+  <token value="проповідь" lemma="проповідь" tags="noun:inanim:f:v_naz" />
   <token value="Слова" lemma="слово" tags="noun:inanim:n:v_rod" />
   <token value="Божого" lemma="божий" tags="adj:n:v_rod" />
   <token value="не" lemma="не" tags="part" />

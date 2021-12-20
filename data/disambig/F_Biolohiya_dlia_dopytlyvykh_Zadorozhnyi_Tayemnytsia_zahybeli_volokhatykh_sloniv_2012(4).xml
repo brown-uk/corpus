@@ -122,7 +122,7 @@
   <token value="розглянути" lemma="розглянути" tags="verb:perf:inf" />
   <token value="цей" lemma="цей" tags="adj:m:v_zna:rinanim:&amp;pron:dem" />
   <token value="популярний" lemma="популярний" tags="adj:m:v_zna:rinanim:compb" />
-  <token value="персонаж" lemma="персонаж" tags="noun:anim:m:v_naz" />
+  <token value="персонаж" lemma="персонаж" tags="noun:anim:m:v_zna" />
   <token value="трохи" lemma="трохи" tags="adv" />
   <token value="докладніше" lemma="докладніше" tags="adv:compc" />
   <token value="." lemma="." tags="punct" />
@@ -227,7 +227,7 @@
 </sentence>
 <sentence>
   <token value="Масове" lemma="масовий" tags="adj:n:v_naz:compb" />
-  <token value="їх" lemma="вони" tags="noun:unanim:p:v_zna:&amp;pron:pers:3" />
+  <token value="їх" lemma="вони" tags="noun:unanim:p:v_rod:&amp;pron:pers:3" />
   <token value="поширення" lemma="поширення" tags="noun:inanim:n:v_naz" />
   <token value="розпочалося" lemma="розпочатися" tags="verb:rev:perf:past:n" />
   <token value="800" lemma="800" tags="number" />
@@ -246,7 +246,7 @@
 </sentence>
 <sentence>
   <token value="Остання" lemma="останній" tags="adj:f:v_naz:compb" />
-  <token value="їх" lemma="вони" tags="noun:unanim:p:v_zna:&amp;pron:pers:3" />
+  <token value="їх" lemma="вони" tags="noun:unanim:p:v_rod:&amp;pron:pers:3" />
   <token value="популяція" lemma="популяція" tags="noun:inanim:f:v_naz" />
   <token value="на" lemma="на" tags="prep" />
   <token value="острові" lemma="острів" tags="noun:inanim:m:v_mis" />
@@ -1107,7 +1107,8 @@
     <alts>
       <token value="лише" lemma="лише" tags="part" />
     </alts>
-  </token>  <token value="стосовно" lemma="стосовно" tags="prep" />
+  </token>
+  <token value="стосовно" lemma="стосовно" tags="prep" />
   <token value="значення" lemma="значення" tags="noun:inanim:n:v_rod" />
   <token value="кожного" lemma="кожний" tags="adj:m:v_rod:&amp;pron:gen" />
   <token value="з" lemma="з" tags="prep" />

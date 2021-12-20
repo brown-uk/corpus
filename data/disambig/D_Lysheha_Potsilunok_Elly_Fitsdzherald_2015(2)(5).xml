@@ -96,7 +96,7 @@
   <token value="Львова" lemma="Львів" tags="noun:inanim:m:v_rod:prop:geo" />
   <token value="," lemma="," tags="punct" />
   <token value="між" lemma="між" tags="prep" />
-  <token value="Оперним" lemma="Оперний" tags="noun:inanim:m:v_oru:prop" />
+  <token value="Оперним" lemma="оперний" tags="adj:m:v_oru" />
   <token value="і" lemma="і" tags="conj:coord" />
   <token value="твоїм" lemma="твій" tags="adj:m:v_oru:&amp;pron:pos" />
   <token value="театром" lemma="театр" tags="noun:inanim:m:v_oru" />
@@ -1342,7 +1342,8 @@
     <alts>
       <token value="якраз" lemma="якраз" tags="part" />
     </alts>
-  </token>  <token value="доходив" lemma="доходити" tags="verb:imperf:past:m" />
+  </token>
+  <token value="доходив" lemma="доходити" tags="verb:imperf:past:m" />
   <token value="до" lemma="до" tags="prep" />
   <token value="Полтви" lemma="Полтва" tags="noun:inanim:f:v_rod:prop:geo" />
   <token value="і" lemma="і" tags="conj:coord" />
@@ -1389,11 +1390,11 @@
   <token value="театру" lemma="театр" tags="noun:inanim:m:v_rod" />
   <token value="Скарбка" lemma="Скарбек" tags="noun:anim:m:v_rod:prop:lname" />
   <token value="до" lemma="до" tags="prep" />
-  <token value="Оперного" lemma="Оперний" tags="noun:inanim:m:v_rod:prop" />
+  <token value="Оперного" lemma="оперний" tags="adj:m:v_rod" />
   <token value="." lemma="." tags="punct" />
 </sentence>
 <sentence>
-  <token value="Оперний" lemma="Оперний" tags="noun:inanim:m:v_naz:prop" />
+  <token value="Оперний" lemma="оперний" tags="adj:m:v_naz" />
   <token value="стоїть" lemma="стояти" tags="verb:imperf:pres:s:3" />
   <token value="на" lemma="на" tags="prep" />
   <token value="Полтві" lemma="Полтва" tags="noun:inanim:f:v_mis:prop:geo" />
@@ -1429,7 +1430,7 @@
   <token value="," lemma="," tags="punct" />
   <token value="де" lemma="де" tags="adv:&amp;pron:int:rel" />
   <token value="тепер" lemma="тепер" tags="adv:&amp;pron:dem" />
-  <token value="Оперний" lemma="Оперний" tags="noun:inanim:m:v_naz:prop" />
+  <token value="Оперний" lemma="оперний" tags="adj:m:v_naz" />
   <token value="—" lemma="—" tags="punct" />
   <token value="і" lemma="і" tags="conj:coord" />
   <token value="," lemma="," tags="punct" />
@@ -1457,7 +1458,7 @@
   <token value="отут" lemma="отут" tags="adv:&amp;pron:dem" />
   <token value="," lemma="," tags="punct" />
   <token value="бо" lemma="бо" tags="conj:subord" />
-  <token value="Оперного" lemma="Оперний" tags="noun:inanim:m:v_rod:prop" />
+  <token value="Оперного" lemma="оперний" tags="adj:m:v_rod" />
   <token value="ще" lemma="ще" tags="adv" />
   <token value="не" lemma="не" tags="part" />
   <token value="було" lemma="бути" tags="verb:imperf:past:n:&amp;insert" />
@@ -2268,7 +2269,8 @@
     <alts>
       <token value="Лише" lemma="лише" tags="part" />
     </alts>
-  </token>  <token value="далеким" lemma="далекий" tags="adj:n:v_oru:compb" />
+  </token>
+  <token value="далеким" lemma="далекий" tags="adj:n:v_oru:compb" />
   <token value="тужним" lemma="тужний" tags="adj:n:v_oru:compb" />
   <token value="завиванням" lemma="завивання" tags="noun:inanim:n:v_oru" />
   <token value="у" lemma="у" tags="prep" />

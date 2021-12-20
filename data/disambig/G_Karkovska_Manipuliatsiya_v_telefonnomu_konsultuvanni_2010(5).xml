@@ -311,11 +311,13 @@
     <alts>
       <token value="О." lemma="О." tags="noun:anim:m:v_naz:nv:abbr:prop:fname" />
     </alts>
-  </token>  <token value="Сидоренко" lemma="Сидоренко" tags="noun:anim:f:v_naz:nv:prop:lname" >
+  </token>
+  <token value="Сидоренко" lemma="Сидоренко" tags="noun:anim:f:v_naz:nv:prop:lname" >
     <alts>
       <token value="Сидоренко" lemma="Сидоренко" tags="noun:anim:m:v_naz:prop:lname" />
     </alts>
-  </token>  <token value="до" lemma="до" tags="prep" />
+  </token>
+  <token value="до" lemma="до" tags="prep" />
   <token value="ознак" lemma="ознака" tags="noun:inanim:p:v_rod" />
   <token value="маніпулятивного" lemma="маніпулятивний" tags="adj:m:v_rod:compb" />
   <token value="впливу" lemma="вплив" tags="noun:inanim:m:v_rod" />
@@ -466,7 +468,7 @@
   <token value="способом" lemma="спосіб" tags="noun:inanim:m:v_oru" />
   <token value="захистити" lemma="захистити" tags="verb:perf:inf" />
   <token value="власне" lemma="власний" tags="adj:n:v_zna" />
-  <token value="Я" lemma="я" tags="noun:anim:s:v_naz:&amp;pron:pers:1" />
+  <token value="Я" lemma="я" tags="noun:anim:s:v_naz:&amp;pron:pers:1" comment="мало би бути zna, але тут схоже :nv??"/>
   <token value="від" lemma="від" tags="prep" />
   <token value="реальних" lemma="реальний" tags="adj:p:v_rod:compb" />
   <token value="чи" lemma="чи" tags="conj:coord" />
