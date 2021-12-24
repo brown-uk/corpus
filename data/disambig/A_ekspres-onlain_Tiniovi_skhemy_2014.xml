@@ -119,11 +119,7 @@
   <token value="досить" lemma="досить" tags="adv:&amp;predic" />
   <token value="подивитись" lemma="подивитися" tags="verb:rev:perf:inf" />
   <token value="," lemma="," tags="punct" />
-  <token value="як" lemma="як" tags="conj:subord" >
-    <alts>
-      <token value="як" lemma="як" tags="part" />
-    </alts>
-  </token>
+  <token value="як" lemma="як" tags="conj:subord" />
   <token value="жили" lemma="жити" tags="verb:imperf:past:p" />
   <token value="і" lemma="і" tags="conj:coord" />
   <token value="живуть" lemma="жити" tags="verb:imperf:pres:p:3" />
@@ -1247,7 +1243,7 @@
   <token value="адресу" lemma="адреса" tags="noun:inanim:f:v_zna" />
   <token value="офісу" lemma="офіс" tags="noun:inanim:m:v_rod" />
   <token value="," lemma="," tags="punct" />
-  <token value="що" lemma="що" tags="noun:inanim:n:v_naz:&amp;pron:int:rel" />
+  <token value="що" lemma="що" tags="conj:subord" />
   <token value="міститься" lemma="міститися" tags="verb:rev:imperf:pres:s:3" />
   <token value="у" lemma="у" tags="prep" />
   <token value="Києві" lemma="Київ" tags="noun:inanim:m:v_mis:prop:geo" />
@@ -1590,7 +1586,7 @@
   <token value="Віталій" lemma="Віталій" tags="noun:anim:m:v_naz:prop:fname" />
   <token value="Коломієць" lemma="Коломієць" tags="noun:anim:f:v_naz:nv:prop:lname" />
   <token value="," lemma="," tags="punct" />
-  <token value="що" lemma="що" tags="noun:inanim:n:v_naz:&amp;pron:int:rel" />
+  <token value="що" lemma="що" tags="conj:subord" />
   <token value="був" lemma="бути" tags="verb:imperf:past:m" />
   <token value="представником" lemma="представник" tags="noun:anim:m:v_oru" />
   <token value="однієї" lemma="один" tags="adj:f:v_rod:&amp;pron:dem:ind" />

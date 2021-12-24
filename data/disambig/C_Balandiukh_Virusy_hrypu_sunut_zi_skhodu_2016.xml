@@ -375,11 +375,7 @@
 </sentence>
 <sentence>
   <token value="Він" lemma="він" tags="noun:unanim:m:v_naz:&amp;pron:pers:3" />
-  <token value="лише" lemma="лише" tags="conj:subord" >
-    <alts>
-      <token value="лише" lemma="лише" tags="part" />
-    </alts>
-  </token>
+  <token value="лише" lemma="лише" tags="part" />
   <token value="набирає" lemma="набирати" tags="verb:imperf:pres:s:3" />
   <token value="обертів" lemma="оберт" tags="noun:inanim:p:v_rod" />
   <token value="." lemma="." tags="punct" />
@@ -476,7 +472,7 @@
 <sentence>
   <token value="Що" lemma="що" tags="noun:inanim:n:v_naz:&amp;pron:int:rel" />
   <token value="за" lemma="за" tags="prep" />
-  <token value="віруси" lemma="вірус" tags="noun:inanim:p:v_zna" />
+  <token value="віруси" lemma="вірус" tags="noun:inanim:p:v_naz" />
   <token value="вкладають" lemma="вкладати" tags="verb:imperf:pres:p:3" />
   <token value="людей" lemma="людина" tags="noun:anim:p:v_zna" />
   <token value="у" lemma="у" tags="prep" />
@@ -1141,7 +1137,7 @@
   <token value="З" lemma="з" tags="prep" />
   <token value="них" lemma="вони" tags="noun:unanim:p:v_rod:&amp;pron:pers:3" />
   <token value="у" lemma="у" tags="prep" />
-  <token value="двох" lemma="двоє" tags="numr:p:v_mis" />
+  <token value="двох" lemma="двоє" tags="numr:p:v_rod" />
   <token value="осіб" lemma="особа" tags="noun:anim:p:v_rod" />
   <token value="виявлено" lemma="виявити" tags="verb:perf:impers" />
   <token value="вірус" lemma="вірус" tags="noun:inanim:m:v_zna" />

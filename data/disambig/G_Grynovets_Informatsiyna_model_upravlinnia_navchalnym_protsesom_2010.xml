@@ -27,7 +27,7 @@
   <token value="викладачів" lemma="викладач" tags="noun:anim:p:v_rod" />
   <token value="," lemma="," tags="punct" />
   <token value="а" lemma="а" tags="conj:coord" />
-  <token value="також" lemma="також" tags="adv" />
+  <token value="також" lemma="також" tags="conj:coord" />
   <token value="розподілу" lemma="розподіл" tags="noun:inanim:m:v_rod" />
   <token value="ресурсів" lemma="ресурс" tags="noun:inanim:p:v_rod" />
   <token value="навчального" lemma="навчальний" tags="adj:m:v_rod" />
@@ -262,7 +262,7 @@
   <token value="тиждень" lemma="тиждень" tags="noun:inanim:m:v_zna" />
   <token value="," lemma="," tags="punct" />
   <token value="а" lemma="а" tags="conj:coord" />
-  <token value="також" lemma="також" tags="adv" />
+  <token value="також" lemma="також" tags="conj:coord" />
   <token value="види" lemma="вид" tags="noun:inanim:p:v_naz" />
   <token value="контролю" lemma="контроль" tags="noun:inanim:m:v_rod" />
   <token value="." lemma="." tags="punct" />
@@ -353,7 +353,7 @@
   <token value="Навчальний" lemma="навчальний" tags="adj:m:v_naz" />
   <token value="час" lemma="час" tags="noun:inanim:m:v_naz:&amp;predic" />
   <token value="," lemma="," tags="punct" />
-  <token value="що" lemma="що" tags="noun:inanim:n:v_naz:&amp;pron:int:rel" />
+  <token value="що" lemma="що" tags="conj:subord" />
   <token value="передбачається" lemma="передбачатися" tags="verb:rev:imperf:pres:s:3" />
   <token value="для" lemma="для" tags="prep" />
   <token value="засвоєння" lemma="засвоєння" tags="noun:inanim:n:v_rod" />
@@ -489,7 +489,7 @@
   <token value="рівнями" lemma="рівень" tags="noun:inanim:p:v_oru" />
   <token value="," lemma="," tags="punct" />
   <token value="а" lemma="а" tags="conj:coord" />
-  <token value="також" lemma="також" tags="adv" />
+  <token value="також" lemma="також" tags="conj:coord" />
   <token value="вимоги" lemma="вимога" tags="noun:inanim:p:v_naz" />
   <token value="до" lemma="до" tags="prep" />
   <token value="кожного" lemma="кожний" tags="adj:m:v_rod:&amp;pron:gen" />
@@ -515,7 +515,7 @@
   <token value="керівним" lemma="керівний" tags="adj:m:v_oru" />
   <token value="документом" lemma="документ" tags="noun:inanim:m:v_oru" />
   <token value="," lemma="," tags="punct" />
-  <token value="що" lemma="що" tags="noun:inanim:n:v_naz:&amp;pron:int:rel" />
+  <token value="що" lemma="що" tags="conj:subord" />
   <token value="визначає" lemma="визначати" tags="verb:imperf:pres:s:3" />
   <token value="процес" lemma="процес" tags="noun:inanim:m:v_zna" />
   <token value="навчання" lemma="навчання" tags="noun:inanim:n:v_rod" />
