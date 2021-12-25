@@ -646,11 +646,7 @@
   <token value="правової" lemma="правовий" tags="adj:f:v_rod" />
   <token value="кваліфікації" lemma="кваліфікація" tags="noun:inanim:f:v_rod" />
   <token value=":" lemma=":" tags="punct" />
-  <token value="чи" lemma="чи" tags="conj:coord" >
-    <alts>
-      <token value="чи" lemma="чи" tags="conj:subord" />
-    </alts>
-  </token>
+  <token value="чи" lemma="чи" tags="conj:subord" />
   <token value="був" lemma="бути" tags="verb:imperf:past:m" />
   <token value="переворот" lemma="переворот" tags="noun:inanim:m:v_naz" />
   <token value="(" lemma="(" tags="punct" />
@@ -672,11 +668,7 @@
   <token value=")" lemma=")" tags="punct" />
   <token value="," lemma="," tags="punct" />
   <token value="а" lemma="а" tags="conj:coord" />
-  <token value="чи" lemma="чи" tags="conj:coord" >
-    <alts>
-      <token value="чи" lemma="чи" tags="conj:subord" />
-    </alts>
-  </token>
+  <token value="чи" lemma="чи" tags="conj:coord" />
   <token value="його" lemma="його" tags="adj:m:v_rod:nv:&amp;pron:pos" />
   <token value="не" lemma="не" tags="part" />
   <token value="було" lemma="бути" tags="verb:imperf:past:n:&amp;insert" />

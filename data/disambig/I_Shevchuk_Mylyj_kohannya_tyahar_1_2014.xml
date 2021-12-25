@@ -21,16 +21,8 @@
   <token value="ж" lemma="ж" tags="part" />
   <token value="коня" lemma="кінь" tags="noun:anim:m:v_zna" />
   <token value="," lemma="," tags="punct" />
-  <token value="аж" lemma="аж" tags="conj:subord" >
-    <alts>
-      <token value="аж" lemma="аж" tags="part" />
-    </alts>
-  </token>
-  <token value="поки" lemma="поки" tags="adv:&amp;pron:int:rel" >
-    <alts>
-      <token value="поки" lemma="поки" tags="conj:subord" />
-    </alts>
-  </token>
+  <token value="аж" lemma="аж" tags="part" />
+  <token value="поки" lemma="поки" tags="conj:subord" />
   <token value="почав" lemma="почати" tags="verb:perf:past:m" />
   <token value="через" lemma="через" tags="prep" />
   <token value="нього" lemma="він" tags="noun:unanim:m:v_zna:&amp;pron:pers:3" />
@@ -636,27 +628,15 @@
   <token value="не" lemma="не" tags="part" />
   <token value="вичислював" lemma="вичислювати" tags="verb:imperf:past:m" />
   <token value=":" lemma=":" tags="punct" />
-  <token value="чи" lemma="чи" tags="conj:coord" >
-    <alts>
-      <token value="чи" lemma="чи" tags="conj:subord" />
-    </alts>
-  </token>
+  <token value="чи" lemma="чи" tags="conj:coord" />
   <token value="це" lemma="це" tags="noun:inanim:n:v_naz:&amp;pron:dem" />
   <token value="третя" lemma="третій" tags="adj:f:v_naz:&amp;numr" />
   <token value="," lemma="," tags="punct" />
   <token value="чи" lemma="чи" tags="conj:coord" >
-    <alts>
-      <token value="чи" lemma="чи" tags="conj:subord" />
-    </alts>
-  </token>
   <token value="п'ята" lemma="п'ятий" tags="adj:f:v_naz:&amp;numr" />
   <token value="," lemma="," tags="punct" />
   <token value="шоста" lemma="шостий" tags="adj:f:v_naz:&amp;numr" />
   <token value="чи" lemma="чи" tags="conj:coord" >
-    <alts>
-      <token value="чи" lemma="чи" tags="conj:subord" />
-    </alts>
-  </token>
   <token value="восьма" lemma="восьмий" tags="adj:f:v_naz:&amp;numr" />
   <token value="дорога" lemma="дорога" tags="noun:inanim:f:v_naz" />
   <token value="(" lemma="(" tags="punct" />
@@ -1778,17 +1758,13 @@
   <token value="переконатися" lemma="переконатися" tags="verb:rev:perf:inf" />
   <token value=":" lemma=":" tags="punct" />
   <token value="чи" lemma="чи" tags="conj:coord" >
-    <alts>
-      <token value="чи" lemma="чи" tags="conj:subord" />
-    </alts>
-  </token>
   <token value="це" lemma="це" tags="noun:inanim:n:v_naz:&amp;pron:dem" />
   <token value="та" lemma="той" tags="adj:f:v_naz:&amp;pron:dem" />
   <token value="сама" lemma="самий" tags="adj:f:v_naz:&amp;pron:def" />
   <token value="хата" lemma="хата" tags="noun:inanim:f:v_naz" />
   <token value="," lemma="," tags="punct" />
   <token value="а" lemma="а" tags="conj:coord" />
-  <token value="чи" lemma="чи" tags="part" />
+  <token value="чи" lemma="чи" tags="conj:coord" />
   <token value="не" lemma="не" tags="part" />
   <token value="та" lemma="той" tags="adj:f:v_naz:&amp;pron:dem" />
   <token value="?" lemma="?" tags="punct" />

@@ -163,22 +163,14 @@
   <token value="поглинає" lemma="поглинати" tags="verb:imperf:pres:s:3" />
   <token value="оселі" lemma="оселя" tags="noun:inanim:p:v_zna" />
   <token value="," lemma="," tags="punct" />
-  <token value="чи" lemma="чи" tags="conj:coord" >
-    <alts>
-      <token value="чи" lemma="чи" tags="conj:subord" />
-    </alts>
-  </token>
+  <token value="чи" lemma="чи" tags="conj:coord" />
   <token value="утоплення" lemma="утоплення" tags="noun:inanim:n:v_naz" />
   <token value="під" lemma="під" tags="prep" />
   <token value="час" lemma="час" tags="noun:inanim:m:v_zna" />
   <token value="нічної" lemma="нічний" tags="adj:f:v_rod" />
   <token value="риболовлі" lemma="риболовля" tags="noun:inanim:f:v_rod" />
   <token value="," lemma="," tags="punct" />
-  <token value="чи" lemma="чи" tags="conj:coord" >
-    <alts>
-      <token value="чи" lemma="чи" tags="conj:subord" />
-    </alts>
-  </token>
+  <token value="чи" lemma="чи" tags="conj:coord" />
   <token value="просто" lemma="просто" tags="adv:compb:&amp;predic" />
   <token value="крижана" lemma="крижаний" tags="adj:f:v_naz" />
   <token value="зимова" lemma="зимовий" tags="adj:f:v_naz:compb" />
@@ -851,12 +843,7 @@
   <token value="потоках" lemma="потік" tags="noun:inanim:p:v_mis" />
   <token value="," lemma="," tags="punct" />
   <token value="а" lemma="а" tags="conj:coord" />
-  <token value="коли" lemma="коли" tags="adv:&amp;pron:int:rel" >
-    <alts>
-      <token value="коли" lemma="коли" tags="conj:subord" />
-      <token value="коли" lemma="коли" tags="part" />
-    </alts>
-  </token>
+  <token value="коли" lemma="коли" tags="conj:subord" />
   <token value="згодом" lemma="згодом" tags="adv" />
   <token value="замешкав" lemma="замешкати" tags="verb:perf:past:m" />
   <token value="на" lemma="на" tags="prep" />

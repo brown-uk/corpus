@@ -96,11 +96,7 @@
   <token value="смертю" lemma="смерть" tags="noun:inanim:f:v_oru" />
   <token value="," lemma="," tags="punct" />
   <token value="було" lemma="бути" tags="verb:imperf:past:n:&amp;insert" />
-  <token value="якраз" lemma="якраз" tags="adv" >
-    <alts>
-      <token value="якраз" lemma="якраз" tags="part" />
-    </alts>
-  </token>
+  <token value="якраз" lemma="якраз" tags="part" />
   <token value="те" lemma="те" tags="noun:inanim:n:v_zna:&amp;pron:dem" />
   <token value="," lemma="," tags="punct" />
   <token value="що" lemma="що" tags="conj:subord" />
@@ -635,11 +631,7 @@
   <token value="." lemma="." tags="punct" />
 </sentence>
 <sentence>
-  <token value="Чи" lemma="чи" tags="conj:coord" >
-    <alts>
-      <token value="Чи" lemma="чи" tags="conj:subord" />
-    </alts>
-  </token>
+  <token value="Чи" lemma="чи" tags="conj:coord" />
   <token value="Селінджер" lemma="Селінджер" tags="noun:anim:m:v_naz:prop:lname" />
   <token value="." lemma="." tags="punct" />
 </sentence>
@@ -863,11 +855,7 @@
   <token value="іншому" lemma="інше" tags="noun:inanim:n:v_mis:&amp;pron:def" />
   <token value="світі" lemma="світ" tags="noun:inanim:m:v_mis" />
   <token value="," lemma="," tags="punct" />
-  <token value="де" lemma="де" tags="adv:&amp;pron:int:rel" >
-    <alts>
-      <token value="де" lemma="де" tags="part" />
-    </alts>
-  </token>
+  <token value="де" lemma="де" tags="conj:subord" comment="додати в словник лему де conj:subord" />
   <token value="все" lemma="все" tags="noun:inanim:n:v_naz:&amp;pron:gen" />
   <token value="можливо" lemma="можливо" tags="adv:compb:&amp;insert:&amp;predic" />
   <token value="," lemma="," tags="punct" />

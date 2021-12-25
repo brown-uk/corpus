@@ -108,16 +108,11 @@
   <token value="селищ" lemma="селище" tags="noun:inanim:p:v_rod" />
   <token value="," lemma="," tags="punct" />
   <token value="міст" lemma="місто" tags="noun:inanim:p:v_rod" />
-  <token value="як" lemma="як" tags="adv:&amp;pron:int:rel" >
-    <alts>
-      <token value="як" lemma="як" tags="conj:subord" />
-      <token value="як" lemma="як" tags="part" />
-    </alts>
-  </token>
+  <token value="як" lemma="як" tags="adv:&amp;pron:int:rel" />
   <token value="безпосередньо" lemma="безпосередньо" tags="adv:compb" />
   <token value="," lemma="," tags="punct" />
-  <token value="так" lemma="так" tags="part" />
-  <token value="і" lemma="і" tags="part" />
+  <token value="так" lemma="так" tags="adv:&pron:dem" />
+  <token value="і" lemma="і" tags="conj:coord" />
   <token value="через" lemma="через" tags="prep" />
   <token value="органи" lemma="орган" tags="noun:inanim:p:v_zna:xp2" />
   <token value="місцевого" lemma="місцевий" tags="adj:n:v_rod" />
