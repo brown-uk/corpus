@@ -11,11 +11,7 @@
   <token value="(" lemma="(" tags="punct" />
   <token value="невиснажливого" lemma="невиснажливий" tags="adj:m:v_rod" />
   <token value="," lemma="," tags="punct" />
-  <token value="чи" lemma="чи" tags="conj:coord" >
-    <alts>
-      <token value="чи" lemma="чи" tags="conj:subord" />
-    </alts>
-  </token>
+  <token value="чи" lemma="чи" tags="conj:coord" />
   <token value="збалансованого" lemma="збалансований" tags="adj:m:v_rod:&amp;adjp:pasv:perf:compb" />
   <token value=")" lemma=")" tags="punct" />
   <token value="розвитку" lemma="розвиток" tags="noun:inanim:m:v_rod" />
@@ -401,11 +397,7 @@
   <token value="щоб" lemma="щоб" tags="conj:subord" />
   <token value="визначити" lemma="визначити" tags="verb:perf:inf" />
   <token value="," lemma="," tags="punct" />
-  <token value="чи" lemma="чи" tags="conj:coord" >
-    <alts>
-      <token value="чи" lemma="чи" tags="conj:subord" />
-    </alts>
-  </token>
+  <token value="чи" lemma="чи" tags="conj:subord" />
   <token value="відповідає" lemma="відповідати" tags="verb:imperf:pres:s:3" />
   <token value="ведення" lemma="ведення" tags="noun:inanim:n:v_naz" />
   <token value="господарства" lemma="господарство" tags="noun:inanim:n:v_rod" />

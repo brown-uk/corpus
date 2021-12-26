@@ -52,11 +52,7 @@
   <token value="мав" lemma="мати" tags="verb:imperf:past:m" />
   <token value="він" lemma="він" tags="noun:unanim:m:v_naz:&amp;pron:pers:3" />
   <token value="іще" lemma="іще" tags="adv" />
-  <token value="й" lemma="й" tags="conj:coord" >
-    <alts>
-      <token value="й" lemma="й" tags="part" />
-    </alts>
-  </token>
+  <token value="й" lemma="й" tags="part" />
   <token value="двадцяти" lemma="двадцять" tags="numr:p:v_rod" />
   <token value="років" lemma="рік" tags="noun:inanim:p:v_rod" />
   <token value="," lemma="," tags="punct" />
@@ -713,12 +709,7 @@
 <sentence>
   <token value="Та" lemma="та" tags="conj:coord" />
   <token value="й" lemma="й" tags="conj:coord" />
-  <token value="чи" lemma="чи" tags="conj:coord" >
-    <alts>
-      <token value="чи" lemma="чи" tags="conj:subord" />
-      <token value="чи" lemma="чи" tags="part" />
-    </alts>
-  </token>
+  <token value="чи" lemma="чи" tags="part" />
   <token value="винен" lemma="винний" tags="adj:m:v_naz:short" />
   <token value="він" lemma="він" tags="noun:unanim:m:v_naz:&amp;pron:pers:3" />
   <token value="у" lemma="у" tags="prep" />
@@ -1574,11 +1565,7 @@
   <token value="чутно" lemma="чутно" tags="adv:compb:&amp;predic" />
   <token value=":" lemma=":" tags="punct" />
   <token value="–" lemma="–" tags="punct" />
-  <token value="Чи" lemma="чи" tags="conj:coord" >
-    <alts>
-      <token value="Чи" lemma="чи" tags="conj:subord" />
-    </alts>
-  </token>
+  <token value="Чи" lemma="чи" tags="part" />
   <token value="щасливий" lemma="щасливий" tags="adj:m:v_naz:compb" />
   <token value="ти" lemma="ти" tags="noun:anim:s:v_naz:&amp;pron:pers:2" />
   <token value="," lemma="," tags="punct" />

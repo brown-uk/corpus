@@ -341,11 +341,7 @@
   <token value="." lemma="." tags="punct" />
 </sentence>
 <sentence>
-  <token value="Чи" lemma="чи" tags="conj:coord" >
-    <alts>
-      <token value="Чи" lemma="чи" tags="conj:subord" />
-    </alts>
-  </token>
+  <token value="Чи" lemma="чи" tags="part" />
   <token value="знав" lemma="знати" tags="verb:imperf:past:m" />
   <token value="про" lemma="про" tags="prep" />
   <token value="це" lemma="це" tags="noun:inanim:n:v_zna:&amp;pron:dem" />
@@ -359,11 +355,7 @@
   <token value="запитував" lemma="запитувати" tags="verb:imperf:past:m" />
   <token value="Гоголя" lemma="Гоголь" tags="noun:anim:m:v_rod:prop:lname" />
   <token value="," lemma="," tags="punct" />
-  <token value="чи" lemma="чи" tags="conj:coord" >
-    <alts>
-      <token value="чи" lemma="чи" tags="conj:subord" />
-    </alts>
-  </token>
+  <token value="чи" lemma="чи" tags="conj:subord" />
   <token value="читав" lemma="читати" tags="verb:imperf:past:m" />
   <token value="він" lemma="він" tags="noun:unanim:m:v_naz:&amp;pron:pers:3" />
   <token value="комедію" lemma="комедія" tags="noun:inanim:f:v_zna" />
@@ -1081,7 +1073,7 @@
   <token value="." lemma="." tags="punct" />
 </sentence>
 <sentence>
-  <token value="Адже" lemma="адже" tags="conj:subord" />
+  <token value="Адже" lemma="адже" tags="part" />
   <token value="наведені" lemma="наведений" tags="adj:p:v_naz:&amp;adjp:pasv:perf" />
   <token value="паралелі" lemma="паралель" tags="noun:inanim:p:v_naz" />
   <token value="дуже" lemma="дуже" tags="adv:compb" />
