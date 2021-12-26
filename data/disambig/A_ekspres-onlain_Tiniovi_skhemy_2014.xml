@@ -48,11 +48,7 @@
   <token value="на" lemma="на" tags="prep" />
   <token value="встановлення" lemma="встановлення" tags="noun:inanim:n:v_zna" />
   <token value="," lemma="," tags="punct" />
-  <token value="чи" lemma="чи" tags="conj:coord" >
-    <alts>
-      <token value="чи" lemma="чи" tags="conj:subord" />
-    </alts>
-  </token>
+  <token value="чи" lemma="чи" tags="conj:subord" />
   <token value="є" lemma="бути" tags="verb:imperf:pres:p:3" />
   <token value="якісь" lemma="якийсь" tags="adj:p:v_naz:&amp;pron:ind" />
   <token value="корисні" lemma="корисний" tags="adj:p:v_naz:compb" />
@@ -1218,11 +1214,7 @@
   <token value="." lemma="." tags="punct" />
 </sentence>
 <sentence>
-  <token value="Коли" lemma="коли" tags="conj:subord" >
-    <alts>
-      <token value="Коли" lemma="коли" tags="part" />
-    </alts>
-  </token>
+  <token value="Коли" lemma="коли" tags="conj:subord" />
   <token value="ж" lemma="ж" tags="part" />
   <token value="журналісти" lemma="журналіст" tags="noun:anim:p:v_naz" />
   <token value="зателефонувавши" lemma="зателефонувавши" tags="advp:perf" />

@@ -309,11 +309,7 @@
   <token value="й" lemma="й" tags="conj:coord" />
   <token value="екзотики" lemma="екзотика" tags="noun:inanim:f:v_rod" />
   <token value="," lemma="," tags="punct" />
-  <token value="як" lemma="як" tags="conj:subord" >
-    <alts>
-      <token value="як" lemma="як" tags="part" />
-    </alts>
-  </token>
+  <token value="як" lemma="як" tags="conj:subord" />
   <token value="різні" lemma="різний" tags="adj:p:v_naz:compb" />
   <token value="східні" lemma="східний" tags="adj:p:v_naz:compb" />
   <token value="вчення" lemma="вчення" tags="noun:inanim:p:v_naz" />
@@ -547,7 +543,7 @@
   <token value="таким" lemma="такий" tags="adj:m:v_oru:&amp;pron:dem" />
   <token value="образом-порівнянням" lemma="образ-порівняння" tags="noun:inanim:m:v_oru" />
   <token value=":" lemma=":" tags="punct" />
-  <token value="як" lemma="як" tags="part" />
+  <token value="як" lemma="як" tags="adv:&amp;pron:int:rel" />
   <token value="людина" lemma="людина" tags="noun:anim:f:v_naz" />
   <token value="через" lemma="через" tags="prep" />
   <token value="споживання" lemma="споживання" tags="noun:inanim:n:v_zna" />
@@ -556,11 +552,7 @@
   <token value="втратила" lemma="втратити" tags="verb:perf:past:f" />
   <token value="рай" lemma="рай" tags="noun:inanim:m:v_zna" />
   <token value="," lemma="," tags="punct" />
-  <token value="так" lemma="так" tags="conj:coord" >
-    <alts>
-      <token value="так" lemma="так" tags="conj:subord" />
-    </alts>
-  </token>
+  <token value="так" lemma="так" tags="adv:&pron:dem" />
   <token value="через" lemma="через" tags="prep" />
   <token value="стриманість" lemma="стриманість" tags="noun:inanim:f:v_zna" />
   <token value="у" lemma="у" tags="prep" />

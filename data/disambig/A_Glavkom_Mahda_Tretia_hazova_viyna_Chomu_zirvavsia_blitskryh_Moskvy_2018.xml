@@ -29,7 +29,7 @@
   <token value="»" lemma="»" tags="punct" />
   <token value="можна" lemma="можна" tags="noninfl:&amp;predic" />
   <token value="оцінити" lemma="оцінити" tags="verb:perf:inf" />
-  <token value="як" lemma="як" tags="adv:&amp;pron:int:rel" />
+  <token value="як" lemma="як" tags="conj:subord" />
   <token value="нову" lemma="новий" tags="adj:f:v_zna:compb" />
   <token value="газову" lemma="газовий" tags="adj:f:v_zna" />
   <token value="війну" lemma="війна" tags="noun:inanim:f:v_zna" />
@@ -290,7 +290,7 @@
   <token value="спроби" lemma="спроба" tags="noun:inanim:p:v_naz" />
   <token value="дискредитувати" lemma="дискредитувати" tags="verb:perf:inf" />
   <token value="Україну" lemma="Україна" tags="noun:inanim:f:v_zna:prop:geo" />
-  <token value="як" lemma="як" tags="adv:&amp;pron:int:rel" />
+  <token value="як" lemma="як" tags="conj:subord" />
   <token value="безвідповідального" lemma="безвідповідальний" tags="adj:m:v_zna:ranim:compb" />
   <token value="транзитера" lemma="транзитер" tags="noun:anim:m:v_zna" />
   <token value="здійснювалися" lemma="здійснюватися" tags="verb:rev:imperf:past:p" />
@@ -306,12 +306,7 @@
 <sentence>
   <token value="Питання" lemma="питання" tags="noun:inanim:n:v_naz" />
   <token value="," lemma="," tags="punct" />
-  <token value="як" lemma="як" tags="adv:&amp;pron:int:rel" >
-    <alts>
-      <token value="як" lemma="як" tags="conj:subord" />
-      <token value="як" lemma="як" tags="part" />
-    </alts>
-  </token>
+  <token value="як" lemma="як" tags="conj:subord" />
   <token value="видається" lemma="видаватися" tags="verb:rev:imperf:pres:s:3" />
   <token value="," lemma="," tags="punct" />
   <token value="не" lemma="не" tags="part" />
