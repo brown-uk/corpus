@@ -42,7 +42,7 @@
   <token value="Дзюблика" lemma="Дзюблик" tags="noun:anim:m:v_rod:prop:lname" />
   <token value="та" lemma="та" tags="conj:coord" />
   <token value="команди" lemma="команда" tags="noun:inanim:f:v_rod" />
-  <token value="його" lemma="його" tags="adj:p:v_rod:nv:&pron:pos" />
+  <token value="його" lemma="його" tags="adj:p:v_rod:nv:&amp;pron:pos" />
   <token value="помічників" lemma="помічник" tags="noun:anim:p:v_rod" />
   <token value="і" lemma="і" tags="part" />
   <token value="однодумців" lemma="однодумець" tags="noun:anim:p:v_rod" />
@@ -401,7 +401,7 @@
 <sentence>
   <token value="Ми" lemma="ми" tags="noun:anim:p:v_naz:&amp;pron:pers:1" />
   <token value="написали" lemma="написати" tags="verb:perf:past:p" />
-  <token value="його" lemma="він" tags="noun:unanim:m:v_zna:&pron:pers:3" />
+  <token value="його" lemma="він" tags="noun:unanim:m:v_zna:&amp;pron:pers:3" />
   <token value="разом" lemma="раз" tags="noun:inanim:m:v_oru" />
   <token value="із" lemma="із" tags="prep" />
   <token value="талановитим" lemma="талановитий" tags="adj:n:v_oru:compb" />
