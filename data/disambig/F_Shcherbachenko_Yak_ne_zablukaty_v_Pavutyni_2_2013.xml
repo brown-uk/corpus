@@ -313,11 +313,7 @@
   <token value="особливо" lemma="особливо" tags="adv:compb" />
   <token value="зручно" lemma="зручно" tags="adv:compb:&amp;predic" />
   <token value="," lemma="," tags="punct" />
-  <token value="адже" lemma="адже" tags="conj:subord" >
-    <alts>
-      <token value="адже" lemma="адже" tags="part" />
-    </alts>
-  </token>
+  <token value="адже" lemma="адже" tags="conj:subord" />
   <token value="їхати" lemma="їхати" tags="verb:imperf:inf" />
   <token value="до" lemma="до" tags="prep" />
   <token value="книгарні" lemma="книгарня" tags="noun:inanim:f:v_rod" />
@@ -387,11 +383,7 @@
   <token value="ЗВЕРНИ" lemma="звернути" tags="verb:perf:impr:s:2" />
   <token value="УВАГУ" lemma="увага" tags="noun:inanim:f:v_zna" />
   <token value="," lemma="," tags="punct" />
-  <token value="ЧИ" lemma="чи" tags="conj:coord" >
-    <alts>
-      <token value="ЧИ" lemma="чи" tags="conj:subord" />
-    </alts>
-  </token>
+  <token value="ЧИ" lemma="чи" tags="conj:subord" />
   <token value="ВКАЗАНІ" lemma="вказаний" tags="adj:p:v_naz:&amp;adjp:pasv:perf" />
   <token value="НА" lemma="на" tags="prep" />
   <token value="САЙТІ" lemma="сайт" tags="noun:inanim:m:v_mis" />
@@ -611,7 +603,7 @@
   <token value="банк" lemma="банк" tags="noun:inanim:m:v_zna" />
   <token value="на" lemma="на" tags="prep" />
   <token value="спеціальний" lemma="спеціальний" tags="adj:m:v_zna:rinanim" />
-  <token value="рахунок" lemma="рахунок" tags="noun:inanim:m:v_zna:xp1" />
+  <token value="рахунок" lemma="рахунок" tags="noun:inanim:m:v_zna:xp2" />
   <token value="продавця" lemma="продавець" tags="noun:anim:m:v_rod" />
   <token value="," lemma="," tags="punct" />
   <token value="і" lemma="і" tags="conj:coord" />
@@ -740,7 +732,7 @@
   <token value="як" lemma="як" tags="conj:subord" />
   <token value="із" lemma="із" tags="prep" />
   <token value="банківськими" lemma="банківський" tags="adj:p:v_oru" />
-  <token value="рахунками" lemma="рахунок" tags="noun:inanim:p:v_oru:xp1" />
+  <token value="рахунками" lemma="рахунок" tags="noun:inanim:p:v_oru:xp2" />
   <token value="," lemma="," tags="punct" />
   <token value="так" lemma="так" tags="conj:coord" />
   <token value="і" lemma="і" tags="conj:coord" />
@@ -829,7 +821,7 @@
   <token value="витрати" lemma="витрата" tags="noun:inanim:p:v_zna" />
   <token value="," lemma="," tags="punct" />
   <token value="поповнювати" lemma="поповнювати" tags="verb:imperf:inf" />
-  <token value="рахунок" lemma="рахунок" tags="noun:inanim:m:v_zna:xp1" />
+  <token value="рахунок" lemma="рахунок" tags="noun:inanim:m:v_zna:xp2" />
   <token value="," lemma="," tags="punct" />
   <token value="знімати" lemma="знімати" tags="verb:imperf:inf" />
   <token value="з" lemma="з" tags="prep" />
@@ -840,7 +832,7 @@
   <token value="їх" lemma="вони" tags="noun:unanim:p:v_zna:&amp;pron:pers:3" />
   <token value="на" lemma="на" tags="prep" />
   <token value="інший" lemma="інший" tags="adj:m:v_zna:rinanim:&amp;pron:def" />
-  <token value="рахунок" lemma="рахунок" tags="noun:inanim:m:v_zna:xp1" />
+  <token value="рахунок" lemma="рахунок" tags="noun:inanim:m:v_zna:xp2" />
   <token value="." lemma="." tags="punct" />
 </sentence>
 <sentence>
@@ -852,7 +844,7 @@
   <token value="платіжними" lemma="платіжний" tags="adj:p:v_oru" />
   <token value="(" lemma="(" tags="punct" />
   <token value="як" lemma="як" tags="conj:subord" />
-  <token value="рахунок" lemma="рахунок" tags="noun:inanim:m:v_naz:xp1" />
+  <token value="рахунок" lemma="рахунок" tags="noun:inanim:m:v_naz:xp2" />
   <token value="мобільного" lemma="мобільний" tags="noun:inanim:m:v_rod" />
   <token value=")" lemma=")" tags="punct" />
   <token value="або" lemma="або" tags="conj:coord" />

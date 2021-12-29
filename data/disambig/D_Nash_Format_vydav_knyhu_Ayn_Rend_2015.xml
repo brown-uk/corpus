@@ -83,11 +83,7 @@
   <token value="(" lemma="(" tags="punct" />
   <token value="зал" lemma="зал" tags="noun:inanim:m:v_naz" />
   <token value="«" lemma="«" tags="punct" />
-  <token value="Папір" lemma="папір" tags="noun:inanim:m:v_naz:xp1" >
-    <alts>
-      <token value="Папір" lemma="папір" tags="noun:inanim:m:v_naz:xp2" />
-    </alts>
-  </token>
+  <token value="Папір" lemma="папір" tags="noun:inanim:m:v_naz:xp2" />
   <token value="»" lemma="»" tags="punct" />
   <token value=")" lemma=")" tags="punct" />
   <token value="." lemma="." tags="punct" />
@@ -319,11 +315,7 @@
   <token value="часом" lemma="час" tags="noun:inanim:m:v_oru" />
   <token value="," lemma="," tags="punct" />
   <token value="як" lemma="як" tags="conj:subord" />
-  <token value="і" lemma="і" tags="conj:coord" >
-    <alts>
-      <token value="і" lemma="і" tags="part" />
-    </alts>
-  </token>
+  <token value="і" lemma="і" tags="conj:coord" />
   <token value="події" lemma="подія" tags="noun:inanim:p:v_naz" />
   <token value="," lemma="," tags="punct" />
   <token value="які" lemma="який" tags="adj:p:v_naz:&amp;pron:int:rel:def" />

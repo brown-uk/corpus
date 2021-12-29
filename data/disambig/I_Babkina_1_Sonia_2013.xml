@@ -458,17 +458,9 @@
   <token value="." lemma="." tags="punct" />
 </sentence>
 <sentence>
-  <token value="Там" lemma="там" tags="adv:&amp;pron:dem" >
-    <alts>
-      <token value="Там" lemma="там" tags="part" />
-    </alts>
-  </token>
+  <token value="Там" lemma="там" tags="adv:&amp;pron:dem" />
   <token value="," lemma="," tags="punct" />
-  <token value="де" lemma="де" tags="adv:&amp;pron:int:rel" >
-    <alts>
-      <token value="де" lemma="де" tags="part" />
-    </alts>
-  </token>
+  <token value="де" lemma="де" tags="conj:subord" />
   <token value="водосховище" lemma="водосховище" tags="noun:inanim:n:v_zna" />
   <token value="було" lemma="бути" tags="verb:imperf:past:n:&amp;insert" />
   <token value="зовсім" lemma="зовсім" tags="adv" />

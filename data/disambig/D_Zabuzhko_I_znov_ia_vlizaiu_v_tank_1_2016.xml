@@ -160,7 +160,7 @@
   <token value="Климовського" lemma="Климовський" tags="noun:anim:m:v_rod:prop:lname" />
   <token value="(" lemma="(" tags="punct" />
   <token value="18" lemma="18" tags="number" />
-  <token value="ст." lemma="ст." tags="noun:inanim:f:v_rod:nv:abbr:xp1" />
+  <token value="ст." lemma="ст." tags="noun:inanim:n:v_naz:nv:abbr:xp2" />
   <token value=")" lemma=")" tags="punct" />
   <token value="з" lemma="з" tags="prep" />
   <token value="легкої" lemma="легкий" tags="adj:f:v_rod:compb" />
@@ -769,11 +769,7 @@
   <token value="." lemma="." tags="punct" />
 </sentence>
 <sentence>
-  <token value="І" lemma="і" tags="conj:coord" >
-    <alts>
-      <token value="І" lemma="і" tags="part" />
-    </alts>
-  </token>
+  <token value="І" lemma="і" tags="part" />
   <token value="на" lemma="на" tags="prep" />
   <token value="те" lemma="те" tags="noun:inanim:n:v_zna:&amp;pron:dem" />
   <token value="є" lemma="бути" tags="verb:imperf:pres:p:3" />
@@ -927,7 +923,7 @@
   <token value="для" lemma="для" tags="prep" />
   <token value="того" lemma="той" tags="adj:m:v_rod:&amp;pron:dem" />
   <token value="відкритому" lemma="відкритий" tags="adj:m:v_dav:&amp;adjp:pasv:perf:compb" />
-  <token value="рахунку" lemma="рахунок" tags="noun:inanim:m:v_dav:xp1" />
+  <token value="рахунку" lemma="рахунок" tags="noun:inanim:m:v_dav:xp2" />
   <token value="," lemma="," tags="punct" />
   <token value="а" lemma="а" tags="conj:coord" />
   <token value="розкритикований" lemma="розкритикований" tags="adj:m:v_naz:&amp;adjp:pasv:perf:compb" />
@@ -992,7 +988,7 @@
   <token value="бізнесу" lemma="бізнес" tags="noun:inanim:m:v_rod" />
   <token value="," lemma="," tags="punct" />
   <token value="себто" lemma="себто" tags="conj:subord" />
-  <token value="теж" lemma="теж" tags="part" />
+  <token value="теж" lemma="теж" tags="adv" />
   <token value="," lemma="," tags="punct" />
   <token value="власне" lemma="власне" tags="adv:&amp;insert" />
   <token value="," lemma="," tags="punct" />

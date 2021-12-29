@@ -238,11 +238,7 @@
   <token value="лікування" lemma="лікування" tags="noun:inanim:n:v_rod" />
   <token value="важливо" lemma="важливо" tags="adv:compb:&amp;predic" />
   <token value="визначити" lemma="визначити" tags="verb:perf:inf" />
-  <token value="як" lemma="як" tags="conj:subord" >
-    <alts>
-      <token value="як" lemma="як" tags="part" />
-    </alts>
-  </token>
+  <token value="як" lemma="як" tags="conj:subord" />
   <token value="розповсюдженість" lemma="розповсюдженість" tags="noun:inanim:f:v_naz" />
   <token value="," lemma="," tags="punct" />
   <token value="так" lemma="так" tags="conj:coord" />
@@ -394,6 +390,8 @@
   <token value="по" lemma="по" tags="prep" />
   <token value="2007" lemma="2007" tags="number" />
   <token value="р." lemma="р." tags="noun:inanim:m:v_rod:nv:abbr:xp1" />
+</sentence>
+<sentence>
   <token value="Серед" lemma="серед" tags="prep" />
   <token value="них" lemma="вони" tags="noun:unanim:p:v_rod:&amp;pron:pers:3" />
   <token value="чоловіків" lemma="чоловік" tags="noun:anim:p:v_rod" />
@@ -856,7 +854,7 @@
   <token value="в" lemma="в" tags="prep" />
   <token value="ЛВ" lemma="ЛВ" tags="noun:inanim:p:v_mis:nv:abbr" />
   <token value="шиї" lemma="шия" tags="noun:inanim:f:v_rod" />
-  <token value="теж" lemma="теж" tags="part" />
+  <token value="теж" lemma="теж" tags="adv" />
   <token value="не" lemma="не" tags="part" />
   <token value="виявлено" lemma="виявити" tags="verb:perf:impers" />
   <token value="і" lemma="і" tags="conj:coord" />

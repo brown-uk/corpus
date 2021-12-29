@@ -762,7 +762,7 @@
   <token value="?" lemma="?" tags="punct" />
 </sentence>
 <sentence>
-  <token value="Теж" lemma="теж" tags="part" />
+  <token value="Теж" lemma="теж" tags="adv" />
   <token value="сам" lemma="сам" tags="adj:m:v_naz:&amp;pron:def" />
   <token value="тепер" lemma="тепер" tags="adv:&amp;pron:dem" />
   <token value="?.." lemma="?.." tags="punct" />
@@ -1937,11 +1937,7 @@
   <token value="біля" lemma="біля" tags="prep" />
   <token value="хвіртки" lemma="хвіртка" tags="noun:inanim:f:v_rod" />
   <token value="," lemma="," tags="punct" />
-  <token value="наче" lemma="наче" tags="conj:subord" >
-    <alts>
-      <token value="наче" lemma="наче" tags="part" />
-    </alts>
-  </token>
+  <token value="наче" lemma="наче" tags="conj:subord" />
   <token value="Соломія" lemma="Соломія" tags="noun:anim:f:v_naz:prop:fname" />
   <token value="мала" lemma="мати" tags="verb:imperf:past:f" />
   <token value="швидко" lemma="швидко" tags="adv:compb" />
@@ -1961,11 +1957,7 @@
   <token value="не" lemma="не" tags="part" />
   <token value="забував" lemma="забувати" tags="verb:imperf:past:m" />
   <token value="," lemma="," tags="punct" />
-  <token value="лише" lemma="лише" tags="conj:subord" >
-    <alts>
-      <token value="лише" lemma="лише" tags="part" />
-    </alts>
-  </token>
+  <token value="лише" lemma="лише" tags="conj:subord" />
   <token value="забувався" lemma="забуватися" tags="verb:rev:imperf:past:m" />
   <token value="в" lemma="в" tags="prep" />
   <token value="Маниних" lemma="Манин" tags="adj:p:v_mis" />

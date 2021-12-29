@@ -281,11 +281,7 @@
   <token value="." lemma="." tags="punct" />
 </sentence>
 <sentence>
-  <token value="Саме" lemma="саме" tags="adv" >
-    <alts>
-      <token value="Саме" lemma="саме" tags="part" />
-    </alts>
-  </token>
+  <token value="Саме" lemma="саме" tags="part" />
   <token value="так" lemma="так" tags="adv:&amp;pron:dem" />
   <token value="знаходиться" lemma="знаходитися" tags="verb:rev:imperf:pres:s:3" />
   <token value="необхідне" lemma="необхідне" tags="noun:inanim:n:v_naz" />
@@ -1380,12 +1376,7 @@
   <token value="вона" lemma="вона" tags="noun:unanim:f:v_naz:&amp;pron:pers:3" />
   <token value="ж" lemma="ж" tags="part" />
   <token value="–" lemma="–" tags="punct" />
-  <token value="як" lemma="як" tags="adv:&amp;pron:int:rel" >
-    <alts>
-      <token value="як" lemma="як" tags="conj:subord" />
-      <token value="як" lemma="як" tags="part" />
-    </alts>
-  </token>
+  <token value="як" lemma="як" tags="conj:subord" />
   <token value="прокляті" lemma="проклятий" tags="adj:p:v_naz:&amp;adjp:pasv:perf" />
   <token value="бесаги" lemma="бесаги" tags="noun:inanim:p:v_naz:ns:rare" />
   <token value="." lemma="." tags="punct" />
@@ -2085,7 +2076,7 @@
   <token value="літератури" lemma="література" tags="noun:inanim:f:v_rod" />
   <token value="–" lemma="–" tags="punct" />
   <token value="до" lemma="до" tags="prep" />
-  <token value="інтер'єрів" lemma="інтер'єр" tags="noun:inanim:p:v_rod:xp1" />
+  <token value="інтер'єрів" lemma="інтер'єр" tags="noun:inanim:p:v_rod:xp2" />
   <token value="барів" lemma="бар" tags="noun:inanim:p:v_rod:xp2" />
   <token value="." lemma="." tags="punct" />
 </sentence>
@@ -2697,11 +2688,7 @@
   <token value="," lemma="," tags="punct" />
   <token value="доволі" lemma="доволі" tags="adv" />
   <token value="простору" lemma="простір" tags="noun:inanim:m:v_rod" />
-  <token value="і" lemma="і" tags="conj:coord" >
-    <alts>
-      <token value="і" lemma="і" tags="part" />
-    </alts>
-  </token>
+  <token value="і" lemma="і" tags="conj:coord" />
   <token value="води" lemma="вода" tags="noun:inanim:f:v_rod" />
   <token value="," lemma="," tags="punct" />
   <token value="сонячного" lemma="сонячний" tags="adj:n:v_rod:compb" />
