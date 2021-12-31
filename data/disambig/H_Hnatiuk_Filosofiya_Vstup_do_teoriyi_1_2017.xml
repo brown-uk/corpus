@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <text>
 <sentence>
+  <token value="1" lemma="1" tags="number" />
+  <token value="." lemma="." tags="punct" />
+</sentence>
+<sentence>
   <token value="Поняття" lemma="поняття" tags="noun:inanim:n:v_naz" />
   <token value="," lemma="," tags="punct" />
   <token value="предмет" lemma="предмет" tags="noun:inanim:m:v_naz" />
@@ -68,6 +72,7 @@
   <token value="суспільство" lemma="суспільство" tags="noun:inanim:n:v_zna" />
   <token value="," lemma="," tags="punct" />
   <token value="його" lemma="воно" tags="noun:unanim:n:v_rod:&amp;pron:pers:3" />
+  <token value="основи" lemma="основа" tags="noun:inanim:p:v_zna" />
   <token value="," lemma="," tags="punct" />
   <token value="сенс" lemma="сенс" tags="noun:inanim:m:v_zna" />
   <token value="існування" lemma="існування" tags="noun:inanim:n:v_rod" />
@@ -99,12 +104,14 @@
   <token value="філософії" lemma="філософія" tags="noun:inanim:f:v_rod" />
   <token value="вважаються" lemma="вважатися" tags="verb:rev:imperf:pres:p:3" />
   <token value=":" lemma=":" tags="punct" />
+<format tag="br" />
   <token value="Праксеологія" lemma="праксеологія" tags="noun:inanim:f:v_naz" />
   <token value="–" lemma="–" tags="punct" />
   <token value="вчення" lemma="вчення" tags="noun:inanim:n:v_naz" />
   <token value="про" lemma="про" tags="prep" />
   <token value="діяльність" lemma="діяльність" tags="noun:inanim:f:v_zna" />
   <token value=";" lemma=";" tags="punct" />
+<format tag="br" />
   <token value="Філософія" lemma="філософія" tags="noun:inanim:f:v_naz" />
   <token value="культури" lemma="культура" tags="noun:inanim:f:v_rod" />
   <token value="–" lemma="–" tags="punct" />
@@ -113,6 +120,7 @@
   <token value="засади" lemma="засада" tags="noun:inanim:p:v_zna" />
   <token value="культури" lemma="культура" tags="noun:inanim:f:v_rod" />
   <token value=";" lemma=";" tags="punct" />
+<format tag="br" />
   <token value="Філософія" lemma="філософія" tags="noun:inanim:f:v_naz" />
   <token value="історії" lemma="історія" tags="noun:inanim:f:v_rod" />
   <token value="–" lemma="–" tags="punct" />
@@ -121,6 +129,7 @@
   <token value="розвиток" lemma="розвиток" tags="noun:inanim:m:v_zna" />
   <token value="суспільства" lemma="суспільство" tags="noun:inanim:n:v_rod" />
   <token value=";" lemma=";" tags="punct" />
+<format tag="br" />
   <token value="Філософія" lemma="філософія" tags="noun:inanim:f:v_naz" />
   <token value="права" lemma="право" tags="noun:inanim:p:v_zna" />
   <token value="–" lemma="–" tags="punct" />
@@ -129,6 +138,7 @@
   <token value="основи" lemma="основа" tags="noun:inanim:f:v_rod" />
   <token value="права" lemma="право" tags="noun:inanim:n:v_rod" />
   <token value=";" lemma=";" tags="punct" />
+<format tag="br" />
   <token value="Філософія" lemma="філософія" tags="noun:inanim:f:v_naz" />
   <token value="політики" lemma="політика" tags="noun:inanim:f:v_rod" />
   <token value="–" lemma="–" tags="punct" />
@@ -136,6 +146,7 @@
   <token value="про" lemma="про" tags="prep" />
   <token value="спілкування" lemma="спілкування" tags="noun:inanim:n:v_rod" />
   <token value=";" lemma=";" tags="punct" />
+<format tag="br" />
   <token value="Філософія" lemma="філософія" tags="noun:inanim:f:v_naz" />
   <token value="економіки" lemma="економіка" tags="noun:inanim:f:v_rod" />
   <token value="–" lemma="–" tags="punct" />
@@ -143,6 +154,7 @@
   <token value="про" lemma="про" tags="prep" />
   <token value="господарство" lemma="господарство" tags="noun:inanim:n:v_zna" />
   <token value=";" lemma=";" tags="punct" />
+<format tag="br" />
   <token value="Філософія" lemma="філософія" tags="noun:inanim:f:v_naz" />
   <token value="техніки" lemma="техніка" tags="noun:inanim:f:v_rod" />
   <token value="–" lemma="–" tags="punct" />
@@ -150,6 +162,7 @@
   <token value="про" lemma="про" tags="prep" />
   <token value="ефективність" lemma="ефективність" tags="noun:inanim:f:v_zna" />
   <token value=";" lemma=";" tags="punct" />
+<format tag="br" />
   <token value="Філософія" lemma="філософія" tags="noun:inanim:f:v_naz" />
   <token value="освіти" lemma="освіта" tags="noun:inanim:f:v_rod" />
   <token value="–" lemma="–" tags="punct" />
@@ -755,7 +768,7 @@
   <token value="та" lemma="та" tags="conj:coord" />
   <token value="на" lemma="на" tags="prep" />
   <token value="основі" lemma="основа" tags="noun:inanim:f:v_mis" />
-  <token value="соціальних" lemma="соціальний" tags="adj:p:v_mis:compb" />
+  <token value="соціальних" lemma="соціальний" tags="adj:p:v_rod:compb" />
   <token value="процесів" lemma="процес" tags="noun:inanim:p:v_rod" />
   <token value="." lemma="." tags="punct" />
 </sentence>

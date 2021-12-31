@@ -225,7 +225,7 @@
   <token value="," lemma="," tags="punct" />
   <token value="на" lemma="на" tags="prep" />
   <token value="основі" lemma="основа" tags="noun:inanim:f:v_mis" />
-  <token value="яких" lemma="який" tags="adj:p:v_mis:&amp;pron:int:rel:def" />
+  <token value="яких" lemma="який" tags="adj:p:v_rod:&amp;pron:int:rel:def" />
   <token value="формували" lemma="формувати" tags="verb:imperf:past:p" />
   <token value="ділянки" lemma="ділянка" tags="noun:inanim:p:v_zna" />
   <token value="збору" lemma="збір" tags="noun:inanim:m:v_rod" />
@@ -560,7 +560,7 @@
   <token value="перепису" lemma="перепис" tags="noun:inanim:m:v_rod" />
   <token value=":" lemma=":" tags="punct" />
 </sentence>
-<paragraph/>
+<format tag="br"/>
 <sentence>
   <token value="Опитування" lemma="опитування" tags="noun:inanim:n:v_naz" />
   <token value="." lemma="." tags="punct" />
@@ -597,7 +597,7 @@
   <token value="Україні" lemma="Україна" tags="noun:inanim:f:v_mis:prop:geo" />
   <token value="." lemma="." tags="punct" />
 </sentence>
-<paragraph/>
+<format tag="br"/>
 <sentence>
   <token value="Самообчислення" lemma="самообчислення" tags="noun:inanim:n:v_naz" />
   <token value="." lemma="." tags="punct" />
@@ -631,7 +631,7 @@
   <token value="країнах" lemma="країна" tags="noun:inanim:p:v_mis" />
   <token value="." lemma="." tags="punct" />
 </sentence>
-<paragraph/>
+<format tag="br"/>
 <sentence>
   <token value="Змішаний" lemma="змішаний" tags="adj:m:v_naz:&amp;adjp:pasv:perf" />
   <token value="(" lemma="(" tags="punct" />
@@ -734,6 +734,7 @@
   <token value=")" lemma=")" tags="punct" />
   <token value=";" lemma=";" tags="punct" />
 </sentence>
+<paragraph />
 <sentence>
   <token value="Отже" lemma="отже" tags="conj:subord:&amp;insert" />
   <token value="," lemma="," tags="punct" />
