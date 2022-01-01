@@ -373,7 +373,7 @@
   <token value="системи" lemma="система" tags="noun:inanim:p:v_naz" />
   <token value="," lemma="," tags="punct" />
   <token value="тоді" lemma="тоді" tags="adv:&amp;pron:dem" />
-  <token value="як" lemma="як" tags="conj:subord" />
+  <token value="як" lemma="як" tags="adv:&amp;pron:int:rel" />
   <token value="власне" lemma="власний" tags="adj:n:v_naz" />
   <token value="культурне" lemma="культурний" tags="adj:n:v_naz:compb" />
   <token value="буття" lemma="буття" tags="noun:inanim:n:v_naz" />
@@ -532,12 +532,7 @@
   <token value="взаємозв'язків" lemma="взаємозв'язок" tags="noun:inanim:p:v_rod" />
   <token value="," lemma="," tags="punct" />
   <token value="тоді" lemma="тоді" tags="adv:&amp;pron:dem" />
-  <token value="як" lemma="як" tags="adv:&amp;pron:int:rel" >
-    <alts>
-      <token value="як" lemma="як" tags="conj:subord" />
-      <token value="як" lemma="як" tags="part" />
-    </alts>
-  </token>
+  <token value="як" lemma="як" tags="adv:&amp;pron:int:rel" />
   <token value="про" lemma="про" tags="prep" />
   <token value="гармонізацію" lemma="гармонізація" tags="noun:inanim:f:v_zna" />
   <token value="можна" lemma="можна" tags="noninfl:&amp;predic" />
@@ -1139,8 +1134,8 @@
   <token value="складових" lemma="складовий" tags="adj:p:v_rod" />
   <token value="підсистем" lemma="підсистема" tags="noun:inanim:p:v_rod" />
   <token value="," lemma="," tags="punct" />
-  <token value="так" lemma="так" tags="adv:&amp;pron:dem" />
-  <token value="і" lemma="і" tags="conj:coord" />
+  <token value="так" lemma="так" tags="conj:coord" />
+  <token value="і" lemma="і" tags="part" />
   <token value="балансу" lemma="баланс" tags="noun:inanim:m:v_rod" />
   <token value="з" lemma="з" tags="prep" />
   <token value="середовищем" lemma="середовище" tags="noun:inanim:n:v_oru" />
