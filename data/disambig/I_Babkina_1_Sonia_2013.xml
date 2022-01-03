@@ -460,7 +460,7 @@
 <sentence>
   <token value="Там" lemma="там" tags="adv:&amp;pron:dem" />
   <token value="," lemma="," tags="punct" />
-  <token value="де" lemma="де" tags="conj:subord" />
+  <token value="де" lemma="де" tags="adv:&amp;pron:int:rel" />
   <token value="водосховище" lemma="водосховище" tags="noun:inanim:n:v_zna" />
   <token value="було" lemma="бути" tags="verb:imperf:past:n:&amp;insert" />
   <token value="зовсім" lemma="зовсім" tags="adv" />
@@ -1073,6 +1073,7 @@
   <token value="Соня" lemma="Соня" tags="noun:anim:f:v_naz:prop:fname" />
   <token value="." lemma="." tags="punct" />
 </sentence>
+<format tag="br" />
 <sentence>
   <token value="—" lemma="—" tags="punct" />
   <token value="Горілки" lemma="горілка" tags="noun:inanim:f:v_rod" />

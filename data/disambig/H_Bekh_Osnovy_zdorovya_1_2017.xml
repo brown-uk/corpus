@@ -150,6 +150,7 @@
   <token value="включаючи" lemma="включаючи" tags="advp:imperf" />
   <token value="в" lemma="в" tags="prep" />
   <token value="меню" lemma="меню" tags="noun:inanim:n:v_zna:nv" />
+  <token value="продукти" lemma="продукт" tags="noun:inanim:p:v_zna" />
   <token value="з" lemma="з" tags="prep" />
   <token value="різних" lemma="різний" tags="adj:p:v_rod:compb" />
   <token value="груп" lemma="група" tags="noun:inanim:p:v_rod" />
@@ -632,7 +633,7 @@
   <token value="," lemma="," tags="punct" />
   <token value="що" lemma="що" tags="noun:inanim:n:v_naz:&amp;pron:int:rel" />
   <token value="покращує" lemma="покращувати" tags="verb:imperf:pres:s:3" />
-  <token value="його" lemma="воно" tags="noun:unanim:n:v_zna:&amp;pron:pers:3" />
+  <token value="його" lemma="його" tags="adj:m:v_zna:rinanim:nv:&amp;pron:pos" />
   <token value="смак" lemma="смак" tags="noun:inanim:m:v_zna" />
   <token value="." lemma="." tags="punct" />
 </sentence>
@@ -1048,7 +1049,7 @@
   <token value=")" lemma=")" tags="punct" />
   <token value="." lemma="." tags="punct" />
 </sentence>
-<paragraph/>
+<format tag="br" />
 <sentence>
   <token value="Група" lemma="група" tags="noun:inanim:f:v_naz" />
   <token value="1" lemma="1" tags="number" />
@@ -1062,7 +1063,7 @@
   <token value="1,2" lemma="1,2" tags="number" />
   <token value="." lemma="." tags="punct" />
 </sentence>
-<paragraph/>
+<format tag="br" />
 <sentence>
   <token value="Група" lemma="група" tags="noun:inanim:f:v_naz" />
   <token value="2" lemma="2" tags="number" />
@@ -1083,7 +1084,7 @@
   <token value="1,4" lemma="1,4" tags="number" />
   <token value="." lemma="." tags="punct" />
 </sentence>
-<paragraph/>
+<format tag="br" />
 <sentence>
   <token value="Група" lemma="група" tags="noun:inanim:f:v_naz" />
   <token value="3" lemma="3" tags="number" />
@@ -1105,7 +1106,7 @@
   <token value="1,6" lemma="1,6" tags="number" />
   <token value="." lemma="." tags="punct" />
 </sentence>
-<paragraph/>
+<format tag="br" />
 <sentence>
   <token value="Група" lemma="група" tags="noun:inanim:f:v_naz" />
   <token value="4" lemma="4" tags="number" />
@@ -1129,7 +1130,7 @@
   <token value="1,8" lemma="1,8" tags="number" />
   <token value="." lemma="." tags="punct" />
 </sentence>
-<paragraph/>
+<format tag="br" />
 <sentence>
   <token value="Група" lemma="група" tags="noun:inanim:f:v_naz" />
   <token value="5" lemma="5" tags="number" />
@@ -1144,7 +1145,7 @@
   <token value="1,95" lemma="1,95" tags="number" />
   <token value="." lemma="." tags="punct" />
 </sentence>
-<format tag="br"/>
+<paragraph />
 <sentence>
   <token value="2" lemma="2" tags="number" />
   <token value="." lemma="." tags="punct" />
@@ -1448,7 +1449,6 @@
   <token value="рекламі" lemma="реклама" tags="noun:inanim:f:v_mis" />
   <token value="?" lemma="?" tags="punct" />
 </sentence>
-<paragraph/>
 <format tag="br"/>
 <sentence>
   <token value="•" lemma="•" tags="punct" />
@@ -1464,7 +1464,6 @@
   <token value="розказували" lemma="розказувати" tags="verb:imperf:past:p" />
   <token value="?" lemma="?" tags="punct" />
 </sentence>
-<paragraph/>
 <format tag="br"/>
 <sentence>
   <token value="•" lemma="•" tags="punct" />
@@ -1876,6 +1875,7 @@
   <token value="смартфон" lemma="смартфон" tags="noun:inanim:m:v_zna:ua_2019" />
   <token value="." lemma="." tags="punct" />
 </sentence>
+<paragraph />
 <sentence>
   <token value="Харчова" lemma="харчовий" tags="adj:f:v_naz" />
   <token value="піраміда" lemma="піраміда" tags="noun:inanim:f:v_naz" />
@@ -1929,6 +1929,7 @@
   <token value="активності" lemma="активність" tags="noun:inanim:f:v_rod" />
   <token value="." lemma="." tags="punct" />
 </sentence>
+<paragraph />
 <sentence>
   <token value="З" lemma="з" tags="prep" />
   <token value="огляду" lemma="огляд" tags="noun:inanim:m:v_rod" />
@@ -1959,6 +1960,7 @@
   <token value="фізичної" lemma="фізичний" tags="adj:f:v_rod" />
   <token value="форми" lemma="форма" tags="noun:inanim:f:v_rod" />
 </sentence>
+<paragraph />
 <sentence>
   <token value="У" lemma="у" tags="prep" />
   <token value="цьому" lemma="цей" tags="adj:m:v_mis:&amp;pron:dem" />

@@ -152,7 +152,7 @@
   <token value="," lemma="," tags="punct" />
   <token value="і" lemma="і" tags="conj:coord" />
   <token value="в" lemma="в" tags="prep" />
-  <token value="її" lemma="вона" tags="noun:unanim:f:v_rod:&amp;pron:pers:3" />
+  <token value="її" lemma="її" tags="adj:f:v_mis:nv:&amp;pron:pos" />
   <token value="-" lemma="-" tags="punct" />
   <token value="особистій" lemma="особистий" tags="adj:f:v_mis:compb" />
   <token value="!" lemma="!" tags="punct" />
@@ -425,8 +425,8 @@
 </sentence>
 <sentence>
   <token value="Починався" lemma="починатися" tags="verb:rev:imperf:past:m" />
-  <token value="її" lemma="вона" tags="noun:unanim:f:v_rod:&amp;pron:pers:3" />
-  <token value="будень" lemma="будень" tags="noun:inanim:m:v_zna" />
+  <token value="її" lemma="її" tags="adj:m:v_naz:nv:&amp;pron:pos" />
+  <token value="будень" lemma="будень" tags="noun:inanim:m:v_naz" />
   <token value="—" lemma="—" tags="punct" />
   <token value="такий" lemma="такий" tags="adj:m:v_naz:&amp;pron:dem" />
   <token value="несхожий" lemma="несхожий" tags="adj:m:v_naz" />
@@ -450,7 +450,7 @@
 <sentence>
   <token value="Якось" lemma="якось" tags="adv:&amp;pron:ind" />
   <token value="у" lemma="у" tags="prep" />
-  <token value="її" lemma="вона" tags="noun:unanim:f:v_rod:&amp;pron:pers:3" />
+  <token value="її" lemma="її" tags="adj:f:v_rod:nv:&amp;pron:pos" />
   <token value="однокласниці" lemma="однокласниця" tags="noun:anim:f:v_rod" />
   <token value="Маргаритки" lemma="Маргаритка" tags="noun:anim:f:v_rod:prop:fname:coll" />
   <token value="з'явився" lemma="з'явитися" tags="verb:rev:perf:past:m" />
@@ -483,7 +483,7 @@
   <token value="й" lemma="й" tags="conj:coord" />
   <token value="перебирала" lemma="перебирати" tags="verb:imperf:past:f" />
   <token value="пальчиками" lemma="пальчик" tags="noun:inanim:p:v_oru" />
-  <token value="його" lemma="він" tags="noun:unanim:m:v_rod:&amp;pron:pers:3" />
+  <token value="його" lemma="його" tags="adj:p:v_zna:rinanim:nv:&amp;pron:pos" />
   <token value="маленькі" lemma="маленький" tags="adj:p:v_zna:rinanim" />
   <token value="намистинки" lemma="намистинка" tags="noun:inanim:p:v_zna" />
   <token value="." lemma="." tags="punct" />
@@ -1208,7 +1208,6 @@
   <token value="холодними" lemma="холодний" tags="adj:p:v_oru:compb" />
   <token value="." lemma="." tags="punct" />
 </sentence>
-<format tag="br"/>
 <sentence>
   <token value="—" lemma="—" tags="punct" />
   <token value="Дякую" lemma="дякувати" tags="verb:imperf:pres:s:1" />

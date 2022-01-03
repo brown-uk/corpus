@@ -601,7 +601,7 @@
   <token value="полковник" lemma="полковник" tags="noun:anim:m:v_naz" />
   <token value="," lemma="," tags="punct" />
   <token value="цю" lemma="цей" tags="adj:f:v_zna:&amp;pron:dem" />
-  <token value="його" lemma="він" tags="noun:unanim:m:v_rod:&amp;pron:pers:3" />
+  <token value="його" lemma="його" tags="adj:f:v_zna:nv:&amp;pron:pos" />
   <token value="манеру" lemma="манера" tags="noun:inanim:f:v_zna" />
   <token value="я" lemma="я" tags="noun:anim:s:v_naz:&amp;pron:pers:1" />
   <token value="ще" lemma="ще" tags="adv" />
@@ -797,7 +797,7 @@
   <token value="поробиш" lemma="поробити" tags="verb:perf:futr:s:2" />
   <token value="—" lemma="—" tags="punct" />
   <token value="така" lemma="такий" tags="adj:f:v_naz:&amp;pron:dem" />
-  <token value="його" lemma="він" tags="noun:unanim:m:v_rod:&amp;pron:pers:3" />
+  <token value="його" lemma="його" tags="adj:f:v_naz:nv:&amp;pron:pos" />
   <token value="доля" lemma="доля" tags="noun:inanim:f:v_naz" />
   <token value="." lemma="." tags="punct" />
 </sentence>
@@ -1084,6 +1084,7 @@
   <token value="почув" lemma="почути" tags="verb:perf:past:m" />
   <token value="шепіт" lemma="шепіт" tags="noun:inanim:m:v_zna" />
   <token value=":" lemma=":" tags="punct" />
+<format tag="br"/>
   <token value="—" lemma="—" tags="punct" />
   <token value="Тихо" lemma="тихо" tags="adv:compb:&amp;predic" />
   <token value="." lemma="." tags="punct" />
@@ -1160,7 +1161,6 @@
   <token value="темряви" lemma="темрява" tags="noun:inanim:f:v_rod" />
   <token value="." lemma="." tags="punct" />
 </sentence>
-<format tag="br"/>
 <sentence>
   <token value="—" lemma="—" tags="punct" />
   <token value="Обережно" lemma="обережно" tags="adv:compb" />
@@ -1171,7 +1171,7 @@
 </sentence>
 <paragraph/>
 <sentence>
-  <token value="Його" lemma="він" tags="noun:unanim:m:v_rod:&amp;pron:pers:3" />
+  <token value="Його" lemma="його" tags="adj:m:v_rod:nv:&amp;pron:pos" />
   <token value="тінь" lemma="тінь" tags="noun:inanim:f:v_naz" />
   <token value="ковзнула" lemma="ковзнути" tags="verb:perf:past:f" />
   <token value="до" lemma="до" tags="prep" />
@@ -1187,6 +1187,7 @@
   <token value="зупинив" lemma="зупинити" tags="verb:perf:past:m" />
   <token value="шепіт" lemma="шепіт" tags="noun:inanim:m:v_naz" />
   <token value=":" lemma=":" tags="punct" />
+<format tag="br"/>
   <token value="—" lemma="—" tags="punct" />
   <token value="Постіль" lemma="постіль" tags="noun:inanim:f:v_naz" />
   <token value="!" lemma="!" tags="punct" />

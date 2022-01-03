@@ -1017,9 +1017,9 @@
   <token value="таки" lemma="таки" tags="part" />
   <token value="," lemma="," tags="punct" />
   <token value="розуміють" lemma="розуміти" tags="verb:imperf:pres:p:3" />
-  <token value="її" lemma="вона" tags="noun:unanim:f:v_rod:&amp;pron:pers:3" />
-  <token value="євроамериканський" lemma="євроамериканський" tags="adj:m:v_naz:bad" comment="=євро-американський? - правильно з дефісом" />
-  <token value="варіант" lemma="варіант" tags="noun:inanim:m:v_naz" />
+  <token value="її" lemma="її" tags="adj:m:v_zna:rinanim:nv:&amp;pron:pos" />
+  <token value="євроамериканський" lemma="євроамериканський" tags="adj:m:v_zna:rinanim:bad" comment="=євро-американський? - правильно з дефісом" />
+  <token value="варіант" lemma="варіант" tags="noun:inanim:m:v_zna" />
   <token value="." lemma="." tags="punct" />
 </sentence>
 <sentence>
@@ -1147,7 +1147,7 @@
   <token value="особі" lemma="особа" tags="noun:inanim:f:v_dav" />
   <token value="монаха" lemma="монах" tags="noun:anim:m:v_rod" />
   <token value="Ентоні" lemma="Ентоні" tags="noun:anim:m:v_rod:nv:prop:fname" />
-  <token value="де" lemma="де" tags="part" />
+  <token value="де" lemma="де" tags="part:pers" />
   <token value="Мелло" lemma="Мелло" tags="noun:anim:m:v_rod:nv:prop:fname" />
   <token value="наблизилася" lemma="наблизитися" tags="verb:rev:perf:past:f" />
   <token value="до" lemma="до" tags="prep" />
