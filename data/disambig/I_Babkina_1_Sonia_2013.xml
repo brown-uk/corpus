@@ -410,7 +410,7 @@
   <token value="чужого" lemma="чужий" tags="adj:m:v_rod:compb" />
   <token value="світу" lemma="світ" tags="noun:inanim:m:v_rod" />
   <token value="," lemma="," tags="punct" />
-  <token value="де" lemma="де" tags="adv:&amp;pron:int:rel" />
+  <token value="де" lemma="де" tags="conj:subord" />
   <token value="," lemma="," tags="punct" />
   <token value="можливо" lemma="можливо" tags="adv:compb:&amp;insert:&amp;predic" />
   <token value="," lemma="," tags="punct" />
@@ -460,7 +460,7 @@
 <sentence>
   <token value="Там" lemma="там" tags="adv:&amp;pron:dem" />
   <token value="," lemma="," tags="punct" />
-  <token value="де" lemma="де" tags="adv:&amp;pron:int:rel" />
+  <token value="де" lemma="де" tags="conj:subord" />
   <token value="водосховище" lemma="водосховище" tags="noun:inanim:n:v_zna" />
   <token value="було" lemma="бути" tags="verb:imperf:past:n:&amp;insert" />
   <token value="зовсім" lemma="зовсім" tags="adv" />
@@ -505,7 +505,7 @@
   <token value="В" lemma="в" tags="prep" />
   <token value="місці" lemma="місце" tags="noun:inanim:n:v_mis" />
   <token value="," lemma="," tags="punct" />
-  <token value="де" lemma="де" tags="adv:&amp;pron:int:rel" />
+  <token value="де" lemma="де" tags="conj:subord" />
   <token value="водосховище" lemma="водосховище" tags="noun:inanim:n:v_naz" />
   <token value="поступалося" lemma="поступатися" tags="verb:rev:imperf:past:n" />
   <token value="врешті" lemma="врешті" tags="adv" />
@@ -1176,7 +1176,7 @@
   <token value="нього" lemma="він" tags="noun:unanim:m:v_rod:&amp;pron:pers:3" />
   <token value="ходжу" lemma="ходити" tags="verb:imperf:pres:s:1" />
   <token value="—" lemma="—" tags="punct" />
-  <token value="хто" lemma="хто" tags="conj:subord" />
+  <token value="хто" lemma="хто" tags="noun:anim:m:v_naz:&amp;pron:int:rel" />
   <token value="ще" lemma="ще" tags="adv" />
   <token value="ходитиме" lemma="ходити" tags="verb:imperf:futr:s:3" />
   <token value="." lemma="." tags="punct" />

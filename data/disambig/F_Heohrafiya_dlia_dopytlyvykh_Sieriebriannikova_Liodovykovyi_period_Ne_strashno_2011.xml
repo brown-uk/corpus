@@ -103,7 +103,7 @@
   <token value="арктичній" lemma="арктичний" tags="adj:f:v_mis" />
   <token value="пустелі" lemma="пустеля" tags="noun:inanim:f:v_mis" />
   <token value="," lemma="," tags="punct" />
-  <token value="де" lemma="де" tags="adv:&amp;pron:int:rel" />
+  <token value="де" lemma="де" tags="conj:subord" />
   <token value="майже" lemma="майже" tags="adv" />
   <token value="півроку" lemma="півроку" tags="noun:inanim:m:v_zna:nv:ua_1992" />
   <token value="панує" lemma="панувати" tags="verb:imperf:pres:s:3" />
@@ -204,7 +204,7 @@
   <token value="й" lemma="й" tags="conj:coord" />
   <token value="Ґренландії" lemma="Ґренландія" tags="noun:inanim:f:v_rod:prop:geo" />
   <token value="," lemma="," tags="punct" />
-  <token value="де" lemma="де" tags="adv:&amp;pron:int:rel" />
+  <token value="де" lemma="де" tags="conj:subord" />
   <token value="мешкають" lemma="мешкати" tags="verb:imperf:pres:p:3" />
   <token value="інуїти" lemma="інуїт" tags="noun:anim:p:v_naz" />
   <token value="," lemma="," tags="punct" />
@@ -228,7 +228,8 @@
   <token value="нерідко" lemma="нерідко" tags="adv" />
   <token value="опускається" lemma="опускатися" tags="verb:rev:imperf:pres:s:3" />
   <token value="до" lemma="до" tags="prep" />
-  <token value="-50°" lemma="-50°" tags="number" />
+  <token value="-50" lemma="-50" tags="number" />
+  <token value="°" lemma="°" tags="symb" />
   <token value="C" lemma="C" tags="unclass" />
   <token value="," lemma="," tags="punct" />
   <token value="влітку" lemma="влітку" tags="adv" />
@@ -236,14 +237,16 @@
   <token value="повітря" lemma="повітря" tags="noun:inanim:n:v_naz" />
   <token value="прогрівається" lemma="прогріватися" tags="verb:rev:imperf:pres:s:3" />
   <token value="до" lemma="до" tags="prep" />
-  <token value="+16°" lemma="+16°" tags="number" />
+  <token value="+16" lemma="+16" tags="number" />
+  <token value="°" lemma="°" tags="symb" />
   <token value="C" lemma="C" tags="unclass" />
   <token value="," lemma="," tags="punct" />
   <token value="а" lemma="а" tags="conj:coord" />
   <token value="подекуди" lemma="подекуди" tags="adv:&amp;pron:ind" />
   <token value="лише" lemma="лише" tags="part" />
   <token value="до" lemma="до" tags="prep" />
-  <token value="0°" lemma="0°" tags="number" />
+  <token value="0" lemma="0" tags="number" />
+  <token value="°" lemma="°" tags="symb" />
   <token value="C" lemma="C" tags="unclass" />
   <token value="за" lemma="за" tags="prep" />
   <token value="дуже" lemma="дуже" tags="adv:compb" />
@@ -456,7 +459,8 @@
   <token value="іглу" lemma="іглу" tags="noun:inanim:n:v_mis:nv" />
   <token value="десь" lemma="десь" tags="part" />
   <token value="на" lemma="на" tags="prep" />
-  <token value="15–20°" lemma="15–20°" tags="number" />
+  <token value="15–20" lemma="15–20" tags="number" />
+  <token value="°" lemma="°" tags="symb" />
   <token value="C" lemma="C" tags="unclass" />
   <token value="вища" lemma="вищий" tags="adj:f:v_naz:compc" />
   <token value="," lemma="," tags="punct" />
@@ -473,7 +477,7 @@
   <token value="," lemma="," tags="punct" />
   <token value="діаметром" lemma="діаметр" tags="noun:inanim:m:v_oru" />
   <token value="2–3" lemma="2–3" tags="number" />
-  <token value="м." lemma="м." tags="noun:inanim:n:v_zna:nv:abbr" />
+  <token value="м." lemma="м." tags="noun:inanim:n:v_naz:nv:abbr" />
   <token value="Вони" lemma="вони" tags="noun:unanim:p:v_naz:&amp;pron:pers:3" />
   <token value="розраховані" lemma="розрахований" tags="adj:p:v_naz:&amp;adjp:pasv:perf" />
   <token value="лише" lemma="лише" tags="part" />

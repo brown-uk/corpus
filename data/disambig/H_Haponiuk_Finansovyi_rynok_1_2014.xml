@@ -126,13 +126,13 @@
 </sentence>
 <sentence>
   <token value="На" lemma="на" tags="prep" />
-  <token value="початок" lemma="початок" tags="noun:inanim:m:v_zna:xp1" />
+  <token value="початок" lemma="початок" tags="noun:inanim:m:v_zna:xp2" />
   <token value="2013" lemma="2013" tags="number" />
   <token value="р." lemma="р." tags="noun:inanim:m:v_rod:nv:abbr:xp1" />
   <token value="АУФТ" lemma="АУФТ" tags="noun:inanim:f:v_naz:abbr" />
   <token value="об'єднувала" lemma="об'єднувати" tags="verb:imperf:past:f" />
   <token value="680" lemma="680" tags="number" />
-  <token value="членів" lemma="член" tags="noun:anim:p:v_zna" />
+  <token value="членів" lemma="член" tags="noun:anim:p:v_rod" />
   <token value="." lemma="." tags="punct" />
 </sentence>
 <format tag="br" />
@@ -296,7 +296,7 @@
   <token value="й" lemma="й" tags="conj:coord" />
   <token value="об'єднувала" lemma="об'єднувати" tags="verb:imperf:past:f" />
   <token value="на" lemma="на" tags="prep" />
-  <token value="початок" lemma="початок" tags="noun:inanim:m:v_zna:xp1" />
+  <token value="початок" lemma="початок" tags="noun:inanim:m:v_zna:xp2" />
   <token value="2013" lemma="2013" tags="number" />
   <token value="р." lemma="р." tags="noun:inanim:m:v_rod:nv:abbr:xp1" />
   <token value="460" lemma="460" tags="number" />
@@ -804,7 +804,7 @@
   <token value="." lemma="." tags="punct" />
 </sentence>
 <sentence>
-  <token value="Проте" lemma="проте" tags="adv" />
+  <token value="Проте" lemma="проте" tags="adv:&amp;insert" />
   <token value="фінансова" lemma="фінансовий" tags="adj:f:v_naz" />
   <token value="криза" lemma="криза" tags="noun:inanim:f:v_naz" />
   <token value="похитнула" lemma="похитнути" tags="verb:perf:past:f" />

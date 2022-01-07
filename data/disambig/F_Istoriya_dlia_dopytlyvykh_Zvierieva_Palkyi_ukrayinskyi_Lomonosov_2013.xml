@@ -129,7 +129,7 @@
   <token value="гірничому" lemma="гірничий" tags="adj:n:v_mis" />
   <token value="училищі" lemma="училище" tags="noun:inanim:n:v_mis" />
   <token value="," lemma="," tags="punct" />
-  <token value="де" lemma="де" tags="adv:&amp;pron:int:rel" />
+  <token value="де" lemma="де" tags="conj:subord" />
   <token value="вдосконалює" lemma="вдосконалювати" tags="verb:imperf:pres:s:3" />
   <token value="знання" lemma="знання" tags="noun:inanim:p:v_zna" />
   <token value="в" lemma="в" tags="prep" />
@@ -527,7 +527,7 @@
   <token value="Каразін" lemma="Каразін" tags="noun:anim:m:v_naz:prop:lname" />
   <token value="знаходить" lemma="знаходити" tags="verb:imperf:pres:s:3" />
   <token value="32" lemma="32" tags="number" />
-  <token value="сім'ї" lemma="сім'я" tags="noun:inanim:p:v_zna:xp1" />
+  <token value="сім'ї" lemma="сім'я" tags="noun:inanim:p:v_naz:xp1" />
   <token value="першокласних" lemma="першокласний" tags="adj:p:v_zna:ranim" />
   <token value="ремісників" lemma="ремісник" tags="noun:anim:p:v_rod" />
   <token value="і" lemma="і" tags="conj:coord" />
@@ -558,7 +558,7 @@
 </sentence>
 <paragraph/>
 <sentence>
-  <token value="Проте" lemma="проте" tags="adv" />
+  <token value="Проте" lemma="проте" tags="adv:&amp;insert" />
   <token value="милість" lemma="милість" tags="noun:inanim:f:v_naz" />
   <token value="імператора" lemma="імператор" tags="noun:anim:m:v_rod" />
   <token value="Олександра" lemma="Олександр" tags="noun:anim:m:v_rod:prop:fname" />

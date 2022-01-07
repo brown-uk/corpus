@@ -51,7 +51,7 @@
   <token value="телекомунікаційних" lemma="телекомунікаційний" tags="adj:p:v_rod" />
   <token value="послуг" lemma="послуга" tags="noun:inanim:p:v_rod" />
   <token value="," lemma="," tags="punct" />
-  <token value="де" lemma="де" tags="adv:&amp;pron:int:rel" />
+  <token value="де" lemma="де" tags="conj:subord" />
   <token value="будуть" lemma="бути" tags="verb:imperf:futr:p:3" />
   <token value="прописані" lemma="прописаний" tags="adj:p:v_zna:rinanim:&amp;adjp:pasv:perf" />
   <token value="норми" lemma="норма" tags="noun:inanim:p:v_zna" />
@@ -147,7 +147,8 @@
 <sentence>
   <token value="-" lemma="-" tags="punct" />
   <token value="Близько" lemma="близько" tags="adv:compb" />
-  <token value="90%" lemma="90%" tags="number" />
+  <token value="90" lemma="90" tags="number" />
+  <token value="%" lemma="%" tags="symb" />
   <token value="українських" lemma="український" tags="adj:p:v_rod:compb" />
   <token value="абонентів" lemma="абонент" tags="noun:anim:p:v_rod" />
   <token value="-" lemma="-" tags="punct" />
