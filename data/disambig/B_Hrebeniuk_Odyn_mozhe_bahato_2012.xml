@@ -31,7 +31,7 @@
   <token value="130" lemma="130" tags="number" />
   <token value="літ" lemma="літа" tags="noun:inanim:p:v_rod:ns" />
   <token value="із" lemma="із" tags="prep" />
-  <token value="часу" lemma="час" tags="noun:inanim:m:v_dav" />
+  <token value="часу" lemma="час" tags="noun:inanim:m:v_rod" />
   <token value="його" lemma="його" tags="adj:n:v_rod:nv:&amp;pron:pos" />
   <token value="народження" lemma="народження" tags="noun:inanim:n:v_rod" />
   <token value="і" lemma="і" tags="conj:coord" />
@@ -555,7 +555,7 @@
   <token value="Слова" lemma="слово" tags="noun:inanim:n:v_rod" />
   <token value="на" lemma="на" tags="prep" />
   <token value="різні" lemma="різний" tags="adj:p:v_zna:rinanim:compb" />
-  <token value="мови" lemma="мова" tags="noun:inanim:f:v_rod" />
+  <token value="мови" lemma="мова" tags="noun:inanim:p:v_zna" />
   <token value="." lemma="." tags="punct" />
 </sentence>
 <sentence>
@@ -708,8 +708,8 @@
   <token value="із" lemma="із" tags="prep" />
   <token value="них" lemma="вони" tags="noun:unanim:p:v_rod:&amp;pron:pers:3" />
   <token value="по" lemma="по" tags="prep" />
-  <token value="одному" lemma="один" tags="numr:m:v_dav" />
-  <token value="примірникові" lemma="примірник" tags="noun:inanim:m:v_dav" />
+  <token value="одному" lemma="один" tags="numr:m:v_mis" />
+  <token value="примірникові" lemma="примірник" tags="noun:inanim:m:v_mis" />
   <token value="." lemma="." tags="punct" />
 </sentence>
 <sentence>
@@ -839,8 +839,8 @@
 </sentence>
 <sentence>
   <token value="В" lemma="в" tags="prep" />
-  <token value="усе" lemma="усе" tags="noun:inanim:n:v_zna:&amp;pron:gen" />
-  <token value="це" lemma="це" tags="noun:inanim:n:v_naz:&amp;pron:dem" />
+  <token value="усе" lemma="увесь" tags="adj:n:v_zna:&amp;pron:gen" />
+  <token value="це" lemma="це" tags="noun:inanim:n:v_zna:&amp;pron:dem" />
   <token value="важко" lemma="важко" tags="adv:compb:&amp;predic" />
   <token value="нині" lemma="нині" tags="adv" />
   <token value="повірити" lemma="повірити" tags="verb:perf:inf" />
@@ -940,7 +940,7 @@
   <token value="вона" lemma="вона" tags="noun:unanim:f:v_naz:&amp;pron:pers:3" />
   <token value="у" lemma="у" tags="prep" />
   <token value="складі" lemma="склад" tags="noun:inanim:m:v_mis" />
-  <token value="Вселенського" lemma="вселенський" tags="adj:n:v_rod" />
+  <token value="Вселенського" lemma="вселенський" tags="adj:m:v_rod" />
   <token value="Патріархату" lemma="патріархат" tags="noun:inanim:m:v_rod" />
   <token value=")" lemma=")" tags="punct" />
   <token value="," lemma="," tags="punct" />

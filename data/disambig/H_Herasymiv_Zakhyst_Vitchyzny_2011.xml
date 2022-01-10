@@ -40,7 +40,7 @@
   <token value="Хмельницький" lemma="Хмельницький" tags="noun:anim:m:v_naz:prop:lname" />
   <token value="вийшов" lemma="вийти" tags="verb:perf:past:m" />
   <token value="із" lemma="із" tags="prep" />
-  <token value="Січі" lemma="січ" tags="noun:inanim:f:v_mis" />
+  <token value="Січі" lemma="січ" tags="noun:inanim:f:v_rod" />
   <token value="назустріч" lemma="назустріч" tags="prep" />
   <token value="польським" lemma="польський" tags="adj:p:v_dav:compb" />
   <token value="військам" lemma="військо" tags="noun:inanim:p:v_dav" />
@@ -83,7 +83,7 @@
   <token value="1648" lemma="1648" tags="number" />
   <token value="р." lemma="р." tags="noun:inanim:m:v_rod:nv:abbr:xp1" />
   <token value="у" lemma="у" tags="prep" />
-  <token value="заболоченому" lemma="заболочений" tags="adj:m:v_mis:&amp;adjp:pasv:perf" />
+  <token value="заболоченому" lemma="заболочений" tags="adj:n:v_mis:&amp;adjp:pasv:perf" />
   <token value="урочищі" lemma="урочище" tags="noun:inanim:n:v_mis" />
   <token value="Горохова" lemma="гороховий" tags="adj:f:v_naz" />
   <token value="Діброва" lemma="Діброва" tags="noun:anim:f:v_naz:prop:lname" />
@@ -254,13 +254,13 @@
   <token value="та" lemma="та" tags="conj:coord" />
   <token value="Замостя" lemma="Замостя" tags="noun:inanim:n:v_zna:prop:geo" />
   <token value="майже" lemma="майже" tags="adv" />
-  <token value="всі" lemma="весь" tags="adj:p:v_naz:&amp;pron:gen" />
-  <token value="українські" lemma="український" tags="adj:p:v_naz:compb" />
-  <token value="землі" lemma="земля" tags="noun:inanim:p:v_naz" />
+  <token value="всі" lemma="весь" tags="adj:p:v_zna:rinanim:&amp;pron:gen" />
+  <token value="українські" lemma="український" tags="adj:p:v_zna:rinanim:compb" />
+  <token value="землі" lemma="земля" tags="noun:inanim:p:v_zna" />
   <token value="було" lemma="бути" tags="verb:imperf:past:n:&amp;insert" />
   <token value="визволено" lemma="визволити" tags="verb:perf:impers" />
   <token value="від" lemma="від" tags="prep" />
-  <token value="польського" lemma="польський" tags="adj:m:v_rod:compb" />
+  <token value="польського" lemma="польський" tags="adj:n:v_rod:compb" />
   <token value="панування" lemma="панування" tags="noun:inanim:n:v_rod" />
   <token value="." lemma="." tags="punct" />
 </sentence>
@@ -293,7 +293,7 @@
   <token value="свої" lemma="свій" tags="adj:p:v_zna:rinanim:&amp;pron:pos" />
   <token value="сили" lemma="сила" tags="noun:inanim:p:v_zna" />
   <token value="біля" lemma="біля" tags="prep" />
-  <token value="фортеці" lemma="фортеця" tags="noun:inanim:f:v_mis" />
+  <token value="фортеці" lemma="фортеця" tags="noun:inanim:f:v_rod" />
   <token value="Збараж" lemma="Збараж" tags="noun:inanim:m:v_naz:prop:geo" />
   <token value="." lemma="." tags="punct" />
 </sentence>
@@ -352,7 +352,7 @@
   <token value="," lemma="," tags="punct" />
   <token value="були" lemma="бути" tags="verb:imperf:past:p" />
   <token value="в" lemma="в" tags="prep" />
-  <token value="безнадійному" lemma="безнадійний" tags="adj:m:v_mis:compb" />
+  <token value="безнадійному" lemma="безнадійний" tags="adj:n:v_mis:compb" />
   <token value="становищі" lemma="становище" tags="noun:inanim:n:v_mis" />
   <token value="." lemma="." tags="punct" />
 </sentence>
@@ -415,7 +415,7 @@
 </sentence>
 <sentence>
   <token value="Перемога" lemma="перемога" tags="noun:inanim:f:v_naz" />
-  <token value="козацького" lemma="козацький" tags="adj:m:v_rod" />
+  <token value="козацького" lemma="козацький" tags="adj:n:v_rod" />
   <token value="війська" lemma="військо" tags="noun:inanim:n:v_rod" />
   <token value="під" lemma="під" tags="prep" />
   <token value="Батогом" lemma="Батіг" tags="noun:anim:m:v_oru:prop:lname" />
@@ -478,7 +478,7 @@
   <token value="щоб" lemma="щоб" tags="conj:subord" />
   <token value="визволити" lemma="визволити" tags="verb:perf:inf" />
   <token value="від" lemma="від" tags="prep" />
-  <token value="польського" lemma="польський" tags="adj:m:v_rod:compb" />
+  <token value="польського" lemma="польський" tags="adj:n:v_rod:compb" />
   <token value="панування" lemma="панування" tags="noun:inanim:n:v_rod" />
   <token value="західноукраїнські" lemma="західноукраїнський" tags="adj:p:v_zna:rinanim" />
   <token value="землі" lemma="земля" tags="noun:inanim:p:v_zna" />
@@ -549,7 +549,7 @@
   <token value="як" lemma="як" tags="part" />
   <token value="протистояння" lemma="протистояння" tags="noun:inanim:n:v_zna" />
   <token value="двох" lemma="два" tags="numr:p:v_zna" />
-  <token value="військово-політичних" lemma="військово-політичний" tags="adj:p:v_zna:ranim" />
+  <token value="військово-політичних" lemma="військово-політичний" tags="adj:p:v_rod" />
   <token value="блоків" lemma="блок" tags="noun:inanim:p:v_rod:xp2" />
   <token value="європейських" lemma="європейський" tags="adj:p:v_rod" />
   <token value="держав" lemma="держава" tags="noun:inanim:p:v_rod" />
@@ -753,7 +753,7 @@
   <token value="загальну" lemma="загальний" tags="adj:f:v_zna:compb" />
   <token value="для" lemma="для" tags="prep" />
   <token value="всього" lemma="все" tags="noun:inanim:n:v_rod:&amp;pron:gen" />
-  <token value="австрійського" lemma="австрійський" tags="adj:m:v_rod" />
+  <token value="австрійського" lemma="австрійський" tags="adj:n:v_rod" />
   <token value="війська" lemma="військо" tags="noun:inanim:n:v_rod" />
   <token value="," lemma="," tags="punct" />
   <token value="а" lemma="а" tags="conj:coord" />

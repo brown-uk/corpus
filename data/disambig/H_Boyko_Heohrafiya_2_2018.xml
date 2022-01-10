@@ -16,7 +16,7 @@
   <token value="так" lemma="так" tags="conj:coord" />
   <token value="і" lemma="і" tags="part" />
   <token value="для" lemma="для" tags="prep" />
-  <token value="виробництва" lemma="виробництво" tags="noun:inanim:p:v_zna" />
+  <token value="виробництва" lemma="виробництво" tags="noun:inanim:n:v_rod" />
   <token value="електроенергії" lemma="електроенергія" tags="noun:inanim:f:v_rod" />
   <token value="." lemma="." tags="punct" />
 </sentence>
@@ -243,7 +243,7 @@
   <token value="розрізняють" lemma="розрізняти" tags="verb:imperf:pres:p:3" />
   <token value="Новий" lemma="новий" tags="adj:m:v_naz:compb" />
   <token value="і" lemma="і" tags="conj:coord" />
-  <token value="Старий" lemma="старий" tags="adj:m:v_naz:compb" />
+  <token value="Старий" lemma="старий" tags="adj:m:v_naz:compb:bad" comment="старе??" />
   <token value="Делі" lemma="Делі" tags="noun:inanim:n:v_naz:nv:prop:geo" />
   <token value="." lemma="." tags="punct" />
 </sentence>
@@ -281,7 +281,7 @@
   <token value="." lemma="." tags="punct" />
 </sentence>
 <sentence>
-  <token value="Старий" lemma="старий" tags="adj:m:v_naz:compb" />
+  <token value="Старий" lemma="старий" tags="adj:m:v_naz:compb:bad" comments="старе??" />
   <token value="Делі" lemma="Делі" tags="noun:inanim:n:v_naz:nv:prop:geo" />
   <token value="має" lemma="мати" tags="verb:imperf:pres:s:3" />
   <token value="вузькі" lemma="вузький" tags="adj:p:v_zna:rinanim:compb" />
@@ -952,8 +952,8 @@
   <token value="." lemma="." tags="punct" />
 </sentence>
 <sentence>
-  <token value="Цей" lemma="цей" tags="adj:m:v_naz:&amp;pron:dem" />
-  <token value="район" lemma="район" tags="noun:inanim:m:v_naz" />
+  <token value="Цей" lemma="цей" tags="adj:m:v_zna:rinanim:&amp;pron:dem" />
+  <token value="район" lemma="район" tags="noun:inanim:m:v_zna" />
   <token value="називають" lemma="називати" tags="verb:imperf:pres:p:3" />
   <token value="«" lemma="«" tags="punct" />
   <token value="Індійським" lemma="індійський" tags="adj:m:v_oru" />
@@ -971,7 +971,7 @@
   <token value="," lemma="," tags="punct" />
   <token value="Бхілаї" lemma="Бхілаї" tags="noun:inanim:p:v_naz:ns:prop:geo" />
   <token value="," lemma="," tags="punct" />
-  <token value="важкого" lemma="важкий" tags="adj:m:v_rod:compb" />
+  <token value="важкого" lemma="важкий" tags="adj:n:v_rod:compb" />
   <token value="машинобудування" lemma="машинобудування" tags="noun:inanim:n:v_rod" />
   <token value="–" lemma="–" tags="punct" />
   <token value="Ранчі" lemma="Ранчі" tags="noun:inanim:p:v_naz:prop:geo" />

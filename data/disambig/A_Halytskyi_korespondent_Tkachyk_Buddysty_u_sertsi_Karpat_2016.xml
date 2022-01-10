@@ -698,8 +698,8 @@
 <sentence>
   <token value="Власне" lemma="власне" tags="adv:&amp;insert" />
   <token value="," lemma="," tags="punct" />
-  <token value="Кривопільський" lemma="кривопільський" tags="adj:m:v_naz" />
-  <token value="перевал" lemma="перевал" tags="noun:inanim:m:v_naz" />
+  <token value="Кривопільський" lemma="кривопільський" tags="adj:m:v_zna:rinanim" />
+  <token value="перевал" lemma="перевал" tags="noun:inanim:m:v_zna" />
   <token value="вибрали" lemma="вибрати" tags="verb:perf:past:p" />
   <token value="невипадково" lemma="невипадково" tags="adv" />
   <token value=":" lemma=":" tags="punct" />
@@ -1024,7 +1024,7 @@
   <token value="," lemma="," tags="punct" />
   <token value="практикуючи" lemma="практикуючи" tags="advp:imperf" />
   <token value="сухе" lemma="сухий" tags="adj:n:v_zna:compb" />
-  <token value="голодування" lemma="голодування" tags="noun:inanim:p:v_zna" />
+  <token value="голодування" lemma="голодування" tags="noun:inanim:n:v_zna" />
   <token value="." lemma="." tags="punct" />
 </sentence>
 <sentence>
@@ -1062,7 +1062,7 @@
   <token value="Минулого" lemma="минулий" tags="adj:m:v_rod:&amp;adjp:actv:perf" />
   <token value="тижня" lemma="тиждень" tags="noun:inanim:m:v_rod" />
   <token value="місце" lemma="місце" tags="noun:inanim:n:v_zna" />
-  <token value="майбутнього" lemma="майбутній" tags="adj:n:v_rod" />
+  <token value="майбутнього" lemma="майбутній" tags="adj:m:v_rod" />
   <token value="осередку" lemma="осередок" tags="noun:inanim:m:v_rod" />
   <token value="відвідав" lemma="відвідати" tags="verb:perf:past:m" />
   <token value="Дзюнсей" lemma="Дзюнсей" tags="noun:anim:m:v_naz:prop:fname" />
@@ -1379,7 +1379,7 @@
   <token value="і" lemma="і" tags="conj:coord" />
   <token value="сподіваємося" lemma="сподіватися" tags="verb:rev:imperf:pres:p:1" />
   <token value="встановити" lemma="встановити" tags="verb:perf:inf" />
-  <token value="дружні" lemma="дружній" tags="adj:p:v_kly:compb" />
+  <token value="дружні" lemma="дружній" tags="adj:p:v_zna:rinanim:compb" />
   <token value="відносини" lemma="відносини" tags="noun:inanim:p:v_zna:ns" />
   <token value="з" lemma="з" tags="prep" />
   <token value="людьми" lemma="людина" tags="noun:anim:p:v_oru" />

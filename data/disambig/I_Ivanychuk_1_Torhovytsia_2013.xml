@@ -41,7 +41,7 @@
   <token value="тих" lemma="той" tags="adj:p:v_rod:&amp;pron:dem" />
   <token value="падлюк" lemma="падлюка" tags="noun:anim:p:v_rod" />
   <token value="у" lemma="у" tags="prep" />
-  <token value="нашому" lemma="наш" tags="adj:m:v_mis:&amp;pron:pos" />
+  <token value="нашому" lemma="наш" tags="adj:n:v_mis:&amp;pron:pos" />
   <token value="Місті" lemma="місто" tags="noun:inanim:n:v_mis" />
   <token value="ще" lemma="ще" tags="adv" />
   <token value="стільки" lemma="стільки" tags="adv:&amp;pron:dem" />
@@ -223,7 +223,7 @@
   <token value="того" lemma="той" tags="adj:m:v_rod:&amp;pron:dem" />
   <token value="," lemma="," tags="punct" />
   <token value="щоб" lemma="щоб" tags="conj:subord" />
-  <token value="біль" lemma="біль" tags="noun:inanim:f:v_naz" />
+  <token value="біль" lemma="біль" tags="noun:inanim:m:v_naz:xp1" />
   <token value="злагіднів" lemma="злагідніти" tags="verb:perf:past:m" />
   <token value="," lemma="," tags="punct" />
   <token value="у" lemma="у" tags="prep" />
@@ -710,8 +710,8 @@
   <token value="найкоротшу" lemma="найкоротший" tags="adj:f:v_zna:comps" />
   <token value="мить" lemma="мить" tags="noun:inanim:f:v_zna" />
   <token value="за" lemma="за" tags="prep" />
-  <token value="чоловим" lemma="чоловий" tags="adj:m:v_oru" />
-  <token value="білим" lemma="білий" tags="adj:m:v_oru:compb" />
+  <token value="чоловим" lemma="чоловий" tags="adj:n:v_oru" />
+  <token value="білим" lemma="білий" tags="adj:n:v_oru:compb" />
   <token value="заборолом" lemma="забороло" tags="noun:inanim:n:v_oru" />
   <token value=":" lemma=":" tags="punct" />
   <token value="усе" lemma="усе" tags="noun:inanim:n:v_naz:&amp;pron:gen" />
@@ -1457,7 +1457,7 @@
   <token value="зупинився" lemma="зупинитися" tags="verb:rev:perf:past:m" />
   <token value="над" lemma="над" tags="prep" />
   <token value="прірвою" lemma="прірва" tags="noun:inanim:f:v_oru" />
-  <token value="Старого" lemma="старий" tags="adj:m:v_rod:compb" />
+  <token value="Старого" lemma="старий" tags="adj:n:v_rod:compb" />
   <token value="Знесіння" lemma="Знесіння" tags="noun:inanim:n:v_rod:prop:geo" />
   <token value="." lemma="." tags="punct" />
 </sentence>

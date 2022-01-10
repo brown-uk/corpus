@@ -706,7 +706,7 @@
   <token value="необхідно" lemma="необхідно" tags="adv:compb:&amp;predic" />
   <token value="проводити" lemma="проводити" tags="verb:imperf:inf" />
   <token value="детальні" lemma="детальний" tags="adj:p:v_zna:rinanim:compb" />
-  <token value="дослідження" lemma="дослідження" tags="noun:inanim:n:v_zna" />
+  <token value="дослідження" lemma="дослідження" tags="noun:inanim:p:v_zna" />
   <token value="." lemma="." tags="punct" />
 </sentence>
 <paragraph/>
@@ -823,7 +823,7 @@
 <sentence>
   <token value="В" lemma="в" tags="prep" />
   <token value="мережах" lemma="мережа" tags="noun:inanim:p:v_mis" />
-  <token value="прямого" lemma="прямий" tags="adj:m:v_rod:compb" />
+  <token value="прямого" lemma="прямий" tags="adj:n:v_rod:compb" />
   <token value="поширення" lemma="поширення" tags="noun:inanim:n:v_rod" />
   <token value="нейрони" lemma="нейрон" tags="noun:inanim:p:v_zna" />
   <token value="розміщені" lemma="розміщений" tags="adj:p:v_naz:&amp;adjp:pasv:perf" />
@@ -861,7 +861,7 @@
   <token value="не" lemma="не" tags="part" />
   <token value="залежить" lemma="залежати" tags="verb:imperf:pres:s:3" />
   <token value="від" lemma="від" tags="prep" />
-  <token value="попереднього" lemma="попередній" tags="adj:n:v_rod" />
+  <token value="попереднього" lemma="попередній" tags="adj:m:v_rod" />
   <token value="стану" lemma="стан" tags="noun:inanim:m:v_rod:xp2" />
   <token value="мережі" lemma="мережа" tags="noun:inanim:f:v_rod" />
   <token value="." lemma="." tags="punct" />
@@ -1136,7 +1136,7 @@
   <token value="на" lemma="на" tags="prep" />
   <token value="навчальну" lemma="навчальний" tags="adj:f:v_zna" />
   <token value="," lemma="," tags="punct" />
-  <token value="контрольну" lemma="контрольна" tags="noun:inanim:f:v_zna" />
+  <token value="контрольну" lemma="контрольний" tags="adj:f:v_zna" />
   <token value="і" lemma="і" tags="conj:coord" />
   <token value="тестову" lemma="тестовий" tags="adj:f:v_zna" />
   <token value="множини" lemma="множина" tags="noun:inanim:p:v_zna" />
@@ -1255,6 +1255,8 @@
   <token value="Застосування" lemma="застосування" tags="noun:inanim:n:v_naz" />
   <token value="та" lemma="та" tags="conj:coord" />
   <token value="діагностика" lemma="діагностика" tags="noun:inanim:f:v_naz" />
+  <token value=":" lemma=":" tags="punct" />
+<format tag="br" />
   <token value="дослідити" lemma="дослідити" tags="verb:perf:inf" />
   <token value="ступінь" lemma="ступінь" tags="noun:inanim:m:v_zna:xp2" />
   <token value="впливу" lemma="вплив" tags="noun:inanim:m:v_rod" />
@@ -2427,7 +2429,7 @@
 </sentence>
 <sentence>
   <token value="Подібний" lemma="подібний" tags="adj:m:v_naz:compb" />
-  <token value="недолік" lemma="недолік" tags="noun:inanim:m:v_naz" />
+  <token value="недолік" lemma="недолік" tags="noun:inanim:m:v_zna" />
   <token value="було" lemma="бути" tags="verb:imperf:past:n:&amp;insert" />
   <token value="виправлено" lemma="виправити" tags="verb:perf:impers" />
   <token value="шляхом" lemma="шляхом" tags="prep" />

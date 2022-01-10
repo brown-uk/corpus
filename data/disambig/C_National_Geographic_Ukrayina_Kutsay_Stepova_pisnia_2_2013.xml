@@ -73,7 +73,7 @@
   <token value="до" lemma="до" tags="prep" />
   <token value="посушливого" lemma="посушливий" tags="adj:m:v_rod:compb" />
   <token value="клімату" lemma="клімат" tags="noun:inanim:m:v_rod" />
-  <token value="українською" lemma="український" tags="adj:f:v_oru:compb" />
+  <token value="українською" lemma="український" tags="adj:f:v_oru:compb:bad" comment="українського" />
   <token value="степу" lemma="степ" tags="noun:inanim:m:v_rod" />
   <token value="," lemma="," tags="punct" />
   <token value="але" lemma="але" tags="conj:coord" />
@@ -145,7 +145,7 @@
   <token value="постати" lemma="постати" tags="verb:perf:inf" />
   <token value="ґрунтозахисні" lemma="ґрунтозахисний" tags="adj:p:v_naz" />
   <token value="лісові" lemma="лісовий" tags="adj:p:v_naz" />
-  <token value="насадження" lemma="насадження" tags="noun:inanim:n:v_naz" />
+  <token value="насадження" lemma="насадження" tags="noun:inanim:p:v_naz" />
   <token value="," lemma="," tags="punct" />
   <token value="а" lemma="а" tags="conj:coord" />
   <token value="не" lemma="не" tags="part" />
@@ -237,7 +237,7 @@
 </sentence>
 <sentence>
   <token value="Представники" lemma="представник" tags="noun:anim:p:v_naz" />
-  <token value="лісового" lemma="лісовий" tags="adj:m:v_rod" />
+  <token value="лісового" lemma="лісовий" tags="adj:n:v_rod" />
   <token value="господарства" lemma="господарство" tags="noun:inanim:n:v_rod" />
   <token value="розорали" lemma="розорати" tags="verb:perf:past:p" />
   <token value="12" lemma="12" tags="number" />
