@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <text>
 <sentence>
-  <token value="Най(не)очікуваніші" lemma="Най(не)очікуваніші" tags="unclass" />
+  <token value="Най(не)очікуваніші" lemma="найочікуваніші" tags="adj:p:v_naz:comps" >
+    <alts>
+        <token value="Най(не)очікуваніші" lemma="найнеочікуваніші" tags="adj:p:v_naz:comps" />
+    </alts>
+  </token>
+</sentence>
+<paragraph />
+<sentence>
   <token value="Останнім" lemma="останній" tags="adj:m:v_oru:compb" />
   <token value="часом" lemma="час" tags="noun:inanim:m:v_oru" />
   <token value="," lemma="," tags="punct" whitespaceBefore="false" />
@@ -983,9 +990,7 @@
   <token value="майже" lemma="майже" tags="adv" />
   <token value="доходило" lemma="доходити" tags="verb:imperf:past:n" />
   <token value="до" lemma="до" tags="prep" />
-  <token value="&lt;foreign&gt;" lemma="&lt;foreign&gt;" tags="xmltag" />
   <token value="free" lemma="free" tags="unclass" />
-  <token value="&lt;/foreign&gt;" lemma="&lt;/foreign&gt;" tags="xmltag" />
   <token value=")" lemma=")" tags="punct" whitespaceBefore="false" />
   <token value="в" lemma="в" tags="prep" />
   <token value="дуже" lemma="дуже" tags="adv:compb" />
@@ -2607,9 +2612,7 @@
   <token value="інтернету" lemma="інтернет" tags="noun:inanim:m:v_rod" />
   <token value="," lemma="," tags="punct" whitespaceBefore="false" />
   <token value="продаж" lemma="продаж" tags="noun:inanim:m:v_naz" />
-  <token value="&lt;foreign&gt;" lemma="&lt;foreign&gt;" tags="xmltag" />
   <token value="CD" lemma="CD" tags="number:latin" />
-  <token value="&lt;/foreign&gt;" lemma="&lt;/foreign&gt;" tags="xmltag" />
   <token value="впав" lemma="впасти" tags="verb:perf:past:m:xp2" />
   <token value="так" lemma="так" tags="adv:&amp;pron:dem" />
   <token value="," lemma="," tags="punct" whitespaceBefore="false" />

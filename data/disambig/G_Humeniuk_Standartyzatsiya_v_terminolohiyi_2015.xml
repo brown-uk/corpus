@@ -317,7 +317,7 @@
   <token value="і" lemma="і" tags="unclass" />
   <token value="укладає" lemma="укладає" tags="unclass" />
   <token value="«" lemma="«" tags="unclass" />
-  <token value="Міжнародний" lemma="Міжнародний" tags="unclass" />
+  <token value="Міжнародний" lemma="міжнародний" tags="adj:m:v_zna:rinanim" />
   <token value="електротехнічний" lemma="електротехнічний" tags="unclass" />
   <token value="словник" lemma="словник" tags="unclass" />
   <token value="»" lemma="»" tags="unclass" />
@@ -325,7 +325,7 @@
 </sentence>
 <paragraph/>
 <sentence>
-  <token value="За" lemma="За" tags="unclass" />
+  <token value="За" lemma="за" tags="prep" />
   <token value="останні" lemma="останні" tags="unclass" />
   <token value="десятиліття" lemma="десятиліття" tags="unclass" />
   <token value="виникло" lemma="виникло" tags="unclass" />
@@ -413,6 +413,7 @@
   <token value="нормалізаційний" lemma="нормалізаційний" tags="adj:m:v_naz" />
   <token value="центр" lemma="центр" tags="noun:inanim:m:v_naz:xp2" />
   <token value="Infoterm" lemma="Infoterm" tags="unclass" />
+  <token value="[" lemma="[" tags="punct" />
   <token value="6" lemma="6" tags="number" />
   <token value="]" lemma="]" tags="punct" />
   <token value="." lemma="." tags="punct" />
@@ -562,7 +563,8 @@
   <token value="часу" lemma="час" tags="noun:inanim:m:v_rod" />
   <token value="," lemma="," tags="punct" />
   <token value="до" lemma="до" tags="prep" />
-  <token value="його" lemma="його" tags="adj:p:v_rod:nv:&amp;pron:pos" />
+  <token value="його" lemma="він" tags="noun:unanim:m:v_rod:&amp;pron:pers:3" />
+  <token value="порад" lemma="порада" tags="noun:inanim:p:v_rod" />
   <token value="прислухалися" lemma="прислухатися" tags="verb:rev:imperf:past:p" />
   <token value="автори" lemma="автор" tags="noun:anim:p:v_naz" />
   <token value="підручників" lemma="підручник" tags="noun:inanim:p:v_rod" />
