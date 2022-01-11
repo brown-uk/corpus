@@ -1170,6 +1170,7 @@
   <token value="Софія" lemma="Софія" tags="noun:anim:f:v_naz:prop:fname" />
   <token value="?" lemma="?" tags="punct" whitespaceBefore="false" />
 </sentence>
+<paragraph />
 <sentence>
   <token value="«" lemma="«" tags="punct" whitespaceBefore="false" />
   <token value="Це" lemma="це" tags="noun:inanim:n:v_naz:&amp;pron:dem" />
@@ -1482,6 +1483,7 @@
   <token value="джазменів" lemma="джазмен" tags="noun:anim:p:v_zna" />
   <token value="." lemma="." tags="punct" whitespaceBefore="false" />
 </sentence>
+<paragraph />
 <sentence>
   <token value="«" lemma="«" tags="punct" whitespaceBefore="false" />
   <token value="Музично" lemma="музично" tags="adv" />
@@ -1765,6 +1767,9 @@
   <token value="в" lemma="в" tags="prep" />
   <token value="маленькому" lemma="маленький" tags="adj:m:v_mis" />
   <token value="ставку" lemma="ставок" tags="noun:inanim:m:v_mis" />
+</sentence>
+<paragraph />
+<sentence>
   <token value="Попри" lemma="попри" tags="prep" />
   <token value="те" lemma="те" tags="noun:inanim:n:v_zna:&amp;pron:dem" />
   <token value="що" lemma="що" tags="conj:subord" />
@@ -1920,6 +1925,7 @@
   <token value="професійно" lemma="професійно" tags="adv:compb" />
   <token value="." lemma="." tags="punct" whitespaceBefore="false" />
 </sentence>
+<paragraph />
 <sentence>
   <token value="«" lemma="«" tags="punct" whitespaceBefore="false" />
   <token value="Ми" lemma="ми" tags="noun:anim:p:v_naz:&amp;pron:pers:1" />
@@ -2003,6 +2009,7 @@
   <token value="?" lemma="?" tags="punct" whitespaceBefore="false" />
   <token value="»" lemma="»" tags="punct" whitespaceBefore="false" />
 </sentence>
+<paragraph />
 <sentence>
   <token value="Так" lemma="так" tags="adv:&amp;pron:dem" />
   <token value="," lemma="," tags="punct" whitespaceBefore="false" />
@@ -2515,10 +2522,14 @@
   <token value="!" lemma="!" tags="punct" whitespaceBefore="false" />
   <token value="»" lemma="»" tags="punct" whitespaceBefore="false" />
 </sentence>
+<paragraph />
 <sentence>
   <token value="Dudko" lemma="Dudko" tags="unclass" />
   <token value="Quintet" lemma="Quintet" tags="unclass" />
   <token value="наживо" lemma="наживо" tags="adv" />
+</sentence>
+<paragraph />
+<sentence>
   <token value="«" lemma="«" tags="punct" whitespaceBefore="true" />
   <token value="Я" lemma="я" tags="noun:anim:s:v_naz:&amp;pron:pers:1" />
   <token value="глибоко" lemma="глибоко" tags="adv:compb:&amp;predic" />
@@ -2783,7 +2794,6 @@
   <token value="рок-гурту" lemma="рок-гурт" tags="noun:inanim:m:v_rod:xp2" />
   <token value="," lemma="," tags="punct" whitespaceBefore="false" />
   <token value="що" lemma="що" tags="conj:subord" />
-  <token value="що" lemma="що" tags="noun:inanim:n:v_zna:&amp;pron:int:rel" />
   <token value="було" lemma="бути" tags="verb:imperf:past:n:&amp;insert" />
   <token value="б" lemma="б" tags="part" />
   <token value="дивно" lemma="дивно" tags="adv:compb:&amp;predic" />
