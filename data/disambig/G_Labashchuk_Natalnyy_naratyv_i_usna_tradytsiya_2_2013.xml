@@ -29,7 +29,7 @@
   <token value="польська" lemma="польський" tags="adj:f:v_naz:compb" />
   <token value="фольклористка" lemma="фольклористка" tags="noun:anim:f:v_naz" />
   <token value="Віолетта" lemma="Віолетта" tags="noun:anim:f:v_naz:prop:fname" />
-  <token value="Кравчик-Васілєвська" lemma="" tags="unknown" comment="чи потрібен тут тег?"/>
+  <token value="Кравчик-Васілєвська" lemma="Кравчик-Васілєвська" tags="noun:anim:f:v_naz:prop:lname" />
   <token value="пропонує" lemma="пропонувати" tags="verb:imperf:pres:s:3" />
   <token value="розрізняти" lemma="розрізняти" tags="verb:imperf:inf" />
   <token value="компетенцію" lemma="компетенція" tags="noun:inanim:f:v_zna" />
@@ -87,11 +87,11 @@
   <token value="увазі" lemma="увага" tags="noun:inanim:f:v_mis" />
   <token value="використання" lemma="використання" tags="noun:inanim:n:v_zna" />
   <token value="термінів" lemma="термін" tags="noun:inanim:p:v_rod:xp1" />
-  <token value="хронікат" lemma="" tags="unknown" comment="чи потрібен тут тег? noun:inanim:m:v_naz"/>
+  <token value="хронікат" lemma="хронікат" tags="noun:inanim:m:v_naz" />
   <token value="," lemma="," tags="punct" />
-  <token value="меморат" lemma="" tags="unknown" comment="чи потрібен тут тег? noun:inanim:m:v_naz"/>
+  <token value="меморат" lemma="меморат" tags="noun:inanim:m:v_naz" />
   <token value="," lemma="," tags="punct" />
-  <token value="фабулат" lemma="" tags="unknown" comment="чи потрібен тут тег? noun:inanim:m:v_naz"/>
+  <token value="фабулат" lemma="фабулат" tags="noun:inanim:m:v_naz" />
   <token value="," lemma="," tags="punct" />
   <token value="які" lemma="який" tags="adj:p:v_zna:rinanim:&amp;pron:int:rel:def" />
   <token value="вперше" lemma="вперше" tags="adv" />
@@ -954,7 +954,7 @@
   <token value=":" lemma=":" tags="punct" />
   <token value="впоратися" lemma="впоратися" tags="verb:rev:perf:inf" />
   <token value="з" lemma="з" tags="prep" />
-  <token value="болем" lemma="біль" tags="noun:inanim:m:v_oru" />
+  <token value="болем" lemma="біль" tags="noun:inanim:m:v_oru:xp1" />
   <token value="," lemma="," tags="punct" />
   <token value="вибрати" lemma="вибрати" tags="verb:perf:inf" />
   <token value="правильну" lemma="правильний" tags="adj:f:v_zna:compb" />
@@ -986,7 +986,7 @@
   <token value="важкі" lemma="важкий" tags="adj:p:v_zna:rinanim:compb" />
   <token value="," lemma="," tags="punct" />
   <token value="сповнені" lemma="сповнений" tags="adj:p:v_zna:rinanim:&amp;adjp:pasv:perf" />
-  <token value="болю" lemma="біль" tags="noun:inanim:m:v_rod" />
+  <token value="болю" lemma="біль" tags="noun:inanim:m:v_rod:xp1" />
   <token value="й" lemma="й" tags="conj:coord" />
   <token value="ускладнень" lemma="ускладнення" tags="noun:inanim:p:v_rod" />
   <token value="." lemma="." tags="punct" />
@@ -1047,7 +1047,7 @@
   <token value="жінка" lemma="жінка" tags="noun:anim:f:v_naz" />
   <token value="обов'язково" lemma="обов'язково" tags="adv:compb" />
   <token value="змальовує" lemma="змальовувати" tags="verb:imperf:pres:s:3" />
-  <token value="його" lemma="він" tags="adj:m:v_zna:rinanim:nv:&amp;pron:pos" />
+  <token value="його" lemma="його" tags="adj:m:v_rod:nv:&amp;pron:pos" />
   <token value="ідеалізований" lemma="ідеалізований" tags="adj:m:v_zna:rinanim:&amp;adjp:pasv:perf" />
   <token value="портрет" lemma="портрет" tags="noun:inanim:m:v_zna" />
   <token value="." lemma="." tags="punct" />
@@ -1120,8 +1120,8 @@
   <token value="в" lemma="в" tags="prep" />
   <token value="загальну" lemma="загальний" tags="adj:f:v_zna:compb" />
   <token value="структуру" lemma="структура" tags="noun:inanim:f:v_zna" />
-  <token value="нагального" lemma="нагальний" tags="adj:m:v_rod:compb" />
-  <token value="наративу" lemma="наратив" tags="noun:inanim:m:v_rod" comment="чи тут мало бути &quot;натального&quot;?" />
+  <token value="нагального" lemma="нагальний" tags="adj:m:v_rod:compb" comment="чи тут мало бути &quot;натального&quot;?" />
+  <token value="наративу" lemma="наратив" tags="noun:inanim:m:v_rod" />
   <token value="." lemma="." tags="punct" />
 </sentence>
 <sentence>

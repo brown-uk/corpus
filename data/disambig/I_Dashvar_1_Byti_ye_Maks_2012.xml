@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<text>
+<text 
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="schema.xsd">
 
 <sentence>
   <token value="Третього" lemma="третій" tags="adj:m:v_rod:&amp;numr" />
@@ -378,7 +379,7 @@
   <token value="," lemma="," tags="punct" />
   <token value="що" lemma="що" tags="conj:subord" />
   <token value="в" lemma="в" tags="prep" />
-  <token value="ньому" lemma="він" tags="noun:unanim:n:v_mis:&amp;pron:pers:3" />
+  <token value="ньому" lemma="воно" tags="noun:unanim:n:v_mis:&amp;pron:pers:3" />
   <token value="до" lemma="до" tags="prep" />
   <token value="Дори" lemma="Дора" tags="noun:anim:f:v_rod:prop:fname" />
   <token value="ніхто" lemma="ніхто" tags="noun:anim:m:v_naz:&amp;pron:neg" />
@@ -425,7 +426,7 @@
   <token value="неї" lemma="вона" tags="noun:unanim:f:v_rod:&amp;pron:pers:3" />
   <token value="є" lemma="бути" tags="verb:imperf:pres:s:3" />
   <token value="своє" lemma="свій" tags="adj:n:v_zna:&amp;pron:pos" />
-  <token value="Каштелу-Бранку" lemma="" tags="unknown" comment="є таке місто, тому тег ніби такий має бути noun:inanim:n:v_naz:prop:geo, але не розумію контексту в тексті" />
+  <token value="Каштелу-Бранку" lemma="Каштелу-Бранку" tags="noun:inanim:n:v_naz:prop:geo" comment="є таке місто, тому тег ніби такий має бути noun:inanim:n:v_naz:prop:geo, але не розумію контексту в тексті" />
   <token value="." lemma="." tags="punct" />
 </sentence>
 <paragraph/>
@@ -1246,7 +1247,7 @@
   <token value="підземного" lemma="підземний" tags="adj:m:v_rod" />
   <token value="переходу" lemma="перехід" tags="noun:inanim:m:v_rod" />
   <token value="," lemma="," tags="punct" />
-  <token value="де" lemma="де" tags="conj:subord" comment="тут ніби пасує lemma=&quot;conj:subord&quot; tags=&quot;де&quot;, але щось  порядком елементів не так"/>
+  <token value="де" lemma="де" tags="conj:subord" comment="тут ніби пасує tags=&quot;де&quot;, але щось  порядком елементів не так"/>
   <token value="все" lemma="все" tags="adv" />
   <token value="ще" lemma="ще" tags="adv" />
   <token value="вимучено" lemma="вимучено" tags="adv" />

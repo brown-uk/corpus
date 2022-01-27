@@ -46,7 +46,7 @@
   <token value="батарей" lemma="батарея" tags="noun:inanim:p:v_rod" />
   <token value="," lemma="," tags="punct" />
   <token value="найважливіших" lemma="найважливіший" tags="adj:p:v_rod:comps" />
-  <token value="напів-" lemma="" tags="unknown" comment="tags=adv" />
+  <token value="напів-" lemma="" tags="noninfl" />
   <token value="," lemma="," tags="punct" />
   <token value="надпровідників" lemma="надпровідник" tags="noun:inanim:p:v_rod" />
   <token value="," lemma="," tags="punct" />
@@ -516,7 +516,7 @@
   <token value="комп'ютерної" lemma="комп'ютерний" tags="adj:f:v_rod" />
   <token value="науки" lemma="наука" tags="noun:inanim:f:v_rod" />
   <token value="," lemma="," tags="punct" />
-  <token value="радіотехніки" lemma="радіотехнік" tags="noun:inanim:f:v_rod" />
+  <token value="радіотехніки" lemma="радіотехніка" tags="noun:inanim:f:v_rod" />
   <token value="," lemma="," tags="punct" />
   <token value="космонавтики" lemma="космонавтика" tags="noun:inanim:f:v_rod" />
   <token value="," lemma="," tags="punct" />
@@ -851,7 +851,7 @@
   <token value="—" lemma="—" tags="punct" />
   <token value="Силіцію" lemma="силіцій" tags="noun:inanim:m:v_rod" />
   <token value="та" lemma="та" tags="conj:coord" />
-  <token value="Германію" lemma="Германія" tags="noun:inanim:f:v_zna:prop:geo:rare" comment="тут має бути lemma=&quot;германій&quot; tags=&quot;noun:inanim:m:v_rod&quot;" />
+  <token value="Германію" lemma="германій" tags="noun:inanim:n:v_zna" />
   <token value="?" lemma="?" tags="punct" />
 </sentence>
 <sentence>
@@ -914,7 +914,7 @@
   <token value="І" lemma="і" tags="conj:coord" />
   <token value="от" lemma="от" tags="part" />
   <token value="уже" lemma="уже" tags="adv" />
-  <token value="фосфорен" lemma="" tags="unknown" comment="чи треба тут додавати значення?" />
+  <token value="фосфорен" lemma="фосфорен" tags="noun:inanim:m:v_naz" />
   <token value="—" lemma="—" tags="punct" />
   <token value="одноатомна" lemma="одноатомний" tags="adj:f:v_naz" />
   <token value="поверхня" lemma="поверхня" tags="noun:inanim:f:v_naz" />
@@ -936,7 +936,7 @@
   <token value="," lemma="," tags="punct" />
   <token value="Силіцію" lemma="силіцій" tags="noun:inanim:m:v_rod" />
   <token value="та" lemma="та" tags="conj:coord" />
-  <token value="Германію" lemma="Германія" tags="noun:inanim:f:v_zna:prop:geo:rare" comment="тут має бути lemma=&quot;германій&quot; tags=&quot;noun:inanim:m:v_rod&quot;" />
+  <token value="Германію" lemma="германій" tags="noun:inanim:n:v_zna" />
   <token value="," lemma="," tags="punct" />
   <token value="але" lemma="але" tags="conj:coord" />
   <token value="з" lemma="з" tags="prep" />
@@ -953,7 +953,7 @@
   <token value="хіміки" lemma="хімік" tags="noun:anim:p:v_naz" />
   <token value="," lemma="," tags="punct" />
   <token value="працюють" lemma="працювати" tags="verb:imperf:pres:p:3" />
-  <token value="фізики" lemma="фізика" tags="noun:anim:p:v_naz" />
+  <token value="фізики" lemma="фізик" tags="noun:anim:p:v_naz" />
   <token value="—" lemma="—" tags="punct" />
   <token value="майбутнє" lemma="майбутнє" tags="noun:inanim:n:v_naz" />
   <token value="близько" lemma="близько" tags="adv:compb" />
@@ -982,7 +982,7 @@
   <token value="та" lemma="та" tags="conj:coord" />
   <token value="китайського" lemma="китайський" tags="adj:m:v_rod" />
   <token value="університету" lemma="університет" tags="noun:inanim:m:v_rod" />
-  <token value="Ціньхуа" lemma="" tags="unknown" comment="чи потрібне тут значення?" />
+  <token value="Ціньхуа" lemma="Ціньхуа" tags="noun:inanim:m:v_rod:nv:prop:geo" />
   <token value="розрахували" lemma="розрахувати" tags="verb:perf:past:p" />
   <token value="теоретично" lemma="теоретично" tags="adv" />
   <token value="," lemma="," tags="punct" />
@@ -992,7 +992,7 @@
   <token value="цього" lemma="цей" tags="adj:m:v_rod:&amp;pron:dem" />
   <token value="типу" lemma="тип" tags="noun:inanim:m:v_rod" />
   <token value="буде" lemma="бути" tags="verb:imperf:futr:s:3" />
-  <token value="станен" lemma="станен" tags="noun:inanim:m:v_naz" comment="чи потрібне тут значення?" />
+  <token value="станен" lemma="станен" tags="noun:inanim:m:v_naz" />
   <token value="—" lemma="—" tags="punct" />
   <token value="одноатомна" lemma="одноатомний" tags="adj:f:v_naz" />
   <token value="плівка" lemma="плівка" tags="noun:inanim:f:v_naz" />
