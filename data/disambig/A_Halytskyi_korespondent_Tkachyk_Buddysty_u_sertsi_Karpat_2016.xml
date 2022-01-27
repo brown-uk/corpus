@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<text>
+<text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../meta/schema.xsd">
 
 <sentence>
   <token value="Біля" lemma="біля" tags="prep" />
@@ -8,7 +8,7 @@
   <token value="перевалу" lemma="перевал" tags="noun:inanim:m:v_rod" />
   <token value="неподалік" lemma="неподалік" tags="adv" />
   <token value="гори" lemma="гора" tags="noun:inanim:f:v_rod" />
-  <token value="Костричі" lemma="" tags="unknown" />
+  <token value="Костричі" lemma="Костричі" tags="noun:inanim:p:v_naz:ns:prop:geo" />
   <token value="між" lemma="між" tags="prep" />
   <token value="Ворохтою" lemma="Ворохта" tags="noun:inanim:f:v_oru:prop:geo" />
   <token value="та" lemma="та" tags="conj:coord" />
@@ -237,7 +237,7 @@
   <token value="Україні" lemma="Україна" tags="noun:inanim:f:v_mis:prop:geo" />
   <token value="буддійський" lemma="буддійський" tags="adj:m:v_naz" />
   <token value="монастир" lemma="монастир" tags="noun:inanim:m:v_naz" />
-  <token value="Шейчен-лін" lemma="" tags="unknown" />
+  <token value="Шейчен-лін" lemma="Шейчен-лін" tags="noun:inanim:m:v_naz:prop" />
   <token value="," lemma="," tags="punct" />
   <token value="який" lemma="який" tags="adj:m:v_naz:&amp;pron:int:rel:def" />
   <token value="ще" lemma="ще" tags="adv" />
@@ -451,8 +451,8 @@
   <token value="та" lemma="та" tags="conj:coord" />
   <token value="вчителем" lemma="вчитель" tags="noun:anim:m:v_oru" />
   <token value="ордену" lemma="орден" tags="noun:inanim:m:v_rod:xp2" />
-  <token value="Ніппондзан" lemma="" tags="unknown" />
-  <token value="Мьоходзі" lemma="" tags="unknown" />
+  <token value="Ніппондзан" lemma="Ніппондзан" tags="noninfl:foreign" />
+  <token value="Мьоходзі" lemma="Мьоходзі" tags="noninfl:foreign" />
   <token value="в" lemma="в" tags="prep" />
   <token value="Україні" lemma="Україна" tags="noun:inanim:f:v_mis:prop:geo" />
   <token value="," lemma="," tags="punct" />
@@ -843,7 +843,7 @@
   <token value="вона" lemma="вона" tags="noun:unanim:f:v_naz:&amp;pron:pers:3" />
   <token value="буде" lemma="бути" tags="verb:imperf:futr:s:3" />
   <token value="на" lemma="на" tags="prep" />
-  <token value="півповерха" lemma="" tags="unknown" />
+  <token value="півповерха" lemma="півповерха" tags="noun:inanim:m:v_zna:nv:ua_1992" />
   <token value="вищою" lemma="вищий" tags="adj:f:v_oru:compc" />
   <token value="," lemma="," tags="punct" />
   <token value="з" lemma="з" tags="prep" />
@@ -859,7 +859,7 @@
   <token value="Хата" lemma="хата" tags="noun:inanim:f:v_naz" />
   <token value="будується" lemma="будуватися" tags="verb:rev:imperf:pres:s:3" />
   <token value="«" lemma="«" tags="punct" />
-  <token value="по-старовіцьки" lemma="" tags="unknown" />
+  <token value="по-старовіцьки" lemma="по-старовіцьки" tags="adv:rare" />
   <token value="»" lemma="»" tags="punct" />
   <token value="–" lemma="–" tags="punct" />
   <token value="з" lemma="з" tags="prep" />
@@ -1097,7 +1097,7 @@
   <token value="–" lemma="–" tags="punct" />
   <token value="78-річна" lemma="78-річний" tags="adj:f:v_naz" />
   <token value="монахиня" lemma="монахиня" tags="noun:anim:f:v_naz" />
-  <token value="Кацу-Андзюсан" lemma="" tags="unknown" />
+  <token value="Кацу-Андзюсан" lemma="Кацу-Андзюсан" tags="noun:anim:f:v_naz:prop:fname" />
   <token value="." lemma="." tags="punct" />
 </sentence>
 <sentence>
@@ -1131,7 +1131,7 @@
   <token value="відвідала" lemma="відвідати" tags="verb:perf:past:f" />
   <token value="Гуцульщину" lemma="Гуцульщина" tags="noun:inanim:f:v_zna:prop:geo" />
   <token value="," lemma="," tags="punct" />
-  <token value="Нара-Адзюсан" lemma="" tags="unknown" />
+  <token value="Нара-Адзюсан" lemma="Нара-Адзюсан" tags="noun:anim:f:v_naz:prop:fname" />
   <token value="із" lemma="із" tags="prep" />
   <token value="Британії" lemma="Британія" tags="noun:inanim:f:v_rod:prop:geo" />
   <token value="," lemma="," tags="punct" />

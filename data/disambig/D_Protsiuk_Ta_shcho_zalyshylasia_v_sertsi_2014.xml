@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<text>
+<text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../meta/schema.xsd">
 
 <sentence>
   <token value="3" lemma="3" tags="number" />
@@ -505,9 +505,9 @@
   <token value="," lemma="," tags="punct" />
   <token value="про" lemma="про" tags="prep" />
   <token value="твоїх" lemma="твій" tags="adj:p:v_zna:ranim:&amp;pron:pos" />
-  <token value="сонцелюбок-дівчат" lemma="" tags="unknown" comment="чи варто розбивати на два токени?" />
+  <token value="сонцелюбок-дівчат" lemma="сонцелюбка-дівчина" tags="noun:anim:p:v_zna" />
   <token value="і" lemma="і" tags="conj:coord" />
-  <token value="місяцезнавиць-жінок" lemma="" tags="unknown" comment="чи варто розбивати на два токени?" />
+  <token value="місяцезнавиць-жінок" lemma="місяцезнавиця-жінка" tags="noun:anim:p:v_zna" />
   <token value="," lemma="," tags="punct" />
   <token value="про" lemma="про" tags="prep" />
   <token value="твоїх" lemma="твій" tags="adj:p:v_zna:ranim:&amp;pron:pos" />

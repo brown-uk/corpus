@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<text>
+<text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../meta/schema.xsd">
 
 <sentence>
   <token value="Можливості" lemma="можливість" tags="noun:inanim:p:v_naz" />
@@ -440,7 +440,7 @@
   <token value="можливість" lemma="можливість" tags="noun:inanim:f:v_zna" />
   <token value="перейти" lemma="перейти" tags="verb:perf:inf" />
   <token value="до" lemma="до" tags="prep" />
-  <token value="безеталонних" lemma="" tags="unknown" />
+  <token value="безеталонних" lemma="безеталонний" tags="adj:p:v_rod" />
   <token value="методик" lemma="методика" tags="noun:inanim:p:v_rod" />
   <token value="контролю" lemma="контроль" tags="noun:inanim:m:v_rod" />
   <token value="," lemma="," tags="punct" />
@@ -746,7 +746,7 @@
   <token value="мережі" lemma="мережа" tags="noun:inanim:p:v_naz" />
   <token value="і" lemma="і" tags="conj:coord" />
   <token value="карти" lemma="карта" tags="noun:inanim:p:v_naz" />
-  <token value="Кохонена" lemma="" tags="unknown" />
+  <token value="Кохонена" lemma="Кохонен" tags="noun:anim:m:v_rod:prop:lname" />
   <token value="," lemma="," tags="punct" />
   <token value="мережі" lemma="мережа" tags="noun:inanim:p:v_naz" />
   <token value="адаптивної" lemma="адаптивний" tags="adj:f:v_rod" />
@@ -1332,7 +1332,7 @@
   <token value="окремо" lemma="окремо" tags="adv" />
   <token value="нейронні" lemma="нейронний" tags="adj:p:v_naz" />
   <token value="мережі" lemma="мережа" tags="noun:inanim:p:v_naz" />
-  <token value="Кохонена" lemma="" tags="unknown" />
+  <token value="Кохонена" lemma="Кохонен" tags="noun:anim:m:v_rod:prop:lname" />
   <token value="та" lemma="та" tags="conj:coord" />
   <token value="багатошаровий" lemma="багатошаровий" tags="adj:m:v_naz" />
   <token value="персептрон" lemma="персептрон" tags="noun:inanim:m:v_naz" />
@@ -1372,7 +1372,7 @@
   <token value="," lemma="," tags="punct" />
   <token value="а" lemma="а" tags="conj:coord" />
   <token value="мережа" lemma="мережа" tags="noun:inanim:f:v_naz" />
-  <token value="Кохонена" lemma="" tags="unknown" />
+  <token value="Кохонена" lemma="Кохонен" tags="noun:anim:m:v_rod:prop:lname" />
   <token value="не" lemma="не" tags="part" />
   <token value="здатна" lemma="здатний" tags="adj:f:v_naz" />
   <token value="виконати" lemma="виконати" tags="verb:perf:inf" />
@@ -1411,7 +1411,7 @@
   <token value="складається" lemma="складатися" tags="verb:rev:imperf:pres:s:3" />
   <token value="з" lemma="з" tags="prep" />
   <token value="шару" lemma="шар" tags="noun:inanim:m:v_rod" />
-  <token value="Кохонена" lemma="" tags="unknown" />
+  <token value="Кохонена" lemma="Кохонен" tags="noun:anim:m:v_rod:prop:lname" />
   <token value="та" lemma="та" tags="conj:coord" />
   <token value="багатошарового" lemma="багатошаровий" tags="adj:m:v_rod" />
   <token value="персептрона" lemma="персептрон" tags="noun:inanim:m:v_rod" />
@@ -1503,7 +1503,7 @@
 <sentence>
   <token value="Шар" lemma="шар" tags="noun:inanim:m:v_naz" />
   <token value="нейронів" lemma="нейрон" tags="noun:inanim:p:v_rod" />
-  <token value="Кохонена" lemma="" tags="unknown" />
+  <token value="Кохонена" lemma="Кохонен" tags="noun:anim:m:v_rod:prop:lname" />
   <token value="групує" lemma="групувати" tags="verb:imperf:pres:s:3" />
   <token value="близькі" lemma="близький" tags="adj:p:v_zna:rinanim:compb" />
   <token value="вхідні" lemma="вхідний" tags="adj:p:v_zna:rinanim" />
@@ -1542,13 +1542,13 @@
   <token value="з" lemma="з" tags="prep" />
   <token value="виходами" lemma="вихід" tags="noun:inanim:p:v_oru" />
   <token value="нейронів" lemma="нейрон" tags="noun:inanim:p:v_rod" />
-  <token value="Кохонена" lemma="" tags="unknown" />
+  <token value="Кохонена" lemma="Кохонен" tags="noun:anim:m:v_rod:prop:lname" />
   <token value="." lemma="." tags="punct" />
 </sentence>
 <sentence>
   <token value="Нейрони" lemma="нейрон" tags="noun:inanim:p:v_naz" />
   <token value="шару" lemma="шар" tags="noun:inanim:m:v_rod" />
-  <token value="Кохонена" lemma="" tags="unknown" />
+  <token value="Кохонена" lemma="Кохонен" tags="noun:anim:m:v_rod:prop:lname" />
   <token value="навчаються" lemma="навчатися" tags="verb:rev:imperf:pres:p:3" />
   <token value="без" lemma="без" tags="prep" />
   <token value="вчителя" lemma="вчитель" tags="noun:anim:m:v_rod" />
@@ -1586,7 +1586,7 @@
   <token value="поширення" lemma="поширення" tags="noun:inanim:n:v_rod" />
   <token value="формується" lemma="формуватися" tags="verb:rev:imperf:pres:s:3" />
   <token value="шаром" lemma="шар" tags="noun:inanim:m:v_oru" />
-  <token value="Кохонена" lemma="" tags="unknown" />
+  <token value="Кохонена" lemma="Кохонен" tags="noun:anim:m:v_rod:prop:lname" />
   <token value="." lemma="." tags="punct" />
 </sentence>
 <sentence>
@@ -1594,7 +1594,7 @@
   <token value="алгоритм" lemma="алгоритм" tags="noun:inanim:m:v_naz" />
   <token value="роботи" lemma="робота" tags="noun:inanim:f:v_rod" />
   <token value="нейронів" lemma="нейрон" tags="noun:inanim:p:v_rod" />
-  <token value="Кохонена" lemma="" tags="unknown" />
+  <token value="Кохонена" lemma="Кохонен" tags="noun:anim:m:v_rod:prop:lname" />
   <token value="," lemma="," tags="punct" />
   <token value="полягає" lemma="полягати" tags="verb:imperf:pres:s:3" />
   <token value="у" lemma="у" tags="prep" />
@@ -1640,7 +1640,7 @@
   <token value="нейрона" lemma="нейрон" tags="noun:inanim:m:v_rod" />
   <token value="в" lemma="в" tags="prep" />
   <token value="мережі" lemma="мережа" tags="noun:inanim:f:v_mis" />
-  <token value="Кохонена" lemma="" tags="unknown" />
+  <token value="Кохонена" lemma="Кохонен" tags="noun:anim:m:v_rod:prop:lname" />
   <token value="та" lemma="та" tags="conj:coord" />
   <token value="налаштування" lemma="налаштування" tags="noun:inanim:n:v_rod" />
   <token value="вагових" lemma="ваговий" tags="adj:p:v_rod" />
@@ -1667,7 +1667,7 @@
   <token value="з" lemma="з" tags="prep" />
   <token value="виходів" lemma="вихід" tags="noun:inanim:p:v_rod" />
   <token value="нейронів" lemma="нейрон" tags="noun:inanim:p:v_rod" />
-  <token value="Кохонена" lemma="" tags="unknown" />
+  <token value="Кохонена" lemma="Кохонен" tags="noun:anim:m:v_rod:prop:lname" />
   <token value="та" lemma="та" tags="conj:coord" />
   <token value="персептрона" lemma="персептрон" tags="noun:inanim:m:v_rod" />
   <token value="." lemma="." tags="punct" />
@@ -1697,7 +1697,7 @@
 </sentence>
 <sentence>
   <token value="Мережа" lemma="мережа" tags="noun:inanim:f:v_naz" />
-  <token value="Кохонена" lemma="" tags="unknown" />
+  <token value="Кохонена" lemma="Кохонен" tags="noun:anim:m:v_rod:prop:lname" />
   <token value="використовується" lemma="використовуватися" tags="verb:rev:imperf:pres:s:3" />
   <token value="для" lemma="для" tags="prep" />
   <token value="вирішення" lemma="вирішення" tags="noun:inanim:n:v_rod" />
@@ -1743,7 +1743,7 @@
   <token value="основі" lemma="основа" tags="noun:inanim:f:v_mis" />
   <token value="створеної" lemma="створений" tags="adj:f:v_rod:&amp;adjp:pasv:perf" />
   <token value="мережею" lemma="мережа" tags="noun:inanim:f:v_oru" />
-  <token value="Кохонена" lemma="" tags="unknown" />
+  <token value="Кохонена" lemma="Кохонен" tags="noun:anim:m:v_rod:prop:lname" />
   <token value="навчальної" lemma="навчальний" tags="adj:f:v_rod" />
   <token value="вибірки" lemma="вибірка" tags="noun:inanim:f:v_rod" />
   <token value="." lemma="." tags="punct" />
@@ -1803,7 +1803,7 @@
 <sentence>
   <token value="Робота" lemma="робота" tags="noun:inanim:f:v_naz" />
   <token value="шару" lemma="шар" tags="noun:inanim:m:v_rod" />
-  <token value="Кохонена" lemma="" tags="unknown" />
+  <token value="Кохонена" lemma="Кохонен" tags="noun:anim:m:v_rod:prop:lname" />
   <token value="у" lemma="у" tags="prep" />
   <token value="складі" lemma="склад" tags="noun:inanim:m:v_mis" />
   <token value="гібридної" lemma="гібридний" tags="adj:f:v_rod" />
@@ -1813,7 +1813,7 @@
 </sentence>
 <sentence>
   <token value="Шар" lemma="шар" tags="noun:inanim:m:v_naz" />
-  <token value="Кохонена" lemma="" tags="unknown" />
+  <token value="Кохонена" lemma="Кохонен" tags="noun:anim:m:v_rod:prop:lname" />
   <token value="[" lemma="[" tags="punct" />
   <token value="16" lemma="16" tags="number" />
   <token value="]" lemma="]" tags="punct" />
@@ -1938,7 +1938,7 @@
 <sentence>
   <token value="На" lemma="на" tags="prep" />
   <token value="виході" lemma="вихід" tags="noun:inanim:m:v_mis" />
-  <token value="j-го" lemma="" tags="unknown" />
+  <token value="j-го" lemma="j-й" tags="adj:m:v_rod" />
   <token value="лінійного" lemma="лінійний" tags="adj:m:v_rod" />
   <token value="елементу" lemma="елемент" tags="noun:inanim:m:v_rod" />
   <token value="формується" lemma="формуватися" tags="verb:rev:imperf:pres:s:3" />
@@ -1949,9 +1949,9 @@
   <token value="–" lemma="–" tags="punct" />
   <token value="ваговий" lemma="ваговий" tags="adj:m:v_naz" />
   <token value="коефіцієнт" lemma="коефіцієнт" tags="noun:inanim:m:v_naz" />
-  <token value="i-го" lemma="" tags="unknown" />
+  <token value="i-го" lemma="i-й" tags="adj:m:v_rod" />
   <token value="входу" lemma="вхід" tags="noun:inanim:m:v_rod" />
-  <token value="j-го" lemma="" tags="unknown" />
+  <token value="j-го" lemma="j-й" tags="adj:m:v_rod" />
   <token value="нейрона" lemma="нейрон" tags="noun:inanim:m:v_rod" />
   <token value="," lemma="," tags="punct" />
   <token value="wj0" lemma="wj0" tags="unclass" />
@@ -1967,7 +1967,7 @@
   <token value="налаштування" lemma="налаштування" tags="noun:inanim:n:v_rod" />
   <token value="параметрів" lemma="параметр" tags="noun:inanim:p:v_rod" />
   <token value="шару" lemma="шар" tags="noun:inanim:m:v_rod" />
-  <token value="Кохонена" lemma="" tags="unknown" />
+  <token value="Кохонена" lemma="Кохонен" tags="noun:anim:m:v_rod:prop:lname" />
   <token value="використовується" lemma="використовуватися" tags="verb:rev:imperf:pres:s:3" />
   <token value="алгоритм" lemma="алгоритм" tags="noun:inanim:m:v_zna" />
   <token value="навчання" lemma="навчання" tags="noun:inanim:n:v_rod" />
@@ -1979,7 +1979,7 @@
   <token value="Результатом" lemma="результат" tags="noun:inanim:m:v_oru" />
   <token value="роботи" lemma="робота" tags="noun:inanim:f:v_rod" />
   <token value="мережі" lemma="мережа" tags="noun:inanim:f:v_rod" />
-  <token value="Кохонена" lemma="" tags="unknown" />
+  <token value="Кохонена" lemma="Кохонен" tags="noun:anim:m:v_rod:prop:lname" />
   <token value="є" lemma="бути" tags="verb:imperf:pres:s:3" />
   <token value="побудова" lemma="побудова" tags="noun:inanim:f:v_naz" />
   <token value="відображення" lemma="відображення" tags="noun:inanim:n:v_rod" />
@@ -2022,7 +2022,7 @@
   <token value="на" lemma="на" tags="prep" />
   <token value="виході" lemma="вихід" tags="noun:inanim:m:v_mis" />
   <token value="шару" lemma="шар" tags="noun:inanim:m:v_rod" />
-  <token value="Кохонена" lemma="" tags="unknown" />
+  <token value="Кохонена" lemma="Кохонен" tags="noun:anim:m:v_rod:prop:lname" />
   <token value="формуються" lemma="формуватися" tags="verb:rev:imperf:pres:p:3" />
   <token value="кластери" lemma="кластер" tags="noun:inanim:p:v_naz" />
   <token value="(" lemma="(" tags="punct" />
@@ -2135,7 +2135,7 @@
   <token value="на" lemma="на" tags="prep" />
   <token value="входи" lemma="вхід" tags="noun:inanim:p:v_zna" />
   <token value="шару" lemma="шар" tags="noun:inanim:m:v_rod" />
-  <token value="Кохонена" lemma="" tags="unknown" />
+  <token value="Кохонена" lemma="Кохонен" tags="noun:anim:m:v_rod:prop:lname" />
   <token value="," lemma="," tags="punct" />
   <token value="представляються" lemma="представлятися" tags="verb:rev:imperf:pres:p:3" />
   <token value="у" lemma="у" tags="prep" />
@@ -2164,7 +2164,7 @@
   <token value="результатом" lemma="результат" tags="noun:inanim:m:v_oru" />
   <token value="роботи" lemma="робота" tags="noun:inanim:f:v_rod" />
   <token value="шару" lemma="шар" tags="noun:inanim:m:v_rod" />
-  <token value="Кохонена" lemma="" tags="unknown" />
+  <token value="Кохонена" lemma="Кохонен" tags="noun:anim:m:v_rod:prop:lname" />
   <token value="є" lemma="бути" tags="verb:imperf:pres:s:3" />
   <token value="множина" lemma="множина" tags="noun:inanim:f:v_naz" />
   <token value="класів" lemma="клас" tags="noun:inanim:p:v_rod" />
@@ -2204,10 +2204,10 @@
   <token value="класичної" lemma="класичний" tags="adj:f:v_rod:compb" />
   <token value="реалізації" lemma="реалізація" tags="noun:inanim:f:v_rod" />
   <token value="мережі" lemma="мережа" tags="noun:inanim:f:v_rod" />
-  <token value="Кохонена" lemma="" tags="unknown" />
+  <token value="Кохонена" lemma="Кохонен" tags="noun:anim:m:v_rod:prop:lname" />
   <token value="або" lemma="або" tags="conj:coord" />
   <token value="карт" lemma="карта" tags="noun:inanim:p:v_rod" />
-  <token value="Кохонена" lemma="" tags="unknown" />
+  <token value="Кохонена" lemma="Кохонен" tags="noun:anim:m:v_rod:prop:lname" />
   <token value="," lemma="," tags="punct" />
   <token value="де" lemma="де" tags="conj:subord" />
   <token value="у" lemma="у" tags="prep" />
@@ -2233,7 +2233,7 @@
   <token value="алгоритм" lemma="алгоритм" tags="noun:inanim:m:v_zna" />
   <token value="роботи" lemma="робота" tags="noun:inanim:f:v_rod" />
   <token value="нейронів" lemma="нейрон" tags="noun:inanim:p:v_rod" />
-  <token value="Кохонена" lemma="" tags="unknown" />
+  <token value="Кохонена" lemma="Кохонен" tags="noun:anim:m:v_rod:prop:lname" />
   <token value="." lemma="." tags="punct" />
 </sentence>
 <sentence>
@@ -2278,7 +2278,7 @@
   <token value="одному" lemma="один" tags="adj:m:v_mis:&amp;pron:dem:ind" />
   <token value="нейроні" lemma="нейрон" tags="noun:inanim:m:v_mis" />
   <token value="шару" lemma="шар" tags="noun:inanim:m:v_rod" />
-  <token value="Кохонена" lemma="" tags="unknown" />
+  <token value="Кохонена" lemma="Кохонен" tags="noun:anim:m:v_rod:prop:lname" />
   <token value="," lemma="," tags="punct" />
   <token value="де" lemma="де" tags="conj:subord" />
   <token value="розмір" lemma="розмір" tags="noun:inanim:m:v_naz" />
@@ -2295,7 +2295,7 @@
   <token value="час" lemma="час" tags="noun:inanim:m:v_zna" />
   <token value="роботи" lemma="робота" tags="noun:inanim:f:v_rod" />
   <token value="шар" lemma="шар" tags="noun:inanim:m:v_naz" />
-  <token value="Кохонена" lemma="" tags="unknown" />
+  <token value="Кохонена" lemma="Кохонен" tags="noun:anim:m:v_rod:prop:lname" />
   <token value="визначає" lemma="визначати" tags="verb:imperf:pres:s:3" />
   <token value="відстань" lemma="відстань" tags="noun:inanim:f:v_zna" />
   <token value="до" lemma="до" tags="prep" />

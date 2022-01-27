@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<text>
+<text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../meta/schema.xsd">
 
 <sentence>
   <token value="23" lemma="23" tags="number" />
@@ -302,7 +302,7 @@
   <token value="БПП" lemma="БПП" tags="noun:inanim:m:v_rod:nv:abbr:prop" />
   <token value="," lemma="," tags="punct" />
   <token value="Анатолій" lemma="Анатолій" tags="noun:anim:m:v_naz:prop:fname" />
-  <token value="Дирів" lemma="" tags="unknown" />
+  <token value="Дирів" lemma="Дирів" tags="noun:anim:m:v_naz:prop:lname" />
   <token value="," lemma="," tags="punct" />
   <token value="Юрій" lemma="Юрій" tags="noun:anim:m:v_naz:prop:fname" />
   <token value="Бабій" lemma="Бабій" tags="noun:anim:m:v_naz:prop:lname" />
@@ -419,7 +419,7 @@
 </sentence>
 <sentence>
   <token value="Марк" lemma="Марк" tags="noun:anim:m:v_naz:prop:fname" />
-  <token value="Берендт" lemma="" tags="unknown" />
+  <token value="Берендт" lemma="Берендт" tags="noun:anim:m:v_naz:prop:lname" />
   <token value="," lemma="," tags="punct" />
   <token value="директор" lemma="директор" tags="noun:anim:m:v_naz" />
   <token value="програм" lemma="програма" tags="noun:inanim:p:v_rod" />

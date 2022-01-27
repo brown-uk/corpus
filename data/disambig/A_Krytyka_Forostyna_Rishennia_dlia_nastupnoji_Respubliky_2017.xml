@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<text>
+<text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../meta/schema.xsd">
 
 <sentence>
   <token value="«" lemma="«" tags="punct" />
@@ -323,7 +323,7 @@
   <token value="Якісь" lemma="якийсь" tags="adj:p:v_naz:&amp;pron:ind" />
   <token value="видання" lemma="видання" tags="noun:inanim:p:v_naz" />
   <token value="поступово" lemma="поступово" tags="adv:compb" />
-  <token value="вилюднилися" lemma="" tags="unknown" />
+  <token value="вилюднилися" lemma="вилюднитися" tags="verb:rev:past:p:3" />
   <token value="," lemma="," tags="punct" />
   <token value="еволюціонували" lemma="еволюціонувати" tags="verb:perf:past:p" />
   <token value="," lemma="," tags="punct" />
@@ -1005,7 +1005,7 @@
 </sentence>
 <sentence>
   <token value="Контент" lemma="контент" tags="noun:inanim:m:v_naz" />
-  <token value="сайтового" lemma="" tags="unknown" />
+  <token value="сайтового" lemma="сайтовий" tags="adj:m:v_rod" />
   <token value="проєкту" lemma="проєкт" tags="noun:inanim:m:v_rod:ua_2019" />
   <token value="«" lemma="«" tags="punct" />
   <token value="Критичні" lemma="критичний" tags="adj:p:v_naz:compb" />
@@ -1402,7 +1402,7 @@
   <token value="ми" lemma="ми" tags="noun:anim:p:v_naz:&amp;pron:pers:1" />
   <token value="скочуємося" lemma="скочуватися" tags="verb:rev:imperf:pres:p:1" />
   <token value="у" lemma="у" tags="prep" />
-  <token value="брєжнєвщину" lemma="" tags="unknown" />
+  <token value="брєжнєвщину" lemma="брєжнєвщина" tags="noun:f:v_zna" />
   <token value="і" lemma="і" tags="conj:coord" />
   <token value="партизанщину" lemma="партизанщина" tags="noun:inanim:f:v_zna" />
   <token value="." lemma="." tags="punct" />
@@ -2119,7 +2119,7 @@
   <token value="носія" lemma="носій" tags="noun:inanim:m:v_rod" />
   <token value="інформації" lemma="інформація" tags="noun:inanim:f:v_rod" />
   <token value="," lemma="," tags="punct" />
-  <token value="медіюма" lemma="" tags="unknown" />
+  <token value="медіюма" lemma="медіюм" tags="noun:inanim:m:v_rod" />
   <token value="." lemma="." tags="punct" />
 </sentence>
 <sentence>
@@ -2295,8 +2295,8 @@
   <token value="нам" lemma="ми" tags="noun:anim:p:v_dav:&amp;pron:pers:1" />
   <token value="треба" lemma="треба" tags="noninfl:&amp;predic" />
   <token value="«" lemma="«" tags="punct" />
-  <token value="обустроить" lemma="" tags="unknown" />
-  <token value="Украину" lemma="" tags="unknown" />
+  <token value="обустроить" lemma="обустроить" tags="unclass" />
+  <token value="Украину" lemma="Украину" tags="unclass" />
   <token value="»" lemma="»" tags="punct" />
   <token value="—" lemma="—" tags="punct" />
   <token value="тепер" lemma="тепер" tags="adv:&amp;pron:dem" />
@@ -2749,10 +2749,10 @@
   <token value="основі" lemma="основа" tags="noun:inanim:f:v_mis" />
   <token value="бесіди" lemma="бесіда" tags="noun:inanim:f:v_rod" />
   <token value="Оксани" lemma="Оксана" tags="noun:anim:f:v_rod:prop:fname" />
-  <token value="Форостини" lemma="" tags="unknown" />
+  <token value="Форостини" lemma="Форостина" tags="noun:anim:f:v_rod:prop:lname" />
   <token value="з" lemma="з" tags="prep" />
   <token value="Юлією" lemma="Юлія" tags="noun:anim:f:v_oru:prop:fname" />
-  <token value="Бентею" lemma="" tags="unknown" />
+  <token value="Бентею" lemma="Бентея" tags="noun:anim:f:v_oru:prop:lname" />
   <token value="," lemma="," tags="punct" />
   <token value="присвяченої" lemma="присвячений" tags="adj:f:v_rod:&amp;adjp:pasv:perf" />
   <token value="20-річчю" lemma="20-річчя" tags="noun:inanim:n:v_dav" />

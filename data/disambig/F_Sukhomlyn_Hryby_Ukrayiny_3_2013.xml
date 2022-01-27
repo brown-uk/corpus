@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<text>
+<text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../meta/schema.xsd">
 
 <sentence>
   <token value="Проте" lemma="проте" tags="conj:coord" />
@@ -15,7 +15,7 @@
   <token value="багатьох" lemma="багато" tags="numr:p:v_mis:&amp;pron:ind" />
   <token value="їх" lemma="їх" tags="adj:p:v_mis:nv:&amp;pron:pos:bad" />
   <token value="групах" lemma="група" tags="noun:inanim:p:v_mis" />
-  <token value="дикаріотичної" lemma="" tags="unknown" />
+  <token value="дикаріотичної" lemma="дикаріотичний" tags="adj:f:v_rod" />
   <token value="(" lemma="(" tags="punct" />
   <token value="двоядерної" lemma="двоядерний" tags="adj:f:v_rod" />
   <token value=")" lemma=")" tags="punct" />
@@ -142,7 +142,7 @@
   <token value=")" lemma=")" tags="punct" />
   <token value="належать" lemma="належати" tags="verb:imperf:pres:p:3" />
   <token value="відділи" lemma="відділ" tags="noun:inanim:p:v_naz" />
-  <token value="акразієвих" lemma="" tags="unknown" />
+  <token value="акразієвих" lemma="акразієвий" tags="adj:p:v_rod" />
   <token value="(" lemma="(" tags="punct" />
   <token value="Acrasiomycota" lemma="Acrasiomycota" tags="unclass" />
   <token value=")" lemma=")" tags="punct" />
@@ -152,7 +152,7 @@
   <token value="Myxomycota" lemma="Myxomycota" tags="unclass" />
   <token value=")" lemma=")" tags="punct" />
   <token value="та" lemma="та" tags="conj:coord" />
-  <token value="плазмодіофорових" lemma="" tags="unknown" />
+  <token value="плазмодіофорових" lemma="плазмодіофоровий" tags="adj:p:v_rod" />
   <token value="слизовиків" lemma="слизовик" tags="noun:inanim:p:v_rod" />
   <token value="(" lemma="(" tags="punct" />
   <token value="Plasmodiophoromycota" lemma="Plasmodiophoromycota" tags="unclass" />
@@ -171,12 +171,12 @@
   <token value="групи" lemma="група" tags="noun:inanim:p:v_naz" />
   <token value="псевдогрибів" lemma="псевдогриб" tags="noun:inanim:p:v_rod" />
   <token value=":" lemma=":" tags="punct" />
-  <token value="ооміцети" lemma="" tags="unknown" />
+  <token value="ооміцети" lemma="ооміцети" tags="noun:inanim:p:v_naz:ns" />
   <token value="(" lemma="(" tags="punct" />
   <token value="Oomycota" lemma="Oomycota" tags="unclass" />
   <token value=")" lemma=")" tags="punct" />
   <token value="," lemma="," tags="punct" />
-  <token value="гіфохітрієві" lemma="" tags="unknown" />
+  <token value="гіфохітрієві" lemma="гіфохітрієві" tags="noun:inanim:p:v_naz:ns" />
   <token value="(" lemma="(" tags="punct" />
   <token value="Hyphochytriomycota" lemma="Hyphochytriomycota" tags="unclass" />
   <token value=")" lemma=")" tags="punct" />
@@ -317,7 +317,7 @@
   <token value="наводимо" lemma="наводити" tags="verb:imperf:pres:p:1" />
   <token value="відомості" lemma="відомість" tags="noun:inanim:p:v_zna" />
   <token value="про" lemma="про" tags="prep" />
-  <token value="гриби-макроміцети" lemma="" tags="unknown" />
+  <token value="гриби-макроміцети" lemma="гриби-макроміцети" tags="noun:inanim:p:v_zna" />
   <token value="(" lemma="(" tags="punct" />
   <token value="гриби" lemma="гриб" tags="noun:inanim:p:v_zna" />
   <token value="," lemma="," tags="punct" />

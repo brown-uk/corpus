@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<text>
+<text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../meta/schema.xsd">
 
 <sentence>
   <token value="Книгарня" lemma="книгарня" tags="noun:inanim:f:v_naz" />
@@ -269,7 +269,7 @@
 <paragraph/>
 
 <sentence>
-  <token value="Захід" lemma="захід" tags="noun:inanim:m:v_naz" /> />
+  <token value="Захід" lemma="захід" tags="noun:inanim:m:v_naz" />
   <token value="відбувається" lemma="відбуватися" tags="verb:rev:imperf:pres:s:3" />
   <token value="в" lemma="в" tags="prep" />
   <token value="рамках" lemma="рамка" tags="noun:inanim:p:v_mis" />
@@ -398,7 +398,7 @@
   <token value="за" lemma="за" tags="prep" />
   <token value="редакцією" lemma="редакція" tags="noun:inanim:f:v_oru" />
   <token value="Марії" lemma="Марія" tags="noun:anim:f:v_rod:prop:fname" />
-  <token value="Маєрчик" lemma="" tags="unknown" />
+  <token value="Маєрчик" lemma="Маєрчик" tags="noun:anim:f:v_rod:nv:prop:fname" />
   <token value="," lemma="," tags="punct" />
   <token value="Ольги" lemma="Ольга" tags="noun:anim:f:v_rod:prop:fname" />
   <token value="Плахотнік" lemma="Плахотнік" tags="noun:anim:f:v_naz:nv:prop:lname" />
@@ -406,8 +406,7 @@
   <token value="Галини" lemma="Галина" tags="noun:anim:f:v_rod:prop:fname" />
   <token value="Ярманова" lemma="Ярманова" tags="noun:anim:f:v_naz:prop:lname" comment="помилка в самому слові, і там має бути tags=noun:anim:f:v_rod:prop:lname" />
   <token value="," lemma="," tags="punct" />
-  <token value="К" lemma="" tags="unknown" />
-  <token value="." lemma="." tags="punct" />
+  <token value="К." lemma="К." tags="unknown" />
   <token value=":" lemma=":" tags="punct" />
   <token value="Критика" lemma="критика" tags="noun:inanim:f:v_naz" />
   <token value="," lemma="," tags="punct" />

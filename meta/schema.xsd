@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:complexType name="token">
+  <xs:sequence>
+    <xs:element name="alts" minOccurs="0">
+      <xs:complexType>
+        <xs:sequence maxOccurs="unbounded">
+          <xs:element name="token" type="token" maxOccurs="unbounded"/>
+        </xs:sequence>
+      </xs:complexType>
+    </xs:element> 
+ </xs:sequence>
+
+    <xs:attribute name="value" use="required">
+        <xs:simpleType>
+            <xs:restriction base="xs:string">
+                <xs:minLength value="1"/>
+            </xs:restriction>
+        </xs:simpleType>
+    </xs:attribute>
+    <xs:attribute name="lemma" use="required">
+        <xs:simpleType>
+            <xs:restriction base="xs:string">
+                <xs:minLength value="1"/>
+            </xs:restriction>
+        </xs:simpleType>
+    </xs:attribute>
+    <xs:attribute name="tags" use="required">
+        <xs:simpleType>
+            <xs:restriction base="xs:string">
+                <xs:minLength value="1"/>
+                <xs:pattern value="[a-z][a-z0-9:_&amp;]+"/>
+            </xs:restriction>
+        </xs:simpleType>
+    </xs:attribute>
+    <xs:attribute name="whitespaceBefore" type="xs:string" />
+    <xs:attribute name="comment" type="xs:string" />
+  </xs:complexType>
+
+  <xs:complexType name="format">
+    <xs:attribute name="tag" use="required">
+        <xs:simpleType>
+            <xs:restriction base="xs:string">
+                <xs:minLength value="1"/>
+            </xs:restriction>
+        </xs:simpleType>
+    </xs:attribute>
+  </xs:complexType>
+
+  <xs:complexType name="sentence">
+    <xs:choice maxOccurs="unbounded">
+        <xs:element name="token" type="token" maxOccurs="unbounded"/>
+        <xs:element name="format" type="format" minOccurs="0" maxOccurs="unbounded" />
+    </xs:choice>
+  </xs:complexType>
+
+    <xs:element name="text">
+        <xs:complexType>
+            <xs:choice maxOccurs="unbounded">
+                <xs:element name="sentence" type="sentence" maxOccurs="unbounded"/>
+                <xs:element name="paragraph" minOccurs="0" maxOccurs="unbounded" />
+                <xs:element name="format" type="format" minOccurs="0" maxOccurs="unbounded" />
+            </xs:choice>
+        </xs:complexType>
+  </xs:element> 
+
+</xs:schema> 
