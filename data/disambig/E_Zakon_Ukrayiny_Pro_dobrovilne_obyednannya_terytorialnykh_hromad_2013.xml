@@ -10,7 +10,7 @@
 <sentence>
   <token value="Про" lemma="про" tags="prep" />
   <token value="добровільне" lemma="добровільний" tags="adj:n:v_zna" />
-  <token value="об'єднання" lemma="об'єднання" tags="noun:inanim:n:v_naz" />
+  <token value="об'єднання" lemma="об'єднання" tags="noun:inanim:n:v_zna" />
   <token value="територіальних" lemma="територіальний" tags="adj:p:v_rod" />
   <token value="громад" lemma="громада" tags="noun:inanim:p:v_rod" />
 </sentence>
@@ -24,7 +24,7 @@
 
 <sentence>
   <token value="ЗАГАЛЬНІ" lemma="загальний" tags="adj:p:v_naz:compb" />
-  <token value="ПОЛОЖЕННЯ" lemma="положення" tags="noun:inanim:n:v_rod" />
+  <token value="ПОЛОЖЕННЯ" lemma="положення" tags="noun:inanim:p:v_naz" />
 </sentence>
 <paragraph/>
 
@@ -90,7 +90,7 @@
 </sentence>
 <sentence>
   <token value="Добровільне" lemma="добровільний" tags="adj:n:v_naz" />
-  <token value="об'єднання" lemma="об'єднання" tags="noun:inanim:p:v_naz" />
+  <token value="об'єднання" lemma="об'єднання" tags="noun:inanim:n:v_naz" />
   <token value="територіальних" lemma="територіальний" tags="adj:p:v_rod" />
   <token value="громад" lemma="громада" tags="noun:inanim:p:v_rod" />
   <token value="сіл" lemma="село" tags="noun:inanim:p:v_rod" />
@@ -240,7 +240,7 @@
 </sentence>
 <sentence>
   <token value="Добровільне" lemma="добровільний" tags="adj:n:v_naz" />
-  <token value="об'єднання" lemma="об'єднання" tags="noun:inanim:p:v_naz" />
+  <token value="об'єднання" lemma="об'єднання" tags="noun:inanim:n:v_naz" />
   <token value="територіальних" lemma="територіальний" tags="adj:p:v_rod" />
   <token value="громад" lemma="громада" tags="noun:inanim:p:v_rod" />
   <token value="сіл" lemma="село" tags="noun:inanim:p:v_rod" />
@@ -392,7 +392,7 @@
   <token value="громади" lemma="громада" tags="noun:inanim:f:v_rod" />
   <token value="визначається" lemma="визначатися" tags="verb:rev:imperf:pres:s:3" />
   <token value="населений" lemma="населений" tags="adj:m:v_naz:&amp;adjp:pasv:perf:compb" />
-  <token value="пункт" lemma="пункт" tags="noun:inanim:m:v_zna" />
+  <token value="пункт" lemma="пункт" tags="noun:inanim:m:v_naz" />
   <token value="(" lemma="(" tags="punct" />
   <token value="село" lemma="село" tags="noun:inanim:n:v_naz" />
   <token value="," lemma="," tags="punct" />
@@ -413,7 +413,7 @@
   <token value="розташований" lemma="розташований" tags="adj:m:v_naz:&amp;adjp:pasv:perf" />
   <token value="найближче" lemma="найближче" tags="adv:comps" />
   <token value="до" lemma="до" tags="prep" />
-  <token value="географічного" lemma="географічний" tags="adj:n:v_rod" />
+  <token value="географічного" lemma="географічний" tags="adj:m:v_rod" />
   <token value="центру" lemma="центр" tags="noun:inanim:m:v_rod:xp2" />
   <token value="території" lemma="територія" tags="noun:inanim:f:v_rod" />
   <token value="об'єднаної" lemma="об'єднаний" tags="adj:f:v_rod:&amp;adjp:pasv:perf" />
@@ -429,7 +429,7 @@
 </sentence>
 <sentence>
   <token value="Добровільне" lemma="добровільний" tags="adj:n:v_naz" />
-  <token value="об'єднання" lemma="об'єднання" tags="noun:inanim:p:v_naz" />
+  <token value="об'єднання" lemma="об'єднання" tags="noun:inanim:n:v_naz" />
   <token value="територіальних" lemma="територіальний" tags="adj:p:v_rod" />
   <token value="громад" lemma="громада" tags="noun:inanim:p:v_rod" />
   <token value="не" lemma="не" tags="part" />
@@ -491,7 +491,7 @@
 
 <sentence>
   <token value="ПОРЯДОК" lemma="порядок" tags="noun:inanim:m:v_naz" />
-  <token value="ДОБРОВІЛЬНОГО" lemma="добровільний" tags="adj:m:v_rod" />
+  <token value="ДОБРОВІЛЬНОГО" lemma="добровільний" tags="adj:n:v_rod" />
   <token value="ОБ'ЄДНАННЯ" lemma="об'єднання" tags="noun:inanim:n:v_rod" />
   <token value="ТЕРИТОРІАЛЬНИХ" lemma="територіальний" tags="adj:p:v_rod" />
   <token value="ГРОМАД" lemma="громада" tags="noun:inanim:p:v_rod" />
@@ -572,7 +572,7 @@
   <token value="самоорганізації" lemma="самоорганізація" tags="noun:inanim:f:v_rod" />
   <token value="населення" lemma="населення" tags="noun:inanim:n:v_rod" />
   <token value="відповідної" lemma="відповідний" tags="adj:f:v_rod:compb" />
-  <token value="території" lemma="територія" tags="noun:inanim:f:v_mis" />
+  <token value="території" lemma="територія" tags="noun:inanim:f:v_rod" />
   <token value="(" lemma="(" tags="punct" />
   <token value="за" lemma="за" tags="prep" />
   <token value="умови" lemma="умова" tags="noun:inanim:f:v_rod" />
@@ -698,7 +698,7 @@
   <token value="згоди" lemma="згода" tags="noun:inanim:f:v_rod" />
   <token value="на" lemma="на" tags="prep" />
   <token value="добровільне" lemma="добровільний" tags="adj:n:v_zna" />
-  <token value="об'єднання" lemma="об'єднання" tags="noun:inanim:n:v_naz" />
+  <token value="об'єднання" lemma="об'єднання" tags="noun:inanim:n:v_zna" />
   <token value="територіальних" lemma="територіальний" tags="adj:p:v_rod" />
   <token value="громад" lemma="громада" tags="noun:inanim:p:v_rod" />
   <token value="та" lemma="та" tags="conj:coord" />
@@ -781,7 +781,7 @@
   <token value="згоди" lemma="згода" tags="noun:inanim:f:v_rod" />
   <token value="на" lemma="на" tags="prep" />
   <token value="добровільне" lemma="добровільний" tags="adj:n:v_zna" />
-  <token value="об'єднання" lemma="об'єднання" tags="noun:inanim:n:v_naz" />
+  <token value="об'єднання" lemma="об'єднання" tags="noun:inanim:n:v_zna" />
   <token value="територіальних" lemma="територіальний" tags="adj:p:v_rod" />
   <token value="громад" lemma="громада" tags="noun:inanim:p:v_rod" />
   <token value="надсилає" lemma="надсилати" tags="verb:imperf:pres:s:3" />
@@ -862,7 +862,7 @@
   <token value="згоди" lemma="згода" tags="noun:inanim:f:v_rod" />
   <token value="на" lemma="на" tags="prep" />
   <token value="добровільне" lemma="добровільний" tags="adj:n:v_zna" />
-  <token value="об'єднання" lemma="об'єднання" tags="noun:inanim:n:v_naz" />
+  <token value="об'єднання" lemma="об'єднання" tags="noun:inanim:n:v_zna" />
   <token value="територіальних" lemma="територіальний" tags="adj:p:v_rod" />
   <token value="громад" lemma="громада" tags="noun:inanim:p:v_rod" />
   <token value="та" lemma="та" tags="conj:coord" />
@@ -1186,7 +1186,7 @@
   <token value="його" lemma="він" tags="noun:unanim:m:v_rod:&amp;pron:pers:3" />
   <token value="внесення" lemma="внесення" tags="noun:inanim:n:v_rod" />
   <token value="на" lemma="на" tags="prep" />
-  <token value="їх" lemma="вони" tags="noun:unanim:p:v_zna:&amp;pron:pers:3" />
+  <token value="їх" lemma="вони" tags="noun:unanim:p:v_rod:&amp;pron:pers:3" />
   <token value="розгляд" lemma="розгляд" tags="noun:inanim:m:v_zna" />
   <token value="та" lemma="та" tags="conj:coord" />
   <token value="з" lemma="з" tags="prep" />
@@ -1274,7 +1274,7 @@
   <token value="територіальних" lemma="територіальний" tags="adj:p:v_rod" />
   <token value="громад" lemma="громада" tags="noun:inanim:p:v_rod" />
   <token value="готує" lemma="готувати" tags="verb:imperf:pres:s:3" />
-  <token value="відповідний" lemma="відповідний" tags="adj:m:v_naz:compb" />
+  <token value="відповідний" lemma="відповідний" tags="adj:m:v_zna:rinanim:compb" />
   <token value="висновок" lemma="висновок" tags="noun:inanim:m:v_zna" />
   <token value="," lemma="," tags="punct" />
   <token value="що" lemma="що" tags="conj:subord" />
@@ -1330,7 +1330,7 @@
   <token value="або" lemma="або" tags="conj:coord" />
   <token value="про" lemma="про" tags="prep" />
   <token value="проведення" lemma="проведення" tags="noun:inanim:n:v_zna" />
-  <token value="місцевого" lemma="місцевий" tags="adj:n:v_rod" />
+  <token value="місцевого" lemma="місцевий" tags="adj:m:v_rod" />
   <token value="референдуму" lemma="референдум" tags="noun:inanim:m:v_rod" />
   <token value="щодо" lemma="щодо" tags="prep" />
   <token value="підтримки" lemma="підтримка" tags="noun:inanim:f:v_rod" />
@@ -1401,7 +1401,7 @@
   <token value="рішення" lemma="рішення" tags="noun:inanim:n:v_rod" />
   <token value="про" lemma="про" tags="prep" />
   <token value="добровільне" lemma="добровільний" tags="adj:n:v_zna" />
-  <token value="об'єднання" lemma="об'єднання" tags="noun:inanim:n:v_naz" />
+  <token value="об'єднання" lemma="об'єднання" tags="noun:inanim:n:v_zna" />
   <token value="територіальних" lemma="територіальний" tags="adj:p:v_rod" />
   <token value="громад" lemma="громада" tags="noun:inanim:p:v_rod" />
   <token value="," lemma="," tags="punct" />
@@ -1599,7 +1599,7 @@
   <token value="місцевого" lemma="місцевий" tags="adj:n:v_rod" />
   <token value="самоврядування" lemma="самоврядування" tags="noun:inanim:n:v_rod" />
   <token value="," lemma="," tags="punct" />
-  <token value="сільського" lemma="сільський" tags="adj:n:v_rod" />
+  <token value="сільського" lemma="сільський" tags="adj:m:v_rod" />
   <token value="," lemma="," tags="punct" />
   <token value="селищного" lemma="селищний" tags="adj:m:v_rod" />
   <token value="," lemma="," tags="punct" />
@@ -1675,8 +1675,8 @@
   <token value="територіальної" lemma="територіальний" tags="adj:f:v_rod" />
   <token value="громади" lemma="громада" tags="noun:inanim:f:v_rod" />
   <token value="та" lemma="та" tags="conj:coord" />
-  <token value="відповідно" lemma="відповідно" tags="prep" />
-  <token value="сільського" lemma="сільський" tags="adj:n:v_rod" />
+  <token value="відповідно" lemma="відповідно" tags="adv" />
+  <token value="сільського" lemma="сільський" tags="adj:m:v_rod" />
   <token value="," lemma="," tags="punct" />
   <token value="селищного" lemma="селищний" tags="adj:m:v_rod" />
   <token value="," lemma="," tags="punct" />
@@ -1757,7 +1757,7 @@
   <token value="бюджетів" lemma="бюджет" tags="noun:inanim:p:v_rod" />
   <token value="," lemma="," tags="punct" />
   <token value="визначених" lemma="визначений" tags="adj:p:v_rod:&amp;adjp:pasv:perf:compb" />
-  <token value="бюджетним" lemma="бюджетний" tags="adj:m:v_oru:compb" />
+  <token value="бюджетним" lemma="бюджетний" tags="adj:n:v_oru:compb" />
   <token value="законодавством" lemma="законодавство" tags="noun:inanim:n:v_oru" />
   <token value="." lemma="." tags="punct" />
 </sentence>
@@ -1880,7 +1880,7 @@
 <sentence>
   <token value="ДЕРЖАВНА" lemma="державний" tags="adj:f:v_naz" />
   <token value="ПІДТРИМКА" lemma="підтримка" tags="noun:inanim:f:v_naz" />
-  <token value="ДОБРОВІЛЬНОГО" lemma="добровільний" tags="adj:m:v_rod" />
+  <token value="ДОБРОВІЛЬНОГО" lemma="добровільний" tags="adj:n:v_rod" />
   <token value="ОБ'ЄДНАННЯ" lemma="об'єднання" tags="noun:inanim:n:v_rod" />
   <token value="ТЕРИТОРІАЛЬНИХ" lemma="територіальний" tags="adj:p:v_rod" />
   <token value="ГРОМАД" lemma="громада" tags="noun:inanim:p:v_rod" />
@@ -1936,7 +1936,7 @@
   <token value="та" lemma="та" tags="conj:coord" />
   <token value="інформаційно-просвітницьке" lemma="інформаційно-просвітницький" tags="adj:n:v_zna" />
   <token value="сприяння" lemma="сприяння" tags="noun:inanim:n:v_zna" />
-  <token value="добровільному" lemma="добровільний" tags="adj:m:v_dav" />
+  <token value="добровільному" lemma="добровільний" tags="adj:n:v_dav" />
   <token value="об'єднанню" lemma="об'єднання" tags="noun:inanim:n:v_dav" />
   <token value="територіальних" lemma="територіальний" tags="adj:p:v_rod" />
   <token value="громад" lemma="громада" tags="noun:inanim:p:v_rod" />
@@ -2330,7 +2330,7 @@
   <token value="," lemma="," tags="punct" />
   <token value="області" lemma="область" tags="noun:inanim:f:v_rod" />
   <token value="схвалюється" lemma="схвалюватися" tags="verb:rev:imperf:pres:s:3" />
-  <token value="відповідно" lemma="відповідно" tags="prep" />
+  <token value="відповідно" lemma="відповідно" tags="adv" />
   <token value="Верховною" lemma="верховний" tags="adj:f:v_oru" />
   <token value="Радою" lemma="рада" tags="noun:inanim:f:v_oru" />
   <token value="Автономної" lemma="автономний" tags="adj:f:v_rod:compb" />
@@ -2462,7 +2462,7 @@
   <token value="та" lemma="та" tags="conj:coord" />
   <token value="сьомий" lemma="сьомий" tags="adj:m:v_zna:rinanim:&amp;numr" />
   <token value="вважати" lemma="вважати" tags="verb:imperf:inf" />
-  <token value="відповідно" lemma="відповідно" tags="prep" />
+  <token value="відповідно" lemma="відповідно" tags="adv" />
   <token value="абзацами" lemma="абзац" tags="noun:inanim:p:v_oru" />
   <token value="сьомим" lemma="сьомий" tags="adj:m:v_oru:&amp;numr" />
   <token value="та" lemma="та" tags="conj:coord" />
@@ -2526,7 +2526,7 @@
 </sentence>
 <sentence>
   <token value="Територіальні" lemma="територіальний" tags="adj:p:v_naz" />
-  <token value="громади" lemma="громада" tags="noun:inanim:f:v_rod" />
+  <token value="громади" lemma="громада" tags="noun:inanim:p:v_naz" />
   <token value="в" lemma="в" tags="prep" />
   <token value="порядку" lemma="порядок" tags="noun:inanim:m:v_mis" />
   <token value="," lemma="," tags="punct" />
@@ -2552,13 +2552,13 @@
   <token value="самоврядування" lemma="самоврядування" tags="noun:inanim:n:v_rod" />
   <token value="та" lemma="та" tags="conj:coord" />
   <token value="обирати" lemma="обирати" tags="verb:imperf:inf" />
-  <token value="відповідно" lemma="відповідно" tags="prep" />
+  <token value="відповідно" lemma="відповідно" tags="adv" />
   <token value="сільського" lemma="сільський" tags="adj:m:v_zna:ranim" />
   <token value="," lemma="," tags="punct" />
   <token value="селищного" lemma="селищний" tags="adj:m:v_zna:ranim" />
   <token value="," lemma="," tags="punct" />
   <token value="міського" lemma="міський" tags="adj:m:v_zna:ranim" />
-  <token value="голову" lemma="голова" tags="noun:inanim:f:v_zna" />
+  <token value="голову" lemma="голова" tags="noun:anim:m:v_zna" />
   <token value="." lemma="." tags="punct" />
 </sentence>
 <paragraph/>
@@ -2647,7 +2647,7 @@
   <token value="«" lemma="«" tags="punct" />
   <token value="Про" lemma="про" tags="prep" />
   <token value="добровільне" lemma="добровільний" tags="adj:n:v_zna" />
-  <token value="об'єднання" lemma="об'єднання" tags="noun:inanim:n:v_naz" />
+  <token value="об'єднання" lemma="об'єднання" tags="noun:inanim:n:v_zna" />
   <token value="територіальних" lemma="територіальний" tags="adj:p:v_rod" />
   <token value="громад" lemma="громада" tags="noun:inanim:p:v_rod" />
   <token value="»" lemma="»" tags="punct" />
@@ -2746,7 +2746,7 @@
   <token value="реалізуються" lemma="реалізуватися" tags="verb:rev:imperf:pres:p:3" />
   <token value="на" lemma="на" tags="prep" />
   <token value="території" lemma="територія" tags="noun:inanim:f:v_mis" />
-  <token value="відповідного" lemma="відповідний" tags="adj:m:v_rod:compb" />
+  <token value="відповідного" lemma="відповідний" tags="adj:n:v_rod:compb" />
   <token value="села" lemma="село" tags="noun:inanim:n:v_rod" />
   <token value="," lemma="," tags="punct" />
   <token value="селища" lemma="селище" tags="noun:inanim:n:v_rod" />
@@ -2769,7 +2769,7 @@
   <token value="діяльності" lemma="діяльність" tags="noun:inanim:f:v_rod" />
   <token value="на" lemma="на" tags="prep" />
   <token value="території" lemma="територія" tags="noun:inanim:f:v_mis" />
-  <token value="відповідного" lemma="відповідний" tags="adj:m:v_rod:compb" />
+  <token value="відповідного" lemma="відповідний" tags="adj:n:v_rod:compb" />
   <token value="села" lemma="село" tags="noun:inanim:n:v_rod" />
   <token value="," lemma="," tags="punct" />
   <token value="селища" lemma="селище" tags="noun:inanim:n:v_rod" />

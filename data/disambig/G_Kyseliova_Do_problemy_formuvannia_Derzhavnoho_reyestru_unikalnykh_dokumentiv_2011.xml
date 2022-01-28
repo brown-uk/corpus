@@ -36,7 +36,7 @@
 <sentence>
   <token value="Нині" lemma="нині" tags="adv" />
   <token value="висока" lemma="високий" tags="adj:f:v_naz:compb" />
-  <token value="значущість" lemma="значущість" tags="noun:inanim:f:v_zna" />
+  <token value="значущість" lemma="значущість" tags="noun:inanim:f:v_naz" />
   <token value="УД" lemma="УД" tags="noun:inanim:f:v_rod:nv:abbr:prop" />
   <token value="знайшла" lemma="знайти" tags="verb:perf:past:f" />
   <token value="закріплення" lemma="закріплення" tags="noun:inanim:n:v_zna" />
@@ -158,7 +158,7 @@
   <token value="," lemma="," tags="punct" />
   <token value="будівництва" lemma="будівництво" tags="noun:inanim:n:v_rod" />
   <token value="та" lemma="та" tags="conj:coord" />
-  <token value="житлово-комунального" lemma="житлово-комунальний" tags="adj:m:v_rod" />
+  <token value="житлово-комунального" lemma="житлово-комунальний" tags="adj:n:v_rod" />
   <token value="господарства" lemma="господарство" tags="noun:inanim:n:v_rod" />
   <token value="," lemma="," tags="punct" />
   <token value="є" lemma="бути" tags="verb:imperf:pres:s:3" />
@@ -210,7 +210,7 @@
 </sentence>
 <sentence>
   <token value="Національний" lemma="національний" tags="adj:m:v_naz" />
-  <token value="стандарт" lemma="стандарт" tags="noun:inanim:m:v_zna" />
+  <token value="стандарт" lemma="стандарт" tags="noun:inanim:m:v_naz" />
   <token value="дає" lemma="давати" tags="verb:imperf:pres:s:3" />
   <token value="таке" lemma="такий" tags="adj:n:v_zna:&amp;pron:dem" />
   <token value="визначення" lemma="визначення" tags="noun:inanim:n:v_zna" />
@@ -306,7 +306,7 @@
   <token value="науковий" lemma="науковий" tags="adj:m:v_zna:rinanim:compb" />
   <token value="і" lemma="і" tags="conj:coord" />
   <token value="культурний" lemma="культурний" tags="adj:m:v_zna:rinanim:compb" />
-  <token value="обіг" lemma="обіг" tags="noun:inanim:m:v_naz" />
+  <token value="обіг" lemma="обіг" tags="noun:inanim:m:v_zna" />
   <token value="." lemma="." tags="punct" />
 </sentence>
 <sentence>
@@ -409,7 +409,7 @@
   <token value="Отже" lemma="отже" tags="part" />
   <token value="," lemma="," tags="punct" />
   <token value="Державний" lemma="державний" tags="adj:m:v_naz" />
-  <token value="реєстр" lemma="реєстр" tags="noun:inanim:m:v_zna" />
+  <token value="реєстр" lemma="реєстр" tags="noun:inanim:m:v_naz" />
   <token value="УД" lemma="УД" tags="noun:inanim:f:v_rod:nv:abbr:prop" />
   <token value="до" lemma="до" tags="prep" />
   <token value="введення" lemma="введення" tags="noun:inanim:n:v_rod" />
@@ -640,7 +640,7 @@
   <token value="архіви" lemma="архів" tags="noun:inanim:p:v_naz" />
   <token value="надіслали" lemma="надіслати" tags="verb:perf:past:p" />
   <token value="на" lemma="на" tags="prep" />
-  <token value="погодження" lemma="погодження" tags="noun:inanim:n:v_rod" />
+  <token value="погодження" lemma="погодження" tags="noun:inanim:n:v_zna" />
   <token value="ЦЕПК" lemma="ЦЕПК" tags="noun:inanim:f:v_dav:nv:abbr:prop" />
   <token value="анотовані" lemma="анотований" tags="adj:p:v_zna:rinanim:&amp;adjp:pasv:perf" />
   <token value="переліки" lemma="перелік" tags="noun:inanim:p:v_zna" />
@@ -806,7 +806,7 @@
 
 <sentence>
   <token value="Після" lemma="після" tags="prep" />
-  <token value="ретельного" lemma="ретельний" tags="adj:m:v_rod:compb" />
+  <token value="ретельного" lemma="ретельний" tags="adj:n:v_rod:compb" />
   <token value="вивчення" lemma="вивчення" tags="noun:inanim:n:v_rod" />
   <token value="ЦЕПК" lemma="ЦЕПК" tags="noun:inanim:f:v_oru:nv:abbr:prop" />
   <token value="прийнято" lemma="прийняти" tags="verb:perf:impers" />
@@ -1026,7 +1026,7 @@
   <token value="але" lemma="але" tags="conj:coord" />
   <token value="подібні" lemma="подібний" tags="adj:p:v_naz:compb" />
   <token value="документи" lemma="документ" tags="noun:inanim:p:v_naz" />
-  <token value="є" lemma="бути" tags="verb:imperf:pres:s:3" />
+  <token value="є" lemma="бути" tags="verb:imperf:pres:p:3" />
   <token value="в" lemma="в" tags="prep" />
   <token value="інших" lemma="інший" tags="adj:p:v_mis:&amp;pron:def" />
   <token value="архівах" lemma="архів" tags="noun:inanim:p:v_mis" />
@@ -1053,7 +1053,7 @@
   <token value="важливістю" lemma="важливість" tags="noun:inanim:f:v_oru" />
   <token value="інформації" lemma="інформація" tags="noun:inanim:f:v_rod" />
   <token value="," lemma="," tags="punct" />
-  <token value="зовнішнім" lemma="зовнішній" tags="adj:m:v_oru" />
+  <token value="зовнішнім" lemma="зовнішній" tags="adj:n:v_oru" />
   <token value="оформленням" lemma="оформлення" tags="noun:inanim:n:v_oru" />
   <token value="та" lemma="та" tags="conj:coord" />
   <token value="іншими" lemma="інший" tags="adj:p:v_oru:&amp;pron:def" />
@@ -1104,7 +1104,7 @@
   <token value="унормована" lemma="унормований" tags="adj:f:v_naz:&amp;adjp:pasv:perf:compb" />
   <token value="в" lemma="в" tags="prep" />
   <token value="українському" lemma="український" tags="adj:n:v_mis:compb" />
-  <token value="архівному" lemma="архівний" tags="adj:m:v_mis" />
+  <token value="архівному" lemma="архівний" tags="adj:n:v_mis" />
   <token value="законодавстві" lemma="законодавство" tags="noun:inanim:n:v_mis" />
   <token value="." lemma="." tags="punct" />
 </sentence>
@@ -1441,8 +1441,8 @@
   <token value="містять" lemma="містити" tags="verb:imperf:pres:p:3" />
   <token value="записи" lemma="запис" tags="noun:inanim:p:v_zna" />
   <token value="про" lemma="про" tags="prep" />
-  <token value="відомих" lemma="відомий" tags="adj:p:v_rod:compb" />
-  <token value="осіб" lemma="особа" tags="noun:anim:p:v_rod" />
+  <token value="відомих" lemma="відомий" tags="adj:p:v_zna:ranim:compb" />
+  <token value="осіб" lemma="особа" tags="noun:anim:p:v_zna" />
   <token value="–" lemma="–" tags="punct" />
   <token value="ревізьких" lemma="ревізький" tags="adj:p:v_rod" />
   <token value="казок" lemma="казка" tags="noun:inanim:p:v_rod" />
@@ -1472,7 +1472,7 @@
   <token value="," lemma="," tags="punct" />
   <token value="їх" lemma="вони" tags="adj:p:v_naz:nv:&amp;pron:pos:bad" />
   <token value="окремі" lemma="окремий" tags="adj:p:v_naz" />
-  <token value="записи" lemma="запис" tags="noun:inanim:p:v_zna" />
+  <token value="записи" lemma="запис" tags="noun:inanim:p:v_naz" />
   <token value="можуть" lemma="могти" tags="verb:imperf:pres:p:3" />
   <token value="торкатися" lemma="торкатися" tags="verb:rev:imperf:inf" />
   <token value="неординарних" lemma="неординарний" tags="adj:p:v_rod:compb" />
