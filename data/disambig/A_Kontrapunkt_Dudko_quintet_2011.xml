@@ -74,7 +74,7 @@
   <token value="років" lemma="рік" tags="noun:inanim:p:v_rod" />
   <token value="штатний" lemma="штатний" tags="adj:m:v_naz" />
   <token value="клавішник" lemma="клавішник" tags="noun:anim:m:v_naz:coll" />
-  <token value="укр-хіп-хопової" lemma="укр-хіп-хоповий" tags="adj:f:v" />
+  <token value="укр-хіп-хопової" lemma="укр-хіп-хоповий" tags="adj:f:v_rod" />
   <token value="команди" lemma="команда" tags="noun:inanim:f:v_rod" />
   <token value="ТНМК" lemma="ТНМК" tags="noun:inanim:m:v_rod:nv:abbr:prop" />
   <token value="," lemma="," tags="punct" whitespaceBefore="false" />
@@ -375,7 +375,7 @@
   <token value="від" lemma="від" tags="prep" />
   <token value="Дудко" lemma="Дудко" tags="noun:anim:f:v_rod:nv:prop:lname" />
   <token value="/" lemma="/" tags="punct" whitespaceBefore="false" />
-  <token value="Шабалтас" lemma="Шабалтас" tags="noun:anim:f:v_rod:nv:prop:lname" />
+  <token value="Шабалтас" lemma="Шабалтас" tags="noun:anim:m:v_rod:prop:lname" />
   <token value=")" lemma=")" tags="punct" whitespaceBefore="false" />
   <token value="," lemma="," tags="punct" whitespaceBefore="false" />
   <token value="який" lemma="який" tags="adj:m:v_naz:&amp;pron:int:rel:def" />
@@ -694,7 +694,7 @@
 <sentence>
   <token value="Це" lemma="це" tags="noun:inanim:n:v_naz:&amp;pron:dem" />
   <token value="два" lemma="два" tags="numr:p:v_naz" />
-  <token value="різних" lemma="різний" tags="adj:p:v_zna:ranim:compb" />
+  <token value="різних" lemma="різний" tags="adj:p:v_naz:compb:bad" comment="різні??" />
   <token value="кайфи" lemma="кайф" tags="noun:inanim:p:v_naz" />
   <token value="." lemma="." tags="punct" whitespaceBefore="false" />
 </sentence>
