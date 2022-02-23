@@ -26,12 +26,12 @@
   <token value="соку" lemma="сік" tags="noun:inanim:m:v_rod" />
   <token value="," lemma="," tags="punct" />
   <token value="2" lemma="2" tags="number" />
-  <token value="частини" lemma="частина" tags="noun:inanim:f:v_rod" />
+  <token value="частини" lemma="частина" tags="noun:inanim:p:v_naz" />
   <token value="соку" lemma="сік" tags="noun:inanim:m:v_rod" />
   <token value="помаранчі" lemma="помаранча" tags="noun:inanim:f:v_rod" />
   <token value="," lemma="," tags="punct" />
   <token value="2" lemma="2" tags="number" />
-  <token value="частини" lemma="частина" tags="noun:inanim:f:v_rod" />
+  <token value="частини" lemma="частина" tags="noun:inanim:p:v_naz" />
   <token value="оливкової" lemma="оливковий" tags="adj:f:v_rod" />
   <token value="олії" lemma="олія" tags="noun:inanim:f:v_rod" />
   <token value="," lemma="," tags="punct" />
@@ -93,7 +93,7 @@
 <paragraph/>
 <sentence>
   <token value="2-3" lemma="2-3" tags="number" />
-  <token value="зварених" lemma="зварений" tags="adj:p:v_rod:&amp;adjp:pasv:perf" />
+  <token value="зварених" lemma="зварений" tags="adj:p:v_rod:&amp;adjp:pasv:perf" comment="зварені?" />
   <token value="на" lemma="на" tags="prep" />
   <token value="твердо" lemma="твердо" tags="adv:compb" />
   <token value="яйця" lemma="яйце" tags="noun:inanim:p:v_zna" />
@@ -112,7 +112,7 @@
   <token value="солі" lemma="сіль" tags="noun:inanim:f:v_rod" />
   <token value="," lemma="," tags="punct" />
   <token value="2-3" lemma="2-3" tags="number" />
-  <token value="ложки" lemma="ложка" tags="noun:inanim:f:v_rod" />
+  <token value="ложки" lemma="ложка" tags="noun:inanim:p:v_naz" />
   <token value="домашнього" lemma="домашній" tags="adj:m:v_rod" />
   <token value="майонезу" lemma="майонез" tags="noun:inanim:m:v_rod" />
   <token value="або" lemma="або" tags="conj:coord" />
@@ -333,7 +333,7 @@
   <token value="запаху" lemma="запах" tags="noun:inanim:m:v_rod" />
   <token value="," lemma="," tags="punct" />
   <token value="2" lemma="2" tags="number" />
-  <token value="ложечки" lemma="ложечка" tags="noun:inanim:f:v_rod" />
+  <token value="ложечки" lemma="ложечка" tags="noun:inanim:p:v_naz" />
   <token value="гірчиці" lemma="гірчиця" tags="noun:inanim:f:v_rod" />
   <token value="," lemma="," tags="punct" />
   <token value="ложечка" lemma="ложечка" tags="noun:inanim:f:v_naz" />
@@ -965,12 +965,12 @@
   <token value="," lemma="," tags="punct" />
   <token value="що" lemma="що" tags="conj:subord" />
   <token value="Дарія" lemma="Дарія" tags="noun:anim:f:v_naz:prop:fname" />
-  <token value="Цвєк" lemma="Цвєк" tags="noun:anim:m:v_naz:prop:lname" />
+  <token value="Цвєк" lemma="Цвєк" tags="noun:anim:f:v_naz:nv:prop:lname" />
   <token value="—" lemma="—" tags="punct" />
   <token value="це" lemma="це" tags="noun:inanim:n:v_naz:&amp;pron:dem" />
   <token value="український" lemma="український" tags="adj:m:v_naz:compb" />
   <token value="Джеймі" lemma="Джеймі" tags="noun:anim:m:v_naz:nv:prop:fname" />
-  <token value="Олівер" lemma="Олівер" tags="noun:anim:m:v_naz:prop:fname" />
+  <token value="Олівер" lemma="Олівер" tags="noun:anim:m:v_naz:prop:lname" />
   <token value="," lemma="," tags="punct" />
   <token value="виправте" lemma="виправити" tags="verb:perf:impr:p:2" />
   <token value="його" lemma="він" tags="noun:unanim:m:v_zna:&amp;pron:pers:3" />
@@ -984,11 +984,11 @@
   <token value="насправді" lemma="насправді" tags="adv" />
   <token value="це" lemma="це" tags="noun:inanim:n:v_naz:&amp;pron:dem" />
   <token value="Джеймі" lemma="Джеймі" tags="noun:anim:m:v_naz:nv:prop:fname" />
-  <token value="Олівер" lemma="Олівер" tags="noun:anim:m:v_naz:prop:fname" />
+  <token value="Олівер" lemma="Олівер" tags="noun:anim:m:v_naz:prop:lname" />
   <token value="—" lemma="—" tags="punct" />
   <token value="британська" lemma="британський" tags="adj:f:v_naz" />
   <token value="Дарія" lemma="Дарія" tags="noun:anim:f:v_naz:prop:fname" />
-  <token value="Цвєк" lemma="Цвєк" tags="noun:anim:m:v_naz:prop:lname" />
+  <token value="Цвєк" lemma="Цвєк" tags="noun:anim:f:v_naz:nv:prop:lname" />
   <token value="." lemma="." tags="punct" />
 </sentence>
 </text>
