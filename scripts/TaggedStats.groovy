@@ -14,6 +14,8 @@ int doneSize = 0
 int todoCnt = 0
 int todoSize = 0
 
+def fileMap = [:]
+
 new File("$BASE_DIR/../data/good").eachFile{ f ->
     if( ! f.name.endsWith('.txt') )
         return
@@ -27,9 +29,16 @@ new File("$BASE_DIR/../data/good").eachFile{ f ->
 
     todoCnt++
     todoSize += f.size()
-    def text = f.text
+//    def text = f.text
 
-    println "${f.name}, size: ${text.length()}"
+    fileMap[f.name] = f.size() // text.length()
 }
+
+fileMap
+    .toSorted { it -> it.value }
+    .each { k, v ->
+        println "$k, size: $v"
+    }
+
 
 println "Done: $doneCnt (size: $doneSize), todo: $todoCnt (size: $todoSize)"
