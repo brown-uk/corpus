@@ -201,7 +201,7 @@
   <token value="салонів" lemma="салон" tags="noun:inanim:p:v_rod" />
   <token value="та" lemma="та" tags="conj:coord" />
   <token value="підпільних" lemma="підпільний" tags="adj:p:v_rod" />
-  <token value="казино" lemma="казино" tags="noun:inanim:n:v_rod:nv" />
+  <token value="казино" lemma="казино" tags="noun:inanim:p:v_rod:nv" />
   <token value="," lemma="," tags="punct" />
   <token value="зокрема" lemma="зокрема" tags="adv" />
   <token value="," lemma="," tags="punct" />
@@ -449,8 +449,11 @@
   <token value="$2,1" lemma="$2,1" tags="number" />
   <token value="тис." lemma="тис." tags="numr:f:v_rod:nv:abbr" />
   <token value="/" lemma="/" tags="punct" />
-  <token value="кв." lemma="кв." tags="adj:p:v_rod:nv:abbr" />
-  <token value="м." lemma="м." tags="noun:inanim:n:v_rod:nv:abbr" />
+  <token value="кв." lemma="кв." tags="adj:m:v_rod:nv:abbr" />
+  <token value="м" lemma="м" tags="noun:inanim:m:v_rod:nv:abbr" />
+  <token value="." lemma="." tags="punct" />
+</sentence>
+<sentence>
   <token value="Сам" lemma="сам" tags="adj:m:v_naz:&amp;pron:def" />
   <token value="заступник" lemma="заступник" tags="noun:anim:m:v_naz" />
   <token value="генпрокурора" lemma="генпрокурор" tags="noun:anim:m:v_rod" />
@@ -502,7 +505,7 @@
 </sentence>
 <sentence>
   <token value="Майже" lemma="майже" tags="adv" />
-  <token value="все" lemma="все" tags="noun:inanim:n:v_zna:&amp;pron:gen" />
+  <token value="все" lemma="весь" tags="adj:n:v_zna:&amp;pron:gen" />
   <token value="життя" lemma="життя" tags="noun:inanim:n:v_zna" />
   <token value="він" lemma="він" tags="noun:unanim:m:v_naz:&amp;pron:pers:3" />
   <token value="працює" lemma="працювати" tags="verb:imperf:pres:s:3" />
