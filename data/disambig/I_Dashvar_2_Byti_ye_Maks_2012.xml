@@ -608,7 +608,7 @@
   <token value="до" lemma="до" tags="prep" />
   <token value="другої" lemma="другий" tags="adj:f:v_rod:&amp;numr" />
   <token value="," lemma="," tags="punct" />
-  <token value="меншої" lemma="менший" tags="adj:f:v_rod" />
+  <token value="меншої" lemma="менший" tags="adj:f:v_rod:compc" />
   <token value="," lemma="," tags="punct" />
   <token value="де" lemma="де" tags="conj:subord" />
   <token value="стояв" lemma="стояти" tags="verb:imperf:past:m" />
@@ -1117,7 +1117,7 @@
 <format tag="br" />
 <sentence>
   <token value="-" lemma="-" tags="punct" />
-  <token value="Це" lemma="це" tags="part" />
+  <token value="це" lemma="це" tags="noun:inanim:n:v_naz:&amp;pron:dem" />
   <token value="дівчинка" lemma="дівчинка" tags="noun:anim:f:v_naz" />
   <token value="." lemma="." tags="punct" />
 </sentence>
