@@ -22,8 +22,8 @@
   <token value="історичної" lemma="історичний" tags="adj:f:v_rod" />
   <token value="назви" lemma="назва" tags="noun:inanim:f:v_rod" />
   <token value="жителі" lemma="житель" tags="noun:anim:p:v_naz" />
-  <token value="Кірового" lemma="Кірове" tags="adj:m:v_rod:geo" />
-  <token value="Бериславського" lemma="бериславський" tags="adj:m:v_rod:geo" />
+  <token value="Кірового" lemma="Кірове" tags="noun:inanim:n:v_rod:prop:geo" />
+  <token value="Бериславського" lemma="бериславський" tags="adj:m:v_rod" />
   <token value="району" lemma="район" tags="noun:inanim:m:v_rod" />
   <token value="." lemma="." tags="punct" />
 </sentence>
@@ -31,8 +31,8 @@
   <token value="«" lemma="«" tags="punct" />
   <token value="Кірове" lemma="Кірове" tags="noun:inanim:n:v_naz:prop:geo" />
   <token value="," lemma="," tags="punct" />
-  <token value="сусіднє" lemma="сусідній" tags="noun:inanim:n:v_naz:prop:geo" />
-  <token value="Високе" lemma="високий" tags="noun:inanim:n:v_naz:prop:geo" />
+  <token value="сусіднє" lemma="сусідній" tags="adj:n:v_naz" />
+  <token value="Високе" lemma="Високе" tags="noun:inanim:n:v_naz:prop:geo" />
   <token value="і" lemma="і" tags="conj:coord" />
   <token value="всі" lemma="весь" tags="adj:p:v_naz:&amp;pron:gen" />
   <token value="навколишні" lemma="навколишній" tags="adj:p:v_naz" />
@@ -103,7 +103,7 @@
   <token value="—" lemma="—" tags="punct" />
   <token value="очікували" lemma="очікувати" tags="verb:imperf:past:p" />
   <token value="лише" lemma="лише" tags="part" />
-  <token value="рішення" lemma="рішення" tags="noun:inanim:p:v_rod" />
+  <token value="рішення" lemma="рішення" tags="noun:inanim:n:v_zna" />
   <token value="Верховної" lemma="верховний" tags="adj:f:v_rod" />
   <token value="Ради" lemma="рада" tags="noun:inanim:f:v_rod" />
   <token value="." lemma="." tags="punct" />
@@ -152,7 +152,7 @@
   <token value="тому" lemma="тому" tags="adv" />
   <token value="сусіднього" lemma="сусідній" tags="adj:m:v_rod" />
   <token value="села" lemma="село" tags="noun:inanim:n:v_rod" />
-  <token value="Вітрове" lemma="вітровий" tags="noun:inanim:n:v_naz:prop:geo" />
+  <token value="Вітрове" lemma="Вітрове" tags="noun:inanim:n:v_naz:prop:geo" />
   <token value="." lemma="." tags="punct" />
 </sentence>
 <paragraph/>
@@ -167,12 +167,12 @@
   <token value="нова" lemma="новий" tags="adj:f:v_naz:compb" />
   <token value="назва" lemma="назва" tags="noun:inanim:f:v_naz" />
   <token value="—" lemma="—" tags="punct" />
-  <token value="Азовське" lemma="азовський" tags="noun:inanim:n:v_naz:prop:geo" />
+  <token value="Азовське" lemma="Азовське" tags="noun:inanim:n:v_naz:prop:geo" />
   <token value=")" lemma=")" tags="punct" />
   <token value="," lemma="," tags="punct" />
-  <token value="Червонопрапорне" lemma="червонопрапорний" tags="adj:n:v_naz" comment="чи варто додавати geo - тут? У словнику - ні" />
+  <token value="Червонопрапорне" lemma="Червонопрапорне" tags="noun:inanim:n:v_naz:prop:geo" />
   <token value="(" lemma="(" tags="punct" />
-  <token value="Червоне" lemma="червоний" tags="adj:n:v_naz:compb" comment="чи варто додавати geo - тут? У словнику - ні" />
+  <token value="Червоне" lemma="Червоне" tags="noun:inanim:n:v_naz:prop:geo" />
   <token value=")" lemma=")" tags="punct" />
   <token value="," lemma="," tags="punct" />
   <token value="Щорсівку" lemma="Щорсівка" tags="noun:inanim:f:v_zna:prop:geo" />
@@ -184,7 +184,7 @@
   <token value="." lemma="." tags="punct" />
 </sentence>
 <sentence>
-  <token value="Партизани" lemma="партизан" tags="noun:inanim:p:v_naz:ns:prop:geo" comment="чи варто додавати geo - тут? У словнику - ні" />
+  <token value="Партизани" lemma="Партизани" tags="noun:inanim:p:v_naz:ns:prop:geo" />
   <token value="(" lemma="(" tags="punct" />
   <token value="Рикове" lemma="Рикове" tags="noun:inanim:n:v_naz:prop:geo" />
   <token value=")" lemma=")" tags="punct" />
@@ -194,19 +194,19 @@
 </sentence>
 <sentence>
   <token value="Село" lemma="село" tags="noun:inanim:n:v_naz" />
-  <token value="Червоноармійське" lemma="червоноармійський" tags="noun:inanim:n:v_naz:prop:geo" />
+  <token value="Червоноармійське" lemma="Червоноармійське" tags="noun:inanim:n:v_naz:prop:geo" />
   <token value="Високопільського" lemma="високопільський" tags="adj:m:v_rod" />
   <token value="району" lemma="район" tags="noun:inanim:m:v_rod" />
   <token value="віднині" lemma="віднині" tags="adv" />
   <token value="називається" lemma="називатися" tags="verb:rev:imperf:pres:s:3" />
-  <token value="Черешневе" lemma="черешневий" tags="noun:inanim:n:v_naz:prop:geo" />
+  <token value="Черешневе" lemma="Черешневе" tags="noun:inanim:n:v_naz:prop:geo" />
   <token value="," lemma="," tags="punct" />
   <token value="с." lemma="с." tags="noun:inanim:n:v_naz:nv:abbr" />
   <token value="Ленінка" lemma="Ленінка" tags="noun:inanim:f:v_naz:prop:geo" />
   <token value="Цюрупинського" lemma="цюрупинський" tags="adj:m:v_rod" />
   <token value="району" lemma="район" tags="noun:inanim:m:v_rod" />
   <token value="—" lemma="—" tags="punct" />
-  <token value="Рідне" lemma="рідне" tags="noun:inanim:n:v_naz:prop:geo" />
+  <token value="Рідне" lemma="Рідне" tags="noun:inanim:n:v_naz:prop:geo" />
   <token value="." lemma="." tags="punct" />
 </sentence>
 <sentence>
@@ -215,22 +215,22 @@
   <token value="назви" lemma="назва" tags="noun:inanim:p:v_zna" />
   <token value="й" lemma="й" tags="conj:coord" />
   <token value="4" lemma="4" tags="number" />
-  <token value="села" lemma="село" tags="noun:inanim:n:v_naz" />
+  <token value="села" lemma="село" tags="noun:inanim:n:v_rod" />
   <token value="Голопристанського" lemma="голопристанський" tags="adj:m:v_rod" />
   <token value="району" lemma="район" tags="noun:inanim:m:v_rod" />
   <token value=":" lemma=":" tags="punct" />
-  <token value="Більшовик" lemma="більшовик" tags="noun:inanim:m:v_naz:prop:geo" />
+  <token value="Більшовик" lemma="Більшовик" tags="noun:inanim:m:v_naz:prop:geo" />
   <token value="(" lemma="(" tags="punct" />
   <token value="відтепер" lemma="відтепер" tags="adv:&amp;pron:dem" />
-  <token value="Приморське" lemma="приморський" tags="noun:inanim:n:v_naz:prop:geo" />
+  <token value="Приморське" lemma="Приморське" tags="noun:inanim:n:v_naz:prop:geo" />
   <token value=")" lemma=")" tags="punct" />
   <token value="," lemma="," tags="punct" />
-  <token value="Індустріальне" lemma="індустріальний" tags="noun:inanim:n:v_naz:prop:geo" />
+  <token value="Індустріальне" lemma="Індустріальне" tags="noun:inanim:n:v_naz:prop:geo" />
   <token value="(" lemma="(" tags="punct" />
-  <token value="Братське" lemma="братський" tags="noun:inanim:n:v_naz:prop:geo" />
+  <token value="Братське" lemma="Братське" tags="noun:inanim:n:v_naz:prop:geo" />
   <token value=")" lemma=")" tags="punct" />
   <token value="," lemma="," tags="punct" />
-  <token value="Комуна" lemma="комуна" tags="noun:inanim:f:v_naz:prop:geo" />
+  <token value="Комуна" lemma="Комуна" tags="noun:inanim:f:v_naz:prop:geo" />
   <token value="(" lemma="(" tags="punct" />
   <token value="Тендрівське" lemma="Тендрівське" tags="noun:inanim:n:v_naz:prop:geo" />
   <token value=")" lemma=")" tags="punct" />
