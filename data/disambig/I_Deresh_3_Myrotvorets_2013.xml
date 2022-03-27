@@ -151,7 +151,7 @@
 </sentence>
 <sentence>
   <token value="Ходили" lemma="ходити" tags="verb:imperf:past:p" />
-  <token value="також" lemma="також" tags="conj:coord" />
+  <token value="також" lemma="також" tags="adv" />
   <token value="чутки" lemma="чутка" tags="noun:inanim:p:v_naz" />
   <token value="про" lemma="про" tags="prep" />
   <token value="те" lemma="те" tags="noun:inanim:n:v_zna:&amp;pron:dem" />
@@ -388,7 +388,7 @@
   <token value="перетину" lemma="перетин" tags="noun:inanim:m:v_rod" />
   <token value="світів" lemma="світ" tags="noun:inanim:p:v_rod" />
   <token value="," lemma="," tags="punct" />
-  <token value="де" lemma="де" tags="conj:subord" />
+  <token value="де" lemma="де" tags="adv:&amp;pron:int:rel" />
   <token value="сходяться" lemma="сходитися" tags="verb:rev:imperf:pres:p:3" />
   <token value="часи" lemma="час" tags="noun:inanim:p:v_naz" />
   <token value="," lemma="," tags="punct" />
@@ -609,7 +609,7 @@
   <token value="нею" lemma="вона" tags="noun:unanim:f:v_oru:&amp;pron:pers:3" />
   <token value="одній" lemma="один" tags="numr:f:v_dav" />
   <token value="людині" lemma="людина" tags="noun:anim:f:v_dav" />
-  <token value="просто" lemma="просто" tags="part" />
+  <token value="просто" lemma="просто" tags="adv:compb:&amp;predic" />
   <token value="не" lemma="не" tags="part" />
   <token value="під" lemma="під" tags="prep" />
   <token value="силу" lemma="сила" tags="noun:inanim:f:v_zna" />
@@ -744,12 +744,7 @@
 </sentence>
 <paragraph/>
 <sentence>
-  <token value="Коли" lemma="коли" tags="adv:&amp;pron:int:rel" >
-    <alts>
-      <token value="Коли" lemma="коли" tags="conj:subord" />
-      <token value="Коли" lemma="коли" tags="part" />
-    </alts>
-  </token>
+  <token value="Коли" lemma="коли" tags="adv:&amp;pron:int:rel" />
   <token value="Еллісон" lemma="Еллісон" tags="noun:anim:m:v_naz:prop:lname" />
   <token value="дорахував" lemma="дорахувати" tags="verb:perf:past:m" />
   <token value="до" lemma="до" tags="prep" />
@@ -794,12 +789,7 @@
       <token value="І" lemma="і" tags="part" />
     </alts>
   </token>
-  <token value="коли" lemma="коли" tags="adv:&amp;pron:int:rel" >
-    <alts>
-      <token value="коли" lemma="коли" tags="conj:subord" />
-      <token value="коли" lemma="коли" tags="part" />
-    </alts>
-  </token>
+  <token value="коли" lemma="коли" tags="adv:&amp;pron:int:rel" />
   <token value="він" lemma="він" tags="noun:unanim:m:v_naz:&amp;pron:pers:3" />
   <token value="подумав" lemma="подумати" tags="verb:perf:past:m" />
   <token value="це" lemma="це" tags="noun:inanim:n:v_zna:&amp;pron:dem" />
@@ -929,12 +919,7 @@
       <token value="І" lemma="і" tags="part" />
     </alts>
   </token>
-  <token value="коли" lemma="коли" tags="adv:&amp;pron:int:rel" >
-    <alts>
-      <token value="коли" lemma="коли" tags="conj:subord" />
-      <token value="коли" lemma="коли" tags="part" />
-    </alts>
-  </token>
+  <token value="коли" lemma="коли" tags="adv:&amp;pron:int:rel" />
   <token value="він" lemma="він" tags="noun:unanim:m:v_naz:&amp;pron:pers:3" />
   <token value="подумав" lemma="подумати" tags="verb:perf:past:m" />
   <token value="про" lemma="про" tags="prep" />
