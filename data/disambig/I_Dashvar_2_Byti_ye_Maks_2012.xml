@@ -1155,7 +1155,7 @@
   <token value="Ну" lemma="ну" tags="part" />
   <token value="," lemma="," tags="punct" />
   <token value="хіба" lemma="хіба" tags="part" />
-  <token value="це" lemma="це" tags="part" />
+  <token value="це" lemma="це" tags="noun:inanim:n:v_naz:&amp;pron:dem" />
   <token value="баран" lemma="баран" tags="noun:anim:m:v_naz" />
   <token value="?" lemma="?" tags="punct" />
 </sentence>
@@ -1267,7 +1267,7 @@
   <token value="Посміхалася" lemma="посміхатися" tags="verb:rev:imperf:past:f" />
   <token value="-" lemma="-" tags="punct" />
   <token value="та" lemma="та" tags="conj:coord" />
-  <token value="це" lemma="це" tags="part" />
+  <token value="це" lemma="це" tags="noun:inanim:n:v_naz:&amp;pron:dem" />
   <token value="ж" lemma="ж" tags="part" />
   <token value="радість" lemma="радість" tags="noun:inanim:f:v_naz" />
   <token value="," lemma="," tags="punct" />
@@ -1465,8 +1465,8 @@
   <token value="мить" lemma="мить" tags="noun:inanim:f:v_zna" />
   <token value="," lemma="," tags="punct" />
   <token value="бо" lemma="бо" tags="conj:subord" />
-  <token value="це" lemma="це" tags="part" />
-  <token value="диво" lemma="диво" tags="noun:inanim:n:v_naz" />
+  <token value="це" lemma="цей" tags="adj:n:v_zna:&amp;pron:dem" />
+  <token value="диво" lemma="диво" tags="noun:inanim:n:v_zna" />
   <token value="можна" lemma="можна" tags="noninfl:&amp;predic" />
   <token value="було" lemma="бути" tags="verb:imperf:past:n:&amp;insert" />
   <token value="знімати" lemma="знімати" tags="verb:imperf:inf" />
