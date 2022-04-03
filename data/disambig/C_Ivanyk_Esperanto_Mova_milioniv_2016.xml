@@ -745,7 +745,7 @@
   <token value="Facebook" lemma="Facebook" tags="unclass" />
   <token value="понад" lemma="понад" tags="prep" />
   <token value="дві" lemma="два" tags="numr:p:v_zna" />
-  <token value="тисячі" lemma="тисяча" tags="noun:inanim:p:v_zna:&amp;numr" />
+  <token value="тисячі" lemma="тисяча" tags="noun:inanim:p:v_naz:&amp;numr" />
   <token value="друзів" lemma="друг" tags="noun:anim:p:v_rod" />
   <token value="з" lemma="з" tags="prep" />
   <token value="усього" lemma="увесь" tags="adj:m:v_rod:&amp;pron:gen" />
@@ -1031,11 +1031,11 @@
   <token value="Вчив" lemma="вчити" tags="verb:imperf:past:m" />
   <token value="її" lemma="вона" tags="noun:unanim:f:v_zna:&amp;pron:pers:3" />
   <token value="чотири" lemma="чотири" tags="numr:p:v_zna" />
-  <token value="місяці" lemma="місяць" tags="noun:inanim:p:v_zna" />
+  <token value="місяці" lemma="місяць" tags="noun:inanim:p:v_naz" />
   <token value="," lemma="," tags="punct" />
   <token value="маючи" lemma="маючи" tags="advp:imperf" />
   <token value="два" lemma="два" tags="numr:p:v_zna" />
-  <token value="заняття" lemma="заняття" tags="noun:inanim:n:v_zna" />
+  <token value="заняття" lemma="заняття" tags="noun:inanim:p:v_naz" />
   <token value="на" lemma="на" tags="prep" />
   <token value="тиждень" lemma="тиждень" tags="noun:inanim:m:v_zna" />
   <token value="," lemma="," tags="punct" />
@@ -1502,7 +1502,7 @@
 <sentence>
   <token value="Видання" lemma="видання" tags="noun:inanim:n:v_naz" />
   <token value="виходить" lemma="виходити" tags="verb:imperf:pres:s:3:&amp;insert" />
-  <token value="чотири" lemma="чотири" tags="numr:p:v_naz" />
+  <token value="чотири" lemma="чотири" tags="numr:p:v_zna" />
   <token value="рази" lemma="раз" tags="noun:inanim:p:v_naz" />
   <token value="на" lemma="на" tags="prep" />
   <token value="рік" lemma="рік" tags="noun:inanim:m:v_zna" />
@@ -1901,15 +1901,15 @@
   <token value="шляхом" lemma="шлях" tags="noun:inanim:m:v_oru" />
   <token value=":" lemma=":" tags="punct" />
   <token value="два" lemma="два" tags="numr:p:v_zna" />
-  <token value="роки" lemma="рік" tags="noun:inanim:p:v_zna" />
+  <token value="роки" lemma="рік" tags="noun:inanim:p:v_naz" />
   <token value="тому" lemma="тому" tags="conj:subord" />
   <token value="у" lemma="у" tags="prep" />
   <token value="Києві" lemma="Київ" tags="noun:inanim:m:v_mis:prop:geo" />
   <token value="створили" lemma="створити" tags="verb:perf:past:p" />
   <token value="одразу" lemma="одразу" tags="adv" />
   <token value="два" lemma="два" tags="numr:p:v_zna" />
-  <token value="молодіжні" lemma="молодіжний" tags="adj:p:v_zna:rinanim:compb" />
-  <token value="клуби" lemma="клуб" tags="noun:inanim:p:v_zna:xp2" />
+  <token value="молодіжні" lemma="молодіжний" tags="adj:p:v_naz:compb" />
+  <token value="клуби" lemma="клуб" tags="noun:inanim:p:v_naz:xp2" />
   <token value="," lemma="," tags="punct" />
   <token value="куди" lemma="куди" tags="adv:&amp;pron:int:rel" />
   <token value="не" lemma="не" tags="part" />

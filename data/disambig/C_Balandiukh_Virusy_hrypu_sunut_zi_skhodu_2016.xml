@@ -289,8 +289,8 @@
   <token value="офіційно" lemma="офіційно" tags="adv:compb" />
   <token value="зафіксовано" lemma="зафіксувати" tags="verb:perf:impers" />
   <token value="чотири" lemma="чотири" tags="numr:p:v_zna" />
-  <token value="смертельні" lemma="смертельний" tags="adj:p:v_zna:rinanim:compb" />
-  <token value="випадки" lemma="випадок" tags="noun:inanim:p:v_zna" />
+  <token value="смертельні" lemma="смертельний" tags="adj:p:v_naz:compb" />
+  <token value="випадки" lemma="випадок" tags="noun:inanim:p:v_naz" />
   <token value="від" lemma="від" tags="prep" />
   <token value="грипу" lemma="грип" tags="noun:inanim:m:v_rod" />
   <token value=":" lemma=":" tags="punct" />
@@ -699,7 +699,7 @@
   <token value="у" lemma="у" tags="prep" />
   <token value="нас" lemma="ми" tags="noun:anim:p:v_rod:&amp;pron:pers:1" />
   <token value="чотири" lemma="чотири" tags="numr:p:v_zna" />
-  <token value="року" lemma="рік" tags="noun:inanim:m:v_rod" />
+  <token value="року" lemma="рік" tags="noun:inanim:m:v_rod:bad" comment="роки" />
   <token value="тому" lemma="тому" tags="adv" />
   <token value="," lemma="," tags="punct" />
   <token value="частина" lemma="частина" tags="noun:inanim:f:v_naz" />
@@ -1421,7 +1421,7 @@
   <token value="почалася" lemma="початися" tags="verb:rev:perf:past:f" />
   <token value="на" lemma="на" tags="prep" />
   <token value="три" lemma="три" tags="numr:p:v_zna" />
-  <token value="тижні" lemma="тиждень" tags="noun:inanim:p:v_zna" />
+  <token value="тижні" lemma="тиждень" tags="noun:inanim:p:v_naz" />
   <token value="раніше" lemma="раніше" tags="adv:compc:&amp;predic" />
   <token value="," lemma="," tags="punct" />
   <token value="ніж" lemma="ніж" tags="conj:subord" />
@@ -1848,7 +1848,7 @@
   <token value="яка" lemma="який" tags="adj:f:v_naz:&amp;pron:int:rel:def" />
   <token value="охоплює" lemma="охоплювати" tags="verb:imperf:pres:s:3" />
   <token value="три" lemma="три" tags="numr:p:v_zna" />
-  <token value="роди" lemma="рід" tags="noun:inanim:p:v_zna" />
+  <token value="роди" lemma="рід" tags="noun:inanim:p:v_naz" />
   <token value="Influenza" lemma="Influenza" tags="unclass" />
   <token value="A" lemma="A" tags="unclass" />
   <token value="," lemma="," tags="punct" />
@@ -1869,7 +1869,7 @@
   <token value="що" lemma="що" tags="conj:subord" />
   <token value="містять" lemma="містити" tags="verb:imperf:pres:p:3" />
   <token value="три" lemma="три" tags="numr:p:v_zna" />
-  <token value="підтипи" lemma="підтип" tags="noun:inanim:p:v_zna" />
+  <token value="підтипи" lemma="підтип" tags="noun:inanim:p:v_naz" />
   <token value="HA" lemma="HA" tags="unclass" />
   <token value="(" lemma="(" tags="punct" />
   <token value="H1" lemma="H1" tags="unclass" />
@@ -1880,7 +1880,7 @@
   <token value=")" lemma=")" tags="punct" />
   <token value="і" lemma="і" tags="conj:coord" />
   <token value="два" lemma="два" tags="numr:p:v_zna" />
-  <token value="підтипи" lemma="підтип" tags="noun:inanim:p:v_zna" />
+  <token value="підтипи" lemma="підтип" tags="noun:inanim:p:v_naz" />
   <token value="NA" lemma="NA" tags="unclass" />
   <token value="(" lemma="(" tags="punct" />
   <token value="N1" lemma="N1" tags="unclass" />
