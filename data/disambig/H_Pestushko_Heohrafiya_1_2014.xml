@@ -67,7 +67,7 @@
   <token value="на" lemma="на" tags="prep" />
   <token value="екваторі" lemma="екватор" tags="noun:inanim:m:v_mis" />
   <token value="сонячні" lemma="сонячний" tags="adj:p:v_naz:compb" />
-  <token value="промені" lemma="промінь" tags="noun:inanim:p:v_zna" />
+  <token value="промені" lemma="промінь" tags="noun:inanim:p:v_naz" />
   <token value="падають" lemma="падати" tags="verb:imperf:pres:p:3" />
   <token value="на" lemma="на" tags="prep" />
   <token value="земну" lemma="земний" tags="adj:f:v_zna" />
@@ -89,7 +89,7 @@
   <token value="сонячної" lemma="сонячний" tags="adj:f:v_rod:compb" />
   <token value="енергії" lemma="енергія" tags="noun:inanim:f:v_rod" />
   <token value="ці" lemma="цей" tags="adj:p:v_naz:&amp;pron:dem" />
-  <token value="території" lemma="територія" tags="noun:inanim:p:v_zna" />
+  <token value="території" lemma="територія" tags="noun:inanim:p:v_naz" />
   <token value="отримують" lemma="отримувати" tags="verb:imperf:pres:p:3" />
   <token value="найбільше" lemma="найбільше" tags="adv:comps" />
   <token value="," lemma="," tags="punct" />
@@ -170,7 +170,7 @@
   <token value="°" lemma="°" tags="symb" />
   <token value="(" lemma="(" tags="punct" />
   <token value="тоді" lemma="тоді" tags="adv:&amp;pron:dem" />
-  <token value="Сонце" lemma="сонце" tags="noun:inanim:n:v_naz:prop" comment="Нема у ВЕСУМі" />
+  <token value="Сонце" lemma="сонце" tags="noun:inanim:n:v_naz" />
   <token value="не" lemma="не" tags="part" />
   <token value="сходить" lemma="сходити" tags="verb:perf:futr:s:3" />
   <token value="із-за" lemma="із-за" tags="prep" />
@@ -181,14 +181,14 @@
   <token value="°" lemma="°" tags="symb" />
   <token value="(" lemma="(" tags="punct" />
   <token value="тоді" lemma="тоді" tags="adv:&amp;pron:dem" />
-  <token value="Сонце" lemma="сонце" tags="noun:inanim:n:v_naz:prop" comment="Нема у ВЕСУМі" />
+  <token value="Сонце" lemma="сонце" tags="noun:inanim:n:v_naz" />
   <token value="не" lemma="не" tags="part" />
   <token value="заходить" lemma="заходити" tags="verb:perf:futr:s:3" />
   <token value="за" lemma="за" tags="prep" />
   <token value="лінію" lemma="лінія" tags="noun:inanim:f:v_zna" />
   <token value="горизонту" lemma="горизонт" tags="noun:inanim:m:v_rod" />
   <token value="близько" lemma="близько" tags="adv:compb" />
-  <token value="півроку" lemma="півроку" tags="noun:inanim:m:v_rod:nv:ua_1992" />
+  <token value="півроку" lemma="півроку" tags="noun:inanim:p:v_rod:nv:ua_1992" />
   <token value=")" lemma=")" tags="punct" />
   <token value="." lemma="." tags="punct" />
 </sentence>
@@ -222,7 +222,7 @@
   <token value="(" lemma="(" tags="punct" />
   <token value="в" lemma="в" tags="prep" />
   <token value="день" lemma="день" tags="noun:inanim:m:v_zna" />
-  <token value="літнього" lemma="літній" tags="adj:m:v_rod" />
+  <token value="літнього" lemma="літній" tags="adj:n:v_rod" />
   <token value="сонцестояння" lemma="сонцестояння" tags="noun:inanim:n:v_rod" />
   <token value="22.06" lemma="22.06" tags="time" />
   <token value=")" lemma=")" tags="punct" />
@@ -234,7 +234,7 @@
   <token value="(" lemma="(" tags="punct" />
   <token value="у" lemma="у" tags="prep" />
   <token value="день" lemma="день" tags="noun:inanim:m:v_zna" />
-  <token value="зимового" lemma="зимовий" tags="adj:m:v_rod:compb" />
+  <token value="зимового" lemma="зимовий" tags="adj:n:v_rod:compb" />
   <token value="сонцестояння" lemma="сонцестояння" tags="noun:inanim:n:v_rod" />
   <token value="22.12" lemma="22.12" tags="time" />
   <token value=")" lemma=")" tags="punct" />
@@ -472,7 +472,7 @@
   <token value="якими" lemma="який" tags="adj:p:v_oru:&amp;pron:int:rel:def" />
   <token value="стоїть" lemma="стояти" tags="verb:imperf:pres:s:3" />
   <token value="її" lemma="вона" tags="noun:unanim:f:v_zna:&amp;pron:pers:3" />
-  <token value="числове" lemma="числовий" tags="adj:n:v_zna" />
+  <token value="числове" lemma="числовий" tags="adj:n:v_naz" />
   <token value="значення" lemma="значення" tags="noun:inanim:n:v_naz" />
   <token value="," lemma="," tags="punct" />
   <token value="або" lemma="або" tags="conj:coord" />
@@ -577,7 +577,7 @@
 </sentence>
 <sentence>
   <token value="Кожний" lemma="кожний" tags="adj:m:v_naz:&amp;pron:gen" />
-  <token value="пояс" lemma="пояс" tags="noun:inanim:m:v_zna:xp1" />
+  <token value="пояс" lemma="пояс" tags="noun:inanim:m:v_naz:xp2" />
   <token value="-" lemma="-" tags="punct" />
   <token value="це" lemma="це" tags="noun:inanim:n:v_naz:&amp;pron:dem" />
   <token value="широка" lemma="широкий" tags="adj:f:v_naz:compb" />

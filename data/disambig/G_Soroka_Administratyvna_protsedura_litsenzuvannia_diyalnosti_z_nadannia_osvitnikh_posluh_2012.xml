@@ -73,8 +73,8 @@
   <token value="І." lemma="І." tags="noun:anim:m:v_naz:nv:abbr:prop:pname" />
   <token value="Олефір" lemma="Олефір" tags="noun:anim:m:v_naz:prop:lname" />
   <token value="," lemma="," tags="punct" />
-  <token value="М." lemma="М." tags="noun:anim:m:v_naz:nv:abbr:prop:fname" comment="немає у ВЕСУМі" />
-  <token value="П." lemma="П." tags="noun:anim:m:v_naz::nv:abbr:prop:pname" comment="немає у ВЕСУМі" />
+  <token value="М." lemma="М." tags="noun:anim:m:v_naz:nv:abbr:prop:fname" />
+  <token value="П." lemma="П." tags="noun:anim:m:v_naz:nv:abbr:prop:pname" />
   <token value="Пихтін" lemma="Пихтін" tags="noun:anim:m:v_naz:prop:lname" comment="немає у ВЕСУМі" />
   <token value="," lemma="," tags="punct" />
   <token value="О." lemma="О." tags="noun:anim:m:v_naz:nv:abbr:prop:fname" />
@@ -161,7 +161,7 @@
   <token value="цільовим" lemma="цільовий" tags="adj:m:v_oru" />
   <token value="напрямом" lemma="напрям" tags="noun:inanim:m:v_oru" />
   <token value="," lemma="," tags="punct" />
-  <token value="що" lemma="що" tags="noun:inanim:n:v_naz:&amp;pron:int:rel" />
+  <token value="що" lemma="що" tags="conj:subord" />
   <token value="здійснюються" lemma="здійснюватися" tags="verb:rev:imperf:pres:p:3" />
   <token value="в" lemma="в" tags="prep" />
   <token value="імперативній" lemma="імперативний" tags="adj:f:v_mis" />

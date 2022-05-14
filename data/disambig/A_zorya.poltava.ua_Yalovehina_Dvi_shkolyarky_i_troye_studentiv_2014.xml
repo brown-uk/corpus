@@ -10,7 +10,7 @@
   <token value="району" lemma="район" tags="noun:inanim:m:v_rod" />
   <token value="має" lemma="мати" tags="verb:imperf:pres:s:3" />
   <token value="п'ятьох" lemma="п'ять" tags="numr:p:v_zna" />
-  <token value="дітей" lemma="дитина" tags="noun:anim:p:v_zna" />
+  <token value="дітей" lemma="дитина" tags="noun:anim:p:v_rod" />
   <token value="." lemma="." tags="punct" />
 </sentence>
 <sentence>
@@ -116,7 +116,7 @@
   <token value="студентка-заочниця" lemma="студентка-заочниця" tags="noun:anim:f:v_naz" />
   <token value="Харківської" lemma="харківський" tags="adj:f:v_rod" />
   <token value="академії" lemma="академія" tags="noun:inanim:f:v_rod" />
-  <token value="міського" lemma="міський" tags="adj:m:v_rod" />
+  <token value="міського" lemma="міський" tags="adj:n:v_rod" />
   <token value="господарства" lemma="господарство" tags="noun:inanim:n:v_rod" />
   <token value="," lemma="," tags="punct" />
   <token value="хоче" lemma="хотіти" tags="verb:imperf:pres:s:3" />
@@ -132,13 +132,13 @@
   <token value="має" lemma="мати" tags="verb:imperf:pres:s:3" />
   <token value="професію" lemma="професія" tags="noun:inanim:f:v_zna" />
   <token value="кухаря" lemma="кухар" tags="noun:anim:m:v_zna" />
-  <token value="дитячого" lemma="дитячий" tags="adj:m:v_rod" />
+  <token value="дитячого" lemma="дитячий" tags="adj:n:v_rod" />
   <token value="харчування" lemma="харчування" tags="noun:inanim:n:v_rod" />
   <token value="," lemma="," tags="punct" />
   <token value="здобуту" lemma="здобутий" tags="adj:f:v_zna:&amp;adjp:pasv:perf" />
   <token value="у" lemma="у" tags="prep" />
-  <token value="вищому" lemma="вищий" tags="adj:m:v_mis:compc" />
-  <token value="професійному" lemma="професійний" tags="adj:m:v_mis:compb" />
+  <token value="вищому" lemma="вищий" tags="adj:n:v_mis:compc" />
+  <token value="професійному" lemma="професійний" tags="adj:n:v_mis:compb" />
   <token value="училищі" lemma="училище" tags="noun:inanim:n:v_mis" />
   <token value="імені" lemma="ім'я" tags="noun:inanim:n:v_rod" />
   <token value="Андрія" lemma="Андрій" tags="noun:anim:m:v_rod:prop:fname" />
@@ -463,8 +463,8 @@
   <token value="А" lemma="а" tags="conj:coord" />
   <token value="це" lemma="це" tags="noun:inanim:n:v_naz:&amp;pron:dem" />
   <token value="за" lemma="за" tags="prep" />
-  <token value="нинішнього" lemma="нинішній" tags="adj:m:v_zna:ranim" />
-  <token value="життя" lemma="життя" tags="noun:inanim:n:v_zna" />
+  <token value="нинішнього" lemma="нинішній" tags="adj:n:v_rod" />
+  <token value="життя" lemma="життя" tags="noun:inanim:n:v_rod" />
   <token value="–" lemma="–" tags="punct" />
   <token value="значна" lemma="значний" tags="adj:f:v_naz:compb" />
   <token value="підмога" lemma="підмога" tags="noun:inanim:f:v_naz" />
@@ -498,7 +498,7 @@
   <token value="планує" lemma="планувати" tags="verb:imperf:pres:s:3" />
   <token value="закінчувати" lemma="закінчувати" tags="verb:imperf:inf" />
   <token value="11" lemma="11" tags="number" />
-  <token value="класів" lemma="клас" tags="noun:inanim:p:v_zna" comment="в файлі alts був запропонований лише родовий відмінок для даного слова" />
+  <token value="класів" lemma="клас" tags="noun:inanim:p:v_rod" />
   <token value="." lemma="." tags="punct" />
 </sentence>
 <sentence>
