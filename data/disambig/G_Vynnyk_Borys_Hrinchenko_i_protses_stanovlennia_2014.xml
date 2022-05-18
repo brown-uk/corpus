@@ -19,7 +19,7 @@
   <token value="—" lemma="—" tags="punct" />
   <token value="початку" lemma="початок" tags="noun:inanim:m:v_rod:xp2" />
   <token value="XX" lemma="XX" tags="number:latin" />
-  <token value="ст." lemma="ст." tags="noun:inanim:f:v_rod:nv:abbr:xp1" />
+  <token value="ст." lemma="ст." tags="noun:inanim:n:v_rod:nv:abbr:xp2" />
 </sentence>
 <sentence>
   <token value="Його" lemma="його" tags="adj:p:v_naz:nv:&amp;pron:pos" />
@@ -61,7 +61,7 @@
   <token value="Погрібний" lemma="Погрібний" tags="noun:anim:m:v_naz:prop:lname" />
   <token value="," lemma="," tags="punct" />
   <token value="відзначав" lemma="відзначати" tags="verb:imperf:past:m" />
-  <token value="його" lemma="його" tags="adj:f:v_rod:nv:&amp;pron:pos" />
+  <token value="його" lemma="його" tags="adj:p:v_zna:rinanim:nv:&amp;pron:pos" />
   <token value="обдарованості" lemma="обдарованість" tags="noun:inanim:p:v_zna" />
   <token value="і" lemma="і" tags="conj:coord" />
   <token value="винятково" lemma="винятково" tags="adv" />
@@ -255,8 +255,8 @@
   <token value="мовою" lemma="мова" tags="noun:inanim:f:v_oru" />
   <token value="(" lemma="(" tags="punct" />
   <token value="«" lemma="«" tags="punct" />
-  <token value="малороссийским" lemma="малороссийский" tags="noninfl:foreign" />
-  <token value="наречием" lemma="наречие" tags="noninfl:foreign" />
+  <token value="малороссийским" lemma="малороссийский" tags="unlcass" />
+  <token value="наречием" lemma="наречие" tags="unlcass" />
   <token value="»" lemma="»" tags="punct" />
   <token value="," lemma="," tags="punct" />
   <token value="за" lemma="за" tags="prep" />
@@ -282,7 +282,7 @@
   <token value="—" lemma="—" tags="punct" />
   <token value="офіційним" lemma="офіційний" tags="adj:m:v_oru:compb" />
   <token value="«" lemma="«" tags="punct" />
-  <token value="общерусским" lemma="общерусский" tags="noninfl:foreign" />
+  <token value="общерусским" lemma="общерусский" tags="unlcass" />
   <token value="»" lemma="»" tags="punct" />
   <token value="алфавітом" lemma="алфавіт" tags="noun:inanim:m:v_oru" />
   <token value="," lemma="," tags="punct" />
@@ -540,7 +540,5 @@
   <token value="землях" lemma="земля" tags="noun:inanim:p:v_mis" />
   <token value="." lemma="." tags="punct" />
 </sentence>
-<paragraph/>
-
 
 </text>

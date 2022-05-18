@@ -29,18 +29,18 @@
   <token value="перед" lemma="перед" tags="prep" />
   <token value="грудьми" lemma="груди" tags="noun:inanim:p:v_oru:ns" />
   <token value="паралельно" lemma="паралельно" tags="adv" />
-  <token value="підлозі" lemma="підлога" tags="noun:inanim:f:v_mis" />
+  <token value="підлозі" lemma="підлога" tags="noun:inanim:f:v_dav" />
   <token value="." lemma="." tags="punct" />
 </sentence>
 <sentence>
   <token value="Розвертайте" lemma="розвертати" tags="verb:imperf:impr:p:2" />
-  <token value="корпус" lemma="корпус" tags="noun:inanim:m:v_zna:xp2" />
+  <token value="корпус" lemma="корпус" tags="noun:inanim:m:v_zna:xp1" />
   <token value="," lemma="," tags="punct" />
   <token value="одночасно" lemma="одночасно" tags="adv" />
   <token value="випрямляючи" lemma="випрямляючи" tags="advp:imperf" />
   <token value="руки" lemma="рука" tags="noun:inanim:p:v_zna" />
   <token value="(" lemma="(" tags="punct" />
-  <token value="положення" lemma="положення" tags="noun:inanim:p:v_naz" />
+  <token value="положення" lemma="положення" tags="noun:inanim:n:v_naz" />
   <token value="2" lemma="2" tags="number" />
   <token value=")" lemma=")" tags="punct" />
   <token value="." lemma="." tags="punct" />
@@ -142,7 +142,7 @@
   <token value="випрямляючи" lemma="випрямляючи" tags="advp:imperf" />
   <token value="руку" lemma="рука" tags="noun:inanim:f:v_zna" />
   <token value="(" lemma="(" tags="punct" />
-  <token value="положення" lemma="положення" tags="noun:inanim:p:v_naz" />
+  <token value="положення" lemma="положення" tags="noun:inanim:n:v_naz" />
   <token value="2" lemma="2" tags="number" />
   <token value=")" lemma=")" tags="punct" />
   <token value="." lemma="." tags="punct" />
@@ -170,8 +170,8 @@
   <token value="тягнутися" lemma="тягнутися" tags="verb:rev:imperf:inf" />
   <token value="рукою" lemma="рука" tags="noun:inanim:f:v_oru" />
   <token value="вверх" lemma="вверх" tags="adv" />
-  <token value="відносно" lemma="відносно" tags="adv" />
-  <token value="корпусу" lemma="корпус" tags="noun:inanim:m:v_mis:xp1" />
+  <token value="відносно" lemma="відносно" tags="prep" />
+  <token value="корпусу" lemma="корпус" tags="noun:inanim:m:v_rod:xp1:bad" />
   <token value="." lemma="." tags="punct" />
 </sentence>
 <sentence>
@@ -246,7 +246,7 @@
   <token value="в" lemma="в" tags="prep" />
   <token value="стелю" lemma="стеля" tags="noun:inanim:f:v_zna" />
   <token value="(" lemma="(" tags="punct" />
-  <token value="положення" lemma="положення" tags="noun:inanim:p:v_naz" />
+  <token value="положення" lemma="положення" tags="noun:inanim:n:v_naz" />
   <token value="2" lemma="2" tags="number" />
   <token value=")" lemma=")" tags="punct" />
   <token value="," lemma="," tags="punct" />
@@ -367,7 +367,7 @@
   <token value="вихідному" lemma="вихідний" tags="adj:n:v_mis" />
   <token value="положенні" lemma="положення" tags="noun:inanim:n:v_mis" />
   <token value="(" lemma="(" tags="punct" />
-  <token value="положення" lemma="положення" tags="noun:inanim:p:v_naz" />
+  <token value="положення" lemma="положення" tags="noun:inanim:n:v_naz" />
   <token value="2" lemma="2" tags="number" />
   <token value=")" lemma=")" tags="punct" />
   <token value="." lemma="." tags="punct" />
@@ -436,7 +436,7 @@
   <token value="," lemma="," tags="punct" />
   <token value="упор" lemma="упор" tags="noun:inanim:m:v_naz:xp2" />
   <token value="на" lemma="на" tags="prep" />
-  <token value="передпліччя" lemma="передпліччя" tags="noun:inanim:p:v_zna" />
+  <token value="передпліччя" lemma="передпліччя" tags="noun:inanim:n:v_zna" />
   <token value="та" lemma="та" tags="conj:coord" />
   <token value="носки" lemma="носок" tags="noun:inanim:p:v_zna" />
   <token value="стоп" lemma="стопа" tags="noun:inanim:p:v_rod:xp1" />
@@ -565,7 +565,7 @@
   <token value="на" lemma="на" tags="prep" />
   <token value="лікоть" lemma="лікоть" tags="noun:inanim:m:v_zna" />
   <token value="(" lemma="(" tags="punct" />
-  <token value="положення" lemma="положення" tags="noun:inanim:p:v_naz" />
+  <token value="положення" lemma="положення" tags="noun:inanim:n:v_naz" />
   <token value="2" lemma="2" tags="number" />
   <token value=")" lemma=")" tags="punct" />
   <token value="." lemma="." tags="punct" />
@@ -612,7 +612,7 @@
   <token value="одну" lemma="один" tags="numr:f:v_zna" />
   <token value="ногу" lemma="нога" tags="noun:inanim:f:v_zna" />
   <token value="(" lemma="(" tags="punct" />
-  <token value="положення" lemma="положення" tags="noun:inanim:p:v_naz" />
+  <token value="положення" lemma="положення" tags="noun:inanim:n:v_naz" />
   <token value="3" lemma="3" tags="number" />
   <token value=")" lemma=")" tags="punct" />
   <token value="або" lemma="або" tags="conj:coord" />
@@ -620,7 +620,7 @@
   <token value="обидві" lemma="обидва" tags="numr:p:v_zna" />
   <token value="ноги" lemma="нога" tags="noun:inanim:p:v_naz" />
   <token value="(" lemma="(" tags="punct" />
-  <token value="положення" lemma="положення" tags="noun:inanim:p:v_naz" />
+  <token value="положення" lemma="положення" tags="noun:inanim:n:v_naz" />
   <token value="4" lemma="4" tags="number" />
   <token value=")" lemma=")" tags="punct" />
   <token value="," lemma="," tags="punct" />
