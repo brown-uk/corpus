@@ -528,8 +528,8 @@
   <token value="," lemma="," tags="punct" />
   <token value="на" lemma="на" tags="prep" />
   <token value="чотири" lemma="чотири" tags="numr:p:v_zna" />
-  <token value="вузькі" lemma="вузький" tags="adj:p:v_naz:compb" />
-  <token value="смужки" lemma="смужка" tags="noun:inanim:p:v_naz" />
+  <token value="вузькі" lemma="вузький" tags="adj:p:v_zna:rinanim:compb" />
+  <token value="смужки" lemma="смужка" tags="noun:inanim:p:v_zna" />
   <token value="." lemma="." tags="punct" />
 </sentence>
 <sentence>
@@ -568,7 +568,7 @@
   <token value="Габр" lemma="Габр" tags="noun:anim:m:v_naz:prop:fname" comment="Немає у ВЕСУМі" />
   <token value="міцно" lemma="міцно" tags="adv:compb" />
   <token value="обв'язав" lemma="обв'язати" tags="verb:perf:past:m" />
-  <token value="себе" lemma="себе" tags="noun:unanim:s:v_rod:&amp;pron:refl" />
+  <token value="себе" lemma="себе" tags="noun:unanim:s:v_zna:&amp;pron:refl" />
   <token value="і" lemma="і" tags="conj:coord" />
   <token value="колону" lemma="колона" tags="noun:inanim:f:v_zna" />
   <token value="двома" lemma="два" tags="numr:p:v_oru" />
@@ -576,7 +576,7 @@
   <token value="кільцями" lemma="кільце" tags="noun:inanim:p:v_oru" />
   <token value="на" lemma="на" tags="prep" />
   <token value="рівні" lemma="рівень" tags="noun:inanim:m:v_mis" />
-  <token value="тазу" lemma="таз" tags="noun:inanim:m:v_rod:bad" />
+  <token value="тазу" lemma="таз" tags="noun:inanim:m:v_rod:bad" comment="таза" />
   <token value="і" lemma="і" tags="conj:coord" />
   <token value="плечей" lemma="плече" tags="noun:inanim:p:v_rod" />
   <token value=":" lemma=":" tags="punct" />
@@ -587,6 +587,5 @@
   <token value="упасти" lemma="упасти" tags="verb:perf:inf:xp2" />
   <token value="." lemma="." tags="punct" />
 </sentence>
-<paragraph/>
 
 </text>

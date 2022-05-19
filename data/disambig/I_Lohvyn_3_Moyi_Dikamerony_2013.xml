@@ -156,7 +156,7 @@
   <token value="будників" lemma="будник" tags="noun:anim:p:v_rod" />
   <token value="," lemma="," tags="punct" />
   <token value="які" lemma="який" tags="adj:p:v_naz:&amp;pron:int:rel:def" />
-  <token value="кілька" lemma="кілька" tags="numr:p:v_naz:&amp;pron:ind" />
+  <token value="кілька" lemma="кілька" tags="numr:p:v_zna:&amp;pron:ind" />
   <token value="хвилин" lemma="хвилина" tags="noun:inanim:p:v_rod" />
   <token value="височіли" lemma="височіти" tags="verb:imperf:past:p" />
   <token value="над" lemma="над" tags="prep" />
@@ -337,8 +337,8 @@
   <token value="Та" lemma="та" tags="conj:coord" />
   <token value="й" lemma="й" tags="part" />
   <token value="не" lemma="не" tags="part" />
-  <token value="один" lemma="один" tags="numr:m:v_naz" />
-  <token value="день" lemma="день" tags="noun:inanim:m:v_naz" />
+  <token value="один" lemma="один" tags="numr:m:v_zna:rinanim" />
+  <token value="день" lemma="день" tags="noun:inanim:m:v_zna" />
   <token value="." lemma="." tags="punct" />
 </sentence>
 <sentence>
@@ -617,7 +617,7 @@
   <token value="силою" lemma="сила" tags="noun:inanim:f:v_oru" />
   <token value="пригнали" lemma="пригнати" tags="verb:perf:past:p" />
   <token value="з" lemma="з" tags="prep" />
-  <token value="Бескидів" lemma="бескид" tags="noun:inanim:p:v_rod" />
+  <token value="Бескидів" lemma="Бескиди" tags="noun:inanim:p:v_rod:ns:prop:geo" />
   <token value="." lemma="." tags="punct" />
 </sentence>
 <sentence>
@@ -665,7 +665,7 @@
   <token value="Зробив" lemma="зробити" tags="verb:perf:past:m" />
   <token value="це" lemma="це" tags="noun:inanim:n:v_zna:&amp;pron:dem" />
   <token value="лише" lemma="лише" tags="part" />
-  <token value="тринадцять" lemma="тринадцять" tags="numr:p:v_naz" />
+  <token value="тринадцять" lemma="тринадцять" tags="numr:p:v_zna" />
   <token value="років" lemma="рік" tags="noun:inanim:p:v_rod" />
   <token value="потому" lemma="потому" tags="adv" />
   <token value="." lemma="." tags="punct" />
@@ -721,7 +721,5 @@
   <token value="Стрипи" lemma="Стрипа" tags="noun:inanim:f:v_rod:prop:geo" />
   <token value="." lemma="." tags="punct" />
 </sentence>
-<paragraph/>
-
 
 </text>
