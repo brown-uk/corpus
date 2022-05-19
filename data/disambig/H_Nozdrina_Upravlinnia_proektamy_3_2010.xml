@@ -91,7 +91,7 @@
   <token value="завдань" lemma="завдання" tags="noun:inanim:p:v_rod" />
   <token value="проекту" lemma="проект" tags="noun:inanim:m:v_rod:ua_1992" />
   <token value="," lemma="," tags="punct" />
-  <token value="їх" lemma="вони" tags="noun:unanim:p:v_zna:&amp;pron:pers:3" />
+  <token value="їх" lemma="вони" tags="noun:unanim:p:v_rod:&amp;pron:pers:3" />
   <token value="виконавців" lemma="виконавець" tags="noun:anim:p:v_rod" />
   <token value="," lemma="," tags="punct" />
   <token value="встановлення" lemma="встановлення" tags="noun:inanim:n:v_zna" />
@@ -443,7 +443,7 @@
   <token value="організаційних" lemma="організаційний" tags="adj:p:v_rod" />
   <token value="структур" lemma="структура" tags="noun:inanim:p:v_rod" />
   <token value="," lemma="," tags="punct" />
-  <token value="які" lemma="який" tags="adj:p:v_naz:&amp;pron:int:rel:def" />
+  <token value="які" lemma="який" tags="adj:p:v_zna:rinanim:&amp;pron:int:rel:def" />
   <token value="широко" lemma="широко" tags="adv:compb" />
   <token value="застосовують" lemma="застосовувати" tags="verb:imperf:pres:p:3" />
   <token value="в" lemma="в" tags="prep" />
@@ -520,8 +520,8 @@
 <sentence>
   <token value="Також" lemma="також" tags="adv" />
   <token value="успішно" lemma="успішно" tags="adv:compb" />
-      <token value="цей" lemma="цей" tags="adj:m:v_naz:&amp;pron:dem" />
-      <token value="вид" lemma="вид" tags="noun:inanim:m:v_naz" />
+  <token value="цей" lemma="цей" tags="adj:m:v_naz:&amp;pron:dem" />
+  <token value="вид" lemma="вид" tags="noun:inanim:m:v_naz" />
   <token value="організаційної" lemma="організаційний" tags="adj:f:v_rod" />
   <token value="структури" lemma="структура" tags="noun:inanim:f:v_rod" />
   <token value="справляється" lemma="справлятися" tags="verb:rev:imperf:pres:s:3" />
@@ -554,7 +554,5 @@
   <token value="структурою" lemma="структура" tags="noun:inanim:f:v_oru" />
   <token value="." lemma="." tags="punct" />
 </sentence>
-<paragraph/>
-
 
 </text>
