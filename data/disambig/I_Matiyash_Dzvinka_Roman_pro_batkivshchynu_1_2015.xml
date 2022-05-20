@@ -12,12 +12,12 @@
 <sentence>
   <token value="Але" lemma="але" tags="conj:coord" />
   <token value="він" lemma="він" tags="noun:unanim:m:v_naz:&amp;pron:pers:3" />
-  <token value="все" lemma="все" tags="adv" />
-  <token value="одно" lemma="один" tags="numr:n:v_naz" />
+  <token value="все" lemma="все" tags="noun:inanim:n:v_naz:&amp;pron:gen" />
+  <token value="одно" lemma="один" tags="adj:n:v_naz:&amp;pron:dem:ind" />
   <token value="не" lemma="не" tags="part" />
   <token value="дав" lemma="дати" tags="verb:perf:past:m" />
   <token value="мені" lemma="я" tags="noun:anim:s:v_dav:&amp;pron:pers:1" />
-  <token value="номера" lemma="номер" tags="noun:inanim:m:v_zna:var" />
+  <token value="номера" lemma="номер" tags="noun:inanim:m:v_rod" />
   <token value="," lemma="," tags="punct" />
   <token value="мабуть" lemma="мабуть" tags="adv:&amp;insert" />
   <token value="," lemma="," tags="punct" />
@@ -581,7 +581,7 @@
   <token value="не" lemma="не" tags="part" />
   <token value="заслужив" lemma="заслужити" tags="verb:perf:past:m" />
   <token value="ні" lemma="ні" tags="part" />
-  <token value="велосипеда" lemma="велосипед" tags="noun:inanim:m:v_zna:var" />
+  <token value="велосипеда" lemma="велосипед" tags="noun:inanim:m:v_rod" />
   <token value="," lemma="," tags="punct" />
   <token value="ні" lemma="ні" tags="part" />
   <token value="чогось" lemma="щось" tags="noun:inanim:n:v_rod:&amp;pron:ind" />
