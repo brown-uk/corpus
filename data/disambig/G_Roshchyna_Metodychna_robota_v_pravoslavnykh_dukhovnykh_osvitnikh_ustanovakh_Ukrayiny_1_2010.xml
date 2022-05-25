@@ -2,7 +2,7 @@
 <text xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../meta/schema.xsd">
 
 <sentence>
-  <token value="Питання" lemma="питання" tags="noun:inanim:n:v_naz" />
+  <token value="Питання" lemma="питання" tags="noun:inanim:n:v_zna" />
   <token value="про" lemma="про" tags="prep" />
   <token value="започаткування" lemma="започаткування" tags="noun:inanim:n:v_zna" />
   <token value="діяльності" lemma="діяльність" tags="noun:inanim:f:v_rod" />
@@ -69,7 +69,7 @@
   <token value="освітнього" lemma="освітній" tags="adj:m:v_rod" />
   <token value="закладу" lemma="заклад" tags="noun:inanim:m:v_rod" />
   <token value="," lemma="," tags="punct" />
-  <token value="який" lemma="який" tags="adj:m:v_naz:&amp;pron:int:rel:def" />
+  <token value="який" lemma="який" tags="adj:m:v_zna:rinanim:&amp;pron:int:rel:def" />
   <token value="планувалось" lemma="плануватися" tags="verb:rev:imperf:past:n" />
   <token value="відкрити" lemma="відкрити" tags="verb:perf:inf" />
   <token value=")" lemma=")" tags="punct" />
@@ -99,13 +99,13 @@
   <token value="закладу" lemma="заклад" tags="noun:inanim:m:v_rod" />
   <token value="виносилась" lemma="виноситися" tags="verb:rev:imperf:past:f" />
   <token value="на" lemma="на" tags="prep" />
-  <token value="затвердження" lemma="затвердження" tags="noun:inanim:p:v_zna" />
+  <token value="затвердження" lemma="затвердження" tags="noun:inanim:n:v_zna" />
   <token value="Священних" lemma="священний" tags="adj:p:v_rod:compb" />
   <token value="Синодів" lemma="синод" tags="noun:inanim:p:v_rod" />
   <token value="УПЦ" lemma="УПЦ" tags="noun:inanim:f:v_rod:nv:abbr:prop" />
   <token value="та" lemma="та" tags="conj:coord" />
   <token value="УПЦ" lemma="УПЦ" tags="noun:inanim:f:v_rod:nv:abbr:prop" />
-  <token value="КП" lemma="КП" tags="noun:inanim:n:v_rod:nv:abbr" />
+  <token value="КП" lemma="КП" tags="noun:inanim:m:v_rod:nv:abbr:prop" />
   <token value="та" lemma="та" tags="conj:coord" />
   <token value="Патріархії" lemma="патріархія" tags="noun:inanim:f:v_rod" />
   <token value="УАПЦ" lemma="УАПЦ" tags="noun:inanim:f:v_rod:nv:abbr:prop" />
@@ -123,7 +123,7 @@
   <token value="створено" lemma="створити" tags="verb:perf:impers" />
   <token value="єпархіальні" lemma="єпархіальний" tags="adj:p:v_zna:rinanim" />
   <token value="навчальні" lemma="навчальний" tags="adj:p:v_zna:rinanim" />
-  <token value="комісії" lemma="комісія" tags="noun:inanim:p:v_naz" />
+  <token value="комісії" lemma="комісія" tags="noun:inanim:p:v_zna" />
   <token value="у" lemma="у" tags="prep" />
   <token value="7" lemma="7" tags="number" />
   <token value="єпархіях" lemma="єпархія" tags="noun:inanim:p:v_mis" />
@@ -131,12 +131,12 @@
   <token value="," lemma="," tags="punct" />
   <token value="3" lemma="3" tags="number" />
   <token value="єпархіях" lemma="єпархія" tags="noun:inanim:p:v_mis" />
-  <token value="УАПЦ" lemma="УАПЦ" tags="noun:inanim:f:v_naz:nv:abbr:prop" />
+  <token value="УАПЦ" lemma="УАПЦ" tags="noun:inanim:f:v_rod:nv:abbr:prop" />
   <token value="та" lemma="та" tags="conj:coord" />
   <token value="4" lemma="4" tags="number" />
   <token value="єпархіях" lemma="єпархія" tags="noun:inanim:p:v_mis" />
   <token value="УПЦ" lemma="УПЦ" tags="noun:inanim:f:v_rod:nv:abbr:prop" />
-  <token value="КП" lemma="КП" tags="noun:inanim:n:v_rod:nv:abbr" />
+  <token value="КП" lemma="КП" tags="noun:inanim:m:v_rod:nv:abbr:prop" />
   <token value="." lemma="." tags="punct" />
 </sentence>
 <sentence>
@@ -295,7 +295,7 @@
   <token value="УПЦ" lemma="УПЦ" tags="noun:inanim:f:v_rod:nv:abbr:prop" />
   <token value="і" lemma="і" tags="conj:coord" />
   <token value="УПЦ" lemma="УПЦ" tags="noun:inanim:f:v_rod:nv:abbr:prop" />
-  <token value="КП" lemma="КП" tags="noun:inanim:n:v_rod:nv:abbr" />
+  <token value="КП" lemma="КП" tags="noun:inanim:m:v_rod:nv:abbr:prop" />
   <token value="та" lemma="та" tags="conj:coord" />
   <token value="при" lemma="при" tags="prep" />
   <token value="Патріархії" lemma="патріархія" tags="noun:inanim:f:v_mis" />
@@ -408,7 +408,7 @@
   <token value="методичні" lemma="методичний" tags="adj:p:v_zna:rinanim:compb" />
   <token value="об'єднання" lemma="об'єднання" tags="noun:inanim:p:v_zna" />
   <token value="," lemma="," tags="punct" />
-  <token value="які" lemma="який" tags="adj:p:v_naz:&amp;pron:int:rel:def" />
+  <token value="які" lemma="який" tags="adj:p:v_zna:rinanim:&amp;pron:int:rel:def" />
   <token value="очолював" lemma="очолювати" tags="verb:imperf:past:m" />
   <token value="проректор" lemma="проректор" tags="noun:anim:m:v_naz" />
   <token value="з" lemma="з" tags="prep" />
@@ -525,7 +525,7 @@
   <token value="," lemma="," tags="punct" />
   <token value="що" lemma="що" tags="conj:subord" />
   <token value="впродовж" lemma="впродовж" tags="prep" />
-  <token value="вищезазначеного" lemma="вищезазначений" tags="adj:n:v_rod" />
+  <token value="вищезазначеного" lemma="вищезазначений" tags="adj:m:v_rod" />
   <token value="терміну" lemma="термін" tags="noun:inanim:m:v_rod:xp2" />
   <token value="в" lemma="в" tags="prep" />
   <token value="семінарії" lemma="семінарія" tags="noun:inanim:f:v_mis" />
@@ -543,7 +543,5 @@
   <token value="роботі" lemma="робота" tags="noun:inanim:f:v_dav" />
   <token value="." lemma="." tags="punct" />
 </sentence>
-<paragraph/>
-
 
 </text>

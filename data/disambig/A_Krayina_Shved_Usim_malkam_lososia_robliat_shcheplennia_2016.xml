@@ -27,7 +27,7 @@
   <token value="," lemma="," tags="punct" />
   <token value="бронзи" lemma="бронза" tags="noun:inanim:f:v_rod" />
   <token value="й" lemma="й" tags="conj:coord" />
-  <token value="кованого" lemma="кований" tags="adj:m:v_rod:&amp;adjp:pasv:imperf" />
+  <token value="кованого" lemma="кований" tags="adj:n:v_rod:&amp;adjp:pasv:imperf" />
   <token value="заліза" lemma="залізо" tags="noun:inanim:n:v_rod" />
   <token value="." lemma="." tags="punct" />
 </sentence>
@@ -211,7 +211,7 @@
   <token value="лососевих" lemma="лососевий" tags="adj:p:v_mis" />
   <token value="фермах" lemma="ферма" tags="noun:inanim:p:v_mis" />
   <token value="вирощують" lemma="вирощувати" tags="verb:imperf:pres:p:3" />
-  <token value="понад" lemma="понад" tags="adv" comment="Нема у ВЕСУМі" />
+  <token value="понад" lemma="понад" tags="prep" />
   <token value="300" lemma="300" tags="number" />
   <token value="тисяч" lemma="тисяча" tags="noun:inanim:p:v_rod:&amp;numr" />
   <token value="рибин" lemma="рибина" tags="noun:anim:p:v_rod" />
@@ -390,7 +390,7 @@
   <token value="На" lemma="на" tags="prep" />
   <token value="скелі" lemma="скеля" tags="noun:inanim:f:v_mis" />
   <token value="над" lemma="над" tags="prep" />
-  <token value="Північним" lemma="північний" tags="adj:m:v_oru:compb" />
+  <token value="Північним" lemma="північний" tags="adj:n:v_oru:compb" />
   <token value="морем" lemma="море" tags="noun:inanim:n:v_oru" />
   <token value="стоїть" lemma="стояти" tags="verb:imperf:pres:s:3" />
   <token value="кам'яна" lemma="кам'яний" tags="adj:f:v_naz" />
@@ -486,7 +486,7 @@
   <token value="." lemma="." tags="punct" />
 </sentence>
 <sentence>
-  <token value="Прекестулен" lemma="Прекестулен" tags="noun:inanim:f:v_naz:prop:geo" comment="Нема у ВЕСУМі" />
+  <token value="Прекестулен" lemma="Прекестулен" tags="noun:inanim:m:v_naz:prop:geo" comment="Нема у ВЕСУМі" />
   <token value="–" lemma="–" tags="punct" />
   <token value="стрімка" lemma="стрімкий" tags="adj:f:v_naz:compb" />
   <token value="скеля" lemma="скеля" tags="noun:inanim:f:v_naz" />
@@ -602,7 +602,7 @@
 </sentence>
 <sentence>
   <token value="Льодовик" lemma="льодовик" tags="noun:inanim:m:v_naz" />
-  <token value="Бриксдаль" lemma="Бриксдаль" tags="noun:inanim:m:v_zna:prop:geo" comment="Нема у ВЕСУМі" />
+  <token value="Бриксдаль" lemma="Бриксдаль" tags="noun:inanim:m:v_naz:prop" comment="Нема у ВЕСУМі" />
   <token value="розташований" lemma="розташований" tags="adj:m:v_naz:&amp;adjp:pasv:perf" />
   <token value="у" lemma="у" tags="prep" />
   <token value="Національному" lemma="національний" tags="adj:m:v_mis" />
@@ -623,7 +623,7 @@
   <token value="." lemma="." tags="punct" />
 </sentence>
 <sentence>
-  <token value="Бриксдаль" lemma="Бриксдаль" tags="unknown" />
+  <token value="Бриксдаль" lemma="Бриксдаль" tags="noun:inanim:m:v_naz:prop" comment="Нема у ВЕСУМі" />
   <token value="–" lemma="–" tags="punct" />
   <token value="найдоступніший" lemma="найдоступніший" tags="adj:m:v_naz:comps" />
   <token value="для" lemma="для" tags="prep" />

@@ -47,7 +47,7 @@
   <token value="яка" lemma="який" tags="adj:f:v_naz:&amp;pron:int:rel:def" />
   <token value="загрожує" lemma="загрожувати" tags="verb:imperf:pres:s:3" />
   <token value="добробуту" lemma="добробут" tags="noun:inanim:m:v_dav" />
-  <token value="нашого" lemma="наш" tags="adj:m:v_rod:&amp;pron:pos" />
+  <token value="нашого" lemma="наш" tags="adj:n:v_rod:&amp;pron:pos" />
   <token value="міста" lemma="місто" tags="noun:inanim:n:v_rod" />
   <token value="," lemma="," tags="punct" />
   <token value="усвідомили" lemma="усвідомити" tags="verb:perf:past:p" />
@@ -204,7 +204,7 @@
   <token value="кажучи" lemma="кажучи" tags="advp:imperf" />
   <token value="вже" lemma="вже" tags="adv" />
   <token value="про" lemma="про" tags="prep" />
-  <token value="будівництво" lemma="будівництво" tags="noun:inanim:n:v_naz" />
+  <token value="будівництво" lemma="будівництво" tags="noun:inanim:n:v_zna" />
   <token value="нових" lemma="новий" tags="adj:p:v_rod:compb" />
   <token value="дитячих" lemma="дитячий" tags="adj:p:v_rod" />
   <token value="закладів" lemma="заклад" tags="noun:inanim:p:v_rod" />
@@ -257,12 +257,12 @@
   <token value="вже" lemma="вже" tags="adv" />
   <token value="вирішене" lemma="вирішений" tags="adj:n:v_zna:&amp;adjp:pasv:perf" />
   <token value="," lemma="," tags="punct" />
-  <token value="аеропорт" lemma="аеропорт" tags="noun:inanim:m:v_naz" />
+  <token value="аеропорт" lemma="аеропорт" tags="noun:inanim:m:v_zna" />
   <token value="перереєстровано" lemma="перереєструвати" tags="verb:perf:impers" />
   <token value="," lemma="," tags="punct" />
   <token value="і" lemma="і" tags="conj:coord" />
   <token value="ніякі" lemma="ніякий" tags="adj:p:v_naz:&amp;pron:neg" />
-  <token value="віче" lemma="віче" tags="noun:inanim:n:v_naz" />
+  <token value="віче" lemma="віче" tags="noun:inanim:p:v_naz:bad" />
   <token value="нічого" lemma="нічого" tags="noun:inanim:n:v_rod:&amp;pron:emph:&amp;predic" />
   <token value="вже" lemma="вже" tags="adv" />
   <token value="змінити" lemma="змінити" tags="verb:perf:inf" />
@@ -286,7 +286,7 @@
 
 <sentence>
   <token value="«" lemma="«" tags="punct" />
-  <token value="Бориспіль" lemma="Бориспіль" tags="noun:inanim:m:v_kl:prop:geo:bad"/>
+  <token value="Бориспіль" lemma="Бориспіль" tags="noun:inanim:m:v_kly:prop:geo:bad"/>
   <token value="," lemma="," tags="punct" />
   <token value="не" lemma="не" tags="part" />
   <token value="спи" lemma="спати" tags="verb:imperf:impr:s:2" />
@@ -437,7 +437,7 @@
   <token value="поки" lemma="поки" tags="conj:subord" />
   <token value="що" lemma="що" tags="conj:subord" />
   <token value="є" lemma="бути" tags="verb:imperf:pres:s:3" />
-  <token value="бориспільським" lemma="бориспільський" tags="adj:m:v_oru" />
+  <token value="бориспільським" lemma="бориспільський" tags="adj:n:v_oru" />
   <token value="підприємством" lemma="підприємство" tags="noun:inanim:n:v_oru" />
   <token value="," lemma="," tags="punct" />
   <token value="і" lemma="і" tags="conj:coord" />
@@ -462,7 +462,7 @@
   <token value="представників" lemma="представник" tags="noun:anim:p:v_rod" />
   <token value="аеропорту" lemma="аеропорт" tags="noun:inanim:m:v_rod" />
   <token value="на" lemma="на" tags="prep" />
-  <token value="віче" lemma="віче" tags="noun:inanim:n:v_mis" />
+  <token value="віче" lemma="віче" tags="noun:inanim:n:v_mis:bad" />
   <token value="не" lemma="не" tags="part" />
   <token value="було" lemma="бути" tags="verb:imperf:past:n:&amp;insert" />
   <token value="." lemma="." tags="punct" />
@@ -587,7 +587,7 @@
   <token value="12" lemma="12" tags="number" />
   <token value="жовтня" lemma="жовтень" tags="noun:inanim:m:v_rod" />
   <token value=":" lemma=":" tags="punct" />
-  <token value="нашому" lemma="наш" tags="adj:n:v_mis:&amp;pron:pos" />
+  <token value="нашому" lemma="наш" tags="adj:n:v_dav:&amp;pron:pos" />
   <token value="місту" lemma="місто" tags="noun:inanim:n:v_dav" />
   <token value="просто" lemma="просто" tags="adv:compb:&amp;predic" />
   <token value="заздрять" lemma="заздрити" tags="verb:imperf:pres:p:3" />

@@ -147,8 +147,8 @@
   <token value="забрати" lemma="забрати" tags="verb:perf:inf" />
   <token value="," lemma="," tags="punct" />
   <token value="коли" lemma="коли" tags="conj:subord" />
-  <token value="півтора" lemma="півтора" tags="numr:m:v_naz:nv" /> 
-  <token value="місяці" lemma="місяць" tags="noun:inanim:p:v_naz" />
+  <token value="півтора" lemma="півтора" tags="numr:m:v_zna:nv" /> 
+  <token value="місяці" lemma="місяць" tags="noun:inanim:p:v_zna:bad" comment="місяця" />
   <token value="тому" lemma="тому" tags="adv" />
   <token value="жінка" lemma="жінка" tags="noun:anim:f:v_naz" />
   <token value="померла" lemma="померти" tags="verb:perf:past:f" />
@@ -212,7 +212,7 @@
   <token value="так" lemma="так" tags="adv:&amp;pron:dem" />   
   <token value="званий" lemma="званий" tags="adj:m:v_zna:rinanim:&amp;adjp:pasv:imperf" />
   <token value="«" lemma="«" tags="punct" />
-  <token value="госсовєт" lemma="госсовєт" tags="noun:inanim:m:v_naz:bad #> держрада" comment="немає у ВЕСУМі" />
+  <token value="госсовєт" lemma="госсовєт" tags="noun:inanim:m:v_naz:bad" comment="немає у ВЕСУМі #> держрада" />
   <token value="»" lemma="»" tags="punct" />
   <token value="," lemma="," tags="punct" />
   <token value="бо" lemma="бо" tags="conj:subord" />
@@ -506,7 +506,7 @@
   <token value="території" lemma="територія" tags="noun:inanim:f:v_rod" />
   <token value="України" lemma="Україна" tags="noun:inanim:f:v_rod:prop:geo" />
   <token value="," lemma="," tags="punct" />
-  <token value="що" lemma="що" tags="noun:inanim:n:v_naz:&amp;pron:int:rel" />
+  <token value="що" lemma="що" tags="conj:subord" />
   <token value="підірвали" lemma="підірвати" tags="verb:perf:past:p" />
   <token value="електроопори" lemma="електроопора" tags="noun:inanim:p:v_zna" />
   <token value="і" lemma="і" tags="conj:coord" />

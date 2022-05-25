@@ -163,8 +163,8 @@
   <token value="і" lemma="і" tags="part" />
   <token value="є" lemma="бути" tags="verb:imperf:pres:s:3" />
   <token value="«" lemma="«" tags="punct" />
-  <token value="мін" lemma="мін" tags="unknown" />
-  <token value="герц" lemma="герц" tags="noun:inanim:m:v_naz" />
+  <token value="мін" lemma="мін" tags="unclass" />
+  <token value="герц" lemma="герц" tags="unclass" />
   <token value="»" lemma="»" tags="punct" />
   <token value="!.." lemma="!.." tags="punct" />
 </sentence>
@@ -269,8 +269,8 @@
   <token value="Ідеться" lemma="ітися" tags="verb:rev:imperf:pres:s:3" />
   <token value="нібито" lemma="нібито" tags="part" />
   <token value="про" lemma="про" tags="prep" />
-  <token value="Івана" lemma="Іван" tags="noun:anim:m:v_rod:prop:fname" />
-  <token value="Грозного" lemma="Грозний" tags="noun:inanim:m:v_rod:prop:geo" />
+  <token value="Івана" lemma="Іван" tags="noun:anim:m:v_zna:prop:fname" />
+  <token value="Грозного" lemma="Грозний" tags="noun:anim:m:v_zna:prop:lname" />
   <token value="," lemma="," tags="punct" />
   <token value="але" lemma="але" tags="conj:coord" />
   <token value="насправді" lemma="насправді" tags="adv" />
@@ -445,7 +445,7 @@
   <token value="з" lemma="з" tags="prep" />
   <token value="перевдяганням" lemma="перевдягання" tags="noun:inanim:n:v_oru" />
   <token value="кербуда" lemma="кербуд" tags="noun:anim:m:v_rod" />
-  <token value="Бунші" lemma="Бунша" tags="noun:anim:m:v:rod:prop:lname" comment="Немає у ВЕСУМі" />
+  <token value="Бунші" lemma="Бунша" tags="noun:anim:m:v_rod:prop:lname" comment="Немає у ВЕСУМі" />
   <token value="в" lemma="в" tags="prep" />
   <token value="царя" lemma="цар" tags="noun:anim:m:v_rod" />
   <token value="теж" lemma="теж" tags="adv" />
