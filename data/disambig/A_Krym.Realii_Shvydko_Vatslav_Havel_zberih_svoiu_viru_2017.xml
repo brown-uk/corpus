@@ -14,7 +14,7 @@
   <token value="та" lemma="та" tags="conj:coord" />
   <token value="першого" lemma="перший" tags="adj:m:v_rod:&amp;numr" />
   <token value="президента" lemma="президент" tags="noun:anim:m:v_rod" />
-  <token value="Чехії" lemma="Чехія" tags="noun:inanim:f:v_mis:prop:geo" />
+  <token value="Чехії" lemma="Чехія" tags="noun:inanim:f:v_rod:prop:geo" />
   <token value="Вацлава" lemma="Вацлав" tags="noun:anim:m:v_rod:prop:fname" />
   <token value="Гавела" lemma="Гавел" tags="noun:anim:m:v_rod:prop:lname" />
   <token value="«" lemma="«" tags="punct" />
@@ -27,7 +27,7 @@
 <sentence>
   <token value="В" lemma="в" tags="prep" />
   <token value="ній" lemma="вона" tags="noun:unanim:f:v_mis:&amp;pron:pers:3" />
-  <token value="п'ять" lemma="п'ять" tags="numr:p:v_zna" />
+  <token value="п'ять" lemma="п'ять" tags="numr:p:v_naz" />
   <token value="текстів" lemma="текст" tags="noun:inanim:p:v_rod" />
   <token value="про" lemma="про" tags="prep" />
   <token value="неможливість" lemma="неможливість" tags="noun:inanim:f:v_zna" />
@@ -181,7 +181,7 @@
   <token value="Комора" lemma="комора" tags="noun:inanim:f:v_naz" />
   <token value="»" lemma="»" tags="punct" />
   <token value="Ростислав" lemma="Ростислав" tags="noun:anim:m:v_naz:prop:fname" />
-  <token value="Лужицький" lemma="лужицький" tags="adj:m:v_naz" />
+  <token value="Лужицький" lemma="Лужицький" tags="noun:anim:m:v_naz:prop:lname" />
   <token value="." lemma="." tags="punct" />
 </sentence>
 <paragraph/>
@@ -190,7 +190,7 @@
   <token value="До" lemma="до" tags="prep" />
   <token value="книжки" lemma="книжка" tags="noun:inanim:f:v_rod" />
   <token value="ввійшли" lemma="ввійти" tags="verb:perf:past:p" />
-  <token value="п'ять" lemma="п'ять" tags="numr:p:v_zna" />
+  <token value="п'ять" lemma="п'ять" tags="numr:p:v_naz" />
   <token value="текстів" lemma="текст" tags="noun:inanim:p:v_rod" />
   <token value="політичного" lemma="політичний" tags="adj:m:v_rod" />
   <token value="діяча" lemma="діяч" tags="noun:anim:m:v_rod" />
@@ -304,7 +304,7 @@
   <token value="про" lemma="про" tags="prep" />
   <token value="зустрічі" lemma="зустріч" tags="noun:inanim:p:v_zna" />
   <token value="з" lemma="з" tags="prep" />
-  <token value="цим" lemma="це" tags="noun:inanim:n:v_oru:&amp;pron:dem" />
+  <token value="цим" lemma="цей" tags="adj:m:v_oru:&amp;pron:dem" />
   <token value="непересічним" lemma="непересічний" tags="adj:m:v_oru:compb" />
   <token value="діячем" lemma="діяч" tags="noun:anim:m:v_oru" />
   <token value="." lemma="." tags="punct" />
@@ -576,7 +576,7 @@
   <token value="впізнати" lemma="впізнати" tags="verb:perf:inf" />
   <token value="в" lemma="в" tags="prep" />
   <token value="них" lemma="вони" tags="noun:unanim:p:v_mis:&amp;pron:pers:3" />
-  <token value="проблеми" lemma="проблема" tags="noun:inanim:p:v_naz" />
+  <token value="проблеми" lemma="проблема" tags="noun:inanim:p:v_zna" />
   <token value="," lemma="," tags="punct" />
   <token value="які" lemma="який" tags="adj:p:v_naz:&amp;pron:int:rel:def" />
   <token value="ще" lemma="ще" tags="adv" />
@@ -605,10 +605,5 @@
   <token value="Забужко" lemma="Забужко" tags="noun:anim:f:v_naz:nv:prop:lname" />
   <token value="." lemma="." tags="punct" />
 </sentence>
-<paragraph/>
-
-<paragraph/>
-<paragraph/>
-
 
 </text>

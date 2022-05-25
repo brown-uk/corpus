@@ -213,7 +213,7 @@
   <token value="," lemma="," tags="punct" />
   <token value="що" lemma="що" tags="conj:subord" />
   <token value="більшість" lemma="більшість" tags="noun:inanim:f:v_naz" />
-  <token value="того" lemma="те" tags="noun:inanim:n:v_rod:&amp;pron:dem" />
+  <token value="того" lemma="той" tags="adj:n:v_rod:&amp;pron:dem" />
   <token value="війська" lemma="військо" tags="noun:inanim:n:v_rod" />
   <token value="складалася" lemma="складатися" tags="verb:rev:imperf:past:f" />
   <token value="з" lemma="з" tags="prep" />
@@ -235,7 +235,7 @@
   <token value="гарнізони" lemma="гарнізон" tags="noun:inanim:p:v_zna" />
   <token value="," lemma="," tags="punct" />
   <token value="а" lemma="а" tags="conj:coord" />
-  <token value="багато" lemma="багато" tags="numr:p:v_naz:&amp;pron:ind" />
+  <token value="багато" lemma="багато" tags="adv:compb" />
   <token value="хто" lemma="хто" tags="noun:anim:m:v_naz:&amp;pron:int:rel" />
   <token value="," lemma="," tags="punct" />
   <token value="«" lemma="«" tags="punct" />
@@ -444,7 +444,7 @@
 <sentence>
   <token value="Але" lemma="але" tags="part:rare" />
   <token value="ж" lemma="ж" tags="part" />
-  <token value="це" lemma="це" tags="noun:inanim:n:v_naz:&amp;pron:dem" />
+  <token value="це" lemma="цей" tags="adj:n:v_naz:&amp;pron:dem" />
   <token value="завдання" lemma="завдання" tags="noun:inanim:n:v_naz" />
   <token value="залишається" lemma="залишатися" tags="verb:rev:imperf:pres:s:3" />
   <token value="невирішеним" lemma="невирішений" tags="adj:m:v_oru" />
@@ -547,7 +547,7 @@
   <token value="розмов" lemma="розмова" tags="noun:inanim:p:v_rod" />
   <token value="про" lemma="про" tags="prep" />
   <token value="«" lemma="«" tags="punct" />
-  <token value="похід" lemma="похід" tags="noun:inanim:m:v_naz" />
+  <token value="похід" lemma="похід" tags="noun:inanim:m:v_zna" />
   <token value="»" lemma="»" tags="punct" />
   <token value="у" lemma="у" tags="prep" />
   <token value="Європу" lemma="Європа" tags="noun:inanim:f:v_zna:prop:geo" />
@@ -632,7 +632,5 @@
   <token value="сторін" lemma="сторона" tags="noun:inanim:p:v_rod" />
   <token value="." lemma="." tags="punct" />
 </sentence>
-<paragraph/>
-
 
 </text>
