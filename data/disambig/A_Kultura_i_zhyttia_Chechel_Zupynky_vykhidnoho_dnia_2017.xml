@@ -62,7 +62,7 @@
   <token value="відвідати" lemma="відвідати" tags="verb:perf:inf" />
   <token value="Тальнівщину" lemma="Тальнівщина" tags="noun:inanim:f:v_zna:prop:geo" />
   <token value="," lemma="," tags="punct" />
-  <token value="що" lemma="що" tags="noun:inanim:n:v_naz:&amp;pron:int:rel" />
+  <token value="що" lemma="що" tags="conj:subord" />
   <token value="на" lemma="на" tags="prep" />
   <token value="Черкащині" lemma="Черкащина" tags="noun:inanim:f:v_mis:prop:geo" />
   <token value="." lemma="." tags="punct" />
@@ -591,7 +591,7 @@
   <token value="людям" lemma="людина" tags="noun:anim:p:v_dav" />
   <token value="вдається" lemma="вдаватися" tags="verb:rev:imperf:pres:s:3" />
   <token value="«" lemma="«" tags="punct" />
-   <token value="приміряти" lemma="приміряти" tags="verb:perf:inf" />
+  <token value="приміряти" lemma="приміряти" tags="verb:perf:inf" />
   <token value="»" lemma="»" tags="punct" />
   <token value="це" lemma="цей" tags="adj:n:v_zna:&amp;pron:dem" /> 
   <token value="завдання" lemma="завдання" tags="noun:inanim:n:v_zna" />
@@ -628,7 +628,7 @@
   <token value="Трипільська" lemma="трипільський" tags="adj:f:v_naz" />
   <token value="культура" lemma="культура" tags="noun:inanim:f:v_naz" />
   <token value="," lemma="," tags="punct" />
-  <token value="що" lemma="що" tags="noun:inanim:n:v_naz:&amp;pron:int:rel" />
+  <token value="що" lemma="що" tags="conj:subord" />
   <token value="була" lemma="бути" tags="verb:imperf:past:f" />
   <token value="розповсюджена" lemma="розповсюджений" tags="adj:f:v_naz:&amp;adjp:pasv:perf:compb" />
   <token value="на" lemma="на" tags="prep" />
@@ -641,8 +641,7 @@
   <token value="тис." lemma="тис." tags="numr:f:v_mis:nv:abbr" />
   <token value="до" lemma="до" tags="prep" />
   <token value="н." lemma="н." tags="adj:f:v_rod:nv:abbr" />
-  <token value="е" lemma="е" tags="intj" />
-  <token value="," lemma="," tags="punct" />
+  <token value="е." lemma="е." tags="noun:inanim:f:v_rod:nv:abbr" />
   <token value="овіяна" lemma="овіяний" tags="adj:f:v_naz:&amp;adjp:pasv:perf" />
   <token value="загадками" lemma="загадка" tags="noun:inanim:p:v_oru" />
   <token value="." lemma="." tags="punct" />
@@ -685,7 +684,5 @@
   <token value="феномен" lemma="феномен" tags="noun:inanim:m:v_zna" />
   <token value="." lemma="." tags="punct" />
 </sentence>
-<paragraph/>
-
 
 </text>
