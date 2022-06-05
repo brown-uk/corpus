@@ -243,7 +243,7 @@
   <token value="," lemma="," tags="punct" />
   <token value="не" lemma="не" tags="part" />
   <token value="світи" lemma="світити" tags="verb:imperf:impr:s:2" />
-  <token value="місяченьку" lemma="місяченько" tags="noun:inanim:m:v_kly" comment="кличного відмінка не було серед варіантів, хоча такий варіант є у ВЕСУМі" />
+  <token value="місяченьку" lemma="місяченько" tags="noun:inanim:m:v_kly" />
   <token value="»" lemma="»" tags="punct" />
   <token value="," lemma="," tags="punct" />
   <token value="«" lemma="«" tags="punct" />
@@ -263,7 +263,7 @@
   <token value="сестроньки" lemma="сестронька" tags="noun:anim:p:v_naz" />
   <token value="»" lemma="»" tags="punct" />
   <token value="та" lemma="та" tags="conj:coord" />
-  <token value="ін." lemma="ін." tags="noun:inanim:p:v_rod:nv:abbr" />
+  <token value="ін." lemma="ін." tags="noun:inanim:p:v_naz:nv:abbr" />
   <token value="," lemma="," tags="punct" />
   <token value="а" lemma="а" tags="conj:coord" />
   <token value="також" lemma="також" tags="adv" />
@@ -284,7 +284,7 @@
   <token value="народного" lemma="народний" tags="adj:m:v_rod:compb" />
   <token value="танцю" lemma="танець" tags="noun:inanim:m:v_rod" />
   <token value="«" lemma="«" tags="punct" />
-  <token value="Козак" lemma="Козак" tags="noun:inanim:m:v_naz:prop:geo" />
+  <token value="Козак" lemma="козак" tags="noun:anim:m:v_naz" />
   <token value="»" lemma="»" tags="punct" />
   <token value="." lemma="." tags="punct" />
 </sentence>
@@ -302,7 +302,7 @@
   <token value="автор" lemma="автор" tags="noun:anim:m:v_naz" />
   <token value="малюнків" lemma="малюнок" tags="noun:inanim:p:v_rod:xp1" />
   <token value="підготував" lemma="підготувати" tags="verb:perf:past:m" />
-  <token value="їх" lemma="їх" tags="adj:p:v_naz:nv:&amp;pron:pos:bad" /> 
+  <token value="їх" lemma="їх" tags="adj:p:v_zna:rinanim:nv:&amp;pron:pos:bad" /> 
   <token value="чергові" lemma="черговий" tags="adj:p:v_zna:rinanim" />
   <token value="серії" lemma="серія" tags="noun:inanim:p:v_zna" />
   <token value="," lemma="," tags="punct" />
@@ -538,7 +538,5 @@
   <token value="дівчини" lemma="дівчина" tags="noun:anim:f:v_rod" />
   <token value="." lemma="." tags="punct" />
 </sentence>
-<paragraph/>
-
 
 </text>

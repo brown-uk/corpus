@@ -264,7 +264,7 @@
   <token value="," lemma="," tags="punct" />
   <token value="розмістити" lemma="розмістити" tags="verb:perf:inf" />
   <token value="там" lemma="там" tags="adv:&amp;pron:dem" />
-  <token value="її" lemma="вона" tags="noun:unanim:f:v_zna:&amp;pron:pers:3" />
+  <token value="її" lemma="вона" tags="noun:unanim:f:v_rod:&amp;pron:pers:3" />
   <token value="особисті" lemma="особистий" tags="adj:p:v_zna:rinanim:compb" />
   <token value="речі" lemma="річ" tags="noun:inanim:p:v_zna" />
   <token value="та" lemma="та" tags="conj:coord" />
@@ -291,7 +291,7 @@
 
 <sentence>
   <token value="Проте" lemma="проте" tags="conj:coord" />
-  <token value="аргументи" lemma="аргумент" tags="noun:inanim:p:v_naz" />
+  <token value="аргументи" lemma="аргумент" tags="noun:inanim:p:v_zna" />
   <token value="краєзнавця" lemma="краєзнавець" tags="noun:anim:m:v_rod" />
   <token value="так" lemma="так" tags="adv:&amp;pron:dem" />
   <token value="і" lemma="і" tags="part" />
@@ -347,7 +347,7 @@
   <token value="охорони" lemma="охорона" tags="noun:inanim:f:v_rod" />
   <token value="пам'ятки" lemma="пам'ятка" tags="noun:inanim:f:v_rod" />
   <token value="(" lemma="(" tags="punct" />
-  <token value="охор." lemma="охор." tags="adj:n:v_naz:nv:abbr" comment="нема у ВЕСУМі"/>
+  <token value="охор." lemma="охор." tags="adj:m:v_naz:nv:abbr" comment="нема у ВЕСУМі"/>
   <token value="№" lemma="№" tags="symb" />
   <token value="789" lemma="789" tags="number" />
   <token value=")" lemma=")" tags="punct" />
@@ -540,7 +540,5 @@
   <token value="Чепіжака" lemma="Чепіжак" tags="noun:anim:m:v_rod:prop:lname" comment="нема у ВЕСУМі"/>
   <token value="." lemma="." tags="punct" />
 </sentence>
-<paragraph/>
-
 
 </text>
