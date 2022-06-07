@@ -68,7 +68,7 @@
   <token value="Зупинився" lemma="зупинитися" tags="verb:rev:perf:past:m" />
   <token value="я" lemma="я" tags="noun:anim:s:v_naz:&amp;pron:pers:1" />
   <token value="в" lemma="в" tags="prep" />
-  <token value="одному" lemma="один" tags="adj:n:v_mis:&amp;pron:dem:ind" />
+  <token value="одному" lemma="один" tags="numr:n:v_mis" />
   <token value="дивному" lemma="дивний" tags="adj:n:v_mis:compb" />
   <token value="," lemma="," tags="punct" />
   <token value="просто" lemma="просто" tags="adv:compb:&amp;predic" />
@@ -145,7 +145,7 @@
 <sentence>
   <token value="Піднімаєшся" lemma="підніматися" tags="verb:rev:imperf:pres:s:2" />
   <token value="з" lemma="з" tags="prep" />
-  <token value="однієї" lemma="один" tags="adj:f:v_rod:&amp;pron:dem:ind" />
+  <token value="однієї" lemma="один" tags="numr:f:v_rod" />
   <token value="вулиці" lemma="вулиця" tags="noun:inanim:f:v_rod" />
   <token value="на" lemma="на" tags="prep" />
   <token value="іншу" lemma="інший" tags="adj:f:v_zna:&amp;pron:def" />
@@ -308,7 +308,7 @@
   <token value="і" lemma="і" tags="conj:coord" />
   <token value="рипів" lemma="рипіти" tags="verb:imperf:past:m" />
   <token value="в" lemma="в" tags="prep" />
-  <token value="одне" lemma="один" tags="adj:n:v_zna:&amp;pron:dem:ind" />
+  <token value="одне" lemma="один" tags="numr:n:v_zna" />
   <token value="дихання" lemma="дихання" tags="noun:inanim:n:v_zna" />
   <token value="зі" lemma="зі" tags="prep" />
   <token value="своїм" lemma="свій" tags="adj:n:v_oru:&amp;pron:pos" />
@@ -496,9 +496,9 @@
   <token value="по" lemma="по" tags="prep" />
   <token value="схилу" lemma="схил" tags="noun:inanim:m:v_mis" />
   <token value="вулиці" lemma="вулиця" tags="noun:inanim:f:v_rod" />
-  <token value="одна" lemma="один" tags="adj:f:v_naz:&amp;pron:dem:ind" />
+  <token value="одна" lemma="один" tags="numr:f:v_naz" />
   <token value="за" lemma="за" tags="prep" />
-  <token value="одною" lemma="один" tags="adj:f:v_oru:&amp;pron:dem:ind" />
+  <token value="одною" lemma="один" tags="numr:f:v_oru" />
   <token value="ховались" lemma="ховатися" tags="verb:rev:imperf:past:p" />
   <token value="коробки" lemma="коробка" tags="noun:inanim:p:v_naz" />
   <token value="одноповерхових" lemma="одноповерховий" tags="adj:p:v_rod" />
