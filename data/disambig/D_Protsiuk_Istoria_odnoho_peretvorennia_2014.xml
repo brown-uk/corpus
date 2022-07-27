@@ -293,10 +293,10 @@
 <sentence>
   <token value="Я" lemma="я" tags="noun:anim:s:v_naz:&amp;pron:pers:1" />
   <token value="зустрів" lemma="зустріти" tags="verb:perf:past:m" />
-  <token value="приємного" lemma="приємний" tags="adj:n:v_rod:compb" />
+  <token value="приємного" lemma="приємний" tags="adj:m:v_zna:ranim:compb" />
   <token value="своїй" lemma="свій" tags="adj:f:v_dav:&amp;pron:pos" />
   <token value="душі" lemma="душа" tags="noun:inanim:f:v_dav" />
-  <token value="знайомого" lemma="знайомий" tags="noun:anim:m:v_rod" />
+  <token value="знайомого" lemma="знайомий" tags="noun:anim:m:v_zna" />
   <token value="–" lemma="–" tags="punct" />
   <token value="і" lemma="і" tags="conj:coord" />
   <token value="ми" lemma="ми" tags="noun:anim:p:v_naz:&amp;pron:pers:1" />
@@ -458,12 +458,12 @@
   <token value="," lemma="," tags="punct" />
   <token value="що" lemma="що" tags="conj:subord" />
   <token value="знала" lemma="знати" tags="verb:imperf:past:f" />
-  <token value="Франка" lemma="Франко" tags="noun:anim:m:v_rod:prop:fname" />
+  <token value="Франка" lemma="Франко" tags="noun:anim:m:v_zna:prop:fname" />
   <token value="," lemma="," tags="punct" />
-  <token value="Яцкова" lemma="Яцків" tags="noun:anim:m:v_rod:prop:lname" />
+  <token value="Яцкова" lemma="Яцків" tags="noun:anim:m:v_zna:prop:lname" />
   <token value="," lemma="," tags="punct" />
-  <token value="інших" lemma="інший" tags="adj:p:v_rod:&amp;pron:def" />
-  <token value="письменників" lemma="письменник" tags="noun:anim:p:v_rod" />
+  <token value="інших" lemma="інший" tags="adj:p:v_zna:ranim:&amp;pron:def" />
+  <token value="письменників" lemma="письменник" tags="noun:anim:p:v_zna" />
   <token value="." lemma="." tags="punct" />
 </sentence>
 <sentence>
@@ -816,9 +816,9 @@
   <token value="приховане" lemma="прихований" tags="adj:n:v_naz:&amp;adjp:pasv:perf:compb" />
   <token value="бажання" lemma="бажання" tags="noun:inanim:n:v_naz" />
   <token value="знайти" lemma="знайти" tags="verb:perf:inf" />
-  <token value="свого" lemma="свій" tags="adj:m:v_rod:&amp;pron:pos" />
-  <token value="міського" lemma="міський" tags="adj:m:v_rod" />
-  <token value="бога" lemma="бог" tags="noun:anim:m:v_rod" />
+  <token value="свого" lemma="свій" tags="adj:m:v_zna:ranim:&amp;pron:pos" />
+  <token value="міського" lemma="міський" tags="adj:m:v_zna:ranim" />
+  <token value="бога" lemma="бог" tags="noun:anim:m:v_zna" />
   <token value="людей" lemma="людина" tags="noun:anim:p:v_rod" />
   <token value="," lemma="," tags="punct" />
   <token value="будинків" lemma="будинок" tags="noun:inanim:p:v_rod" />
