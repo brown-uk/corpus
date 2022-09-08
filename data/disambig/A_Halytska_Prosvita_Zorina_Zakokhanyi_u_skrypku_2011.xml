@@ -216,7 +216,7 @@
   <token value="якої" lemma="який" tags="adj:f:v_rod:&amp;pron:int:rel:def" />
   <token value="були" lemma="бути" tags="verb:imperf:past:p" />
   <token value="наче" lemma="наче" tags="conj:subord" />
-      <token value="відкриття" lemma="відкриття" tags="noun:inanim:n:v_naz" />
+  <token value="відкриття" lemma="відкриття" tags="noun:inanim:n:v_naz" />
   <token value="." lemma="." tags="punct" />
 </sentence>
 <paragraph/>
@@ -470,7 +470,7 @@
   <token value="мала" lemma="мати" tags="verb:imperf:past:f" />
   <token value="запрацювати" lemma="запрацювати" tags="verb:perf:inf" />
   <token value="не" lemma="не" tags="part" />
-  <token value="тільки" lemma="тільки" tags="part" />
+  <token value="тільки" lemma="тільки" tags="conj:subord" />
   <token value="фабрика" lemma="фабрика" tags="noun:inanim:f:v_naz" />
   <token value="із" lemma="із" tags="prep" />
   <token value="заготівлі" lemma="заготівля" tags="noun:inanim:f:v_rod" />
@@ -505,12 +505,12 @@
 </sentence>
 <sentence>
   <token value="А" lemma="а" tags="conj:coord" />
-      <token value="жаль" lemma="жаль" tags="noun:inanim:m:v_naz" />
+  <token value="жаль" lemma="жаль" tags="noun:inanim:m:v_naz" />
   <token value="," lemma="," tags="punct" />
   <token value="бо" lemma="бо" tags="conj:subord" />
   <token value="маємо" lemma="мати" tags="verb:imperf:pres:p:1" />
-      <token value="добрі" lemma="добрий" tags="adj:p:v_zna:rinanim:compb" />
-      <token value="природні" lemma="природний" tags="adj:p:v_zna:rinanim:compb" />
+  <token value="добрі" lemma="добрий" tags="adj:p:v_zna:rinanim:compb" />
+  <token value="природні" lemma="природний" tags="adj:p:v_zna:rinanim:compb" />
   <token value="умови" lemma="умова" tags="noun:inanim:p:v_zna" />
   <token value="для" lemma="для" tags="prep" />
   <token value="зростання" lemma="зростання" tags="noun:inanim:n:v_rod" />
@@ -583,7 +583,7 @@
 <sentence>
   <token value="Це" lemma="це" tags="noun:inanim:n:v_naz:&amp;pron:dem" />
   <token value="унікальний" lemma="унікальний" tags="adj:m:v_naz:compb" />
-      <token value="комплект" lemma="комплект" tags="noun:inanim:m:v_naz" />
+  <token value="комплект" lemma="комплект" tags="noun:inanim:m:v_naz" />
   <token value="із" lemma="із" tags="prep" />
   <token value="одного" lemma="один" tags="numr:n:v_rod" />
   <token value="дерева" lemma="дерево" tags="noun:inanim:n:v_rod" />

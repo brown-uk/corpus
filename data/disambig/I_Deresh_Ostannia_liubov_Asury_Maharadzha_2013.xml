@@ -371,15 +371,11 @@
   <token value="," lemma="," tags="punct" />
   <token value="що" lemma="що" tags="conj:subord" />
   <token value="є" lemma="бути" tags="verb:imperf:pres:s:3" />
-  <token value="й" lemma="й" tags="part" >
-    <alts>
-        <token value="й" lemma="й" tags="conj:coord" />
-    </alts>
-  </token>
+  <token value="й" lemma="й" tags="part" />
   <token value="змія" lemma="змія" tags="noun:anim:f:v_naz" />
   <token value="," lemma="," tags="punct" />
   <token value="не" lemma="не" tags="part" />
-  <token value="тільки" lemma="тільки" tags="conj:subord" />
+  <token value="тільки" lemma="тільки" tags="part" />
   <token value="мотузка" lemma="мотузка" tags="noun:inanim:f:v_naz" />
   <token value="!" lemma="!" tags="punct" />
 </sentence>
@@ -481,7 +477,7 @@
   <token value="втрата" lemma="втрата" tags="noun:inanim:f:v_naz" />
   <token value="і" lemma="і" tags="part" >
     <alts>
-        <token value="і" lemma="і" tags="conj:coord" />
+      <token value="і" lemma="і" tags="conj:coord" />
     </alts>
   </token>
   <token value="для" lemma="для" tags="prep" />
@@ -1045,8 +1041,8 @@
   <token value="." lemma="." tags="punct" />
 </sentence>
 <sentence>
-  <token value="Як" lemma="як" tags="adv:&amp;pron:int:rel" />
-  <token value="тільки" lemma="тільки" tags="adv" />
+  <token value="Як" lemma="як" tags="conj:subord" />
+  <token value="тільки" lemma="тільки" tags="conj:subord" />
   <token value="хтось" lemma="хтось" tags="noun:anim:m:v_naz:&amp;pron:ind" />
   <token value="каже" lemma="казати" tags="verb:imperf:pres:s:3" />
   <token value="тобі" lemma="ти" tags="noun:anim:s:v_dav:&amp;pron:pers:2" />
