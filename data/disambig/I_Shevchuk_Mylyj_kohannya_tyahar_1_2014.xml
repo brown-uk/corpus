@@ -344,7 +344,7 @@
   <token value="«" lemma="«" tags="punct" />
   <token value="спадок" lemma="спадок" tags="noun:inanim:m:v_naz" />
   <token value="—" lemma="—" tags="punct" />
-  <token value="се" lemma="сей" tags="adj:m:v_naz:&amp;pron:dem:arch" />
+  <token value="се" lemma="се" tags="part:arch" />
   <token value="фатум" lemma="фатум" tags="noun:inanim:m:v_naz" />
   <token value="»" lemma="»" tags="punct" />
   <token value="," lemma="," tags="punct" />
@@ -572,8 +572,8 @@
   <token value="і" lemma="і" tags="conj:coord" />
   <token value="згадав" lemma="згадати" tags="verb:perf:past:m" />
   <token value="про" lemma="про" tags="prep" />
-  <token value="твердого" lemma="твердий" tags="adj:m:v_zna:ranim" />
-  <token value="свого" lemma="свій" tags="adj:m:v_zna:ranim:&amp;pron:pos" />
+  <token value="твердого" lemma="твердий" tags="adj:m:v_rod:compb" />
+  <token value="свого" lemma="свій" tags="adj:m:v_rod:&amp;pron:pos" />
   <token value="приписа" lemma="припис" tags="noun:inanim:m:v_zna:var" />
   <token value="не" lemma="не" tags="part" />
   <token value="їздити" lemma="їздити" tags="verb:imperf:inf" />
@@ -1001,7 +1001,7 @@
   <token value="він" lemma="він" tags="noun:unanim:m:v_naz:&amp;pron:pers:3" />
   <token value="," lemma="," tags="punct" />
   <token value="напившись" lemma="напившись" tags="advp:rev:perf" />
-  <token value="малмазії" lemma="малмазія" tags="noun:inanim:f:v_rod" />
+  <token value="малмазії" lemma="малмазія" tags="noun:inanim:f:v_rod:slang" />
   <token value="," lemma="," tags="punct" />
   <token value="шукав" lemma="шукати" tags="verb:imperf:past:m" />
   <token value="воріт" lemma="ворота" tags="noun:inanim:p:v_rod:ns" />
@@ -1092,7 +1092,7 @@
   <token value="як" lemma="як" tags="conj:subord" />
   <token value="мерехтіння" lemma="мерехтіння" tags="noun:inanim:n:v_naz" />
   <token value="кволого" lemma="кволий" tags="adj:n:v_rod:compb" />
-  <token value="вогняти" lemma="вогняти" tags="noun:inanim:n:v_rod" />
+  <token value="вогняти" lemma="вогнято" tags="noun:inanim:n:v_rod" />
   <token value="," lemma="," tags="punct" />
   <token value="що" lemma="що" tags="conj:subord" />
   <token value="спалахував" lemma="спалахувати" tags="verb:imperf:past:m" />
