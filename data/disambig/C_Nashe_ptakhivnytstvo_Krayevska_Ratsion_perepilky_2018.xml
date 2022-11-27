@@ -64,7 +64,7 @@
   <token value="Зернові" lemma="зерновий" tags="adj:p:v_zna:rinanim" />
   <token value="корми" lemma="корм" tags="noun:inanim:p:v_zna" />
   <token value="," lemma="," tags="punct" />
-  <token value="багаті" lemma="багатий" tags="adj:p:v_naz:compb" />
+  <token value="багаті" lemma="багатий" tags="adj:p:v_zna:rinanim:compb" />
   <token value="на" lemma="на" tags="prep" />
   <token value="вуглеводи" lemma="вуглевод" tags="noun:inanim:p:v_zna" />
   <token value="," lemma="," tags="punct" />
@@ -143,7 +143,7 @@
   <token value="в" lemma="в" tags="prep" />
   <token value="енергії" lemma="енергія" tags="noun:inanim:f:v_mis" />
   <token value="," lemma="," tags="punct" />
-  <token value="необхідної" lemma="необхідний" tags="adj:f:v_rod:compb" />
+  <token value="необхідної" lemma="необхідний" tags="adj:f:v_rod:compb:bad" comment="необхідній?" />
   <token value="в" lemma="в" tags="prep" />
   <token value="процесі" lemma="процес" tags="noun:inanim:m:v_mis" />
   <token value="біологічного" lemma="біологічний" tags="adj:n:v_rod" />
@@ -707,7 +707,7 @@
   <token value="дають" lemma="давати" tags="verb:imperf:pres:p:3" />
   <token value="комбікорм" lemma="комбікорм" tags="noun:inanim:m:v_zna" />
   <token value="," lemma="," tags="punct" />
-  <token value="призначений" lemma="призначений" tags="adj:m:v_naz:&amp;adjp:pasv:perf" />
+  <token value="призначений" lemma="призначений" tags="adj:m:v_zna:rinanim:&amp;adjp:pasv:perf" />
   <token value="для" lemma="для" tags="prep" />
   <token value="вирощування" lemma="вирощування" tags="noun:inanim:n:v_rod" />
   <token value="індичат" lemma="індича" tags="noun:anim:p:v_rod" />
