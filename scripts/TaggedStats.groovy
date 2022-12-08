@@ -22,7 +22,7 @@ new File("$BASE_DIR/../data/good").eachFile{ f ->
     if( ! f.name.endsWith('.txt') )
         return
 
-    def w = f.text =~ /(?ui)[а-яіїєґ'\u2019\u02BC–-]+/
+    def w = f.text =~ /(?ui)[а-яіїєґ][а-яіїєґ'\u2019\u02BC–-]*/
     int wordCount = w.size()
         
     def xmlName = f.name.replaceFirst(/\.txt$/, '.xml')
