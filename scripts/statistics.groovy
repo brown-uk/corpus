@@ -167,7 +167,7 @@ def countInFolder(folderName, stats) {
                 pureText = pureText.replace(' - ', ' a ')
             }
 //             def words = pureText.split(/[ \t,]+/).findAll { it =~ /(?ui)[а-яіїєґa-z0-9]/ }
-            def words = pureText =~ /(?ui)[а-яіїєґa-z][а-яіїєґa-z0-9\u0301'’ʼ\/-]*|[0-9]+/
+            def words = pureText =~ /(?ui)[а-яіїєґ][а-яіїєґa-z0-9\u0301'’ʼ\/\u2013-]*/
 
             if( Math.abs(words.size() - count) > 5 ) {
                 println "WARNING: Length $count does not match real word count ${words.size()} (delta: ${words.size()-count}) in " + f
