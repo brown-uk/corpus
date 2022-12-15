@@ -4,7 +4,9 @@
 
 import groovy.transform.*
 import java.util.regex.*
+import java.io.OutputStreamWriter
 
+import org.apache.commons.csv.CSVPrinter
 import org.apache.commons.csv.CSVFormat
 import org.apache.commons.csv.CSVRecord
 import org.apache.commons.csv.CSVFormat.Builder
@@ -19,11 +21,13 @@ if ( osName.contains("windows")) {
 
 
 @Field
+String[] metaHeaders = ["group", "cat", "file", "author_surname", "author_name", "title", "publ_in", "url", "publ_part", "publ_place", "publisher", "year", "pages", "length", "alt_orth", "errors", "comments"]
+@Field
 def CATEGORIES = ["A": 25, "B": 3, "C": 7, "D": 7, "E": 3, "F": 5, "G": 10, "H": 15, "I": 25]
 @Field
 def CAT_DESC = [
     'A': 'Преса',
-    'B': 'Релігійні література',
+    'B': 'Релігійна література',
     'C': 'Професійно-популярна література',
     'D': '«Естетичні інформативні» тексти',
     'E': 'Адміністративні документи',
@@ -38,6 +42,8 @@ def CAT_DESC = [
 
 @Field
 def meta = readMeta()
+@Field
+boolean updateMeta = false
 
 class Stats {
     def statMap = [:].withDefault{ 0 }
@@ -56,15 +62,19 @@ println "\n==================="
 println "Статистика для good (мета: ${target/10} тис.)"
 printStats(stats)
 
+if( ! ('-5' in args) ) {
+    println "\nРахуємо для so-so..."
 
-println "\nРахуємо для so-so..."
+    countInFolder("../data/so-so", stats)
 
-countInFolder("../data/so-so", stats)
+    println "\n==================="
+    println "Статистика всього"
+    printStats(stats)
+}
 
-println "\n==================="
-println "Статистика всього"
-printStats(stats)
-
+if( updateMeta ) {
+    writeMeta(meta)
+}
 
 def printStats(stats) {
 
@@ -160,7 +170,7 @@ def countInFolder(folderName, stats) {
         println "WARNING: Latin/Cyrillic mix in " + f + ": " + latCyrMix[0]
     }
     else {
-        if( '-c' in args && folderName =~ 'good' ) {
+        if( '-c' in args /*&& folderName =~ 'good'*/ ) {
             def pureText = text
             pureText = pureText.replaceAll(/([0-9])[:,.-]([0-9])/, '$1$2').trim()
             if( ! ('-l' in args) ) {
@@ -170,10 +180,15 @@ def countInFolder(folderName, stats) {
             def words = pureText =~ /(?ui)[а-яіїєґ][а-яіїєґa-z0-9\u0301'’ʼ\/\u2013-]*/
 
             if( Math.abs(words.size() - count) > 5 ) {
-                println "WARNING: Length $count does not match real word count ${words.size()} (delta: ${words.size()-count}) in " + f
+                println "WARNING: Length $count does not match real word count ${words.size()} (delta: ${words.size()-count}) in $f"
                   if( new File("cnt").isDirectory() ) {
                    new File("cnt/${f.name}_cnt.txt").text = (words as List).join('\n')
                    new File("cnt/${f.name}_xx.txt").text = pureText
+                }
+                
+                if( meta[f.name] ) {
+                    meta[f.name]['length'] = words.size()
+                    updateMeta = true
                 }
             }
         }
@@ -185,23 +200,41 @@ def countInFolder(folderName, stats) {
 }
 
 
+
+@CompileStatic
 def readMeta() {
     def meta = [:]
-    String[] headers = ["group", "cat", "file", "author_surname", "author_name", "title", "publ_in", "url", "publ_part", "publ_place", "publisher", "year", "pages", "length", "alt_orth", "errors", "comments"]
     
     FileReader csv = new FileReader("../meta/meta.csv")
-    def csvFormat = CSVFormat.EXCEL.withHeader(headers)
+    CSVFormat csvFormat = CSVFormat.EXCEL.withHeader(metaHeaders)
     
     Iterable<CSVRecord> records = csvFormat.parse(csv)
         
     for (CSVRecord record : records) {
-        String cat = record.get("cat");
         String file = record.get("file");
+        if( file == "file" )
+            continue
         
-        meta[file] = record
+        meta[file] = record.toMap()
     }
     
     println "Found meta info for ${meta.size()} files"
 
     return meta    
+}
+
+@CompileStatic
+def writeMeta(Map<String, Map<String, String>> meta) {
+    println "Updating meta.csv"
+    
+    FileWriter csv = new FileWriter("../meta/meta.csv")
+    def csvFormat = CSVFormat.EXCEL.withHeader(metaHeaders)
+    
+    csv.withWriter { wr ->
+        def printer = new CSVPrinter(wr, csvFormat)
+    
+        meta.each { e ->
+            printer.printRecord(e.getValue().values())
+        }
+    }
 }
