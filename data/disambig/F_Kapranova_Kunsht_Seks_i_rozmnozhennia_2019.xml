@@ -420,7 +420,7 @@
   <token value="і" lemma="і" tags="conj:coord" />
   <token value="астроном" lemma="астроном" tags="noun:anim:m:v_naz" />
   <token value="Джон" lemma="Джон" tags="noun:anim:m:v_naz:prop:fname" />
-  <token value="Міллз" lemma="Міллз" tags="unknown" />
+  <token value="Міллз" lemma="Міллз" tags="noun:anim:m:v_naz:prop:lname" />
   <token value="із" lemma="із" tags="prep" />
   <token value="Університету" lemma="університет" tags="noun:inanim:m:v_rod" />
   <token value="Андерсена" lemma="Андерсен" tags="noun:inanim:m:v_rod:prop:geo" />
@@ -1146,7 +1146,7 @@
   <token value="тому" lemma="тому" tags="adv" />
   <token value="чутливих" lemma="чутливий" tags="adj:p:v_rod:compb" />
   <token value="моментів" lemma="момент" tags="noun:inanim:p:v_rod" />
-  <token value="багато" lemma="багато" tags="numr:p:v_naz:&amp;pron:ind" />
+  <token value="багато" lemma="багато" tags="adv:compb" />
   <token value="." lemma="." tags="punct" />
 </sentence>
 <paragraph/>
@@ -1190,7 +1190,7 @@
   <token value="але" lemma="але" tags="conj:coord" />
   <token value="якщо" lemma="якщо" tags="conj:subord" />
   <token value="їх" lemma="вони" tags="noun:unanim:p:v_rod:&amp;pron:pers:3" />
-  <token value="багато" lemma="багато" tags="numr:p:v_naz:&amp;pron:ind" />
+  <token value="багато" lemma="багато" tags="adv:compb" />
   <token value="," lemma="," tags="punct" />
   <token value="то" lemma="то" tags="conj:subord" />
   <token value="найбільш" lemma="найбільш" tags="adv:comps:short" />
@@ -1237,7 +1237,7 @@
   <token value="Як" lemma="як" tags="adv:&amp;pron:int:rel" />
   <token value="розповідає" lemma="розповідати" tags="verb:imperf:pres:s:3" />
   <token value="Марджорі" lemma="Марджорі" tags="noun:anim:f:v_naz:nv:prop:fname" />
-  <token value="Дженкінс" lemma="Дженкінс" tags="noun:anim:f:v_naz:prop:lname" />
+  <token value="Дженкінс" lemma="Дженкінс" tags="noun:anim:f:v_naz:nv:prop:lname" />
   <token value="із" lemma="із" tags="prep" />
   <token value="Інституту" lemma="інститут" tags="noun:inanim:m:v_rod" />
   <token value="жіночого" lemma="жіночий" tags="adj:n:v_rod" />
