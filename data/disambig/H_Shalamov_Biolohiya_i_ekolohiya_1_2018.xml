@@ -37,7 +37,7 @@
   <token value="народження" lemma="народження" tags="noun:inanim:n:v_naz" />
   <token value="людини" lemma="людина" tags="noun:anim:f:v_rod" />
   <token value="та" lemma="та" tags="conj:coord" />
-  <token value="багато" lemma="багато" tags="adv:compb" />
+  <token value="багато" lemma="багато" tags="adv:compb:&amp;predic" />
   <token value="інших" lemma="інший" tags="adj:p:v_rod:&amp;pron:def" />
   <token value="біологічних" lemma="біологічний" tags="adj:p:v_rod" />
   <token value="процесів" lemma="процес" tags="noun:inanim:p:v_rod" />
@@ -226,7 +226,7 @@
 </sentence>
 <sentence>
   <token value="Опануванню" lemma="опанування" tags="noun:inanim:n:v_dav" />
-  <token value="найбільш" lemma="найбільш" tags="adv:comps:short" />
+  <token value="найбільш" lemma="найбільше" tags="adv:comps:&amp;predic:short" />
   <token value="загальних" lemma="загальний" tags="adj:p:v_rod:compb" />
   <token value="уявлень" lemma="уявлення" tags="noun:inanim:p:v_rod" />
   <token value="," lemma="," tags="punct" />
@@ -366,7 +366,7 @@
 </sentence>
 <sentence>
   <token value="Ба" lemma="ба" tags="part" />
-  <token value="більше" lemma="більше" tags="adv:compc" />
+  <token value="більше" lemma="більше" tags="adv:compc:&amp;predic" />
   <token value="," lemma="," tags="punct" />
   <token value="досліджуючи" lemma="досліджуючи" tags="advp:imperf" />
   <token value="хімічний" lemma="хімічний" tags="adj:m:v_zna:rinanim" />
@@ -1515,7 +1515,7 @@
   <token value="моделі" lemma="модель" tags="noun:inanim:p:v_naz" />
   <token value="смартфонів" lemma="смартфон" tags="noun:inanim:p:v_rod:ua_2019" />
   <token value="," lemma="," tags="punct" />
-  <token value="більш" lemma="більше" tags="adv:compc:short" />
+  <token value="більш" lemma="більше" tags="adv:compc:&amp;predic:short" />
   <token value="адаптовані" lemma="адаптований" tags="adj:p:v_naz:&amp;adjp:pasv:perf:compb" />
   <token value="до" lemma="до" tags="prep" />
   <token value="нових" lemma="новий" tags="adj:p:v_rod:compb" />
