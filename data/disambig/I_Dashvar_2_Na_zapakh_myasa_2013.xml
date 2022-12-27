@@ -529,7 +529,7 @@
   <token value="брат" lemma="брат" tags="noun:anim:m:v_naz" />
   <token value="їй" lemma="вона" tags="noun:unanim:f:v_dav:&amp;pron:pers:3" />
   <token value="," lemma="," tags="punct" />
-  <token value="це" lemma="це" tags="noun:inanim:n:v_naz:&amp;pron:dem" />
+  <token value="це" lemma="це" tags="part" />
   <token value="точно" lemma="точно" tags="adv:compb" />
   <token value="." lemma="." tags="punct" />
 </sentence>
@@ -2050,7 +2050,7 @@
 <format tag="br" />
 <sentence>
   <token value="—" lemma="—" tags="punct" />
-  <token value="То" lemma="то" tags="conj:subord" />
+  <token value="То" lemma="то" tags="part" />
   <token value="не" lemma="не" tags="part" />
   <token value="поїдеш" lemma="поїхати" tags="verb:perf:futr:s:2" />
   <token value="із" lemma="із" tags="prep" />
@@ -2062,7 +2062,7 @@
   <token value="—" lemma="—" tags="punct" />
   <token value="Чого" lemma="чого" tags="adv" />
   <token value="б" lemma="б" tags="part" />
-  <token value="це" lemma="це" tags="noun:inanim:n:v_naz:&amp;pron:dem" />
+  <token value="це" lemma="це" tags="part" />
   <token value="?" lemma="?" tags="punct" />
 </sentence>
 <sentence>
@@ -2545,8 +2545,8 @@
 </sentence>
 <sentence>
   <token value="Та" lemma="та" tags="conj:coord" />
-  <token value="що" lemma="що" tags="conj:subord" />
-  <token value="то" lemma="то" tags="conj:subord" />
+  <token value="що" lemma="що" tags="noun:inanim:n:v_naz:&amp;pron:int:rel" />
+  <token value="то" lemma="то" tags="part" />
   <token value="за" lemma="за" tags="part" />
   <token value="чоловіки" lemma="чоловік" tags="noun:anim:p:v_naz" />
   <token value="пішли" lemma="піти" tags="verb:perf:past:p" />

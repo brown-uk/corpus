@@ -989,7 +989,7 @@
 <sentence>
   <token value="Зло" lemma="зло" tags="noun:inanim:n:v_naz" />
   <token value="—" lemma="—" tags="punct" />
-  <token value="це" lemma="це" tags="noun:inanim:n:v_naz:&amp;pron:dem" />
+  <token value="це" lemma="це" tags="part" />
   <token value="напівбоги" lemma="напівбог" tags="noun:anim:p:v_naz" />
   <token value="," lemma="," tags="punct" />
   <token value="Асуро" lemma="Асура" tags="noun:anim:m:v_kly:prop:fname" />
@@ -998,14 +998,14 @@
 <sentence>
   <token value="Зло" lemma="зло" tags="noun:inanim:n:v_naz" />
   <token value="—" lemma="—" tags="punct" />
-  <token value="це" lemma="це" tags="noun:inanim:n:v_naz:&amp;pron:dem" />
+  <token value="це" lemma="це" tags="part" />
   <token value="нерівність" lemma="нерівність" tags="noun:inanim:f:v_naz" />
   <token value="." lemma="." tags="punct" />
 </sentence>
 <sentence>
   <token value="Зло" lemma="зло" tags="noun:inanim:n:v_naz" />
   <token value="—" lemma="—" tags="punct" />
-  <token value="це" lemma="це" tags="noun:inanim:n:v_naz:&amp;pron:dem" />
+  <token value="це" lemma="це" tags="part" />
   <token value="ієрархія" lemma="ієрархія" tags="noun:inanim:f:v_naz" />
   <token value="." lemma="." tags="punct" />
 </sentence>
@@ -1029,12 +1029,7 @@
   <token value="?" lemma="?" tags="punct" />
 </sentence>
 <sentence>
-  <token value="Це" lemma="це" tags="noun:inanim:n:v_naz:&amp;pron:dem" >
-    <alts>
-      <token value="Це" lemma="це" tags="part" />
-      <token value="Це" lemma="цей" tags="adj:n:v_naz:&amp;pron:dem" />
-    </alts>
-  </token>
+  <token value="Це" lemma="це" tags="part" />
   <token value="зло" lemma="зло" tags="noun:inanim:n:v_naz" />
   <token value="," lemma="," tags="punct" />
   <token value="Асуро" lemma="Асура" tags="noun:anim:m:v_kly:prop:fname" />
