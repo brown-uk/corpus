@@ -11,7 +11,7 @@
   <token value="Львівщини" lemma="Львівщина" tags="noun:inanim:f:v_rod:prop:geo" />
   <token value="–" lemma="–" tags="punct" />
   <token value="гору" lemma="гора" tags="noun:inanim:f:v_zna" />
-  <token value="Пікуй" lemma="Пікуй" tags="noun:inanim:m:v_naz:prop:geo" comment="додати в словник"/>
+  <token value="Пікуй" lemma="Пікуй" tags="noun:inanim:m:v_naz:prop:geo" />
   <token value="(" lemma="(" tags="punct" />
   <token value="1408" lemma="1408" tags="number" />
   <token value="м" lemma="м" tags="noun:inanim:p:v_rod:nv:abbr" />
@@ -85,7 +85,7 @@
   <token value="чисельності" lemma="чисельність" tags="noun:inanim:f:v_rod" />
   <token value="команди" lemma="команда" tags="noun:inanim:f:v_rod" />
   <token value="," lemma="," tags="punct" />
-  <token value="протяжності" lemma="протяжність" tags="noun:inanim:p:v_rod" />
+  <token value="протяжності" lemma="протяжність" tags="noun:inanim:f:v_rod" />
   <token value="та" lemma="та" tags="conj:coord" />
   <token value="складності" lemma="складність" tags="noun:inanim:f:v_rod" />
   <token value="обраного" lemma="обраний" tags="adj:m:v_rod:&amp;adjp:pasv:perf" />
@@ -121,7 +121,7 @@
 <sentence>
   <token value="Учасниками" lemma="учасник" tags="noun:anim:p:v_oru" />
   <token value="«" lemma="«" tags="punct" />
-  <token value="Пікуяни-2013" lemma="Пікуяна-2013" tags="unclass" comment="неправильно розпізнано як unknown"/>
+  <token value="Пікуяни-2013" lemma="Пікуяна-2013" tags="noun:inanim:f:v_rod:prop" />
   <token value="»" lemma="»" tags="punct" />
   <token value="стали" lemma="стати" tags="verb:perf:past:p" />
   <token value="9" lemma="9" tags="number" />
@@ -151,7 +151,7 @@
   <token value="," lemma="," tags="punct" />
   <token value="а" lemma="а" tags="conj:coord" />
   <token value="також" lemma="також" tags="adv" />
-  <token value="пам'яті" lemma="пам'ять" tags="noun:inanim:p:v_dav" />
+  <token value="пам'яті" lemma="пам'ять" tags="noun:inanim:f:v_rod" />
   <token value="відомого" lemma="відомий" tags="adj:m:v_rod:compb" />
   <token value="львівського" lemma="львівський" tags="adj:m:v_rod" />
   <token value="туриста" lemma="турист" tags="noun:anim:m:v_rod" />
@@ -191,7 +191,7 @@
   <token value="балів" lemma="бал" tags="noun:inanim:p:v_rod:xp1" />
   <token value="," lemma="," tags="punct" />
   <token value="розділили" lemma="розділити" tags="verb:perf:past:p" />
-  <token value="команди" lemma="команда" tags="noun:inanim:p:v_zna" />
+  <token value="команди" lemma="команда" tags="noun:inanim:p:v_naz" />
   <token value="Львівського" lemma="львівський" tags="adj:m:v_rod" />
   <token value="державного" lemma="державний" tags="adj:m:v_rod" />
   <token value="університету" lemma="університет" tags="noun:inanim:m:v_rod" />
@@ -239,7 +239,7 @@
   <token value="стали" lemma="стати" tags="verb:perf:past:p" />
   <token value="12-річний" lemma="12-річний" tags="adj:m:v_naz" />
   <token value="Микола" lemma="Микола" tags="noun:anim:m:v_naz:prop:fname" />
-  <token value="Папіш" lemma="Папіш" tags="noun:anim:m:v_naz:prop:lname" comment="нема в словнику" />
+  <token value="Папіш" lemma="Папіш" tags="noun:anim:m:v_naz:prop:lname" />
   <token value="," lemma="," tags="punct" />
   <token value="який" lemma="який" tags="adj:m:v_naz:&amp;pron:int:rel:def" />
   <token value="здійснив" lemma="здійснити" tags="verb:perf:past:m" />
@@ -264,7 +264,7 @@
   <token value="Юрія" lemma="Юрій" tags="noun:anim:m:v_zna:prop:fname" />
   <token value="та" lemma="та" tags="conj:coord" />
   <token value="Валентину" lemma="Валентина" tags="noun:anim:f:v_zna:prop:fname" />
-  <token value="Самаріних" lemma="Самарін" tags="noun:anim:p:v_zna:prop:lname" comment="додати множину до прізвища в словнику"/>
+  <token value="Самаріних" lemma="Самарін" tags="noun:anim:p:v_zna:prop:lname" />
   <token value="," lemma="," tags="punct" />
   <token value="які" lemma="який" tags="adj:p:v_naz:&amp;pron:int:rel:def" />
   <token value="сходженням" lemma="сходження" tags="noun:inanim:n:v_oru" />

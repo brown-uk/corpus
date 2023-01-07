@@ -96,11 +96,6 @@
 <paragraph/>
 
 <sentence>
-  <token value="&lt;picture&gt;" lemma="&lt;picture&gt;" tags="xmltag" />
-</sentence>
-<paragraph/>
-
-<sentence>
   <token value="У" lemma="у" tags="prep" />
   <token value="лютому" lemma="лютий" tags="noun:inanim:m:v_mis" />
   <token value="2007" lemma="2007" tags="number" />
@@ -165,7 +160,7 @@
   <token value="Як" lemma="як" tags="adv:&amp;pron:int:rel" />
   <token value="пояснили" lemma="пояснити" tags="verb:perf:past:p" />
   <token value="чиновники" lemma="чиновник" tags="noun:anim:p:v_naz" />
-  <token value="РДА" lemma="РДА" tags="noun:inanim:p:v_rod:nv:abbr" />
+  <token value="РДА" lemma="РДА" tags="noun:inanim:f:v_rod:nv:abbr" />
   <token value="," lemma="," tags="punct" />
   <token value="під" lemma="під" tags="prep" />
   <token value="час" lemma="час" tags="noun:inanim:m:v_zna" />
@@ -247,8 +242,8 @@
 <sentence>
   <token value="Зокрема" lemma="зокрема" tags="adv" />
   <token value="," lemma="," tags="punct" />
-  <token value="цей" lemma="цей" tags="adj:m:v_naz:&amp;pron:dem" />
-  <token value="договір" lemma="договір" tags="noun:inanim:m:v_naz" />
+  <token value="цей" lemma="цей" tags="adj:m:v_zna:rinanim:&amp;pron:dem" />
+  <token value="договір" lemma="договір" tags="noun:inanim:m:v_zna" />
   <token value="було" lemma="бути" tags="verb:imperf:past:n:&amp;insert" />
   <token value="укладено" lemma="укласти" tags="verb:perf:impers" />
   <token value="без" lemma="без" tags="prep" />
@@ -337,7 +332,7 @@
 <sentence>
   <token value="Директором" lemma="директор" tags="noun:anim:m:v_oru" />
   <token value="фірми" lemma="фірма" tags="noun:inanim:f:v_rod" />
-  <token value="є" lemma="бути" tags="verb:imperf:pres:p:3" />
+  <token value="є" lemma="бути" tags="verb:imperf:pres:s:3" />
   <token value="Олександр" lemma="Олександр" tags="noun:anim:m:v_naz:prop:fname" />
   <token value="Чорний" lemma="Чорний" tags="noun:anim:m:v_naz:prop:lname" />
   <token value="." lemma="." tags="punct" />
