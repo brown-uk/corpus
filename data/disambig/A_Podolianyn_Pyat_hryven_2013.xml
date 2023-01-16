@@ -19,7 +19,7 @@
   <token value="Довжку" lemma="Довжок" tags="noun:inanim:m:v_rod:prop:geo:ua_2019" />
   <token value="через" lemma="через" tags="prep" />
   <token value="Старе" lemma="старий" tags="adj:n:v_zna:compb" />
-  <token value="місто" lemma="місто" tags="noun:inanim:n:v_naz" />
+  <token value="місто" lemma="місто" tags="noun:inanim:n:v_zna" />
   <token value="таки" lemma="таки" tags="part" />
   <token value="доведеться" lemma="довестися" tags="verb:rev:perf:futr:s:3" />
   <token value="платити" lemma="платити" tags="verb:imperf:inf" />
@@ -36,7 +36,7 @@
   <token value="своєї" lemma="свій" tags="adj:f:v_rod:&amp;pron:pos" />
   <token value="автівки" lemma="автівка" tags="noun:inanim:f:v_rod" />
   <token value="аварійною" lemma="аварійний" tags="adj:f:v_oru:compb" />
-  <token value="пам'яткою" lemma="пам'яткий" tags="adj:f:v_oru" />
+  <token value="пам'яткою" lemma="пам'ятка" tags="noun:inanim:f:v_oru" />
   <token value="архітектури" lemma="архітектура" tags="noun:inanim:f:v_rod" />
   <token value="національного" lemma="національний" tags="adj:n:v_rod" />
   <token value="значення" lemma="значення" tags="noun:inanim:n:v_rod" />
@@ -97,7 +97,7 @@
   <token value="її" lemma="її" tags="adj:f:v_rod:nv:&amp;pron:pos" />
   <token value="дії" lemma="дія" tags="noun:inanim:f:v_rod" />
   <token value="," lemma="," tags="punct" />
-  <token value="тим" lemma="те" tags="conj:subord" />
+  <token value="тим" lemma="тим" tags="conj:subord" />
   <token value="дешевше" lemma="дешевше" tags="adv:compc" />
   <token value="коштуватиме" lemma="коштувати" tags="verb:imperf:futr:s:3" />
   <token value="проїзд" lemma="проїзд" tags="noun:inanim:m:v_naz" />
@@ -170,7 +170,7 @@
   <token value="," lemma="," tags="punct" />
   <token value="зберегти" lemma="зберегти" tags="verb:perf:inf" />
   <token value="часове" lemma="часовий" tags="adj:n:v_zna" />
-  <token value="обмеження" lemma="обмеження" tags="noun:inanim:n:v_naz" />
+  <token value="обмеження" lemma="обмеження" tags="noun:inanim:n:v_zna" />
   <token value="проїзду" lemma="проїзд" tags="noun:inanim:m:v_rod" />
   <token value="і" lemma="і" tags="conj:coord" />
   <token value="зовсім" lemma="зовсім" tags="adv" />
@@ -208,7 +208,7 @@
   <token value="автоматично" lemma="автоматично" tags="adv" />
   <token value="зменшити" lemma="зменшити" tags="verb:perf:inf" />
   <token value="невпинний" lemma="невпинний" tags="adj:m:v_zna:rinanim" />
-  <token value="рух" lemma="рух" tags="noun:inanim:m:v_naz" />
+  <token value="рух" lemma="рух" tags="noun:inanim:m:v_zna" />
   <token value="транспорту" lemma="транспорт" tags="noun:inanim:m:v_rod" />
   <token value="історичною" lemma="історичний" tags="adj:f:v_oru" />
   <token value="пам'яткою" lemma="пам'ятка" tags="noun:inanim:f:v_oru" />
@@ -244,7 +244,7 @@
   <token value="брами" lemma="брама" tags="noun:inanim:f:v_rod" />
   <token value=")" lemma=")" tags="punct" />
   <token value="та" lemma="та" tags="conj:coord" />
-  <token value="відновлення" lemma="відновлення" tags="noun:inanim:p:v_zna" />
+  <token value="відновлення" lemma="відновлення" tags="noun:inanim:n:v_zna" />
   <token value="пільгових" lemma="пільговий" tags="adj:p:v_rod" />
   <token value="перевезень" lemma="перевезення" tags="noun:inanim:p:v_rod" />
   <token value="комунальними" lemma="комунальний" tags="adj:p:v_oru:compb" />
@@ -271,10 +271,8 @@
   <token value="шкодять" lemma="шкодити" tags="verb:imperf:pres:p:3" />
   <token value="Замковому" lemma="замковий" tags="adj:m:v_dav" />
   <token value="мосту" lemma="міст" tags="noun:inanim:m:v_dav" />
-  <token value="найбільше" lemma="найбільше" tags="adv:comps" />
+  <token value="найбільше" lemma="найбільше" tags="adv:comps:&amp;predic" />
   <token value="." lemma="." tags="punct" />
 </sentence>
-<paragraph/>
-
 
 </text>

@@ -30,7 +30,7 @@
   <token value="життя" lemma="життя" tags="noun:inanim:n:v_zna" />
   <token value="в" lemma="в" tags="prep" />
   <token value="майстернях" lemma="майстерня" tags="noun:inanim:p:v_mis" />
-  <token value="К-ПНУ" lemma="К-ПНУ" tags="noun:inanim:m:v_rod:nv:abbr:prop" comment="додати в словник К-ПНУ #Кам'янець-Подільський національний університет"/>
+  <token value="К-ПНУ" lemma="К-ПНУ" tags="noun:inanim:m:v_rod:nv:abbr:prop" />
   <token value="ім." lemma="ім." tags="noun:inanim:n:v_rod:nv:abbr" />
   <token value="Івана" lemma="Іван" tags="noun:anim:m:v_rod:prop:fname" />
   <token value="Огієнка" lemma="Огієнко" tags="noun:anim:m:v_rod:prop:lname" />
@@ -144,7 +144,7 @@
   <token value="шари" lemma="шар" tags="noun:inanim:p:v_zna" />
   <token value="лаку" lemma="лак" tags="noun:inanim:m:v_rod" />
   <token value="і" lemma="і" tags="conj:coord" />
-  <token value="фарби" lemma="фарба" tags="noun:inanim:p:v_zna" />
+  <token value="фарби" lemma="фарба" tags="noun:inanim:f:v_rod" />
   <token value="," lemma="," tags="punct" />
   <token value="але" lemma="але" tags="conj:coord" />
   <token value="й" lemma="й" tags="part" />
@@ -170,7 +170,7 @@
   <token value="художників" lemma="художник" tags="noun:anim:p:v_rod" />
   <token value="і" lemma="і" tags="conj:coord" />
   <token value="сакральні" lemma="сакральний" tags="adj:p:v_naz:compb" />
-  <token value="образи" lemma="образ" tags="noun:inanim:p:v_zna:xp2" />
+  <token value="образи" lemma="образ" tags="noun:inanim:p:v_naz:xp2" />
   <token value="невідомих" lemma="невідомий" tags="adj:p:v_rod:compb" />
   <token value="авторів" lemma="автор" tags="noun:anim:p:v_rod" />
   <token value="виявилися" lemma="виявитися" tags="verb:rev:perf:past:p" />
@@ -220,7 +220,7 @@
   <token value="якості" lemma="якість" tags="noun:inanim:f:v_rod" />
   <token value="виконаних" lemma="виконаний" tags="adj:p:v_rod:&amp;adjp:pasv:perf" />
   <token value="робіт" lemma="робота" tags="noun:inanim:p:v_rod" />
-  <token value="це" lemma="це" tags="part" />
+  <token value="це" lemma="це" tags="noun:inanim:n:v_naz:&amp;pron:dem" />
   <token value="аж" lemma="аж" tags="part" />
   <token value="ніяк" lemma="ніяк" tags="adv:&amp;pron:neg:&amp;predic" />
   <token value="не" lemma="не" tags="part" />
@@ -253,7 +253,5 @@
   <token value="реставратори" lemma="реставратор" tags="noun:anim:p:v_naz" />
   <token value="." lemma="." tags="punct" />
 </sentence>
-<paragraph/>
-
 
 </text>
