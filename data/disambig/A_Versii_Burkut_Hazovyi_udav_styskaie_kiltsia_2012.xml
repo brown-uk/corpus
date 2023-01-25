@@ -161,13 +161,13 @@
   <token value=":" lemma=":" tags="punct" />
   <token value="«" lemma="«" tags="punct" />
   <token value="залізний" lemma="залізний" tags="adj:m:v_naz" />
-  <token value="Пу" lemma="Пу" tags="noun:anim:m:v_naz:prop:nickname" comment = "# прізвиськоНЕМА У ВЕСУМі" />
+  <token value="Пу" lemma="Пу" tags="noun:anim:m:v_naz:prop:fname" />
   <token value="»" lemma="»" tags="punct" />
   <token value="таки" lemma="таки" tags="part" />
   <token value="дотисне" lemma="дотиснути" tags="verb:perf:futr:s:3" />
   <token value="«" lemma="«" tags="punct" />
   <token value="незалежних" lemma="незалежний" tags="adj:p:v_zna:ranim:compb" />
-  <token value="хахлов" lemma="хахол" tags="noun:anim:p:v_zna:vulg:bad" comment="# вульгаризм, покруч із російської (укр. - хохол) НЕМА У ВЕСУМі" />
+  <token value="хахлов" lemma="хахол" tags="noun:anim:p:v_zna:bad" />
   <token value="»" lemma="»" tags="punct" />
   <token value="," lemma="," tags="punct" />
   <token value="нав'язавши" lemma="нав'язавши" tags="advp:perf" />
@@ -186,7 +186,7 @@
   <token value="А" lemma="а" tags="part" />
   <token value="до" lemma="до" tags="prep" />
   <token value="«" lemma="«" tags="punct" />
-  <token value="проффесіоналів" lemma="проффесіонал" tags="noun:anim:p:v_rod:bad" comment=" # покруч із російської НЕМА У ВЕСУМі" />
+  <token value="проффесіоналів" lemma="проффесіонал" tags="noun:anim:p:v_rod:bad" />
   <token value="»" lemma="»" tags="punct" />
   <token value="з" lemma="з" tags="prep" />
   <token value="Печерських" lemma="печерський" tags="adj:p:v_rod" />
@@ -194,7 +194,7 @@
   <token value="нарешті" lemma="нарешті" tags="adv:&amp;insert" />
   <token value="дійшло" lemma="дійти" tags="verb:perf:past:n" />
   <token value=":" lemma=":" tags="punct" />
-  <token value="Кремль" lemma="Кремль" tags="noun:inanim:m:v_naz:prop" comment="# центр влади Московії, управлінський апарат РФ - НЕМА У ВЕСУМі" />
+  <token value="Кремль" lemma="кремль" tags="noun:inanim:m:v_naz" />
   <token value="їх" lemma="вони" tags="noun:unanim:p:v_zna:&amp;pron:pers:3" />
   <token value="обвів" lemma="обвести" tags="verb:perf:past:m" />
   <token value="навколо" lemma="навколо" tags="prep" />
@@ -409,7 +409,7 @@
   <token value="програвши" lemma="програвши" tags="advp:perf" />
   <token value="зовсім" lemma="зовсім" tags="adv" />
   <token value="непотрібний" lemma="непотрібний" tags="adj:m:v_zna:rinanim:compb" />
-  <token value="Україні" lemma="Україна" tags="noun:inanim:f:v_mis:prop:geo" />
+  <token value="Україні" lemma="Україна" tags="noun:inanim:f:v_dav:prop:geo" />
   <token value="судовий" lemma="судовий" tags="adj:m:v_zna:rinanim" />
   <token value="процес" lemma="процес" tags="noun:inanim:m:v_zna" />
   <token value="у" lemma="у" tags="prep" />
@@ -476,7 +476,7 @@
   <token value="," lemma="," tags="punct" />
   <token value="повертаючись" lemma="повертаючись" tags="advp:rev:imperf" />
   <token value="з" lemma="з" tags="prep" />
-  <token value="двадцять" lemma="двадцять" tags="numr:p:v_rod:nv" comment="# у складених порядкових числівниках відмінюється лише останній компонент" />
+  <token value="двадцять" lemma="двадцять" tags="numr:p:v_naz" />
   <token value="першого" lemma="перший" tags="adj:n:v_rod:&amp;numr" />
   <token value="століття" lemma="століття" tags="noun:inanim:n:v_rod" />
   <token value="у" lemma="у" tags="prep" />

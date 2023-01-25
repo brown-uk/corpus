@@ -7,7 +7,7 @@
   <token value="спортивному" lemma="спортивний" tags="adj:m:v_mis:compb" />
   <token value="комплексі" lemma="комплекс" tags="noun:inanim:m:v_mis" />
   <token value="«" lemma="«" tags="punct" />
-  <token value="Розсошенці" lemma="Розсошенці" tags="noun:inanim:p:v_naz:ns:prop" comment="немає у ВЕСУМі" />
+  <token value="Розсошенці" lemma="Розсошенці" tags="noun:inanim:p:v_naz:ns:prop:geo" />
   <token value="»" lemma="»" tags="punct" />
   <token value="відбулися" lemma="відбутися" tags="verb:rev:perf:past:p" />
   <token value="фінальні" lemma="фінальний" tags="adj:p:v_naz" />
@@ -20,7 +20,7 @@
   <token value="«" lemma="«" tags="punct" />
   <token value="Колос" lemma="колос" tags="noun:inanim:m:v_naz" />
   <token value="»" lemma="»" tags="punct" />
-  <token value="АПК" lemma="АПК" tags="noun:inanim:m:v_naz:nv:abbr" />
+  <token value="АПК" lemma="АПК" tags="noun:inanim:m:v_rod:nv:abbr" />
   <token value="України" lemma="Україна" tags="noun:inanim:f:v_rod:prop:geo" />
   <token value="з" lemma="з" tags="prep" />
   <token value="міні-футболу" lemma="міні-футбол" tags="noun:inanim:m:v_rod:ua_1992" />
@@ -322,7 +322,7 @@
   <token value="м'ячі" lemma="м'яч" tags="noun:inanim:p:v_zna" />
   <token value="," lemma="," tags="punct" />
   <token value="в" lemma="в" tags="prep" />
-  <token value="основному" lemma="основний" tags="adj:m:v_mis:compb" />
+  <token value="основному" lemma="основний" tags="adj:n:v_mis:compb" />
   <token value="контролювали" lemma="контролювати" tags="verb:imperf:past:p" />
   <token value="м'яч" lemma="м'яч" tags="noun:inanim:m:v_zna" />
   <token value="," lemma="," tags="punct" />
@@ -370,7 +370,7 @@
   <token value="та" lemma="та" tags="conj:coord" />
   <token value="на" lemma="на" tags="prep" />
   <token value="більше" lemma="більший" tags="adj:n:v_zna:compc" />
-  <token value="їх" lemma="їх" tags="adj:p:v_rod:nv:&amp;pron:pos:bad" />
+  <token value="їх" lemma="вони" tags="noun:unanim:p:v_rod:&amp;pron:pers:3" />
   <token value="не" lemma="не" tags="part" />
   <token value="вистачило" lemma="вистачити" tags="verb:perf:past:n" />
   <token value="." lemma="." tags="punct" />
@@ -420,7 +420,7 @@
   <token value="«" lemma="«" tags="punct" />
   <token value="Колос" lemma="колос" tags="noun:inanim:m:v_naz" />
   <token value="»" lemma="»" tags="punct" />
-  <token value="АПК" lemma="АПК" tags="noun:inanim:m:v_naz:nv:abbr" />
+  <token value="АПК" lemma="АПК" tags="noun:inanim:m:v_rod:nv:abbr" />
   <token value="України" lemma="Україна" tags="noun:inanim:f:v_rod:prop:geo" />
   <token value="." lemma="." tags="punct" />
 </sentence>

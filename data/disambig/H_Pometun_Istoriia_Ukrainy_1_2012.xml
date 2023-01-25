@@ -53,7 +53,7 @@
   <token value="традиційних" lemma="традиційний" tags="adj:p:v_rod:compb" />
   <token value="українських" lemma="український" tags="adj:p:v_rod:compb" />
   <token value="«" lemma="«" tags="punct" />
-  <token value="Просвіт" lemma="Просвіта" tags="noun:inanim:p:v_rod:prop" comment="# назва культурно-освітніх товариств в Україні в 1868-1939 рр. НЕМА У ВЕСУМі" />
+  <token value="Просвіт" lemma="Просвіта" tags="noun:inanim:p:v_rod:prop" />
   <token value="»" lemma="»" tags="punct" />
   <token value="радянська" lemma="радянський" tags="adj:f:v_naz" />
   <token value="влада" lemma="влада" tags="noun:inanim:f:v_naz" />
@@ -151,7 +151,7 @@
   <token value="," lemma="," tags="punct" />
   <token value="а" lemma="а" tags="conj:coord" />
   <token value="й" lemma="й" tags="part" />
- <token value="обмежували" lemma="обмежувати" tags="verb:imperf:past:p" />
+  <token value="обмежували" lemma="обмежувати" tags="verb:imperf:past:p" />
   <token value="вплив" lemma="вплив" tags="noun:inanim:m:v_zna" />
   <token value="на" lemma="на" tags="prep" />
   <token value="неї" lemma="вона" tags="noun:unanim:f:v_zna:&amp;pron:pers:3" />
@@ -159,7 +159,7 @@
   <token value="частини" lemma="частина" tags="noun:inanim:f:v_rod" />
   <token value="інтелігенції" lemma="інтелігенція" tags="noun:inanim:f:v_rod" />
   <token value="," lemma="," tags="punct" />
-  <token value="що" lemma="що" tags="noun:inanim:n:v_naz:&amp;pron:int:rel" />
+  <token value="що" lemma="що" tags="conj:subord" />
   <token value="не" lemma="не" tags="part" />
   <token value="поділяла" lemma="поділяти" tags="verb:imperf:past:f" />
   <token value="більшовицької" lemma="більшовицький" tags="adj:f:v_rod" />
@@ -209,7 +209,7 @@
   <token value="на" lemma="на" tags="prep" />
   <token value="пленумі" lemma="пленум" tags="noun:inanim:m:v_mis" />
   <token value="ЦК" lemma="ЦК" tags="noun:inanim:m:v_rod:nv:abbr" />
-  <token value="КП(б)" lemma="КП(б)" tags="noun:f:v_rod:nv:abbr:prop" />
+  <token value="КП(б)" lemma="КП(б)" tags="noun:inanim:f:v_rod:nv:abbr:prop" />
   <token value="." lemma="." tags="punct" />
 </sentence>
 <sentence>
@@ -292,7 +292,7 @@
   <token value="культурно-освітніх" lemma="культурно-освітній" tags="adj:p:v_rod" />
   <token value="закладів" lemma="заклад" tags="noun:inanim:p:v_rod" />
   <token value="," lemma="," tags="punct" />
-  <token value="що" lemma="що" tags="noun:inanim:n:v_naz:&amp;pron:int:rel" />
+  <token value="що" lemma="що" tags="conj:subord" />
   <token value="мали" lemma="мати" tags="verb:imperf:past:p" />
   <token value="пропагувати" lemma="пропагувати" tags="verb:imperf:inf" />
   <token value="серед" lemma="серед" tags="prep" />
@@ -333,7 +333,7 @@
   <token value="російською" lemma="російський" tags="adj:f:v_oru:compb" />
   <token value="мовою" lemma="мова" tags="noun:inanim:f:v_oru" />
   <token value="," lemma="," tags="punct" />
-  <token value="що" lemma="що" tags="noun:inanim:n:v_naz:&amp;pron:int:rel" />
+  <token value="що" lemma="що" tags="conj:subord" />
   <token value="виконувала" lemma="виконувати" tags="verb:imperf:past:f" />
   <token value="централізаторські" lemma="централізаторський" tags="adj:p:v_zna:rinanim" />
   <token value="функції" lemma="функція" tags="noun:inanim:p:v_zna" />
@@ -347,7 +347,7 @@
   <token value="з" lemma="з" tags="prep" />
   <token value="секретарем" lemma="секретар" tags="noun:anim:m:v_oru" />
   <token value="ЦК" lemma="ЦК" tags="noun:inanim:m:v_rod:nv:abbr" />
-  <token value="КП(б)У" lemma="КП(б)У" tags="noun:inanim:f:v_rod:nv:prop:abbr" />
+  <token value="КП(б)У" lemma="КП(б)У" tags="noun:inanim:f:v_rod:nv:abbr:prop" />
   <token value="Д." lemma="Д." tags="noun:anim:m:v_oru:nv:abbr:prop:fname" />
   <token value="Лебедем" lemma="Лебідь" tags="noun:anim:m:v_oru:prop:lname" />
   <token value="обґрунтували" lemma="обґрунтувати" tags="verb:perf:past:p" />
@@ -513,7 +513,7 @@
   <token value="(" lemma="(" tags="punct" />
   <token value="квітень" lemma="квітень" tags="noun:inanim:m:v_naz" />
   <token value="1923" lemma="1923" tags="number" />
-  <token value="p." lemma="p." tags="noun:inanim:m:v_rod:nv:abbr:xp1" />
+  <token value="р." lemma="р." tags="noun:inanim:m:v_rod:nv:abbr:xp1" />
   <token value=")" lemma=")" tags="punct" />
   <token value="," lemma="," tags="punct" />
   <token value="в" lemma="в" tags="prep" />

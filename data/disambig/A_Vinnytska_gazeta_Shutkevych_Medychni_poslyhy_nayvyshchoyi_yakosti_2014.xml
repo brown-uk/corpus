@@ -74,7 +74,7 @@
 <sentence>
   <token value="А" lemma="а" tags="part" />
   <token value="ще" lemma="ще" tags="adv" />
-  <token value="це" lemma="це" tags="noun:inanim:n:v_naz:&amp;pron:dem" />
+  <token value="це" lemma="це" tags="part" />
   <token value="серйозний" lemma="серйозний" tags="adj:m:v_naz:compb" />
   <token value="крок" lemma="крок" tags="noun:inanim:m:v_naz" />
   <token value="у" lemma="у" tags="prep" />
@@ -193,23 +193,23 @@
   <token value="від" lemma="від" tags="prep" />
   <token value="компаній" lemma="компанія" tags="noun:inanim:p:v_rod" />
   <token value="«" lemma="«" tags="punct" />
-  <token value="Алкон" lemma="Алкон" tags="noun:inanim:m:v_naz:prop" comment="# назва міжнародної офтальмологічної компанії - НЕМА У ВЕСУМі" />
+  <token value="Алкон" lemma="Алкон" tags="noun:inanim:m:v_naz:prop" />
   <token value="»" lemma="»" tags="punct" />
   <token value="," lemma="," tags="punct" />
   <token value="«" lemma="«" tags="punct" />
-  <token value="Томей" lemma="Томей" tags="noun:inanim:m:v_naz:prop" comment="# назва японської офтальмологічної компанії - НЕМА У ВЕСУМі" />
+  <token value="Томей" lemma="Томей" tags="noun:inanim:m:v_naz:prop" />
   <token value="»" lemma="»" tags="punct" />
   <token value="," lemma="," tags="punct" />
   <token value="«" lemma="«" tags="punct" />
-  <token value="Топкон" lemma="Топкон" tags="noun:inanim:m:v_naz:prop" comment="# назва японської офтальмологічної компанії - НЕМА У ВЕСУМі" />
+  <token value="Топкон" lemma="Топкон" tags="noun:inanim:m:v_naz:prop" />
   <token value="»" lemma="»" tags="punct" />
   <token value="," lemma="," tags="punct" />
   <token value="«" lemma="«" tags="punct" />
-  <token value="Бауш" lemma="Бауш" tags="noun:inanim:m:v_naz:prop" comment="# назва міжнародної офтальмологічної компанії - НЕМА У ВЕСУМі" />
+  <token value="Бауш" lemma="Бауш" tags="noun:inanim:m:v_naz:prop" />
   <token value="»" lemma="»" tags="punct" />
   <token value="і" lemma="і" tags="conj:coord" />
   <token value="«" lemma="«" tags="punct" />
-  <token value="Люмб" lemma="Люмб" tags="noun:inanim:m:v_naz:prop" comment="# назва міжнародної офтальмологічної компанії - НЕМА У ВЕСУМі" />
+  <token value="Люмб" lemma="Люмб" tags="noun:inanim:m:v_naz:prop" />
   <token value="»" lemma="»" tags="punct" />
   <token value="та" lemma="та" tags="conj:coord" />
   <token value="інших" lemma="інший" tags="adj:p:v_rod:&amp;pron:def" />
@@ -268,7 +268,7 @@
   <token value="частина" lemma="частина" tags="noun:inanim:f:v_naz" />
   <token value="того" lemma="те" tags="noun:inanim:n:v_rod:&amp;pron:dem" />
   <token value="," lemma="," tags="punct" />
-  <token value="що" lemma="що" tags="noun:inanim:n:v_zna:&amp;pron:int:rel" />
+  <token value="що" lemma="що" tags="conj:subord" />
   <token value="пропонує" lemma="пропонувати" tags="verb:imperf:pres:s:3" />
   <token value="клініка" lemma="клініка" tags="noun:inanim:f:v_naz" />
   <token value="." lemma="." tags="punct" />
@@ -315,10 +315,8 @@
   <token value="період" lemma="період" tags="noun:inanim:m:v_naz" />
   <token value="становить" lemma="становити" tags="verb:imperf:pres:s:3" />
   <token value="не" lemma="не" tags="part" />
-  <token value="більше" lemma="більше" tags="adv:compc" />
+  <token value="більше" lemma="більше" tags="adv:compc:&amp;predic" />
   <token value="…" lemma="…" tags="punct" />
-</sentence>
-<sentence>
   <token value="20–30" lemma="20–30" tags="number" />
   <token value="хвилин" lemma="хвилина" tags="noun:inanim:p:v_rod" />
   <token value="," lemma="," tags="punct" />
@@ -390,7 +388,7 @@
   <token value="медичного" lemma="медичний" tags="adj:m:v_rod" />
   <token value="центру" lemma="центр" tags="noun:inanim:m:v_rod:xp2" />
   <token value="«" lemma="«" tags="punct" />
-  <token value="АІЛАЗ" lemma="АІЛАЗ" tags="noun:m:v_naz:noninfl:foreign:prop"  comment="# від англійського “око” і “лазер”" />
+  <token value="АІЛАЗ" lemma="АІЛАЗ" tags="noninfl:foreign" />
   <token value="»" lemma="»" tags="punct" />
   <token value="Андрій" lemma="Андрій" tags="noun:anim:m:v_naz:prop:fname" />
   <token value="Ковальов" lemma="Ковальов" tags="noun:anim:m:v_naz:prop:lname" />

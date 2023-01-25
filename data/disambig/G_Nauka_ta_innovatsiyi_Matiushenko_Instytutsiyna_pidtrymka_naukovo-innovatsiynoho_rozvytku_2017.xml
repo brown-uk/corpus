@@ -16,7 +16,7 @@
   <token value="визначена" lemma="визначений" tags="adj:f:v_naz:&amp;adjp:pasv:perf:compb" />
   <token value="у" lemma="у" tags="prep" />
   <token value="2008" lemma="2008" tags="number" />
-  <token value="р." lemma="р." tags="noun:inanim:m:v_rod:nv:abbr:xp1" />
+  <token value="р." lemma="р." tags="noun:inanim:m:v_mis:nv:abbr:xp1" />
   <token value="у" lemma="у" tags="prep" />
   <token value="звіті" lemma="звіт" tags="noun:inanim:m:v_mis" />
   <token value="Єврокомісії" lemma="Єврокомісія" tags="noun:inanim:f:v_rod:prop" />
@@ -27,7 +27,7 @@
   <token value="кластерної" lemma="кластерний" tags="adj:f:v_rod" />
   <token value="політики" lemma="політика" tags="noun:inanim:f:v_rod" />
   <token value="та" lemma="та" tags="conj:coord" />
-  <token value="їх" lemma="їх" tags="adj:f:v_naz:nv:&amp;pron:pos:bad" />
+  <token value="їх" lemma="вони" tags="noun:unanim:p:v_rod:&amp;pron:pers:3" />
   <token value="роль" lemma="роль" tags="noun:inanim:f:v_naz" />
   <token value="для" lemma="для" tags="prep" />
   <token value="конкурентоспроможності" lemma="конкурентоспроможність" tags="noun:inanim:f:v_rod" />
@@ -39,7 +39,7 @@
   <token value="Інноваційний" lemma="інноваційний" tags="adj:m:v_naz:compb" />
   <token value="кластер" lemma="кластер" tags="noun:inanim:m:v_naz" />
   <token value="—" lemma="—" tags="punct" />
-  <token value="це" lemma="це" tags="noun:inanim:n:v_naz:&amp;pron:dem" />
+  <token value="це" lemma="це" tags="part" />
   <token value="група" lemma="група" tags="noun:inanim:f:v_naz" />
   <token value="незалежних" lemma="незалежний" tags="adj:p:v_rod:compb" />
   <token value="підприємств" lemma="підприємство" tags="noun:inanim:p:v_rod" />
@@ -72,7 +72,7 @@
   <token value="метою" lemma="мета" tags="noun:inanim:f:v_oru" />
   <token value="яких" lemma="який" tags="adj:p:v_rod:&amp;pron:int:rel:def" />
   <token value="є" lemma="бути" tags="verb:imperf:pres:s:3" />
-  <token value="стимулювання" lemma="стимулювання" tags="noun:inanim:n:v_zna" />
+  <token value="стимулювання" lemma="стимулювання" tags="noun:inanim:n:v_naz" />
   <token value="інноваційної" lemma="інноваційний" tags="adj:f:v_rod:compb" />
   <token value="активності" lemma="активність" tags="noun:inanim:f:v_rod" />
   <token value="шляхом" lemma="шляхом" tags="prep" />
@@ -97,10 +97,10 @@
   <token value="трансферу" lemma="трансфер" tags="noun:inanim:m:v_dav" />
   <token value="технологій" lemma="технологія" tags="noun:inanim:p:v_rod" />
   <token value="," lemma="," tags="punct" />
-  <token value="утворення" lemma="утворення" tags="noun:inanim:p:v_naz" />
+  <token value="утворення" lemma="утворення" tags="noun:inanim:n:v_naz" />
   <token value="мереж" lemma="мережа" tags="noun:inanim:p:v_rod" />
   <token value="і" lemma="і" tags="conj:coord" />
-  <token value="розповсюдження" lemma="розповсюдження" tags="noun:inanim:p:v_zna" />
+  <token value="розповсюдження" lemma="розповсюдження" tags="noun:inanim:n:v_zna" />
   <token value="інформації" lemma="інформація" tags="noun:inanim:f:v_rod" />
   <token value="серед" lemma="серед" tags="prep" />
   <token value="підприємств" lemma="підприємство" tags="noun:inanim:p:v_rod" />
@@ -151,7 +151,7 @@
   <token value="внесок" lemma="внесок" tags="noun:inanim:m:v_zna" />
   <token value="в" lemma="в" tags="prep" />
   <token value="економічний" lemma="економічний" tags="adj:m:v_zna:rinanim" />
-  <token value="розвиток" lemma="розвиток" tags="noun:inanim:m:v_naz" />
+  <token value="розвиток" lemma="розвиток" tags="noun:inanim:m:v_zna" />
   <token value="шляхом" lemma="шляхом" tags="prep" />
   <token value="підтримки" lemma="підтримка" tags="noun:inanim:f:v_rod" />
   <token value="досліджень" lemma="дослідження" tags="noun:inanim:p:v_rod" />
@@ -252,7 +252,7 @@
   <token value="утворення" lemma="утворення" tags="noun:inanim:n:v_zna" />
   <token value="," lemma="," tags="punct" />
   <token value="що" lemma="що" tags="conj:subord" />
-  <token value="спроможне" lemma="спроможний" tags="adj:n:v_zna:compb" />
+  <token value="спроможне" lemma="спроможний" tags="adj:n:v_naz:compb" />
   <token value="генерувати" lemma="генерувати" tags="verb:imperf:inf" />
   <token value="знання" lemma="знання" tags="noun:inanim:p:v_zna" />
   <token value="й" lemma="й" tags="conj:coord" />
@@ -326,11 +326,11 @@
   <token value="технологічних" lemma="технологічний" tags="adj:p:v_rod:compb" />
   <token value="платформ" lemma="платформа" tags="noun:inanim:p:v_rod" />
   <token value="(" lemma="(" tags="punct" />
-  <token value="ТП" lemma="ТП" tags="noun:inanim:f:v_naz:nv:abbr:xp3" comment="нема у ВЕСУМІ як технологічна платформа тому як xp3" />
+  <token value="ТП" lemma="ТП" tags="noun:inanim:f:v_naz:nv:abbr:xp1" />
   <token value=")" lemma=")" tags="punct" />
   <token value="і" lemma="і" tags="conj:coord" />
   <token value="поєднання" lemma="поєднання" tags="noun:inanim:n:v_naz" />
-  <token value="їх" lemma="вони" tags="noun:unanim:p:v_zna:&amp;pron:pers:3" />
+  <token value="їх" lemma="вони" tags="noun:unanim:p:v_rod:&amp;pron:pers:3" />
   <token value="з" lemma="з" tags="prep" />
   <token value="територіальними" lemma="територіальний" tags="adj:p:v_oru" />
   <token value="кластерами" lemma="кластер" tags="noun:inanim:p:v_oru" />
@@ -346,7 +346,7 @@
   <token value="технологічна" lemma="технологічний" tags="adj:f:v_naz:compb" />
   <token value="платформа" lemma="платформа" tags="noun:inanim:f:v_naz" />
   <token value="—" lemma="—" tags="punct" />
-  <token value="це" lemma="це" tags="noun:inanim:n:v_naz:&amp;pron:dem" />
+  <token value="це" lemma="це" tags="part" />
   <token value="механізм" lemma="механізм" tags="noun:inanim:m:v_naz" />
   <token value="," lemma="," tags="punct" />
   <token value="покликаний" lemma="покликаний" tags="adj:m:v_naz:&amp;adjp:pasv:perf" />
@@ -367,7 +367,7 @@
   <token value="," lemma="," tags="punct" />
   <token value="а" lemma="а" tags="conj:coord" />
   <token value="також" lemma="також" tags="adv" />
-  <token value="інструмент" lemma="інструмент" tags="noun:inanim:m:v_zna" />
+  <token value="інструмент" lemma="інструмент" tags="noun:inanim:m:v_naz" />
   <token value="," lemma="," tags="punct" />
   <token value="що" lemma="що" tags="conj:subord" />
   <token value="структурує" lemma="структурувати" tags="verb:imperf:pres:s:3" />
@@ -421,39 +421,39 @@
   <token value="ЄС" lemma="ЄС" tags="noun:inanim:m:v_rod:nv:abbr:prop" />
   <token value="можна" lemma="можна" tags="noninfl:&amp;predic" />
   <token value="виокремити" lemma="виокремити" tags="verb:perf:inf" />
-  <token value="такі" lemma="такий" tags="adj:p:v_naz:&amp;pron:dem" />
+  <token value="такі" lemma="такий" tags="adj:p:v_zna:rinanim:&amp;pron:dem" />
   <token value="основні" lemma="основний" tags="adj:p:v_zna:rinanim:compb" />
   <token value="форми" lemma="форма" tags="noun:inanim:p:v_zna" />
   <token value="партнерства" lemma="партнерство" tags="noun:inanim:n:v_rod" />
   <token value=":" lemma=":" tags="punct" />
-  <token value="європейські" lemma="європейський" tags="adj:p:v_zna:rinanim" />
-  <token value="інноваційні" lemma="інноваційний" tags="adj:p:v_zna:rinanim:compb" />
-  <token value="партнерства" lemma="партнерство" tags="noun:inanim:p:v_zna" />
+  <token value="європейські" lemma="європейський" tags="adj:p:v_naz" />
+  <token value="інноваційні" lemma="інноваційний" tags="adj:p:v_naz:compb" />
+  <token value="партнерства" lemma="партнерство" tags="noun:inanim:p:v_naz" />
   <token value="," lemma="," tags="punct" />
-  <token value="європейські" lemma="європейський" tags="adj:p:v_zna:rinanim" />
-  <token value="технологічні" lemma="технологічний" tags="adj:p:v_zna:rinanim:compb" />
-  <token value="платформи" lemma="платформа" tags="noun:inanim:p:v_zna" />
+  <token value="європейські" lemma="європейський" tags="adj:p:v_naz" />
+  <token value="технологічні" lemma="технологічний" tags="adj:p:v_naz:compb" />
+  <token value="платформи" lemma="платформа" tags="noun:inanim:p:v_naz" />
   <token value="," lemma="," tags="punct" />
-  <token value="контрактні" lemma="контрактний" tags="adj:p:v_zna:rinanim" />
+  <token value="контрактні" lemma="контрактний" tags="adj:p:v_naz" />
   <token value="та" lemma="та" tags="conj:coord" />
-  <token value="інституціалізовані" lemma="інституціалізований" tags="adj:p:v_zna:rinanim:&amp;adjp:pasv:perf" />
-  <token value="державно-приватні" lemma="державно-приватний" tags="adj:p:v_zna:rinanim" />
-  <token value="партнерства" lemma="партнерство" tags="noun:inanim:p:v_zna" />
+  <token value="інституціалізовані" lemma="інституціалізований" tags="adj:p:v_naz:&amp;adjp:pasv:imperf" />
+  <token value="державно-приватні" lemma="державно-приватний" tags="adj:p:v_naz" />
+  <token value="партнерства" lemma="партнерство" tags="noun:inanim:p:v_naz" />
   <token value="," lemma="," tags="punct" />
-  <token value="кластерно-мережеві" lemma="кластерно-мережевий" tags="adj:p:v_zna:rinanim" />
-  <token value="структури" lemma="структура" tags="noun:inanim:p:v_zna" />
+  <token value="кластерно-мережеві" lemma="кластерно-мережевий" tags="adj:p:v_naz" />
+  <token value="структури" lemma="структура" tags="noun:inanim:p:v_naz" />
   <token value="Європейського" lemma="європейський" tags="adj:m:v_rod" />
   <token value="інституту" lemma="інститут" tags="noun:inanim:m:v_rod" />
   <token value="інновацій" lemma="інновація" tags="noun:inanim:p:v_rod" />
   <token value="і" lemma="і" tags="conj:coord" />
   <token value="технологій" lemma="технологія" tags="noun:inanim:p:v_rod" />
   <token value="," lemma="," tags="punct" />
-  <token value="європейські" lemma="європейський" tags="adj:p:v_zna:rinanim" />
-  <token value="промислові" lemma="промисловий" tags="adj:p:v_zna:rinanim" />
-  <token value="ініціативи" lemma="ініціатива" tags="noun:inanim:p:v_zna" />
+  <token value="європейські" lemma="європейський" tags="adj:p:v_naz" />
+  <token value="промислові" lemma="промисловий" tags="adj:p:v_naz" />
+  <token value="ініціативи" lemma="ініціатива" tags="noun:inanim:p:v_naz" />
   <token value="," lemma="," tags="punct" />
-  <token value="державні" lemma="державний" tags="adj:p:v_zna:rinanim" />
-  <token value="партнерства" lemma="партнерство" tags="noun:inanim:p:v_zna" />
+  <token value="державні" lemma="державний" tags="adj:p:v_naz" />
+  <token value="партнерства" lemma="партнерство" tags="noun:inanim:p:v_naz" />
   <token value="." lemma="." tags="punct" />
 </sentence>
 <sentence>
@@ -506,7 +506,7 @@
   <token value="з" lemma="з" tags="prep" />
   <token value="використанням" lemma="використання" tags="noun:inanim:n:v_oru" />
   <token value="зв'язків" lemma="зв'язок" tags="noun:inanim:p:v_rod" />
-  <token value="усередині" lemma="усередині" tags="adv" />
+  <token value="усередині" lemma="усередині" tags="prep" />
   <token value="науки" lemma="наука" tags="noun:inanim:f:v_rod" />
   <token value="(" lemma="(" tags="punct" />
   <token value="просування" lemma="просування" tags="noun:inanim:p:v_naz" />
@@ -523,13 +523,13 @@
   <token value="—" lemma="—" tags="punct" />
   <token value="промисловість" lemma="промисловість" tags="noun:inanim:f:v_naz" />
   <token value="(" lemma="(" tags="punct" />
-  <token value="просування" lemma="просування" tags="noun:inanim:p:v_naz" />
+  <token value="просування" lemma="просування" tags="noun:inanim:n:v_naz" />
   <token value="державно-приватних" lemma="державно-приватний" tags="adj:p:v_rod" />
   <token value="партнерств" lemma="партнерство" tags="noun:inanim:p:v_rod" />
   <token value=")" lemma=")" tags="punct" />
   <token value="," lemma="," tags="punct" />
   <token value="зв'язків" lemma="зв'язок" tags="noun:inanim:p:v_rod" />
-  <token value="всередині" lemma="всередині" tags="adv" />
+  <token value="всередині" lemma="всередині" tags="prep" />
   <token value="промисловості" lemma="промисловість" tags="noun:inanim:f:v_rod" />
   <token value="(" lemma="(" tags="punct" />
   <token value="просування" lemma="просування" tags="noun:inanim:p:v_naz" />
@@ -598,7 +598,7 @@
   <token value="яка" lemma="який" tags="adj:f:v_naz:&amp;pron:int:rel:def" />
   <token value="має" lemma="мати" tags="verb:imperf:pres:s:3" />
   <token value="багато" lemma="багато" tags="numr:p:v_zna:&amp;pron:ind" />
-  <token value="гравців" lemma="гравець" tags="noun:anim:p:v_zna" />
+  <token value="гравців" lemma="гравець" tags="noun:anim:p:v_rod" />
   <token value="і" lemma="і" tags="conj:coord" />
   <token value="унеможливлює" lemma="унеможливлювати" tags="verb:imperf:pres:s:3" />
   <token value="поглинання" lemma="поглинання" tags="noun:inanim:n:v_zna" />
@@ -625,7 +625,7 @@
   <token value="не" lemma="не" tags="part" />
   <token value="кластер" lemma="кластер" tags="noun:inanim:m:v_naz" />
   <token value="або" lemma="або" tags="conj:coord" />
-  <token value="ТП" lemma="ТП" tags="noun:inanim:f:v_naz:nv:abbr:xp3" comment="нема у ВЕСУМІ як технологічна платформа тому як xp3" />
+  <token value="ТП" lemma="ТП" tags="noun:inanim:f:v_naz:nv:abbr:xp1" />
   <token value="," lemma="," tags="punct" />
   <token value="а" lemma="а" tags="conj:coord" />
   <token value="інноваційна" lemma="інноваційний" tags="adj:f:v_naz:compb" />
