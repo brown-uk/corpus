@@ -866,7 +866,7 @@
 <sentence>
   <token value="Проте" lemma="проте" tags="conj:coord" />
   <token value="," lemma="," tags="punct" />
-  <token value="як" lemma="як" tags="conj:subord" />
+  <token value="як" lemma="як" tags="adv:&amp;pron:int:rel" />
   <token value="знайти" lemma="знайти" tags="verb:perf:inf" />
   <token value="потрібне" lemma="потрібний" tags="adj:n:v_zna:compb" />
   <token value="місце" lemma="місце" tags="noun:inanim:n:v_zna" />
@@ -1531,11 +1531,11 @@
   <token value="." lemma="." tags="punct" />
 </sentence>
 <sentence>
-  <token value="Як" lemma="як" tags="adv:&amp;pron:int:rel" />
+  <token value="Як" lemma="як" tags="conj:subord" />
   <token value="," lemma="," tags="punct" />
   <token value="імовірно" lemma="імовірно" tags="adv:compb:&amp;insert" />
   <token value="," lemma="," tags="punct" />
-  <token value="й" lemma="й" tags="conj:coord" />
+  <token value="й" lemma="й" tags="part" />
   <token value="саме" lemma="самий" tags="adj:n:v_naz:&amp;pron:def" />
   <token value="її" lemma="її" tags="adj:n:v_naz:nv:&amp;pron:pos" />
   <token value="життя" lemma="життя" tags="noun:inanim:n:v_naz" />
@@ -2323,7 +2323,7 @@
 <sentence>
   <token value="Адже" lemma="адже" tags="part" />
   <token value="ж" lemma="ж" tags="part" />
-  <token value="як" lemma="як" tags="conj:subord" />
+  <token value="як" lemma="як" tags="adv:&amp;pron:int:rel" />
   <token value="ми" lemma="ми" tags="noun:anim:p:v_naz:&amp;pron:pers:1" />
   <token value="уявляємо" lemma="уявляти" tags="verb:imperf:pres:p:1" />
   <token value="себе" lemma="себе" tags="noun:unanim:s:v_zna:&amp;pron:refl" />
