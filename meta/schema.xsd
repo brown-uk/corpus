@@ -30,7 +30,7 @@
         <xs:simpleType>
             <xs:restriction base="xs:string">
                 <xs:minLength value="1"/>
-                <xs:pattern value="[a-z][a-z0-9:_&amp;]+"/>
+                <xs:pattern value="[a-z0-9][a-z0-9_]*(:(&amp;)?[a-z0-9][a-z0-9_]*)*"/>
             </xs:restriction>
         </xs:simpleType>
     </xs:attribute>
