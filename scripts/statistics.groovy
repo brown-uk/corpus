@@ -222,7 +222,22 @@ def readMeta() {
         
         meta[file] = record.toMap()
     }
+
+    // ----------------- 
+    // TODO: temporary until we merge stats
+    csv = new FileReader("../meta/meta_so-so.csv")
+    csvFormat = CSVFormat.EXCEL.withHeader(metaHeaders)
     
+    records = csvFormat.parse(csv)
+        
+    for (CSVRecord record : records) {
+        String file = record.get("file");
+        if( file == "file" )
+            continue
+        
+        meta[file] = record.toMap()
+    }
+        
     println "Found meta info for ${meta.size()} files"
 
     return meta    
