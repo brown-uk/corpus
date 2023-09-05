@@ -109,7 +109,12 @@ def countInFolder(folderName, stats) {
   
   files.each { f ->
     def text = f.getText('utf-8')
-    
+
+    if( ! text.trim() ) {
+        System.err.println("Empty file: ${f.name}")
+        System.exit(1) 
+    }
+        
     if( text[0] == '\ufeff' ) {
         text = text[1..-1]
 //        println "WARNING: deprecated BOM marker (U+FEFF) in $f"
