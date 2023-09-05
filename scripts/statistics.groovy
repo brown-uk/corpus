@@ -160,14 +160,14 @@ def countInFolder(folderName, stats) {
         }
         else {
             count = count as int
-
-            if( count < stats.minWords )
-                stats.minWords = count
         }
-
-        if( count > stats.maxWords )
-            stats.maxWords = count
     }
+    
+    if( count < stats.minWords )
+        stats.minWords = count
+
+    if( count > stats.maxWords )
+        stats.maxWords = count
 
     def text0 = text.replaceAll('СхідSide|ГолосUA|Фirtka', '')
     def latCyrMix = text0 =~ /[а-яіїєґА-ЯІЇЄҐ]['ʼ’]?[a-zA-Z]|[a-zA-Z]['ʼ’]?[а-яіїєґА-ЯІЇЄҐ]/
