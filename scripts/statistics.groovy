@@ -1,6 +1,6 @@
 #!/bin/env groovy
 
-@Grab(group='org.apache.commons', module='commons-csv', version='1.9.0')
+@Grab(group='org.apache.commons', module='commons-csv', version='1.10.0')
 
 import groovy.transform.*
 import java.util.regex.*
@@ -223,13 +223,6 @@ def readMeta() {
         meta[file] = record.toMap()
     }
 
-    // ----------------- 
-    // TODO: temporary until we merge stats
-    csv = new FileReader("../meta/meta_so-so.csv")
-    csvFormat = CSVFormat.EXCEL.withHeader(metaHeaders)
-    
-    records = csvFormat.parse(csv)
-        
     for (CSVRecord record : records) {
         String file = record.get("file");
         if( file == "file" )
