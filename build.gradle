@@ -16,7 +16,7 @@ repositories {
 dependencies {
     implementation group: 'org.apache.groovy', name: 'groovy', version: '4.0.+'
     implementation group: 'org.apache.groovy', name: 'groovy-xml', version: '4.0.+'
-    implementation group: 'org.apache.commons', name: 'commons-csv', version: '1.9.0'
+    implementation group: 'org.apache.commons', name: 'commons-csv', version: '1.10.0'
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.+'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.+'
 }
