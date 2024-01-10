@@ -162,12 +162,6 @@ def countInFolder(folderName, stats) {
             count = count as int
         }
     }
-    
-    if( count < stats.minWords )
-        stats.minWords = count
-
-    if( count > stats.maxWords )
-        stats.maxWords = count
 
     def text0 = text.replaceAll('СхідSide|ГолосUA|Фirtka', '')
     def latCyrMix = text0 =~ /[а-яіїєґА-ЯІЇЄҐ]['ʼ’]?[a-zA-Z]|[a-zA-Z]['ʼ’]?[а-яіїєґА-ЯІЇЄҐ]/
@@ -191,6 +185,8 @@ def countInFolder(folderName, stats) {
                    new File("cnt/${f.name}_xx.txt").text = pureText
                 }
                 
+                count = words.size() as int
+                
                 if( meta[f.name] ) {
                     meta[f.name]['length'] = words.size()
                     updateMeta = true
@@ -198,6 +194,13 @@ def countInFolder(folderName, stats) {
             }
         }
     }
+
+    
+    if( count < stats.minWords )
+        stats.minWords = count
+
+    if( count > stats.maxWords )
+        stats.maxWords = count
 
     stats.statMap[cat] += Integer.valueOf(count)
     stats.fileCount += 1
