@@ -163,34 +163,33 @@ def countInFolder(folderName, stats) {
         }
     }
 
-    def text0 = text.replaceAll('СхідSide|ГолосUA|Фirtka', '')
+    def text0 = text.replaceAll('СхідSide|ГолосUA|Фirtka|ОsтаNNя|sovieticus’а', 'ААА')
     def latCyrMix = text0 =~ /[а-яіїєґА-ЯІЇЄҐ]['ʼ’]?[a-zA-Z]|[a-zA-Z]['ʼ’]?[а-яіїєґА-ЯІЇЄҐ]/
     if( latCyrMix ) {
         println "WARNING: Latin/Cyrillic mix in " + f + ": " + latCyrMix[0]
     }
-    else {
-        if( '-c' in args /*&& folderName =~ 'good'*/ ) {
-            def pureText = text
-            pureText = pureText.replaceAll(/([0-9])[:,.-]([0-9])/, '$1$2').trim()
-            if( ! ('-l' in args) ) {
-                pureText = pureText.replace(' - ', ' a ')
-            }
+    
+    if( '-c' in args ) {
+        def pureText = text
+        pureText = pureText.replaceAll(/([0-9])[:,.-]([0-9])/, '$1$2').trim()
+        if( ! ('-l' in args) ) {
+            pureText = pureText.replace(' - ', ' a ')
+        }
 //             def words = pureText.split(/[ \t,]+/).findAll { it =~ /(?ui)[а-яіїєґa-z0-9]/ }
-            def words = pureText =~ /(?ui)[а-яіїєґ][а-яіїєґa-z0-9\u0301'’ʼ\/\u2013-]*/
+        def words = pureText =~ /(?ui)[а-яіїєґ][а-яіїєґa-z0-9\u0301'’ʼ\/\u2013-]*/
 
-            if( Math.abs(words.size() - count) > 5 ) {
-                println "WARNING: Length $count does not match real word count ${words.size()} (delta: ${words.size()-count}) in $f"
-                  if( new File("cnt").isDirectory() ) {
-                   new File("cnt/${f.name}_cnt.txt").text = (words as List).join('\n')
-                   new File("cnt/${f.name}_xx.txt").text = pureText
-                }
-                
-                count = words.size() as int
-                
-                if( meta[f.name] ) {
-                    meta[f.name]['length'] = words.size()
-                    updateMeta = true
-                }
+        if( Math.abs(words.size() - count) > 5 ) {
+            println "WARNING: Length $count does not match real word count ${words.size()} (delta: ${words.size()-count}) in $f"
+              if( new File("cnt").isDirectory() ) {
+               new File("cnt/${f.name}_cnt.txt").text = (words as List).join('\n')
+               new File("cnt/${f.name}_xx.txt").text = pureText
+            }
+            
+            count = words.size() as int
+            
+            if( meta[f.name] ) {
+                meta[f.name]['length'] = words.size()
+                updateMeta = true
             }
         }
     }
