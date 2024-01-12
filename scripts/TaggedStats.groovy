@@ -29,7 +29,7 @@ cats.each { cat ->
 
         def xmlName = f.name.replaceFirst(/\.txt$/, '.xml')
         if( new File("$BASE_DIR/../data/disambig", xmlName).isFile() ) {
-            if( cat == "so-so" ) println "DONE: ${f.name}"
+//            if( cat == "so-so" ) println "DONE: ${f.name}"
             
             doneCnt++
             doneSize += f.size()
