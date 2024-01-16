@@ -163,7 +163,7 @@ def countInFolder(folderName, stats) {
         }
     }
 
-    def text0 = text.replaceAll('СхідSide|ГолосUA|Фirtka|ОsтаNNя|sovieticus’а', 'ААА')
+    def text0 = text.replaceAll('СхідSide|ГолосUA|Фirtka|ОsтаNNя|sovieticus’а|Iн-Iв-IIв-IIн-IVн-IVв-IIIв-IIIн-Vн-Vв', 'ААА')
     def latCyrMix = text0 =~ /[а-яіїєґА-ЯІЇЄҐ]['ʼ’]?[a-zA-Z]|[a-zA-Z]['ʼ’]?[а-яіїєґА-ЯІЇЄҐ]/
     if( latCyrMix ) {
         println "WARNING: Latin/Cyrillic mix in " + f + ": " + latCyrMix[0]
