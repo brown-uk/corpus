@@ -526,8 +526,8 @@
 <sentence>
   <token value="—" lemma="—" tags="punct" />
   <token value="І" lemma="і" tags="conj:coord" />
-  <token value="це" lemma="це" tags="noun:inanim:n:v_naz:&amp;pron:dem" />
-  <token value="все" lemma="весь" tags="adj:n:v_naz:&amp;pron:gen" />
+  <token value="це" lemma="це" tags="part" />
+  <token value="все" lemma="все" tags="adv" />
   <token value="вулиця" lemma="вулиця" tags="noun:inanim:f:v_naz" />
   <token value="Совєтська" lemma="совєтський" tags="adj:f:v_naz:alt" />
   <token value="?" lemma="?" tags="punct" />
@@ -857,7 +857,7 @@
   <token value="очах" lemma="око" tags="noun:inanim:p:v_mis" />
   <token value="були" lemma="бути" tags="verb:imperf:past:p" />
   <token value="не" lemma="не" tags="part" />
-  <token value="тільки" lemma="тільки" tags="conj:subord" />
+  <token value="тільки" lemma="тільки" tags="part" />
   <token value="біль" lemma="біль" tags="noun:inanim:m:v_naz:xp1" />
   <token value="і" lemma="і" tags="conj:coord" />
   <token value="сум" lemma="сум" tags="noun:inanim:m:v_naz" />
@@ -1928,7 +1928,7 @@
 <sentence>
   <token value="І" lemma="і" tags="conj:coord" />
   <token value="не" lemma="не" tags="part" />
-  <token value="тільки" lemma="тільки" tags="conj:subord" />
+  <token value="тільки" lemma="тільки" tags="part" />
   <token value="для" lemma="для" tags="prep" />
   <token value="мене" lemma="я" tags="noun:anim:s:v_rod:&amp;pron:pers:1" />
   <token value="." lemma="." tags="punct" />
@@ -2053,7 +2053,7 @@
   <token value="тієї" lemma="той" tags="adj:f:v_rod:&amp;pron:dem" />
   <token value="миті" lemma="мить" tags="noun:inanim:f:v_rod" />
   <token value="не" lemma="не" tags="part" />
-  <token value="тільки" lemma="тільки" tags="conj:subord" />
+  <token value="тільки" lemma="тільки" tags="part" />
   <token value="одному" lemma="один" tags="numr:m:v_dav" />
   <token value="мені" lemma="я" tags="noun:anim:s:v_dav:&amp;pron:pers:1" />
   <token value="хотілося" lemma="хотітися" tags="verb:rev:imperf:past:n" />
@@ -2429,7 +2429,7 @@
 </sentence>
 <sentence>
   <token value="Чоловіки" lemma="чоловік" tags="noun:anim:p:v_naz" />
-  <token value="тільки" lemma="тільки" tags="adv" />
+  <token value="тільки" lemma="тільки" tags="part" />
   <token value="усміхалися" lemma="усміхатися" tags="verb:rev:imperf:past:p" />
   <token value="." lemma="." tags="punct" />
 </sentence>
