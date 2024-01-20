@@ -37,7 +37,7 @@ List<CSVRecord> records = []
 for(CSVRecord record: metaParser) {
     records << record
 }
-def metaFiles = records.collect{ r -> r['file'] }
+def metasWithoutFile = records.collect{ r -> r['file'] }
 
 CSVPrinter printer = new CSVPrinter(new FileWriter("meta_so-so.csv"), CSVFormat.EXCEL)
 printer.printRecord(headers);
@@ -86,7 +86,12 @@ dirNames.each { dirName ->
             if( Math.abs(trueLength - (record['length'] as int)) > 5 ) {
                 println "Actual word count ${trueLength} does not match meta: ${record['length']} for: ${file.name}"
             }
-            metaFiles.remove(file.name)
+            
+            if( ! file.name.startsWith("${record['cat']}_") ) {
+                println "ERROR: meta category ${record['cat']} does not match filename: ${file.name}"
+            }
+            
+            metasWithoutFile.remove(file.name)
         }
 
         if( text.contains("<body>") ) {
@@ -129,7 +134,7 @@ dirNames.each { dirName ->
     }
 }
 
-println "ERROR: Meta records without files (${metaFiles.size()}):\n${metaFiles.toSorted().join('\n')}"
+println "ERROR: Meta records without files (${metasWithoutFile.size()}):\n${metasWithoutFile.toSorted().join('\n')}"
 
 printer.flush()
 
