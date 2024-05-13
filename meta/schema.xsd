@@ -36,6 +36,7 @@
     </xs:attribute>
     <xs:attribute name="whitespaceBefore" type="xs:string" />
     <xs:attribute name="comment" type="xs:string" />
+    <xs:attribute name="q" type="xs:double" />
   </xs:complexType>
 
   <xs:complexType name="format">
