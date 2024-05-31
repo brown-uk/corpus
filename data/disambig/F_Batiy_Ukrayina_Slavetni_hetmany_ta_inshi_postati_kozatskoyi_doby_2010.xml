@@ -1534,7 +1534,7 @@
   <token value="," lemma="," tags="punct" />
   <token value="за" lemma="за" tags="prep" />
   <token value="виконання" lemma="виконання" tags="noun:inanim:n:v_zna" />
-  <token value="яких" lemma="який" tags="adj:p:v_zna:ranim:&amp;pron:int:rel:def" />
+  <token value="яких" lemma="який" tags="adj:p:v_rod:&amp;pron:int:rel:def" />
   <token value="обіцяв" lemma="обіцяти" tags="verb:imperf:past:m" />
   <token value="приєднатися" lemma="приєднатися" tags="verb:rev:perf:inf" />
   <token value="зі" lemma="зі" tags="prep" />
@@ -1738,8 +1738,8 @@
   <token value="про" lemma="про" tags="prep" />
   <token value="ніжинського" lemma="ніжинський" tags="adj:m:v_zna:ranim" />
   <token value="полковника" lemma="полковник" tags="noun:anim:m:v_zna" />
-  <token value="реєстрових" lemma="реєстровий" tags="adj:p:v_zna:ranim" />
-  <token value="козаків" lemma="козак" tags="noun:anim:p:v_zna" />
+  <token value="реєстрових" lemma="реєстровий" tags="adj:p:v_rod" />
+  <token value="козаків" lemma="козак" tags="noun:anim:p:v_rod" />
   <token value="," lemma="," tags="punct" />
   <token value="який" lemma="який" tags="adj:m:v_naz:&amp;pron:int:rel:def" />
   <token value="брав" lemma="брати" tags="verb:imperf:past:m" />
@@ -1969,9 +1969,9 @@
   <token value="на" lemma="на" tags="prep" />
   <token value="ті" lemma="той" tags="adj:p:v_zna:rinanim:&amp;pron:dem" />
   <token value="часи" lemma="час" tags="noun:inanim:p:v_zna" />
-  <token value="заколот" lemma="заколот" tags="noun:inanim:m:v_zna" />
+  <token value="заколот" lemma="заколот" tags="noun:inanim:m:v_naz" />
   <token value="чи" lemma="чи" tags="conj:coord" />
-  <token value="бунт" lemma="бунт" tags="noun:inanim:m:v_zna:xp2" />
+  <token value="бунт" lemma="бунт" tags="noun:inanim:m:v_naz:xp2" />
   <token value="—" lemma="—" tags="punct" />
   <token value="у" lemma="у" tags="prep" />
   <token value="повітрі" lemma="повітря" tags="noun:inanim:n:v_mis" />
@@ -2084,7 +2084,7 @@
   <token value="скоро" lemma="скоро" tags="adv:compb" />
   <token value="відносини" lemma="відносини" tags="noun:inanim:p:v_naz:ns" />
   <token value="між" lemma="між" tags="prep" />
-  <token value="рядовим" lemma="рядовий" tags="noun:anim:m:v_oru" />
+  <token value="рядовим" lemma="рядовий" tags="adj:n:v_oru" />
   <token value="козацтвом" lemma="козацтво" tags="noun:inanim:n:v_oru" />
   <token value="і" lemma="і" tags="conj:coord" />
   <token value="козацькою" lemma="козацький" tags="adj:f:v_oru" />
