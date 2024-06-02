@@ -515,7 +515,7 @@
   <token value="«" lemma="«" tags="punct" />
   <token value="Сьогодні" lemma="сьогодні" tags="adv" />
   <token value="про" lemma="про" tags="prep" />
-  <token value="головне" lemma="головний" tags="adj:n:v_zna:compb" />
+  <token value="головне" lemma="головне" tags="noun:inanim:n:v_zna" />
   <token value="»" lemma="»" tags="punct" />
   <token value="на" lemma="на" tags="prep" />
   <token value="ТВі" lemma="ТВі" tags="noun:inanim:m:v_mis:nv:prop" />
@@ -532,7 +532,7 @@
   <token value="того" lemma="той" tags="adj:m:v_rod:&amp;pron:dem" />
   <token value="вечора" lemma="вечір" tags="noun:inanim:m:v_rod" />
   <token value="могли" lemma="могти" tags="verb:imperf:past:p" />
-  <token value="собі" lemma="себе" tags="noun:unanim:s:v_dav:&amp;pron:refl" />
+  <token value="собі" lemma="собі" tags="part" />
   <token value="уявити" lemma="уявити" tags="verb:perf:inf" />
   <token value="," lemma="," tags="punct" />
   <token value="що" lemma="що" tags="conj:subord" />
@@ -1059,7 +1059,9 @@
   <token value="»" lemma="»" tags="punct" />
   <token value="(" lemma="(" tags="punct" />
   <token value="«" lemma="«" tags="punct" />
-  <token value="1+1" lemma="1+1" tags="unclass" />
+  <token value="1" lemma="1" tags="number" />
+  <token value="+" lemma="+" tags="symb" />
+  <token value="1" lemma="1" tags="number" />
   <token value="»" lemma="»" tags="punct" />
   <token value=")" lemma=")" tags="punct" />
   <token value="28" lemma="28" tags="number" />
@@ -1588,7 +1590,7 @@
   <token value="«" lemma="«" tags="punct" />
   <token value="Сьогодні" lemma="сьогодні" tags="adv" />
   <token value="про" lemma="про" tags="prep" />
-  <token value="головне" lemma="головний" tags="adj:n:v_zna:compb" />
+  <token value="головне" lemma="головне" tags="noun:inanim:n:v_zna" />
   <token value="»" lemma="»" tags="punct" />
   <token value="побачили" lemma="побачити" tags="verb:perf:past:p" />
   <token value="повтор" lemma="повтор" tags="noun:inanim:m:v_zna" />
@@ -1709,7 +1711,7 @@
   <token value="директора" lemma="директор" tags="noun:anim:m:v_rod" />
   <token value="ТВі" lemma="ТВі" tags="noun:inanim:m:v_rod:nv:prop" />
   <token value="Артема" lemma="Артем" tags="noun:anim:m:v_rod:prop:fname" />
-  <token value="ШевченкО" lemma="Шевченко" tags="noun:anim:m:v_rod:prop:lname" />
+  <token value="ШевченкО" lemma="Шевченко" tags="noun:anim:m:v_rod:prop:lname:subst" />
   <token value="»" lemma="»" tags="punct" />
   <token value="(" lemma="(" tags="punct" />
   <token value="в" lemma="в" tags="prep" />

@@ -13,7 +13,7 @@
   <token value="селу" lemma="село" tags="noun:inanim:n:v_mis" />
   <token value="," lemma="," tags="punct" />
   <token value="збиваючи" lemma="збиваючи" tags="advp:imperf" />
-  <token value="куряву" lemma="курявий" tags="adj:f:v_zna" />
+  <token value="куряву" lemma="курява" tags="noun:inanim:f:v_zna" />
   <token value="під" lemma="під" tags="prep" />
   <token value="ногами" lemma="нога" tags="noun:inanim:p:v_oru" />
   <token value="." lemma="." tags="punct" />
@@ -165,7 +165,7 @@
   <token value="?" lemma="?" tags="punct" />
   <token value="-" lemma="-" tags="punct" />
   <token value="бовкнула" lemma="бовкнути" tags="verb:perf:past:f" />
-  <token value="перше" lemma="перше" tags="adv:compb" />
+  <token value="перше" lemma="перше" tags="noun:inanim:n:v_zna" />
   <token value="," lemma="," tags="punct" />
   <token value="що" lemma="що" tags="conj:subord" />
   <token value="спало" lemma="спасти" tags="verb:perf:past:n:xp2" />
@@ -382,7 +382,7 @@
 <sentence>
   <token value="Коли" lemma="коли" tags="adv:&amp;pron:int:rel" />
   <token value="всі" lemma="весь" tags="adj:p:v_naz:&amp;pron:gen" />
-  <token value="домашні" lemma="домашній" tags="adj:p:v_naz" />
+  <token value="домашні" lemma="домашні" tags="noun:anim:p:v_naz:ns" />
   <token value="пішли" lemma="піти" tags="verb:perf:past:p" />
   <token value="в" lemma="в" tags="prep" />
   <token value="поле" lemma="поле" tags="noun:inanim:n:v_zna" />
@@ -652,7 +652,7 @@
   <token value="і" lemma="і" tags="conj:coord" />
   <token value="обіцяла" lemma="обіцяти" tags="verb:imperf:past:f" />
   <token value="відлупцювати" lemma="відлупцювати" tags="verb:perf:inf" />
-  <token value="добре" lemma="добрий" tags="adj:n:v_zna:compb" />
+  <token value="добре" lemma="добре" tags="adv:compb:&amp;predic" />
   <token value="," lemma="," tags="punct" />
   <token value="але" lemma="але" tags="conj:coord" />
   <token value="гніву" lemma="гнів" tags="noun:inanim:m:v_rod" />
@@ -2609,7 +2609,7 @@
   <token value="корови" lemma="корова" tags="noun:anim:f:v_rod" />
   <token value="і" lemma="і" tags="conj:coord" />
   <token value="," lemma="," tags="punct" />
-  <token value="головне" lemma="головний" tags="adj:n:v_naz:compb" />
+  <token value="головне" lemma="головне" tags="noun:inanim:n:v_naz" />
   <token value="," lemma="," tags="punct" />
   <token value="насікти" lemma="насікти" tags="verb:perf:inf" />
   <token value="трави" lemma="трава" tags="noun:inanim:f:v_rod" />
