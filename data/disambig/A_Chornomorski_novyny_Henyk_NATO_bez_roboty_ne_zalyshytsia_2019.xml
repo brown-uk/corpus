@@ -158,7 +158,7 @@
   <token value="Просили" lemma="просити" tags="verb:imperf:past:p" />
   <token value="без" lemma="без" tags="prep" />
   <token value="погодження" lemma="погодження" tags="noun:inanim:n:v_rod" />
-  <token value="нікого" lemma="ніхто" tags="noun:anim:m:v_zna:&amp;pron:neg" />
+  <token value="нікого" lemma="ніхто" tags="noun:anim:m:v_rod:&amp;pron:neg" />
   <token value="не" lemma="не" tags="part" />
   <token value="цитувати" lemma="цитувати" tags="verb:imperf:inf" />
   <token value="." lemma="." tags="punct" />
@@ -658,7 +658,7 @@
   <token value="бо" lemma="бо" tags="conj:subord" />
   <token value="ж" lemma="ж" tags="part" />
   <token value="у" lemma="у" tags="prep" />
-  <token value="медіа" lemma="медіа" tags="noun:inanim:n:v_mis:nv" />
+  <token value="медіа" lemma="медіа" tags="noun:inanim:p:v_mis:nv" />
   <token value="той" lemma="той" tags="adj:m:v_naz:&amp;pron:dem" />
   <token value="неодноразово" lemma="неодноразово" tags="adv" />
   <token value="кидав" lemma="кидати" tags="verb:imperf:past:m" />
@@ -1467,7 +1467,7 @@
   <token value="країнах" lemma="країна" tags="noun:inanim:p:v_mis" />
   <token value="Балтії" lemma="Балтія" tags="noun:inanim:f:v_rod:prop" />
   <token value="та" lemma="та" tags="conj:coord" />
-  <token value="Польщі" lemma="Польща" tags="noun:inanim:f:v_mis:prop:geo" />
+  <token value="Польщі" lemma="Польща" tags="noun:inanim:f:v_rod:prop:geo" />
   <token value="," lemma="," tags="punct" />
   <token value="але" lemma="але" tags="conj:coord" />
   <token value="це" lemma="це" tags="part" />
@@ -1632,7 +1632,7 @@
   <token value="Росії" lemma="Росія" tags="noun:inanim:f:v_rod:prop:geo" />
   <token value="," lemma="," tags="punct" />
   <token value="на" lemma="на" tags="prep" />
-  <token value="друге" lemma="друге" tags="noun:inanim:n:v_zna" />
+  <token value="друге" lemma="другий" tags="adj:n:v_zna:&amp;numr" />
   <token value="—" lemma="—" tags="punct" />
   <token value="міжнародний" lemma="міжнародний" tags="adj:m:v_zna:rinanim" />
   <token value="тероризм" lemma="тероризм" tags="noun:inanim:m:v_zna" />
