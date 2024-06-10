@@ -251,7 +251,7 @@
   <token value="грецького" lemma="грецький" tags="adj:n:v_rod" />
   <token value="слова" lemma="слово" tags="noun:inanim:n:v_rod" />
   <token value="«" lemma="«" tags="punct" />
-  <token value="андрос" lemma="андрос" tags="unclass" />
+  <token value="андрос" lemma="андрос" tags="unknown" />
   <token value="»" lemma="»" tags="punct" />
   <token value="," lemma="," tags="punct" />
   <token value="що" lemma="що" tags="conj:subord" />
@@ -687,8 +687,8 @@
 <paragraph/>
 
 <sentence>
-  <token value="Г" lemma="г" tags="noun:inanim:p:v_naz:nv:abbr" />
-  <token value="ГРАФ" lemma="граф" tags="noun:inanim:m:v_naz" />
+  <token value="Г" lemma="г" tags="noninfl" />
+  <token value="ГРАФ" lemma="граф" tags="noun:anim:m:v_naz" />
 </sentence>
 <paragraph/>
 
@@ -730,7 +730,7 @@
 <paragraph/>
 
 <sentence>
-  <token value="Граф" lemma="граф" tags="noun:inanim:m:v_naz" />
+  <token value="Граф" lemma="граф" tags="noun:anim:m:v_naz" />
   <token value="Іван" lemma="Іван" tags="noun:anim:m:v_naz:prop:fname" />
   <token value="Шептицький" lemma="Шептицький" tags="noun:anim:m:v_naz:prop:lname" />
 </sentence>
@@ -764,7 +764,7 @@
 <sentence>
   <token value="Отримав" lemma="отримати" tags="verb:perf:past:m" />
   <token value="титул" lemma="титул" tags="noun:inanim:m:v_zna" />
-  <token value="графа" lemma="граф" tags="noun:inanim:m:v_rod" />
+  <token value="графа" lemma="граф" tags="noun:anim:m:v_rod" />
   <token value="і" lemma="і" tags="conj:coord" />
   <token value="став" lemma="стати" tags="verb:perf:past:m" />
   <token value="почесним" lemma="почесний" tags="adj:m:v_oru:compb" />

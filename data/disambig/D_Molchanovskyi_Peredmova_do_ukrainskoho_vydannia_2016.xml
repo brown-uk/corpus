@@ -10,11 +10,11 @@
   <token value="знамениту" lemma="знаменитий" tags="adj:f:v_zna:compb" />
   <token value="конференцію" lemma="конференція" tags="noun:inanim:f:v_zna" />
   <token value="TED" lemma="TED" tags="unclass" />
-  <token value="(" lemma="(" tags="unclass" />
+  <token value="(" lemma="(" tags="punct" />
   <token value="Technology" lemma="Technology" tags="unclass" />
-  <token value="," lemma="," tags="unclass" />
+  <token value="," lemma="," tags="punct" />
   <token value="Entertainment" lemma="Entertainment" tags="unclass" />
-  <token value="," lemma="," tags="unclass" />
+  <token value="," lemma="," tags="punct" />
   <token value="Design" lemma="Design" tags="unclass" />
   <token value="—" lemma="—" tags="punct" />
   <token value="Технології" lemma="технологія" tags="noun:inanim:p:v_naz" />
@@ -206,8 +206,8 @@
   <token value="сучасні" lemma="сучасний" tags="adj:p:v_naz:compb" />
   <token value="школи" lemma="школа" tags="noun:inanim:p:v_naz" />
   <token value="розвитку" lemma="розвиток" tags="noun:inanim:m:v_rod" />
-  <token value="наших" lemma="наші" tags="noun:anim:p:v_rod:ns:&amp;pron:pos" />
-  <token value="талантів" lemma="талант" tags="noun:inanim:p:v_rod:xp2" />
+  <token value="наших" lemma="наш" tags="adj:p:v_rod:&amp;pron:pos" />
+  <token value="талантів" lemma="талант" tags="noun:anim:p:v_rod" />
   <token value="," lemma="," tags="punct" />
   <token value="які" lemma="який" tags="adj:p:v_naz:&amp;pron:int:rel:def" />
   <token value="(" lemma="(" tags="punct" />
@@ -645,7 +645,7 @@
   <token value="of" lemma="of" tags="unclass" />
   <token value="Our" lemma="Our" tags="unclass" />
   <token value="Minds" lemma="Minds" tags="unclass" />
-  <token value=":" lemma=":" tags="unclass" />
+  <token value=":" lemma=":" tags="punct" />
   <token value="Learning" lemma="Learning" tags="unclass" />
   <token value="to" lemma="to" tags="unclass" />
   <token value="be" lemma="be" tags="unclass" />
@@ -747,7 +747,7 @@
   <token value="ці" lemma="цей" tags="adj:p:v_zna:rinanim:&amp;pron:dem" />
   <token value="проблеми" lemma="проблема" tags="noun:inanim:p:v_zna" />
   <token value="—" lemma="—" tags="punct" />
-  <token value="і" lemma="і" tags="part" />
+  <token value="і" lemma="і" tags="conj:coord" />
   <token value="я" lemma="я" tags="noun:anim:s:v_naz:&amp;pron:pers:1" />
   <token value="розкажу" lemma="розказати" tags="verb:perf:futr:s:1" />
   <token value="про" lemma="про" tags="prep" />
@@ -882,7 +882,7 @@
   <token value="(" lemma="(" tags="punct" />
   <token value="The" lemma="The" tags="unclass" />
   <token value="Element" lemma="Element" tags="unclass" />
-  <token value=":" lemma=":" tags="unclass" />
+  <token value=":" lemma=":" tags="punct" />
   <token value="How" lemma="How" tags="unclass" />
   <token value="Finding" lemma="Finding" tags="unclass" />
   <token value="Your" lemma="Your" tags="unclass" />
@@ -1023,7 +1023,7 @@
   <token value="Finding" lemma="Finding" tags="unclass" />
   <token value="Your" lemma="Your" tags="unclass" />
   <token value="Element" lemma="Element" tags="unclass" />
-  <token value=":" lemma=":" tags="unclass" />
+  <token value=":" lemma=":" tags="punct" />
   <token value="How" lemma="How" tags="unclass" />
   <token value="To" lemma="To" tags="unclass" />
   <token value="Discover" lemma="Discover" tags="unclass" />
