@@ -204,7 +204,7 @@
   <token value="військ" lemma="військо" tags="noun:inanim:p:v_rod" />
   <token value="завдав" lemma="завдати" tags="verb:perf:past:m" />
   <token value="поразки" lemma="поразка" tags="noun:inanim:f:v_rod" />
-  <token value="повсталим" lemma="повсталий" tags="noun:anim:p:v_dav" />
+  <token value="повсталим" lemma="повсталий" tags="adj:p:v_dav:&amp;adjp:actv:perf" />
   <token value="у" lemma="у" tags="prep" />
   <token value="битві" lemma="битва" tags="noun:inanim:f:v_mis" />
   <token value="під" lemma="під" tags="prep" />
@@ -499,7 +499,7 @@
   <token value="закон" lemma="закон" tags="noun:inanim:m:v_zna" />
   <token value="про" lemma="про" tags="prep" />
   <token value="покарання" lemma="покарання" tags="noun:inanim:n:v_zna" />
-  <token value="винних" lemma="винний" tags="noun:anim:p:v_rod" />
+  <token value="винних" lemma="винний" tags="adj:p:v_rod" />
   <token value="у" lemma="у" tags="prep" />
   <token value="національній" lemma="національний" tags="adj:f:v_mis" />
   <token value="катастрофі" lemma="катастрофа" tags="noun:inanim:f:v_mis" />
@@ -697,8 +697,8 @@
   <token value="якій" lemma="який" tags="adj:f:v_mis:&amp;pron:int:rel:def" />
   <token value="було" lemma="бути" tags="verb:imperf:past:n:&amp;insert" />
   <token value="понад" lemma="понад" tags="prep" />
-  <token value="чотири" lemma="чотири" tags="numr:p:v_zna" />
-  <token value="особи" lemma="особа" tags="noun:anim:p:v_zna:subst" comment="має бути: четверо осіб??" />
+  <token value="чотири" lemma="чотири" tags="numr:p:v_naz" />
+  <token value="особи" lemma="особа" tags="noun:anim:p:v_naz" />
   <token value=")" lemma=")" tags="punct" />
   <token value="." lemma="." tags="punct" />
 </sentence>
@@ -1368,7 +1368,7 @@
   <token value="підвищено" lemma="підвищити" tags="verb:perf:impers" />
   <token value="заробітну" lemma="заробітний" tags="adj:f:v_zna" />
   <token value="плату" lemma="плата" tags="noun:inanim:f:v_zna" />
-  <token value="військовим" lemma="військовий" tags="adj:p:v_dav" />
+  <token value="військовим" lemma="військовий" tags="noun:anim:p:v_dav" />
   <token value="і" lemma="і" tags="conj:coord" />
   <token value="службовцям" lemma="службовець" tags="noun:anim:p:v_dav" />
   <token value="," lemma="," tags="punct" />
