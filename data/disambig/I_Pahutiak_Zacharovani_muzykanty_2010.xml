@@ -199,7 +199,7 @@
   <token value="," lemma="," tags="punct" />
   <token value="який" lemma="який" tags="adj:m:v_naz:&amp;pron:int:rel:def" />
   <token value="," lemma="," tags="punct" />
-  <token value="мертвий" lemma="мертвий" tags="adj:m:v_naz" />
+  <token value="мертвий" lemma="мертвий" tags="adj:m:v_naz:compb" />
   <token value="і" lemma="і" tags="conj:coord" />
   <token value="страшний" lemma="страшний" tags="adj:m:v_naz:compb" />
   <token value="," lemma="," tags="punct" />
@@ -700,10 +700,10 @@
   <token value="листі" lemma="листя" tags="noun:inanim:n:v_mis" />
   <token value="поруч" lemma="поруч" tags="prep" />
   <token value="з" lemma="з" tags="prep" />
-  <token value="мертвим" lemma="мертвий" tags="adj:m:v_oru" />
+  <token value="мертвим" lemma="мертвий" tags="adj:m:v_oru:compb" />
   <token value="ведмедем" lemma="ведмідь" tags="noun:anim:m:v_oru" />
   <token value="і" lemma="і" tags="conj:coord" />
-  <token value="мертвою" lemma="мертвий" tags="adj:f:v_oru" />
+  <token value="мертвою" lemma="мертвий" tags="adj:f:v_oru:compb" />
   <token value="сарною" lemma="сарна" tags="noun:anim:f:v_oru" />
   <token value="," lemma="," tags="punct" />
   <token value="а" lemma="а" tags="conj:coord" />
@@ -2054,7 +2054,7 @@
 <paragraph/>
 
 <sentence>
-  <token value="Власне" lemma="власне" tags="adv:&amp;insert" />
+  <token value="Власне" lemma="власне" tags="part:&amp;insert" />
   <token value="," lemma="," tags="punct" />
   <token value="саме" lemma="саме" tags="part" />
   <token value="тоді" lemma="тоді" tags="adv:&amp;pron:dem" />
