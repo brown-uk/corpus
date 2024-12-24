@@ -763,7 +763,7 @@
   <token value="," lemma="," tags="punct" />
   <token value="промислових" lemma="промисловий" tags="adj:p:v_rod" />
   <token value="і" lemma="і" tags="conj:coord" />
-  <token value="торговельних" lemma="торговельний" tags="adj:p:v_rod" />
+  <token value="торговельних" lemma="торговельний" tags="adj:p:v_rod:bad" />
   <token value="підприємств" lemma="підприємство" tags="noun:inanim:p:v_rod" />
   <token value="." lemma="." tags="punct" />
 </sentence>
@@ -1107,7 +1107,7 @@
 </sentence>
 <sentence>
   <token value="Лідери" lemma="лідер" tags="noun:anim:p:v_naz" />
-  <token value="Комінтерну" lemma="комінтерн" tags="noun:inanim:m:v_rod" />
+  <token value="Комінтерну" lemma="Комінтерн" tags="noun:inanim:m:v_rod:prop" />
   <token value="оцінили" lemma="оцінити" tags="verb:perf:past:p" />
   <token value="становище" lemma="становище" tags="noun:inanim:n:v_zna" />
   <token value="в" lemma="в" tags="prep" />

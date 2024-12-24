@@ -1607,7 +1607,7 @@
   <token value="," lemma="," tags="punct" />
   <token value="фінансових" lemma="фінансовий" tags="adj:p:v_rod" />
   <token value="," lemma="," tags="punct" />
-  <token value="торговельних" lemma="торговельний" tags="adj:p:v_rod" />
+  <token value="торговельних" lemma="торговельний" tags="adj:p:v_rod:bad" />
   <token value="," lemma="," tags="punct" />
   <token value="дипломатичних" lemma="дипломатичний" tags="adj:p:v_rod:compb" />
   <token value="та" lemma="та" tags="conj:coord" />
@@ -1684,7 +1684,7 @@
   <token value="," lemma="," tags="punct" />
   <token value="дипломатичних" lemma="дипломатичний" tags="adj:p:v_mis:compb" />
   <token value="," lemma="," tags="punct" />
-  <token value="торговельних" lemma="торговельний" tags="adj:p:v_mis" />
+  <token value="торговельних" lemma="торговельний" tags="adj:p:v_mis:bad" />
   <token value="документах" lemma="документ" tags="noun:inanim:p:v_mis" />
   <token value="," lemma="," tags="punct" />
   <token value="вироблення" lemma="вироблення" tags="noun:inanim:p:v_naz" comment="вироблянні???" />
@@ -1872,7 +1872,7 @@
 </sentence>
 <sentence>
   <token value="Масштабність" lemma="масштабність" tags="noun:inanim:f:v_naz" />
-  <token value="торговельних" lemma="торговельний" tags="adj:p:v_rod" />
+  <token value="торговельних" lemma="торговельний" tags="adj:p:v_rod:bad" />
   <token value="та" lemma="та" tags="conj:coord" />
   <token value="фінансових" lemma="фінансовий" tags="adj:p:v_rod" />
   <token value="операцій" lemma="операція" tags="noun:inanim:p:v_rod" />
