@@ -337,7 +337,7 @@
   <token value="і" lemma="і" tags="conj:coord" />
   <token value="геть" lemma="геть" tags="part" />
   <token value="не" lemma="не" tags="part" />
-  <token value="схоже" lemma="схоже" tags="adv:&amp;insert" />
+  <token value="схоже" lemma="схожий" tags="adj:n:v_naz:&amp;predic" />
   <token value="на" lemma="на" tags="prep" />
   <token value="свого" lemma="свій" tags="adj:m:v_zna:ranim:&amp;pron:pos" />
   <token value="суворого" lemma="суворий" tags="adj:m:v_zna:ranim:compb" />
@@ -1571,7 +1571,7 @@
   <token value="різним" lemma="різний" tags="adj:p:v_dav:compb" />
   <token value="«" lemma="«" tags="punct" />
   <token value="панським" lemma="панський" tags="adj:p:v_dav" />
-  <token value="мудрагелям" lemma="мудрагель" tags="noun:anim:p:v_dav" />
+  <token value="мудрагелям" lemma="мудрагель" tags="noun:inanim:p:v_dav" comment="нема inanim у словнику" />
   <token value="»" lemma="»" tags="punct" />
   <token value="." lemma="." tags="punct" />
 </sentence>
@@ -2775,13 +2775,13 @@
   <token value="чи" lemma="чи" tags="conj:coord" />
   <token value="бачить" lemma="бачити" tags="verb:imperf:pres:s:3" />
   <token value="їх" lemma="вони" tags="noun:unanim:p:v_zna:&amp;pron:pers:3" />
-  <token value="Айрес" lemma="Айрес" tags="noun:anim:f:v_naz:prop:fname" />
+  <token value="Айрес" lemma="Айрес" tags="noun:anim:f:v_naz:nv:prop:fname" />
   <token value="?" lemma="?" tags="punct" />
 </sentence>
 <paragraph/>
 
 <sentence>
-  <token value="Айрес" lemma="Айрес" tags="noun:anim:f:v_naz:prop:fname" />
+  <token value="Айрес" lemma="Айрес" tags="noun:anim:f:v_naz:nv:prop:fname" />
   <token value="…" lemma="…" tags="punct" />
 </sentence>
 <paragraph/>
@@ -2797,7 +2797,7 @@
   <token value="моя" lemma="мій" tags="adj:f:v_naz:&amp;pron:pos" />
   <token value="зустріч" lemma="зустріч" tags="noun:inanim:f:v_naz" />
   <token value="з" lemma="з" tags="prep" />
-  <token value="Айрес" lemma="Айрес" tags="noun:anim:f:v_oru:prop:fname" />
+  <token value="Айрес" lemma="Айрес" tags="noun:anim:f:v_oru:nv:prop:fname" />
   <token value="дуже" lemma="дуже" tags="adv:compb" />
   <token value="подібна" lemma="подібний" tags="adj:f:v_naz:compb" />
   <token value="до" lemma="до" tags="prep" />
@@ -2901,7 +2901,7 @@
   <token value="По-перше" lemma="по-перше" tags="adv" />
   <token value="," lemma="," tags="punct" />
   <token value="розшукаю" lemma="розшукати" tags="verb:perf:futr:s:1" />
-  <token value="Айрес" lemma="Айрес" tags="noun:anim:f:v_zna:prop:fname" />
+  <token value="Айрес" lemma="Айрес" tags="noun:anim:f:v_zna:nv:prop:fname" />
   <token value="і" lemma="і" tags="conj:coord" />
   <token value="розпитаю" lemma="розпитати" tags="verb:perf:futr:s:1" />
   <token value="про" lemma="про" tags="prep" />

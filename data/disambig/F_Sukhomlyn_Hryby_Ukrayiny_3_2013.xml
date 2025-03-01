@@ -73,7 +73,7 @@
   <token value="тяжі" lemma="тяж" tags="noun:inanim:p:v_zna" />
   <token value="паралельно" lemma="паралельно" tags="prep" />
   <token value="сполучених" lemma="сполучений" tags="adj:p:v_rod:&amp;adjp:pasv:perf" comment="має бути: сполученим?" />
-  <token value="гіф" lemma="гіф" tags="noun:inanim:p:v_rod" />
+  <token value="гіф" lemma="гіф" tags="noun:inanim:p:v_rod:subst" />
   <token value="." lemma="." tags="punct" />
 </sentence>
 <sentence>
@@ -107,7 +107,7 @@
   <token value="формуються" lemma="формуватися" tags="verb:rev:imperf:pres:p:3" />
   <token value="щільні" lemma="щільний" tags="adj:p:v_naz:compb" />
   <token value="сплетення" lemma="сплетення" tags="noun:inanim:p:v_naz" />
-  <token value="гіф" lemma="гіф" tags="noun:inanim:p:v_rod" comment="немає форми родового" />
+  <token value="гіф" lemma="гіф" tags="noun:inanim:p:v_rod:subst" comment="немає форми родового" />
   <token value="різної" lemma="різний" tags="adj:f:v_rod:compb" />
   <token value="будови" lemma="будова" tags="noun:inanim:f:v_rod" />
   <token value="—" lemma="—" tags="punct" />
@@ -379,7 +379,7 @@
   <token value="шапинкових" lemma="шапинковий" tags="adj:p:v_rod" />
   <token value="грибів" lemma="гриб" tags="noun:inanim:p:v_rod" />
   <token value="розташований" lemma="розташований" tags="adj:m:v_naz:&amp;adjp:pasv:perf" />
-  <token value="знизу" lemma="знизу" tags="prep" comment="prep - нема в словнику" />
+  <token value="знизу" lemma="знизу" tags="prep:bad" comment="prep - нема в словнику" />
   <token value="шапинки" lemma="шапинка" tags="noun:inanim:f:v_rod" />
   <token value="." lemma="." tags="punct" />
 </sentence>

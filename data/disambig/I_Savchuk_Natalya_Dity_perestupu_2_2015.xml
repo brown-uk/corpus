@@ -1331,7 +1331,7 @@
 <paragraph/>
 
 <sentence>
-  <token value="Божі" lemma="бож" tags="noun:anim:p:v_naz" />
+  <token value="Божі" lemma="бог" tags="noun:anim:p:v_naz:arch" />
   <token value="й" lemma="й" tags="conj:coord" />
   <token value="Праве" lemma="правий" tags="adj:n:v_naz:compb" />
   <token value="!" lemma="!" tags="punct" />
@@ -1541,7 +1541,7 @@
   <token value="коралі" lemma="коралі" tags="noun:inanim:p:v_zna:ns" />
   <token value="," lemma="," tags="punct" />
   <token value="та" lemma="та" tags="conj:coord" />
-  <token value="намисля" lemma="намисля" tags="noun:inanim:p:v_zna" />
+  <token value="намисля" lemma="намисля" tags="noun:inanim:p:v_zna" comment="??" />
   <token value="," lemma="," tags="punct" />
   <token value="та" lemma="та" tags="conj:coord" />
   <token value="силянки" lemma="силянка" tags="noun:inanim:p:v_zna:arch" />
@@ -1623,7 +1623,7 @@
   <token value="Диви" lemma="Дива" tags="noun:anim:f:v_rod:prop:fname" />
   <token value="Світовиди" lemma="Світовида" tags="noun:anim:f:v_rod:prop:fname" />
   <token value="та" lemma="та" tags="conj:coord" />
-  <token value="Дива" lemma="Диво" tags="noun:anim:m:v_rod:prop:fname" />
+  <token value="Дива" lemma="Див" tags="noun:anim:m:v_rod:prop:fname" />
   <token value="Чорнобога" lemma="Чорнобог" tags="noun:anim:m:v_rod:prop:fname" />
   <token value="й" lemma="й" tags="conj:coord" />
   <token value="терпіти" lemma="терпіти" tags="verb:imperf:inf" />
@@ -1694,7 +1694,7 @@
   <token value="наміток" lemma="намітка" tags="noun:inanim:p:v_rod" />
   <token value="із" lemma="із" tags="prep" />
   <token value="малими" lemma="малий" tags="adj:p:v_oru:compb" />
-  <token value="прошвами" lemma="прошва" tags="noun:inanim:p:v_oru" />
+  <token value="прошвами" lemma="прошва" tags="noun:inanim:p:v_oru:bad" />
   <token value="на" lemma="на" tags="prep" />
   <token value="голову" lemma="голова" tags="noun:inanim:f:v_zna" />
   <token value="," lemma="," tags="punct" />
@@ -1885,7 +1885,7 @@
   <token value="Діванна" lemma="Діванна" tags="noun:anim:f:v_naz:prop:fname" />
   <token value="вдалася" lemma="вдатися" tags="verb:rev:perf:past:f" />
   <token value="у" lemma="у" tags="prep" />
-  <token value="Дива" lemma="Диво" tags="noun:anim:m:v_zna:prop:fname" />
+  <token value="Дива" lemma="Див" tags="noun:anim:m:v_zna:prop:fname" />
   <token value="—" lemma="—" tags="punct" />
   <token value="смугла" lemma="смуглий" tags="adj:f:v_naz:compb" />
   <token value="," lemma="," tags="punct" />
