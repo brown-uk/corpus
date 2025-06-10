@@ -6,7 +6,7 @@
   <token value="віднедавна" lemma="віднедавна" tags="adv" />
   <token value="став" lemma="стати" tags="verb:perf:past:m" />
   <token value="візитівкою" lemma="візитівка" tags="noun:inanim:f:v_oru" />
-  <token value="нашої" lemma="наш" tags="adj:f:v_rod:&amp;pron:pos" />
+  <token value="нашої" lemma="наш" tags="adj:f:v_rod:pron:pos" />
   <token value="області" lemma="область" tags="noun:inanim:f:v_rod" />
   <token value="." lemma="." tags="punct" />
 </sentence>
@@ -33,12 +33,12 @@
   <token value="«" lemma="«" tags="punct" />
   <token value="Рівненщина" lemma="Рівненщина" tags="noun:inanim:f:v_naz:prop:geo" />
   <token value="–" lemma="–" tags="punct" />
-  <token value="край" lemma="край" tags="noun:inanim:m:v_naz:&amp;predic" />
+  <token value="край" lemma="край" tags="noun:inanim:m:v_naz:predic" />
   <token value="бурштинових" lemma="бурштиновий" tags="adj:p:v_rod" />
   <token value="янголів" lemma="янгол" tags="noun:anim:p:v_rod" />
   <token value="»" lemma="»" tags="punct" />
   <token value="," lemma="," tags="punct" />
-  <token value="який" lemma="який" tags="adj:m:v_naz:&amp;pron:int:rel:def" />
+  <token value="який" lemma="який" tags="adj:m:v_naz:pron:int:rel:def" />
   <token value="триватиме" lemma="тривати" tags="verb:imperf:futr:s:3" />
   <token value="до" lemma="до" tags="prep" />
   <token value="Великодня" lemma="великдень" tags="noun:inanim:m:v_rod" />
@@ -47,19 +47,19 @@
 <paragraph/>
 
 <sentence>
-  <token value="Усі" lemma="увесь" tags="adj:p:v_naz:&amp;pron:gen" />
+  <token value="Усі" lemma="увесь" tags="adj:p:v_naz:pron:gen" />
   <token value="," lemma="," tags="punct" />
-  <token value="хто" lemma="хто" tags="noun:anim:m:v_naz:&amp;pron:int:rel" />
+  <token value="хто" lemma="хто" tags="noun:anim:m:v_naz:pron:int:rel" />
   <token value="бажає" lemma="бажати" tags="verb:imperf:pres:s:3" />
   <token value="взяти" lemma="взяти" tags="verb:perf:inf" />
   <token value="в" lemma="в" tags="prep" />
-  <token value="ньому" lemma="він" tags="noun:unanim:m:v_mis:&amp;pron:pers:3" />
+  <token value="ньому" lemma="він" tags="noun:unanim:m:v_mis:pron:pers:3" />
   <token value="участь" lemma="участь" tags="noun:inanim:f:v_zna" />
   <token value="," lemma="," tags="punct" />
   <token value="повинні" lemma="повинний" tags="adj:p:v_naz" />
   <token value="зробити" lemma="зробити" tags="verb:perf:inf" />
   <token value="з" lemma="з" tags="prep" />
-  <token value="будь-якого" lemma="будь-який" tags="adj:m:v_rod:&amp;pron:ind" />
+  <token value="будь-якого" lemma="будь-який" tags="adj:m:v_rod:pron:ind" />
   <token value="матеріалу" lemma="матеріал" tags="noun:inanim:m:v_rod" />
   <token value="–" lemma="–" tags="punct" />
   <token value="глини" lemma="глина" tags="noun:inanim:f:v_rod" />
@@ -81,7 +81,7 @@
   <token value="можуть" lemma="могти" tags="verb:imperf:pres:p:3" />
   <token value="бути" lemma="бути" tags="verb:imperf:inf" />
   <token value="як" lemma="як" tags="conj:subord" />
-  <token value="закінчені" lemma="закінчений" tags="adj:p:v_naz:&amp;adjp:pasv:perf" />
+  <token value="закінчені" lemma="закінчений" tags="adj:p:v_naz:adjp:pasv:perf" />
   <token value="вироби" lemma="виріб" tags="noun:inanim:p:v_naz" />
   <token value="," lemma="," tags="punct" />
   <token value="так" lemma="так" tags="conj:coord" />
@@ -112,9 +112,9 @@
   <token value="бурштином" lemma="бурштин" tags="noun:inanim:m:v_oru" />
   <token value="," lemma="," tags="punct" />
   <token value="й" lemma="й" tags="conj:coord" />
-  <token value="вони" lemma="вони" tags="noun:unanim:p:v_naz:&amp;pron:pers:3" />
+  <token value="вони" lemma="вони" tags="noun:unanim:p:v_naz:pron:pers:3" />
   <token value="будуть" lemma="бути" tags="verb:imperf:futr:p:3" />
-  <token value="представлені" lemma="представлений" tags="adj:p:v_naz:&amp;adjp:pasv:perf" />
+  <token value="представлені" lemma="представлений" tags="adj:p:v_naz:adjp:pasv:perf" />
   <token value="у" lemma="у" tags="prep" />
   <token value="виставковій" lemma="виставковий" tags="adj:f:v_mis" />
   <token value="експозиції" lemma="експозиція" tags="noun:inanim:f:v_mis" />
@@ -132,7 +132,7 @@
 </sentence>
 <sentence>
   <token value="Про" lemma="про" tags="prep" />
-  <token value="це" lemma="це" tags="noun:inanim:n:v_zna:&amp;pron:dem" />
+  <token value="це" lemma="це" tags="noun:inanim:n:v_zna:pron:dem" />
   <token value="повідомив" lemma="повідомити" tags="verb:perf:past:m" />
   <token value="під" lemma="під" tags="prep" />
   <token value="час" lemma="час" tags="noun:inanim:m:v_zna" />
@@ -156,7 +156,7 @@
   <token value="Булига" lemma="Булига" tags="noun:anim:m:v_naz:prop:lname" />
   <token value="," lemma="," tags="punct" />
   <token value="у" lemma="у" tags="prep" />
-  <token value="цьому" lemma="цей" tags="adj:m:v_mis:&amp;pron:dem" />
+  <token value="цьому" lemma="цей" tags="adj:m:v_mis:pron:dem" />
   <token value="році" lemma="рік" tags="noun:inanim:m:v_mis" />
   <token value="планується" lemma="плануватися" tags="verb:rev:imperf:pres:s:3" />
   <token value="відкрити" lemma="відкрити" tags="verb:perf:inf" />
@@ -167,7 +167,7 @@
   <token value="Музеї" lemma="музей" tags="noun:inanim:m:v_mis" />
   <token value="бурштину" lemma="бурштин" tags="noun:inanim:m:v_rod" />
   <token value="," lemma="," tags="punct" />
-  <token value="де" lemma="де" tags="adv:&amp;pron:int:rel" />
+  <token value="де" lemma="де" tags="adv:pron:int:rel" />
   <token value="вже" lemma="вже" tags="adv" />
   <token value="навесні" lemma="навесні" tags="adv" />
   <token value="буде" lemma="бути" tags="verb:imperf:futr:s:3" />
@@ -188,7 +188,7 @@
   <token value="маршрут" lemma="маршрут" tags="noun:inanim:m:v_zna" />
   <token value="місцями" lemma="місце" tags="noun:inanim:p:v_oru" />
   <token value="," lemma="," tags="punct" />
-  <token value="де" lemma="де" tags="adv:&amp;pron:int:rel" />
+  <token value="де" lemma="де" tags="adv:pron:int:rel" />
   <token value="видобувають" lemma="видобувати" tags="verb:imperf:pres:p:3" />
   <token value="«" lemma="«" tags="punct" />
   <token value="сонячний" lemma="сонячний" tags="adj:m:v_zna:rinanim:compb" />
