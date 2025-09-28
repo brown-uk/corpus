@@ -1222,7 +1222,7 @@
   <token value=")" lemma=")" tags="punct" />
   <token value="розмовляють" lemma="розмовляти" tags="verb:imperf:pres:p:3" />
   <token value="100" lemma="100" tags="number" />
-  <token value="тис." lemma="тис." tags="numr:p:v_rod:nv:abbr" />
+  <token value="тис." lemma="тис." tags="noun:inanim:p:v_rod:nv:numr:abbr" />
   <token value="осіб" lemma="особа" tags="noun:anim:p:v_rod" />
   <token value="." lemma="." tags="punct" />
 </sentence>
@@ -1324,7 +1324,7 @@
   <token value="нині" lemma="нині" tags="adv" />
   <token value="розмовляють" lemma="розмовляти" tags="verb:imperf:pres:p:3" />
   <token value="З" lemma="з" tags="prep" />
-  <token value="тис." lemma="тис." tags="numr:p:v_naz:nv:abbr" />
+  <token value="тис." lemma="тис." tags="noun:inanim:p:v_naz:nv:numr:abbr" />
   <token value="осіб" lemma="особа" tags="noun:anim:p:v_rod" />
   <token value="(" lemma="(" tags="punct" />
   <token value="Карелія" lemma="Карелія" tags="noun:inanim:f:v_naz:prop:geo" />
@@ -2144,9 +2144,9 @@
   <token value="бою" lemma="бояти" tags="verb:imperf:inf:arch" />
   <token value="," lemma="," tags="punct" />
   <token value="Ходив" lemma="ходити" tags="verb:imperf:past:m" />
-  <token value="єм" lemma="єм" tags="unknown" />
+  <token value="єм" lemma="єм" tags="noninfl:arch" />
   <token value="до" lemma="до" tags="prep" />
-  <token value="него" lemma="него" tags="unknown" />
+  <token value="него" lemma="він" tags="noun:unanim:m:v_rod:pron:pers:3:arch" />
   <token value="тощо" lemma="тощо" tags="part" />
   <token value="." lemma="." tags="punct" />
 </sentence>
