@@ -61,7 +61,7 @@
   <token value="від" lemma="від" tags="prep" />
   <token value="22.05.2015" lemma="22.05.2015" tags="date" />
   <token value="№" lemma="№" tags="symb" />
-  <token value="484-VIII" lemma="484-VIII" tags="unclass" />
+  <token value="484-VIII" lemma="484-VIII" tags="number" />
   <token value=")" lemma=")" tags="punct" />
 </sentence>
 <paragraph/>
@@ -100,7 +100,7 @@
   <token value="від" lemma="від" tags="prep" />
   <token value="22.05.2015" lemma="22.05.2015" tags="date" />
   <token value="№" lemma="№" tags="symb" />
-  <token value="484-VIII" lemma="484-VIII" tags="unclass" />
+  <token value="484-VIII" lemma="484-VIII" tags="number" />
   <token value=";" lemma=";" tags="punct" />
   <token value="далі" lemma="далі" tags="adv:compc:predic" />
   <token value="-" lemma="-" tags="punct" />
@@ -239,7 +239,7 @@
   <token value="затвердження" lemma="затвердження" tags="noun:inanim:n:v_zna" />
   <token value="плану" lemma="план" tags="noun:inanim:m:v_rod" />
   <token value="санації" lemma="санація" tags="noun:inanim:f:v_rod" />
-  <token value="боржника" lemma="боржник" tags="noun:anim:m:v_rod" />
+  <token value="боржника" lemma="боржник" tags=" noun:anim:m:v_rod" />
   <token value="до" lemma="до" tags="prep" />
   <token value="порушення" lemma="порушення" tags="noun:inanim:n:v_rod" />
   <token value="провадження" lemma="провадження" tags="noun:inanim:n:v_rod" />
@@ -494,7 +494,7 @@
   <token value="статті" lemma="стаття" tags="noun:inanim:f:v_rod" />
   <token value="8" lemma="8" tags="number" />
   <token value="Закону" lemma="закон" tags="noun:inanim:m:v_rod" />
-  <token value="питання" lemma="питання" tags="noun:inanim:n:v_rod" />
+  <token value="питання" lemma="питання" tags="noun:inanim:n:v_naz" />
   <token value="про" lemma="про" tags="prep" />
   <token value="відстрочення" lemma="відстрочення" tags="noun:inanim:n:v_zna" />
   <token value="та" lemma="та" tags="conj:coord" />
@@ -504,12 +504,12 @@
   <token value="судового" lemma="судовий" tags="adj:m:v_rod" />
   <token value="збору" lemma="збір" tags="noun:inanim:m:v_rod" />
   <token value="," lemma="," tags="punct" />
-  <token value="зменшення" lemma="зменшення" tags="noun:inanim:n:v_rod" />
+  <token value="зменшення" lemma="зменшення" tags="noun:inanim:n:v_zna" />
   <token value="розміру" lemma="розмір" tags="noun:inanim:m:v_rod" />
   <token value="судового" lemma="судовий" tags="adj:m:v_rod" />
   <token value="збору" lemma="збір" tags="noun:inanim:m:v_rod" />
   <token value="або" lemma="або" tags="conj:coord" />
-  <token value="звільнення" lemma="звільнення" tags="noun:inanim:n:v_rod" />
+  <token value="звільнення" lemma="звільнення" tags="noun:inanim:n:v_zna" />
   <token value="від" lemma="від" tags="prep" />
   <token value="його" lemma="він" tags="noun:unanim:m:v_rod:pron:pers:3" />
   <token value="сплати" lemma="сплата" tags="noun:inanim:f:v_rod" />
@@ -701,7 +701,7 @@
   <token value="від" lemma="від" tags="prep" />
   <token value="22.05.2015" lemma="22.05.2015" tags="date" />
   <token value="№" lemma="№" tags="symb" />
-  <token value="484-VIII" lemma="484-VIII" tags="unclass" />
+  <token value="484-VIII" lemma="484-VIII" tags="number" />
   <token value="." lemma="." tags="punct" />
 </sentence>
 <sentence>
@@ -1057,10 +1057,6 @@
 <sentence>
   <token value="Голова" lemma="голова" tags="noun:anim:m:v_naz" />
   <token value="Вищого" lemma="вищий" tags="adj:m:v_rod:compc" />
-</sentence>
-<paragraph/>
-
-<sentence>
   <token value="господарського" lemma="господарський" tags="adj:m:v_rod" />
   <token value="суду" lemma="суд" tags="noun:inanim:m:v_rod" />
   <token value="України" lemma="Україна" tags="noun:inanim:f:v_rod:prop:geo" />

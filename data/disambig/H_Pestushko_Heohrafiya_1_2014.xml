@@ -3,7 +3,7 @@
 
 <sentence>
   <token value="Як" lemma="як" tags="adv:pron:int:rel" />
-  <token value="і" lemma="і" tags="part" />
+  <token value="і" lemma="і" tags="conj:coord" />
   <token value="чому" lemma="чому" tags="adv:pron:int:rel" />
   <token value="змінюється" lemma="змінюватися" tags="verb:rev:imperf:pres:s:3" />
   <token value="температура" lemma="температура" tags="noun:inanim:f:v_naz" />
@@ -172,7 +172,7 @@
   <token value="тоді" lemma="тоді" tags="adv:pron:dem" />
   <token value="Сонце" lemma="сонце" tags="noun:inanim:n:v_naz" />
   <token value="не" lemma="не" tags="part" />
-  <token value="сходить" lemma="сходити" tags="verb:perf:futr:s:3" />
+  <token value="сходить" lemma="сходити" tags="verb:imperf:pres:s:3:xp1" />
   <token value="із-за" lemma="із-за" tags="prep" />
   <token value="горизонту" lemma="горизонт" tags="noun:inanim:m:v_rod" />
   <token value=")" lemma=")" tags="punct" />
@@ -183,7 +183,7 @@
   <token value="тоді" lemma="тоді" tags="adv:pron:dem" />
   <token value="Сонце" lemma="сонце" tags="noun:inanim:n:v_naz" />
   <token value="не" lemma="не" tags="part" />
-  <token value="заходить" lemma="заходити" tags="verb:perf:futr:s:3" />
+  <token value="заходить" lemma="заходити" tags="verb:imperf:pres:s:3:xp1" />
   <token value="за" lemma="за" tags="prep" />
   <token value="лінію" lemma="лінія" tags="noun:inanim:f:v_zna" />
   <token value="горизонту" lemma="горизонт" tags="noun:inanim:m:v_rod" />
@@ -224,7 +224,7 @@
   <token value="день" lemma="день" tags="noun:inanim:m:v_zna" />
   <token value="літнього" lemma="літній" tags="adj:n:v_rod" />
   <token value="сонцестояння" lemma="сонцестояння" tags="noun:inanim:n:v_rod" />
-  <token value="22.06" lemma="22.06" tags="unclass" />
+  <token value="22.06" lemma="22.06" tags="date" />
   <token value=")" lemma=")" tags="punct" />
   <token value="," lemma="," tags="punct" />
   <token value="а" lemma="а" tags="conj:coord" />
@@ -236,7 +236,7 @@
   <token value="день" lemma="день" tags="noun:inanim:m:v_zna" />
   <token value="зимового" lemma="зимовий" tags="adj:n:v_rod:compb" />
   <token value="сонцестояння" lemma="сонцестояння" tags="noun:inanim:n:v_rod" />
-  <token value="22.12" lemma="22.12" tags="unclass" />
+  <token value="22.12" lemma="22.12" tags="date" />
   <token value=")" lemma=")" tags="punct" />
   <token value="." lemma="." tags="punct" />
 </sentence>
@@ -338,7 +338,7 @@
   <token value="," lemma="," tags="punct" />
   <token value="на" lemma="на" tags="prep" />
   <token value="широті" lemma="широта" tags="noun:inanim:f:v_mis" />
-  <token value="м." lemma="м." tags="noun:inanim:n:v_naz:nv:abbr" />
+  <token value="м." lemma="м." tags="noun:inanim:n:v_rod:nv:abbr" />
   <token value="Києва" lemma="Київ" tags="noun:inanim:m:v_rod:prop:geo" />
   <token value="становить" lemma="становити" tags="verb:imperf:pres:s:3" />
   <token value="25" lemma="25" tags="number" />
@@ -549,7 +549,7 @@
   <token value="таке" lemma="такий" tags="adj:n:v_naz:pron:dem" />
   <token value="теплові" lemma="тепловий" tags="adj:p:v_naz" />
   <token value="пояси" lemma="пояс" tags="noun:inanim:p:v_naz:xp2" />
-  <token value="Землі" lemma="земля" tags="noun:inanim:f:v_rod" />
+  <token value="Землі" lemma="Земля" tags="noun:inanim:f:v_rod:prop" />
   <token value="." lemma="." tags="punct" />
 </sentence>
 <sentence>
@@ -586,7 +586,7 @@
   <token value="що" lemma="що" tags="conj:subord" />
   <token value="оперізує" lemma="оперізувати" tags="verb:imperf:pres:s:3" />
   <token value="усю" lemma="увесь" tags="adj:f:v_zna:pron:gen" />
-  <token value="Землю" lemma="земля" tags="noun:inanim:f:v_zna" />
+  <token value="Землю" lemma="Земля" tags="noun:inanim:f:v_zna:prop" />
   <token value="з" lemma="з" tags="prep" />
   <token value="близькими" lemma="близький" tags="adj:p:v_oru:compb" />
   <token value="температурами" lemma="температура" tags="noun:inanim:p:v_oru" />
