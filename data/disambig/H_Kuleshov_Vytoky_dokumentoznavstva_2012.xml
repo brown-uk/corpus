@@ -425,7 +425,7 @@
   <token value="мали" lemma="мати" tags="verb:imperf:past:p" />
   <token value="вигляд" lemma="вигляд" tags="noun:inanim:m:v_zna" />
   <token value="глиняних" lemma="глиняний" tags="adj:p:v_rod" />
-  <token value="бірок" lemma="бірка" tags="noun:inanim:p:v_rod:bad" />
+  <token value="бірок" lemma="бірка" tags="noun:inanim:p:v_rod:bad:err" />
   <token value="зі" lemma="зі" tags="prep" />
   <token value="знаками" lemma="знак" tags="noun:inanim:p:v_oru:xp1" />
   <token value="," lemma="," tags="punct" />
@@ -447,7 +447,7 @@
   <token value="." lemma="." tags="punct" />
 </sentence>
 <sentence>
-  <token value="Бірки" lemma="бірка" tags="noun:inanim:p:v_naz:bad" />
+  <token value="Бірки" lemma="бірка" tags="noun:inanim:p:v_naz:bad:err" />
   <token value="," lemma="," tags="punct" />
   <token value="що" lemma="що" tags="conj:subord" />
   <token value="мали" lemma="мати" tags="verb:imperf:past:p" />
@@ -909,7 +909,7 @@
   <token value="—" lemma="—" tags="punct" />
   <token value="відбиток" lemma="відбиток" tags="noun:inanim:m:v_naz" />
   <token value="на" lemma="на" tags="prep" />
-  <token value="бірці" lemma="бірка" tags="noun:inanim:f:v_mis:bad" />
+  <token value="бірці" lemma="бірка" tags="noun:inanim:f:v_mis:bad:err" />
   <token value="(" lemma="(" tags="punct" />
   <token value="а" lemma="а" tags="conj:coord" />
   <token value="згодом" lemma="згодом" tags="adv" />
@@ -1607,7 +1607,7 @@
   <token value="," lemma="," tags="punct" />
   <token value="фінансових" lemma="фінансовий" tags="adj:p:v_rod" />
   <token value="," lemma="," tags="punct" />
-  <token value="торговельних" lemma="торговельний" tags="adj:p:v_rod:bad" />
+  <token value="торговельних" lemma="торговельний" tags="adj:p:v_rod" />
   <token value="," lemma="," tags="punct" />
   <token value="дипломатичних" lemma="дипломатичний" tags="adj:p:v_rod:compb" />
   <token value="та" lemma="та" tags="conj:coord" />
@@ -1684,7 +1684,7 @@
   <token value="," lemma="," tags="punct" />
   <token value="дипломатичних" lemma="дипломатичний" tags="adj:p:v_mis:compb" />
   <token value="," lemma="," tags="punct" />
-  <token value="торговельних" lemma="торговельний" tags="adj:p:v_mis:bad" />
+  <token value="торговельних" lemma="торговельний" tags="adj:p:v_mis" />
   <token value="документах" lemma="документ" tags="noun:inanim:p:v_mis" />
   <token value="," lemma="," tags="punct" />
   <token value="вироблення" lemma="вироблення" tags="noun:inanim:p:v_naz" comment="вироблянні???" />
@@ -1872,7 +1872,7 @@
 </sentence>
 <sentence>
   <token value="Масштабність" lemma="масштабність" tags="noun:inanim:f:v_naz" />
-  <token value="торговельних" lemma="торговельний" tags="adj:p:v_rod:bad" />
+  <token value="торговельних" lemma="торговельний" tags="adj:p:v_rod" />
   <token value="та" lemma="та" tags="conj:coord" />
   <token value="фінансових" lemma="фінансовий" tags="adj:p:v_rod" />
   <token value="операцій" lemma="операція" tags="noun:inanim:p:v_rod" />
