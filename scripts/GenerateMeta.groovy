@@ -144,5 +144,5 @@ int countWords(String text) {
     def pureText = text.replaceFirst(/.*<body>/, '')
     pureText = pureText.replaceAll(/([0-9])[:,.-]([0-9])/, '$1$2').trim()
     def words = pureText =~ /(?ui)[а-яіїєґ][а-яіїєґa-z0-9\u0301'’ʼ\/\u2013-]*/
-    return words.size()
+    return words.size() as int
 }
